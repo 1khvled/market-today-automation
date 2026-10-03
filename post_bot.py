@@ -354,6 +354,13 @@ X_HANDLES = [
     # Bank analyst actions (price targets, upgrades — Stockstoearn style)
     "StockMKTNewz",     # analyst PT changes all day
     "unusual_whales",   # flow + analyst ratings, noisy -> strict gate
+    # More working verified squawk/market wires (added Oct 2026)
+    "Doomberg",         # market analysis threads
+    "BreakingDeals",    # breaking trader wires
+    "wallstengine",     # Wall St news/analysis
+    "FinanceFeeds",     # market headlines + macro
+    "CNBC",             # mainstream business feed
+    "SoFi",             # broad US markets updates
 ]
 
 # Per-account rules: high-volume or off-format accounts get their own gate.
@@ -382,6 +389,12 @@ X_SOURCE_RULES = {
     "jimcramer": {"min_score": 6},   # showy daily takes, strict gate
     "saylor": {"min_score": 5},      # daily perma-bull drumbeat, firm gate
     "unusual_whales": {"min_score": 6},  # options-flow firehose, strict gate
+    "Doomberg": {"min_score": 4},
+    "BreakingDeals": {"boost": 1},
+    "wallstengine": {"min_score": 4},
+    "FinanceFeeds": {"min_score": 4},
+    "CNBC": {"min_score": 4},
+    "SoFi": {"min_score": 4},
 }
 
 
