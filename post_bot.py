@@ -68,8 +68,9 @@ RSS_FEEDS = [
 # crypto 5.0, gold/oil 3.2, stocks 3.0, AI 2.9, inflation 1.9, fed-process 1.5.
 # Page data also proved: 5-6 hashtags avg 3.7 engagement vs 0.3 for 7+.
 TOPIC_WEIGHTS = {
-    "crypto": (["bitcoin", "btc", "crypto", "ethereum", "etf"], 4),
-    "gold_oil": (["gold", "oil", "opec", "brent", "hormuz"], 3),
+    "crypto": (["bitcoin", "btc", "crypto", "ethereum", "etf", "usdt", "solana",
+                "bnb", "altcoin", "bull run", "halving", "mining", "ledger"], 5),
+    "gold_oil": (["oil", "opec", "brent", "hormuz"], 3),
     "stocks": (["s&p", "nasdaq", "dow", "stock market", "wall street",
                 "treasury", "bond yield", "ecb", "imf", "price target",
                 "analyst", "buy rating", "overweight", "underweight",
@@ -78,7 +79,9 @@ TOPIC_WEIGHTS = {
     "ai": (["openai", "anthropic", "nvidia", "gpu", "llm", "chatgpt", "claude",
             "gemini", "copilot", "artificial intelligence", "generative ai",
             "ai chip", "ai model", "ai funding", "ai startup",
-            "semiconductor", "deepseek", "mistral", "grok", "llama"], 3),
+            "semiconductor", "deepseek", "mistral", "grok", "llama"], 1),
+    "gold": (["gold", "xau", "الذهب", "gold price", "gold futures",
+              "bullion", "safe haven"], 5),
     "inflation": (["inflation", "cpi", "ppi", "jobs report", "payrolls",
                    "unemployment", "gdp", "recession"], 2),
     "fed": (["fed", "federal reserve", "interest rate", "rate cut",
