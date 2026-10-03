@@ -2,6 +2,7 @@
   "posted_hashes": [
     "8388e8efd7832598",
     "beda8733ff194127",
+    "dcb1e30ca1ece06b",
     "fbe4b3be838aadc5"
   ],
   "tuner": {
@@ -22,20 +23,22 @@
     "updated": "2026-10-03"
   },
   "day_counts": {
-    "2026-10-03": 3
+    "2026-10-03": 4
   },
   "recent_titles": [
     "BREAKING: President Trump says higher US inflation will \"pay off\" US debt \"very rapidly\" in response to total US debt rising above $40 trillion. \"I know I'm the best in the world... you can pay off...",
     "Breaking: The Big Short part 2 is loading Bond yields broke 2007 peak, and here's how it looks: 1. The 10-year Treasury hit 5.34%, highest since 2002 2. Mortgage rates jumped to 7.28%, highest in y...",
-    "A milestone for Digital Credit: $STRC\u2019s 30-day historical volatility is now 9%, below $SPY. We\u2019re harnessing the power of Bitcoin while reducing price volatility for income investors. This is what ..."
+    "A milestone for Digital Credit: $STRC\u2019s 30-day historical volatility is now 9%, below $SPY. We\u2019re harnessing the power of Bitcoin while reducing price volatility for income investors. This is what ...",
+    "Hegseth: Iran wants to play games with things like the Strait of Hormuz, they don't control it, we do. They have literally gotten nothing through. Our blockade has been ironclad, and we're running ..."
   ],
   "last_post": {
-    "hash": "8388e8efd7832598",
-    "fb_id": "1421089964411983_122104375761491654",
-    "title": "A milestone for Digital Credit: $STRC\u2019s 30-day historical volatility is now 9%, below $SPY. We\u2019re harnessing the power of Bitcoin while reducing price volatility for income investors. This is what ...",
-    "link": "https://x.com/saylor/status/2106384681419608310",
-    "mode": "viral",
-    "at": "2026-10-03T16:36:47.739138+00:00"
+    "hash": "dcb1e30ca1ece06b",
+    "fb_id": "1436200381814326",
+    "title": "Hegseth: Iran wants to play games with things like the Strait of Hormuz, they don't control it, we do. They have literally gotten nothing through. Our blockade has been ironclad, and we're running ...",
+    "link": "https://x.com/clashreport/status/2106457802327695825",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-10-03T19:16:27.382438+00:00"
   },
   "history": [
     {
@@ -66,6 +69,15 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-03T16:36:47.739138+00:00"
+    },
+    {
+      "fb_id": "1436200381814326",
+      "topics": [
+        "gold_oil"
+      ],
+      "mode": "serious",
+      "at": "2026-10-03T19:16:27.382438+00:00"
     }
-  ]
+  ],
+  "last_video_post": "2026-10-03"
 }
