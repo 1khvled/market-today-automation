@@ -1,0 +1,49 @@
+{
+  "posted_hashes": [
+    "beda8733ff194127"
+  ],
+  "tuner": {
+    "topics": {},
+    "mult": {},
+    "updated": "2026-10-03"
+  },
+  "comment_review": {
+    "posts": 0,
+    "comments": 0,
+    "likes": 0,
+    "questions": 0,
+    "praise": 0,
+    "anger": 0,
+    "fake_claims": 0,
+    "by_topic": {},
+    "sample_questions": [],
+    "updated": "2026-10-03"
+  },
+  "day_counts": {
+    "2026-10-03": 1
+  },
+  "recent_titles": [
+    "BREAKING: President Trump says higher US inflation will \"pay off\" US debt \"very rapidly\" in response to total US debt rising above $40 trillion. \"I know I'm the best in the world... you can pay off..."
+  ],
+  "last_post": {
+    "hash": "beda8733ff194127",
+    "fb_id": "1421089964411983_122103665751491654",
+    "title": "BREAKING: President Trump says higher US inflation will \"pay off\" US debt \"very rapidly\" in response to total US debt rising above $40 trillion. \"I know I'm the best in the world... you can pay off...",
+    "link": "https://x.com/KobeissiLetter/status/2106099265680351655",
+    "mode": "viral",
+    "at": "2026-10-03T01:45:35.106418+00:00"
+  },
+  "history": [
+    {
+      "fb_id": "1421089964411983_122103665751491654",
+      "topics": [
+        "inflation",
+        "power",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "face",
+      "at": "2026-10-03T01:45:35.106418+00:00"
+    }
+  ]
+}

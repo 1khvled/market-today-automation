@@ -910,8 +910,8 @@ def gen_openrouter(model: str, system: str, user: str) -> str:
                      "HTTP-Referer": "https://github.com/ethan-cole-fb-bot",
                      "X-Title": "ethan-cole-fb-bot",
                      "Content-Type": "application/json"},
-            json={"model": model, "max_tokens": 500, "temperature": 0.5,
-                  "reasoning": {"exclude": True},
+            json={"model": model, "max_tokens": 1000, "temperature": 0.5,
+                  "reasoning": {"exclude": True, "enabled": False},
                   "messages": [{"role": "system", "content": system},
                                {"role": "user", "content": user}]},
             timeout=90)
@@ -924,7 +924,20 @@ def gen_openrouter(model: str, system: str, user: str) -> str:
         raise RuntimeError(f"OpenRouter {model} HTTP {r.status_code}: "
                            f"{_json.dumps(d)[:200]}")
     try:
-        return d["choices"][0]["message"]["content"].strip()
+        msg = d["choices"][0]["message"]
+        text = (msg.get("content") or "").strip()
+        if not text:
+            text = (msg.get("reasoning") or "").strip()
+        if not text:
+            text = str(msg.get("reasoning_details", "") or "").strip()
+        if not text:
+            raise RuntimeError(
+                f"OpenRouter {model} returned no text "
+                f"(finish_reason={d['choices'][0].get('finish_reason')}, "
+                f"native_finish={d['choices'][0].get('native_finish_reason')}, "
+                f"msg_keys={list(msg.keys())}, "
+                f"output_json={_json.dumps(d)[:300]})")
+        return text
     except Exception as ex:
         raise RuntimeError(f"OpenRouter {model} parse error: {ex}")
 
@@ -1096,6 +1109,7 @@ def rewrite_with_llm(candidate: dict) -> str:
             if not quality_check(fixed, candidate["title"]):
                 log(f"Rewrite OK via {model} (auto-repaired: {first_fail})")
                 return fixed
+            print('--- FAILED DRAFT ---\n' + text + '\n--------------------')
             errors.append(f"{model} failed QC: {first_fail}")
             continue
         log(f"Rewrite OK via {model}")
