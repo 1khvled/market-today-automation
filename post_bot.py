@@ -1380,45 +1380,10 @@ def _brand_image(data: bytes):
     from PIL import Image
     buf = io.BytesIO()
     _footer(_crop_bars(Image.open(io.BytesIO(data)).convert("RGB"))) \
-        .save(buf, "JPEG", quality=88)
+        .save(buf, "JPEG", quality=95)
     return buf.getvalue(), "jpeg"
 
 
-def _template_card(data: bytes | None, top_bias: bool = False):
-    """سوق اليوم template wrapper: story photo goes inside the gold-frame
-    card (Modern Dark Finance Market Template). Returns JPEG bytes."""
-    from PIL import Image
-    template_path = os.path.join(ASSETS_DIR, "template.png")
-    try:
-        card = Image.open(template_path).convert("RGB")
-    except Exception:
-        return _brand_image(data) if data else (None, None)
-    W, H = card.size
-    # centralwindow: below the logo strip, inside the gold border
-    box = (int(W * 0.07), int(H * 0.18), int(W * 0.93), int(H * 0.94))
-    w = box[2] - box[0]
-    h = box[3] - box[1]
-    if data:
-        try:
-            im = Image.open(io.BytesIO(data)).convert("RGB")
-            scale = max(w / im.size[0], h / im.size[1])
-            im = im.resize((int(im.size[0] * scale) + 1,
-                            int(im.size[1] * scale) + 1))
-            if top_bias:
-                y = max(0, (im.size[1] - h) // 3)
-            else:
-                y = max(0, (im.size[1] - h) // 2)
-            img = im.crop(((im.size[0] - w) // 2, y,
-                           (im.size[0] - w) // 2 + w, y + h))
-        except Exception:
-            img = None
-    else:
-        img = None
-    if img:
-        card.paste(img, (box[0], box[1]))
-    out = io.BytesIO()
-    card.save(out, "JPEG", quality=88)
-    return out.getvalue(), "jpeg"
 
 
 def _logo_card(data: bytes):
@@ -1433,7 +1398,7 @@ def _logo_card(data: bytes):
     card.paste(logo, ((1200 - logo.size[0]) // 2, (578 - logo.size[1]) // 2),
                logo)
     buf = io.BytesIO()
-    _footer(card).save(buf, "JPEG", quality=88)
+    _footer(card).save(buf, "JPEG", quality=95)
     return buf.getvalue(), "jpeg"
 
 
@@ -1691,7 +1656,7 @@ def _split_pair(left: bytes, right: bytes, left_logo=False,
     d = ImageDraw.Draw(card)
     d.line([600, 0, 600, body_h], fill=(255, 255, 255), width=3)
     buf = io.BytesIO()
-    _footer(card).save(buf, "JPEG", quality=88)
+    _footer(card).save(buf, "JPEG", quality=95)
     return buf.getvalue(), "jpeg"
 
 
@@ -2034,7 +1999,7 @@ def country_photo(candidate):
             if out:
                 return out[0], out[1], "split:flag+face"
         try:
-            branded, ext = _template_card(flag)
+            branded, ext = _brand_image(flag)
             return branded, ext, "flag:" + code
         except Exception:
             continue
@@ -2157,7 +2122,7 @@ def people_photo(candidate: dict):
         data = _fetch_face_raw(wiki, queries)
         if data:
             try:
-                branded = _template_card(data)
+                branded = _brand_image(data)
                 _photo_cache_put(ckey, branded[0])
                 return branded
             except Exception:
@@ -2217,7 +2182,7 @@ def entity_logo(candidate: dict):
                         return card
                 else:
                     try:
-                        branded = _template_card(data)
+                        branded = _brand_image(data)
                         _photo_cache_put(ckey, branded[0])
                         return branded
                     except Exception:
@@ -2318,7 +2283,7 @@ def topic_photo(candidate: dict):
                 continue
             try:
                 with open(p, "rb") as f:
-                    branded, ext = _template_card(f.read())
+                    branded, ext = _brand_image(f.read())
                 return branded, ext, f"topic:{fn}"
             except Exception:
                 continue
@@ -2568,7 +2533,7 @@ def select_visuals(candidate: dict):
                     if out:
                         return out[0], out[1], "split:flag+face"
             try:
-                branded, ext = _template_card(f)
+                branded, ext = _brand_image(f)
                 return branded, ext, "face"
             except Exception:
                 pass
@@ -2660,7 +2625,7 @@ def select_visuals(candidate: dict):
                         if out:
                             return out[0], out[1], "split:face+inst"
             try:
-                branded, ext = _template_card(ibytes)
+                branded, ext = _brand_image(ibytes)
                 return branded, ext, "inst:" + tag
             except Exception:
                 pass
@@ -2761,14 +2726,14 @@ def find_photo(candidate: dict):
             return None, None, None
         try:
             with open(p, "rb") as f:
-                branded, ext = _template_card(f.read())
+                branded, ext = _brand_image(f.read())
             return branded, ext, f"topic:{fn}"
         except Exception:
             return None, None, None
     if not raw:
         return None, None, None
     try:
-        branded, ext = _template_card(raw[0])
+        branded, ext = _brand_image(raw[0])
         return branded, ext, raw[1]
     except Exception:
         return raw[0], "jpeg", raw[1]
@@ -2895,7 +2860,7 @@ def _story_card(caption: str, image: bytes | None):
         d.text((50, y), wline, font=_font(size), fill=(255, 255, 255))
         y += size + 10
     buf = io.BytesIO()
-    _footer(card, 90).save(buf, "JPEG", quality=88)
+    _footer(card, 90).save(buf, "JPEG", quality=95)
     return buf.getvalue(), "jpeg"
 
 
