@@ -1,6 +1,7 @@
 {
   "posted_hashes": [
-    "beda8733ff194127"
+    "beda8733ff194127",
+    "fbe4b3be838aadc5"
   ],
   "tuner": {
     "topics": {},
@@ -20,18 +21,19 @@
     "updated": "2026-10-03"
   },
   "day_counts": {
-    "2026-10-03": 1
+    "2026-10-03": 2
   },
   "recent_titles": [
-    "BREAKING: President Trump says higher US inflation will \"pay off\" US debt \"very rapidly\" in response to total US debt rising above $40 trillion. \"I know I'm the best in the world... you can pay off..."
+    "BREAKING: President Trump says higher US inflation will \"pay off\" US debt \"very rapidly\" in response to total US debt rising above $40 trillion. \"I know I'm the best in the world... you can pay off...",
+    "Breaking: The Big Short part 2 is loading Bond yields broke 2007 peak, and here's how it looks: 1. The 10-year Treasury hit 5.34%, highest since 2002 2. Mortgage rates jumped to 7.28%, highest in y..."
   ],
   "last_post": {
-    "hash": "beda8733ff194127",
-    "fb_id": "1421089964411983_122103665751491654",
-    "title": "BREAKING: President Trump says higher US inflation will \"pay off\" US debt \"very rapidly\" in response to total US debt rising above $40 trillion. \"I know I'm the best in the world... you can pay off...",
-    "link": "https://x.com/KobeissiLetter/status/2106099265680351655",
+    "hash": "fbe4b3be838aadc5",
+    "fb_id": "1421089964411983_122104087803491654",
+    "title": "Breaking: The Big Short part 2 is loading Bond yields broke 2007 peak, and here's how it looks: 1. The 10-year Treasury hit 5.34%, highest since 2002 2. Mortgage rates jumped to 7.28%, highest in y...",
+    "link": "https://x.com/burrytracker/status/2106083251311783986",
     "mode": "viral",
-    "at": "2026-10-03T01:45:35.106418+00:00"
+    "at": "2026-10-03T10:54:42.585106+00:00"
   },
   "history": [
     {
@@ -44,6 +46,15 @@
       "mode": "viral",
       "photo": "face",
       "at": "2026-10-03T01:45:35.106418+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122104087803491654",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-03T10:54:42.585106+00:00"
     }
   ]
 }
