@@ -45,4 +45,4 @@ jobs:
           if [ "$OPEN" = "0" ]; then
             gh issue create --repo ${{ github.repository }} --title "[bot-alert] Credential check failed" --body "Weekly credential check failed (dead FB token, expiring token, or dead Gemini keys). Fix guide: README section 7. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           fi
-          python scripts/notify_telegram.py "🔑 Ethan Cole credential check FAILED — see the [bot-alert] issue and README section 7. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
+          python scripts/notify_telegram.py "🔑 سوق اليوم credential check FAILED — see the [bot-alert] issue. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
