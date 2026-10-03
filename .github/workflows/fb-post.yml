@@ -1,0 +1,92 @@
+name: FB auto-post (every 20 min)
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"   # every 20 minutes
+  workflow_dispatch:          # manual "Run workflow" button
+    inputs:
+      dry_run:
+        description: "Dry run (no Facebook publish)?"
+        required: false
+        default: "0"
+      force:
+        description: "FORCE_POST=1: skip the 90-min cooldown (manual test posts)"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write   # needed to commit posted.json state back
+  issues: write     # needed to open/resolve bot-alert issues
+
+jobs:
+  autopost:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Ensure photo cache dir exists
+        run: mkdir -p .photo_cache
+
+      - name: Cache photos (download once, reuse)
+        uses: actions/cache@v4
+        with:
+          path: .photo_cache
+          key: photo-cache-v2 # bumped: v1 held poisoned meme faces
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run bot
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          DRY_RUN: ${{ inputs.dry_run || '0' }}
+          FORCE_POST: ${{ inputs.force || '0' }}
+          POST_STORIES: "1"
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GROUP_SHARE_TARGETS: ${{ secrets.GROUP_SHARE_TARGETS }}
+          MAX_AGE_MINUTES: "1440"
+          MIN_VIDEO_SCORE: "4"
+          VIDEO_DEADLINE_HOUR: "20"
+          VIDEO_DEADLINE_SCORE: "1"
+          STATE_FILE: posted.json
+        run: python post_bot.py
+
+      - name: Save state (dedup)
+        if: always()
+        run: |
+          git config user.name "fb-bot"
+          git config user.email "fb-bot@users.noreply.github.com"
+          git add posted.json || true
+          git diff --staged --quiet || git commit -m "bot: update posted state [skip ci]" || true
+          git pull --rebase || true
+          git push || true
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          OPEN=$(gh issue list --repo ${{ github.repository }} --search "[bot-alert] in:title state:open" --json number --jq length)
+          if [ "$OPEN" = "0" ]; then
+            gh issue create --repo ${{ github.repository }} --title "[bot-alert] FB bot run failed" --body "Run ${{ github.run_id }} failed (publish error, dead token, or QC loop). Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          fi
+          python scripts/notify_telegram.py "🚨 Ethan Cole bot run FAILED (run ${{ github.run_id }}). Triage: 1) FB token dead/expired → re-seed per README section 3 (monthly self-heal should have caught it — check its runs). 2) All Gemini keys exhausted (429/quota) → wait for reset or add keys. 3) QC loop → open the run log, find 'Quality check FAILED' for the reason. 4) Publish error → FB API message is in the log. Full fix guide: README section 7. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
+
+      - name: Resolve alert
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue list --repo ${{ github.repository }} --search "[bot-alert] in:title state:open" --json number --jq '.[].number' | xargs -r -n1 gh issue close --repo ${{ github.repository }} --comment "Recovered on run ${{ github.run_id }}." 2>/dev/null || true
