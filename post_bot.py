@@ -844,9 +844,13 @@ SYSTEM_PROMPT = """إنت بتكتب بوستات لصفحة "سوق اليوم"
 - بعده سطرين بالكتير: يعني إيه الخبر للمتداول. سطر لكل فكرة.
 - آخر سطر قبل الهاشتاجات: رأيك أنت، أو سؤال يخلي الواحد يقف يعلّق.
 - رقم لازم في كل بوست: سعر، نسبة، أو مدة. بوست من غير رقم = مرفوض.
-- استخدم اسم الشركة بالعربي لو معروف، وإ写到 التيكر بالإنجليزي (BTC، AAPL، NVDA). متترجمش الكلمة لكلمة.
+- أسماء الشركات: اكتبها بالإنجليزي كما وردت في المصدر تماماً (BTC، AAPL، NVDA، MSTR). لا تترجم ولا تختصر ولا تخمّن.
 - ممنوع تماماً: "من الجدير بالذكر"، "نشهد تطورات"، "أصدرت بياناً"، "يتوقع المحللون" من غير رقم.
 - ممنوع تنسخ العنوان حرفياً، وممنوع تكتب المصدر أو اللينك.
+- المصدر بس هو المرجع: استخدم بس الأرقام والحقائق والأسماء اللي في العنوان أو الملخص. متعتمدش على أي حاجة من ذاكرتك.
+- أسماء الشركات: انسخها بالإنجليزي زي ما هي في المصدر بالظبط. متترجمهاش ولا تخمّنها ولا تختصرها. لو مش متأكد من الاسم، سيبه من غير ما تخترع له.
+- ممنوع تخترع اسم شركة أو شخص أو تميّز (chart pattern) مش موجود في المصدر. لو المصدر قال "Strategy" اكتب Strategy، ولو قال "MicroStrategy" اكتب MicroStrategy، ومش حاجة في النص.
+- متخليش معرفتك القديمة تغير الأسماء: لو المصدر قال اسم معين، اكتب هي.
 - الطول من 150 لـ 350 حرف. سطر فاضي بين الفقرات.
 - إيموجي واحدة بس، في السطر الأول.
 - الهاشتاج: #سوق_اليوم الأول دايماً، وبعده 3 لـ 4 من #ذهب #كريبتو #أسهم #اقتصاد #استثمار #أخبار_عاجلة.
@@ -854,7 +858,7 @@ SYSTEM_PROMPT = """إنت بتكتب بوستات لصفحة "سوق اليوم"
 
 مثال على الستايل:
 "عاجل: الذهب وصل 4,725 دولار لأول مرة في تاريخه 🔥
-الحركة دي مش رقم عادي — pace الشراء زاد بشكل جنوني overnight.
+مش رقم عادي — حجم الشراء زاد فجأة overnight.
 اللي فتح صفقات بيع على الذهب النهاردة، خلاص محتاج يحسب تاني.
 #سوق_اليوم #ذهب #استثمار\""""
 
@@ -1125,10 +1129,18 @@ def rewrite_with_llm(candidate: dict) -> str:
         except Exception as ex:
             errors.append(f"{model}: {ex}")
             continue
-        if quality_check(text, candidate["title"]):
+        bad_names = hallucinated_names(text, candidate.get("title", "") + " "
+                                       + candidate.get("summary", ""))
+        if bad_names or quality_check(text, candidate["title"]):
             first_fail = quality_check(text, candidate["title"])
+            if bad_names:
+                first_fail.append(
+                    f"invented names not in source: {bad_names}")
             fixed = repair_post(text)
-            if not quality_check(fixed, candidate["title"]):
+            fixed_names = hallucinated_names(
+                fixed, candidate.get("title", "") + " "
+                + candidate.get("summary", ""))
+            if not fixed_names and not quality_check(fixed, candidate["title"]):
                 log(f"Rewrite OK via {model} (auto-repaired: {first_fail})")
                 return fixed
             print('--- FAILED DRAFT ---\n' + text + '\n--------------------')
@@ -1147,6 +1159,38 @@ ENGAGEMENT_BAIT = [
     "like and share", "like if", "follow for more", "comment yes",
     "drop a comment", "type yes",
 ]
+
+
+# Names the model is allowed to drop in even if absent from the source:
+# tickers, indices, time words, and platform names used as filler.
+NAME_WHITELIST = {
+    "btc", "eth", "sol", "bnb", "xrp", "ada", "doge", "usdt", "usdc",
+    "aapl", "msft", "nvda", "googl", "amzn", "meta", "tsla", "mstr",
+    "strc", "spy", "qqq", "gld", "slv", "xau", "xag", "brent", "wti",
+    "nasdaq", "s&p", "fed", "ecb", "cpi", "gdp", "ipo", "nft", "ai",
+    "us", "usa", "eu", "uk", "china", "japan", "india", "egypt", "russia",
+    "opec", "un", "nato", "sec", "cftc", "doj", "atl", "the", "and", "for",
+    "with", "from", "that", "this", "is", "are", "was", "were", "it", "in",
+    "on", "of", "to", "at", "by", "as", "but", "not", "up", "down", "one",
+    "pm", "am", "est", "gmt", "ceo", "cfo", "cto", "fed", "reel", "post",
+}
+
+
+def hallucinated_names(post: str, source_text: str) -> list:
+    """Proper names (Capitalised Latin words) in the post that do not appear
+    in the source text. Catches invented/garbled names like "Cipher" for
+    "Strategy". Tickers and platform words are whitelisted."""
+    src = (source_text or "").lower()
+    bad = []
+    for tok in re.findall(r"\b[A-Z][A-Za-z&.]{1,15}\b", post):
+        low = tok.lower()
+        if low in NAME_WHITELIST or low in src:
+            continue
+        if re.search(r"\b" + re.escape(low) + r"\b", src):
+            continue
+        if tok not in bad:
+            bad.append(tok)
+    return bad
 
 
 def quality_check(post: str, source_title: str) -> list[str]:
@@ -1373,14 +1417,8 @@ def _crop_bars(im):
 
 
 def _footer(im, h: int = None):
-    from PIL import ImageDraw
-    W, H = im.size
-    fh = h or max(46, H // 12)
-    d = ImageDraw.Draw(im)
-    d.rectangle([0, H - fh, W, H], fill=(0, 0, 0))
-    d.text((18, H - fh + max(8, (fh - 26) // 2)),
-           "SOOQ ALYOUM  //  MARKET + AI",
-           font=_font(max(18, fh // 3)), fill=(255, 255, 255))
+    """No branding bar on this page (owner removed the black logo strip).
+    Kept as a hook so callers stay unchanged."""
     return im
 
 
@@ -2941,7 +2979,8 @@ def notify_post_live(post_id: str, post_text: str) -> None:
                  if ln.strip()][:2]
         share = " ".join(lines)[:200]
         groups = os.getenv("GROUP_SHARE_TARGETS", "").strip()
-        msg = (f"✅ Ethan Cole post live\n{url}\n"
+        page_name = os.getenv("PAGE_NAME", "سوق اليوم").strip()
+        msg = (f"✅ {page_name} post live\n{url}\n"
                f"Share text (paste into groups):\n{share}\n"
                f"Groups: {groups or '(set GROUP_SHARE_TARGETS)'}")
         requests.post("https://api.telegram.org/bot" + token + "/sendMessage",
