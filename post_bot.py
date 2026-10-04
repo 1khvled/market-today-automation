@@ -837,17 +837,26 @@ def item_hash(link: str, title: str) -> str:
 
 
 # ---------------------------------------------------------------- rewrite (سوق اليوم voice)
-SYSTEM_PROMPT = """أنت كاتب أخبار في صفحة سوق اليوم. أسلوبك: خبر واحد سريع، ليس مقالاً، بعد ترجمة من الإنجليزية أبداً.
-- الجملة الأولى تحتوي الخبر المهم فقط، لا تبدأ بـ "أعلن" أو "أفادت" أو "ذكرت".
-- جملة سياق قصيرة، ثم جملة تفسير، ثم جملة "لماذا يهمك؟".
-- أظهر السعر أو النسبة أو المدة الزمنية.
-- كل جملة 8-12 كلمة. الحد الأقصى 350 حرفاً، الأدنى 150.
-- لا تشارك روابط، ولا تكتب المصدر، ولا اسم الصورة.
-- بعد أول ذكر للشركة  أو  العقد  استخدم الاختصار فقط.
-- End with hashtags: #سوق_اليوم ثم #ذهب أو #كريبتو أو #أسهم أو #اقتصاد أو #استثمار.
-- لا تبدأ ب "عاجل:" إلا إذا كان الخبر فعلاً مفاجئاً خلال ثواني.
-- لا تستخدم عبارات عامة مثل "نشهد تطورات" أو "يتوقع المحللون" دون رقم أو نسبة.
-- Write in natural Arabic, no loanword stack of English, no AI phrasing like "من الجدير بالذكر"."""
+SYSTEM_PROMPT = """إنت بتكتب بوستات لصفحة "سوق اليوم" على فيسبوك، والجمهور متداولين عرب. اكتب بالعامية المصرية، مش فصحى مترجمة، ومش إنجليزي متلزوق في نص كلام عربي.
+
+الستايل:
+- أول سطر = الخبر في جملة واحدة قوية. ابدأ بـ "عاجل:" أو "للتو:" أو ابدأ بالرقم الصادم على طول. متبدأش بـ "أعلن" أو "أفادت" أو "أشارت".
+- بعده سطرين بالكتير: يعني إيه الخبر للمتداول. سطر لكل فكرة.
+- آخر سطر قبل الهاشتاجات: رأيك أنت، أو سؤال يخلي الواحد يقف يعلّق.
+- رقم لازم في كل بوست: سعر، نسبة، أو مدة. بوست من غير رقم = مرفوض.
+- استخدم اسم الشركة بالعربي لو معروف، وإ写到 التيكر بالإنجليزي (BTC، AAPL، NVDA). متترجمش الكلمة لكلمة.
+- ممنوع تماماً: "من الجدير بالذكر"، "نشهد تطورات"، "أصدرت بياناً"، "يتوقع المحللون" من غير رقم.
+- ممنوع تنسخ العنوان حرفياً، وممنوع تكتب المصدر أو اللينك.
+- الطول من 150 لـ 350 حرف. سطر فاضي بين الفقرات.
+- إيموجي واحدة بس، في السطر الأول.
+- الهاشتاج: #سوق_اليوم الأول دايماً، وبعده 3 لـ 4 من #ذهب #كريبتو #أسهم #اقتصاد #استثمار #أخبار_عاجلة.
+- ممنوع تطلب لايك أو شير أو فولو صراحةً (بيكسر شرط الربح على فيسبوك). سيب الناس تعجب لو عجبتهم.
+
+مثال على الستايل:
+"عاجل: الذهب وصل 4,725 دولار لأول مرة في تاريخه 🔥
+الحركة دي مش رقم عادي — pace الشراء زاد بشكل جنوني overnight.
+اللي فتح صفقات بيع على الذهب النهاردة، خلاص محتاج يحسب تاني.
+#سوق_اليوم #ذهب #استثمار\""""
 
 USER_TEMPLATE = """Source: {feed}
 Headline: {title}
@@ -996,14 +1005,18 @@ def repair_post(post: str) -> str:
     post = re.sub(r"(?i)\S*(www\.|[a-z0-9-]+\.(com|org|net|io))\S*", "", post)
     post = re.sub(r"[ \t]+", " ", post)
     post = re.sub(r"\n{3,}", "\n\n", post)
+    # brand tag must be exactly #سوق_اليوم (model drops the underscore)
+    post = re.sub(r"#سوق\s*_?\s*اليوم\b", "#سوق_اليوم", post)
+    post = re.sub(r"#سوقاليوم", "#سوق_اليوم", post)
     tags = re.findall(r"#\w+", post)
     seen, kept = set(), []
     for t in tags:
         if t.lower() not in seen:
             seen.add(t.lower())
             kept.append(t)
-    brand = [t for t in kept if t.lower() == "#ethancole"]
-    rest = [t for t in kept if t.lower() != "#ethancole"]
+    brand = [t for t in kept if t.lower() in ("#ethancole", "#سوق_اليوم")]
+    rest = [t for t in kept
+            if t.lower() not in ("#ethancole", "#سوق_اليوم")]
     kept = (brand[:1] + rest)[:6]
     if not kept:
         return post
@@ -1080,13 +1093,12 @@ def viral_bonus(text: str, likes: int = 0, reposts: int = 0,
 
 
 SYSTEM_PROMPT_VIRAL = SYSTEM_PROMPT + """
-VIRAL MODE (this story already has traction — squeeze it):
-- Open with your hardest punch: JUST IN / BREAKING + caps conflict + stakes. Name the winner and the loser. Make a scroller feel they LOSE by skipping.
-- One sharp, opinionated closer line — raised eyebrow, not essay.
-- End the body with a debate-sparking question OR a mic-drop line (viral mode only). Give readers a reason to follow for the next update: end on an open loop (what happens next, what to watch).
-- Facts stay exact: spice the framing, never the facts. No invented quotes or numbers.
-- Never explicitly ask for likes, shares, comments or follows — engagement
-  bait violates monetization policy and can kill page eligibility."""
+الوضع الفايرال (الخبر ده عامّ وشغال أصلاً — استخرج منه أقصى حاجة):
+- أول سطر لازم يكون ضربة: "عاجل" أو "للتو" + الرقم أو الكلمات الكبيرة (بالحروف الكابيتال لو لزم). سمّي مين الرابح ومين الخاسر. اللي بيعدّي من البوست لازم يحس إنه غلط.
+- سطر ختامي فيه رأي حاد أو نكتة خفيفة، مش مقالة.
+- سيب البوست على سؤال مفتوح أو جملة "اللي جاي بعد كده..." عشان الناس تستنى التحديث.
+- الأرقام والحقائق تظبط 100%، Spike بس في الكلام. ممنوع تخترع اقتباس ولا رقم.
+- ممنوع تطلب لايك أو شير أو كومنت أو فولو صراحةً."""
 
 
 def rewrite_with_llm(candidate: dict) -> str:
