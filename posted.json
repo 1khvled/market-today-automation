@@ -5,6 +5,7 @@
     "601a84aa97a5995b",
     "6b8cf3d57844a02e",
     "6dfde226099b02e8",
+    "8129305a6d829338",
     "8388e8efd7832598",
     "beda8733ff194127",
     "c06511202eb083f4",
@@ -31,7 +32,7 @@
   },
   "day_counts": {
     "2026-10-03": 5,
-    "2026-10-04": 6
+    "2026-10-04": 7
   },
   "recent_titles": [
     "BREAKING: President Trump says higher US inflation will \"pay off\" US debt \"very rapidly\" in response to total US debt rising above $40 trillion. \"I know I'm the best in the world... you can pay off...",
@@ -44,15 +45,16 @@
     "Breaking: The Trump administration is giving Vistra $4,000,000,000 loan to upgrade 3 nuclear plants \u2023 Nancy Pelosi bought up to $750K at ~$171 \u2023 Peter Thiel filed ~$60M position at ~$148 $VST trade...",
     "Don\u2019t sleep on Bitcoin.",
     "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
-    "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th...."
+    "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th....",
+    "Bitcoin can serve very different investors. $BTC offers direct ownership, $MSTR amplified exposure, and $STRC income with less 30-day price volatility than every Mag 7 stock. Digital Capital is the..."
   ],
   "last_post": {
-    "hash": "601a84aa97a5995b",
-    "fb_id": "1421089964411983_122105639361491654",
-    "title": "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th....",
-    "link": "https://x.com/KobeissiLetter/status/2106792212293955969",
+    "hash": "8129305a6d829338",
+    "fb_id": "1421089964411983_122105651037491654",
+    "title": "Bitcoin can serve very different investors. $BTC offers direct ownership, $MSTR amplified exposure, and $STRC income with less 30-day price volatility than every Mag 7 stock. Digital Capital is the...",
+    "link": "https://x.com/saylor/status/2106858356656779529",
     "mode": "viral",
-    "at": "2026-10-04T23:15:07.861874+00:00"
+    "at": "2026-10-04T23:32:35.471297+00:00"
   },
   "history": [
     {
@@ -154,6 +156,15 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-10-04T23:15:07.861874+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122105651037491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-10-04T23:32:35.471297+00:00"
     }
   ],
   "last_video_post": "2026-10-04"
