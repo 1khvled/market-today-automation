@@ -2,6 +2,7 @@
   "posted_hashes": [
     "0633f220203a8367",
     "0709e3e2addffc4e",
+    "601a84aa97a5995b",
     "6b8cf3d57844a02e",
     "6dfde226099b02e8",
     "8388e8efd7832598",
@@ -30,7 +31,7 @@
   },
   "day_counts": {
     "2026-10-03": 5,
-    "2026-10-04": 5
+    "2026-10-04": 6
   },
   "recent_titles": [
     "BREAKING: President Trump says higher US inflation will \"pay off\" US debt \"very rapidly\" in response to total US debt rising above $40 trillion. \"I know I'm the best in the world... you can pay off...",
@@ -42,15 +43,16 @@
     "Iran's parliament speaker Qalibaf: Strait of Hormuz won't reopen until Tehran's conditions met, US can no longer delay \u2013 Nournews",
     "Breaking: The Trump administration is giving Vistra $4,000,000,000 loan to upgrade 3 nuclear plants \u2023 Nancy Pelosi bought up to $750K at ~$171 \u2023 Peter Thiel filed ~$60M position at ~$148 $VST trade...",
     "Don\u2019t sleep on Bitcoin.",
-    "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom"
+    "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
+    "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th...."
   ],
   "last_post": {
-    "hash": "febbc2efe8a87926",
-    "fb_id": "1421089964411983_122105523225491654",
-    "title": "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
-    "link": "https://www.cnbc.com/2026/10/04/trump-5000-checks-cash-payments-midterms.html",
-    "mode": "serious",
-    "at": "2026-10-04T20:15:23.289873+00:00"
+    "hash": "601a84aa97a5995b",
+    "fb_id": "1421089964411983_122105639361491654",
+    "title": "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th....",
+    "link": "https://x.com/KobeissiLetter/status/2106792212293955969",
+    "mode": "viral",
+    "at": "2026-10-04T23:15:07.861874+00:00"
   },
   "history": [
     {
@@ -143,6 +145,15 @@
       "mode": "serious",
       "photo": "og:image",
       "at": "2026-10-04T20:15:23.289873+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122105639361491654",
+      "topics": [
+        "gold_oil"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-04T23:15:07.861874+00:00"
     }
   ],
   "last_video_post": "2026-10-04"
