@@ -1411,6 +1411,33 @@ def hallucinated_names(post: str, source_text: str) -> list:
     return bad
 
 
+# Outlet/wire names that must never appear in copy (no attribution, and
+# feeds are not actors: "KobeissiLetter reports" failed QC as invented).
+# Persons deliberately EXCLUDED (Saylor/Pelosi/Cramer legitimately appear).
+# Short tokens use word boundaries (never match inside other words).
+OUTLET_TOKENS = (
+    "deitaone", "kobeissiletter", "watcherguru", "megatron",
+    "financialjuice", "firstsquawk", "stockmktnewz", "unusual_whales",
+    "breakingdeals", "wallstengine", "financefeeds", "doomberg",
+    "coindesk", "cointelegraph", "bitcoinmagazine", "newsquawk",
+    "degeneratenews", "clashreport", "congresstrading", "burrytracker",
+    "pelositracker", "testingcatalog", "chatgptapp", "priyannkaaaa",
+    "bridgemindai", "techcrunch", "bbc", "aljazeera",
+)
+OUTLET_SHORT = ("cnbc", "sofi", "verge")
+
+
+def _outlet_leak(post: str) -> str | None:
+    low = post.lower()
+    for tok in OUTLET_TOKENS:
+        if tok in low:
+            return tok
+    for tok in OUTLET_SHORT:
+        if re.search(r"\b" + tok + r"\b", low):
+            return tok
+    return None
+
+
 def quality_check(post: str, source_title: str) -> list[str]:
     problems = []
     if len(post) > 600:
@@ -1444,6 +1471,11 @@ def quality_check(post: str, source_title: str) -> list[str]:
         # feeds are not people: "@DeItaone قال" shipped once when the model
         # personified the Source field. No handles ever (no attribution).
         problems.append("contains @handle (sources are never actors)")
+    _leak = _outlet_leak(post)
+    if _leak:
+        # outlet named without @ ("KobeissiLetter reports" failed a live run):
+        # personified wire or attribution line, both banned.
+        problems.append(f"names outlet/feed '{_leak}' (sources never appear)")
     if re.search(r"(?i)\bwww\.|\.(com|org|net|io)\b", post):
         problems.append("contains bare domain (no URLs of any form)")
     if "*" in post or "`" in post:
