@@ -2553,6 +2553,10 @@ TOPIC_PHOTOS = [
     (["crypto", "ethereum", "defi", "hack", "exchange", "wallet"],
      ["bitcoin-trade.jpg", "bitcoin.jpg"]),
     (["gold"], ["gold-vault.jpg", "gold.jpg"]),
+    (["silver", "xag", "الفضة"], ["silver.jpg", "silver-bar.jpg"]),
+    (["cairo", "egx", "bourse", "البورصة", "مصر", "egp", "جنيه",
+      "pyramids"],
+     ["pyramids.jpg", "cairo-skyline.jpg"]),
     (["oil", "opec", "brent", "hormuz"], ["oil.jpg"]),
     # NOTE: no bare "gas" here — it matches "gas fees" in DeFi text and used
     # to route crypto stories to the oil photo.

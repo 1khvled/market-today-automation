@@ -688,6 +688,18 @@
         1067
       ],
       "via": "unsplash-license"
+    },
+    "pyramids.jpg": {
+      "note": "Giza pyramids Egypt signifier (Unsplash license)"
+    },
+    "cairo-skyline.jpg": {
+      "note": "REPLACED 1800s engraving with Cairo Tower photo"
+    },
+    "silver.jpg": {
+      "note": "REPLACED archaeological hoard with Silver Eagle coins"
+    },
+    "silver-bar.jpg": {
+      "note": "Johnson Matthey 100oz silver bar, real photo"
     }
   }
 }
