@@ -1086,9 +1086,11 @@ def sanitize(post: str) -> str:
     post = _fix_entities(post)
     # places: "Wall Street banks" shipped verbatim mid-sentence
     post = _fix_places(post)
-    # glued Arabic proclitics on Latin names ("لبroadcom", "وبيتكوين" is
-    # fine Arabic but "لـBroadcom" without space reads broken): split them.
-    post = re.sub(r"([\u0600-\u06FF])([A-Za-z$])", r"\1 \2", post)
+    # glued proclitic on a capitalized Latin name ("لBroadcom" -> "ل Broadcom").
+    # Anchored (whitespace + single proclitic + capital): the naive
+    # Arabic|Latin boundary splitter corrupted "لبroadcom" into "لب roadcom"
+    # once — this version cannot misfire on lowercase or Arabic words.
+    post = re.sub(r"(?<=\s)([لبوك])(?=[A-Z$])", r"\1 ", post)
     # strip CI workflow-command sequences (::group::, ::notice::, ##[..])
     # so LLM output can never swallow log sections or break rendering
     post = re.sub(r"::(?i:group|endgroup|notice|warning|error|debug|add-mask|set-output|set-env|save-state|echo|command)\b", ":", post)
