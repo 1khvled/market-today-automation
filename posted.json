@@ -2,6 +2,7 @@
   "posted_hashes": [
     "0633f220203a8367",
     "0709e3e2addffc4e",
+    "18c7bac99efbb9a3",
     "1ee80daa10c57716",
     "240cca53e4daffc5",
     "2512ce2309eb0afd",
@@ -45,10 +46,9 @@
   "day_counts": {
     "2026-10-03": 5,
     "2026-10-04": 6,
-    "2026-10-05": 13
+    "2026-10-05": 14
   },
   "recent_titles": [
-    "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
     "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th....",
     "Gold climbs as softer inflation data reduces bets on further rate hikes \u2014 WSJ",
     "Aramco CEO: Less than 10% of the world's oil inventory is actually available",
@@ -62,15 +62,16 @@
     "I have two important updates to share with you today as we continue to build Metaplanet into a global financial platform rooted in Bitcoin. From the beginning, our strategy was never simply to accu...",
     "Fairshake crypto PAC network backs 32 House candidates in midterms",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC Chair Mike Selig releases video unveiling proposed rules to regulate US crypto markets. \"Clear rules of the road start now.\"",
-    "Wall Street banks launch record $60 bln chip deal for Broadcom and Anthropic - FT. $AVGO"
+    "Wall Street banks launch record $60 bln chip deal for Broadcom and Anthropic - FT. $AVGO",
+    "\ud83d\udd25 INSIGHT: VanEck's research presents a $500K case for Bitcoin based on the gap between Bitcoin's market cap and gold's."
   ],
   "last_post": {
-    "hash": "240cca53e4daffc5",
-    "fb_id": "1421089964411983_122106545685491654",
-    "title": "Wall Street banks launch record $60 bln chip deal for Broadcom and Anthropic - FT. $AVGO",
-    "link": "https://www.financialjuice.com/News/9792475/Wall-Street-banks-launch-record-60-bln-chip-deal-for-Broadcom-and-Anthropic---FT-AVGO.aspx?xy=rss",
+    "hash": "18c7bac99efbb9a3",
+    "fb_id": "1421089964411983_122106565719491654",
+    "title": "\ud83d\udd25 INSIGHT: VanEck's research presents a $500K case for Bitcoin based on the gap between Bitcoin's market cap and gold's.",
+    "link": "https://x.com/Cointelegraph/status/2107216984672702957",
     "mode": "serious",
-    "at": "2026-10-05T21:04:29.423466+00:00"
+    "at": "2026-10-05T21:33:21.322393+00:00"
   },
   "history": [
     {
@@ -300,6 +301,16 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-05T21:04:29.423466+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122106565719491654",
+      "topics": [
+        "crypto",
+        "gold"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-05T21:33:21.322393+00:00"
     }
   ],
   "last_video_post": "2026-10-05",
@@ -516,11 +527,19 @@
         "wall"
       ],
       "at": "2026-10-05T21:04:29.423445+00:00"
+    },
+    {
+      "fp": [
+        "$500",
+        "bitcoin"
+      ],
+      "at": "2026-10-05T21:33:21.322372+00:00"
     }
   ],
   "recent_hooks": [
     "\ud83d\udcca Fairshake PAC \u0628\u062a\u062f\u0639\u0645 32 \u0645\u0631\u0634\u062d \u0641\u064a \u0645\u062c\u0644\u0633 \u0627\u0644\u0646\u0648\u0627\u0628 \u0639\u0644\u0634\u0627\u0646 \u064a\u062d\u062f\u062f\u0648\u0627 \u0645\u0633\u062a\u0642\u0628\u0644 \u062a\u0646\u0638\u064a\u0645 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0628\u0639\u062f \u0627\u0644\u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a",
     "\ud83d\udee2\ufe0f Mike Selig: \u0641\u064a\u062f\u064a\u0648 \u062c\u062f\u064a\u062f \u064a\u0639\u0644\u0646 10 \u0642\u0648\u0627\u0639\u062f \u062c\u062f\u064a\u062f\u0629 \u0644\u0633\u0648\u0642 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0641\u064a \u0623\u0645\u0631\u064a\u0643\u0627",
-    "\ud83d\udcf0 Wall Street banks \u0643\u0634\u0641\u062a \u0639\u0646 \u0635\u0641\u0642\u0629 \u0631\u0642\u0627\u0642\u0627\u062a \u0642\u064a\u0627\u0633\u064a\u0629 \u0628\u0642\u064a\u0645\u0629 60 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631 \u0644\u0640 Broadcom \u0648 Anthropic"
+    "\ud83d\udcf0 Wall Street banks \u0643\u0634\u0641\u062a \u0639\u0646 \u0635\u0641\u0642\u0629 \u0631\u0642\u0627\u0642\u0627\u062a \u0642\u064a\u0627\u0633\u064a\u0629 \u0628\u0642\u064a\u0645\u0629 60 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631 \u0644\u0640 Broadcom \u0648 Anthropic",
+    "\ud83d\ude80 VanEck \u0628\u062a\u0642\u0648\u0644 \u0625\u0646 \u0627\u0644\u0641\u062c\u0648\u0629 \u0628\u064a\u0646 \u0642\u064a\u0645\u0629 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0648\u0627\u0644\u0630\u0647\u0628 \u0628\u062a\u062f\u0639\u0645 \u062d\u0627\u0644\u0629 500 \u0623\u0644\u0641 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646"
   ]
 }
