@@ -8,6 +8,7 @@
     "601a84aa97a5995b",
     "6b8cf3d57844a02e",
     "6dfde226099b02e8",
+    "7f0d3da8ca7d890e",
     "8388e8efd7832598",
     "95d6a1ee07f620c8",
     "9fa77ac736134657",
@@ -39,10 +40,9 @@
   "day_counts": {
     "2026-10-03": 5,
     "2026-10-04": 6,
-    "2026-10-05": 7
+    "2026-10-05": 8
   },
   "recent_titles": [
-    "Hegseth: Iran wants to play games with things like the Strait of Hormuz, they don't control it, we do. They have literally gotten nothing through. Our blockade has been ironclad, and we're running ...",
     "FUN FACT: 10 years ago today, Bitcoin was $612",
     "Retail investors are rushing into Treasury ETFs: Retail investors bought +$61 million of the 20+ Year Treasury Bond ETF, $TLT, on Wednesday, their largest daily purchase in at least 12 months. This...",
     "Iran's parliament speaker Qalibaf: Strait of Hormuz won't reopen until Tehran's conditions met, US can no longer delay \u2013 Nournews",
@@ -56,15 +56,16 @@
     "$COIN - BOFA RAISES COINBASE TARGET TO $203 BofA raised its Coinbase price target to $203 from $174, reiterating a Buy rating. The bank lifted its 2027\u20132028 EPS forecasts on expectations for strong...",
     "$COIN - BOFA RAISES COINBASE TARGET TO $203 BofA raised its Coinbase price target to $203 from $174, reiterating a Buy rating. The bank lifted its 2027\u20132028 EPS forecasts on expectations for strong...",
     "JUST IN: Michael Saylor's 'Strategy' buys 334.3 Bitcoin worth $29 million.",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury withdraws proposed crypto surveillance rules targeting unhosted wallets and crypto mixers."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury withdraws proposed crypto surveillance rules targeting unhosted wallets and crypto mixers.",
+    "I gave my AI Agent the task of beating the NASDAQ 100 over the long term without taking on a lot more risk than the index This is what my beat the NASDAQ portfolio looks like right now: Nvidia $NVD..."
   ],
   "last_post": {
-    "hash": "b259bbd0146ca3d9",
-    "fb_id": "1421089964411983_122106231153491654",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury withdraws proposed crypto surveillance rules targeting unhosted wallets and crypto mixers.",
-    "link": "https://x.com/WatcherGuru/status/2107100035179814947",
-    "mode": "viral",
-    "at": "2026-10-05T14:17:30.936331+00:00"
+    "hash": "7f0d3da8ca7d890e",
+    "fb_id": "1421089964411983_122106283683491654",
+    "title": "I gave my AI Agent the task of beating the NASDAQ 100 over the long term without taking on a lot more risk than the index This is what my beat the NASDAQ portfolio looks like right now: Nvidia $NVD...",
+    "link": "https://x.com/StockMKTNewz/status/2107113987615625600",
+    "mode": "serious",
+    "at": "2026-10-05T14:47:47.598179+00:00"
   },
   "history": [
     {
@@ -233,6 +234,17 @@
       "mode": "viral",
       "photo": "hires",
       "at": "2026-10-05T14:17:30.936331+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122106283683491654",
+      "topics": [
+        "ai",
+        "crypto",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "entity-logo",
+      "at": "2026-10-05T14:47:47.598179+00:00"
     }
   ],
   "last_video_post": "2026-10-05"
