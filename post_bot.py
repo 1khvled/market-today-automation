@@ -1449,7 +1449,7 @@ def _logo_card(data: bytes):
         return None
     logo.thumbnail((760, 380))
     card = Image.new("RGB", (1200, 630), (11, 18, 32))
-    card.paste(logo, ((1200 - logo.size[0]) // 2, (578 - logo.size[1]) // 2),
+    card.paste(logo, ((1200 - logo.size[0]) // 2, (630 - logo.size[1]) // 2),
                logo)
     buf = io.BytesIO()
     _footer(card).save(buf, "JPEG", quality=95)
@@ -1655,6 +1655,8 @@ PEOPLE_PHOTOS = [
     (["vivek arya", "arya"], "Vivek Arya", ["Vivek Arya Bank of America"]),
     (["dan ives", "ives"], "Dan Ives", ["Dan Ives Wedbush"]),
     (["gene munster", "munster"], "Gene Munster", ["Gene Munster Deepwater"]),
+    (["vitalik", "vitalik buterin", "buterin"], "Vitalik Buterin", ["Vitalik Buterin portrait"]),
+    (["sam bankman-fried", "sbf", "bankman-fried"], "Sam Bankman-Fried", ["Sam Bankman-Fried portrait"]),
     (["pelosi", "nancy pelosi"], "Nancy Pelosi", ["Nancy Pelosi portrait"]),
     (["biden", "joe biden"], "Joe Biden", ["Joe Biden portrait"]),
     (["obama", "barack obama"], "Barack Obama", ["Barack Obama portrait"]),
@@ -1693,16 +1695,21 @@ def _wiki_portrait(name: str):
 
 
 def _bundled_face_for(wiki: str) -> bytes | None:
-    """Bundled assets/faces/<slug>.png bytes, else None. Owner-supplied
+    """Bundled assets/faces/<slug>.(png|jpg) bytes, else None. Owner-supplied
     portraits beat Wikipedia (e.g. SBF)."""
-    lp = os.path.join(ASSETS_DIR, "faces",
-                       f"{_slug(wiki) or 'person'}.png")
-    if os.path.exists(lp):
+    stem = _slug(wiki) or "person"
+    for ext in (".png", ".jpg", ".jpeg"):
+        lp = os.path.join(ASSETS_DIR, "faces", f"{stem}{ext}")
+        if not os.path.exists(lp):
+            continue
         try:
             with open(lp, "rb") as fh:
-                return fh.read()
+                data = fh.read()
+            # a bundled file that is a blank/flat frame is worse than no photo
+            if _portrait_is_real(data):
+                return data
         except Exception:
-            return None
+            continue
     return None
 
 
@@ -1754,7 +1761,8 @@ def _cover(im, w, h, top_bias=False):
 def _split_pair(left: bytes, right: bytes, left_logo=False,
                 right_face=False, left_face=False, right_logo=False):
     """1200x630 two-panel composite. Logos sit contained on dark;
-    photos cover-crop (faces top-biased). Always ends with house footer."""
+    photos cover-crop (faces top-biased). Panels fill the full height —
+    this page has no footer bar to make room for."""
     from PIL import Image, ImageDraw
     try:
         left_im = Image.open(io.BytesIO(left))
@@ -1762,7 +1770,7 @@ def _split_pair(left: bytes, right: bytes, left_logo=False,
     except Exception:
         return None
     card = Image.new("RGB", (1200, 630), (11, 18, 32))
-    body_h = 630 - max(46, 630 // 12)  # 578: panels meet the footer exactly
+    body_h = 630  # full bleed: no footer band on this page
     if left_logo:
         left_im = left_im.convert("RGBA")
         left_im.thumbnail((520, 380))
@@ -2430,6 +2438,36 @@ def _big_enough(data: bytes) -> bool:
         return False
 
 
+def _portrait_is_real(data: bytes) -> bool:
+    """A photo must have actual content. Commons/Wikipedia occasionally serve a
+    black box or a blank contact sheet (we got one for Ackman) that passes
+    every size check — a dead portrait is worse than no portrait, so require
+    real tonal detail and reject mostly-blank frames. Dark stage photos with a
+    lit subject are legitimate, hence no naive brightness floor."""
+    try:
+        from PIL import Image
+        im = Image.open(io.BytesIO(data)).convert("L")
+        im.thumbnail((160, 160))
+        px = list(im.getdata())
+        n = len(px)
+        if n < 100:
+            return False
+        mean = sum(px) / n
+        var = sum((v - mean) ** 2 for v in px) / n
+        std = var ** 0.5
+        white = sum(1 for v in px if v > 245) / n
+        black = sum(1 for v in px if v < 12) / n
+        if std < 18:
+            return False
+        # a blank white sheet wrapped around a black box is the classic
+        # broken-frame signature
+        if white > 0.30 and black > 0.30:
+            return False
+        return True
+    except Exception:
+        return False
+
+
 def _google_photo(query: str):
     """Google Custom Search image lookup (needs GOOGLE_CSE_KEY + CX).
     Real editorial photos instead of stock randomness. Silent skip if
@@ -2982,10 +3020,10 @@ def _story_card(caption: str, image: bytes | None):
         except Exception:
             return None
         # strip our branded footer bar (bottom ~9%) so it doesn't sit mid-story
-        im = im.crop((0, 0, im.size[0], int(im.size[1] * 0.91)))
-        card.paste(_cover(im, W, 1000), (0, 0))
-        d.line([0, 1000, W, 1000], fill=(255, 255, 255), width=3)
-        y = 1045
+        im = im.crop((0, 0, im.size[0], int(im.size[1] * 0.98)))
+        card.paste(_cover(im, W, 1140), (0, 0))
+        d.line([0, 1140, W, 1140], fill=(255, 255, 255), width=3)
+        y = 1180
     wrapped: list = []
     for i, ln in enumerate(_story_text(caption)[:10]):
         size = 54 if i == 0 else 36

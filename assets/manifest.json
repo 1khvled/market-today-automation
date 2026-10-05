@@ -1,0 +1,645 @@
+{
+  "faces": {
+    "jensen-huang": {
+      "file": "Jen-Hsun_Huang_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        645,
+        839
+      ],
+      "page": "Jensen Huang"
+    },
+    "sam-altman": {
+      "file": "Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29_%283x4_cropped_on_Altman%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        390,
+        520
+      ],
+      "page": "Sam Altman"
+    },
+    "cathie-wood": {
+      "file": "Cathie_Wood_ARK_Invest_Photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        1445,
+        1790
+      ],
+      "page": "Cathie Wood"
+    },
+    "michael-saylor": {
+      "file": "File:Michael Saylor (54558494477).jpg",
+      "size": [
+        2400,
+        1600
+      ]
+    },
+    "ray-dalio": {
+      "file": "File:Ray Dalio Sept 23 2017 NYC.jpg",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    "jerome-powell": {
+      "file": "File:Jerome Powell at Press Conference (DSC1894).jpg",
+      "size": [
+        2400,
+        1600
+      ]
+    },
+    "Abbas Araghchi": {
+      "file": "Abbas_Araghchi_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        881,
+        1069
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Alexandria Ocasio-Cortez": {
+      "file": "Alexandria_Ocasio-Cortez_Official_Portrait.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        880,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Andy Jassy": {
+      "file": "Andy_Jassy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        1100,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Barack Obama": {
+      "file": "President_Barack_Obama.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        880,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Benjamin Netanyahu": {
+      "file": "Benjamin_Netanyahu%2C_February_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        1030,
+        1499
+      ],
+      "via": "wikipedia-lead",
+      "bad": true,
+      "note": "no lead image"
+    },
+    "Bernie Sanders": {
+      "file": "Bernie_Sanders_February_2026_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        825,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Beth Hammack": {
+      "file": "Beth_M._Hammack.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        800,
+        1000
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Bill Ackman": {
+      "file": "File:Ackman Bill Signature 300dpi.png",
+      "size": [
+        1500,
+        773
+      ],
+      "via": "commons"
+    },
+    "Boris Vujcic": {
+      "file": "Boris_Vujcic.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        1088,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Christine Lagarde": {
+      "file": "Lagarde_ECB_Portrait_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        824,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Christopher Waller": {
+      "file": "Christopher_J._Waller%2C_Federal_Reserve_Governor_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        879,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Chuck Schumer": {
+      "file": "Chuck_Schumer_official_photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        880,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Dario Amodei": {
+      "file": "Dario_Amodei_at_TechCrunch_Disrupt_2023_01_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        850,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Donald Trump": {
+      "file": "Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        879,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Elizabeth Warren": {
+      "file": "Elizabeth_Warren_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        1067,
+        1500
+      ],
+      "via": "wikipedia-lead",
+      "bad": true,
+      "note": "download failed"
+    },
+    "Elon Musk": {
+      "file": "Elon_Musk_%2854816836217%29_%28cropped_5%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        1124,
+        1500
+      ],
+      "via": "wikipedia-lead",
+      "bad": true,
+      "note": "download failed"
+    },
+    "Emmanuel Macron": {
+      "file": "Emmanuel_Macron_2025_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        795,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Friedrich Merz": {
+      "file": "File:Friedrich Merz und Julia Klöckner 2023.jpg",
+      "size": [
+        1500,
+        1000
+      ],
+      "via": "commons",
+      "bad": true,
+      "note": "download failed"
+    },
+    "Gavin Newsom": {
+      "file": "Governor_of_California_Gavin_Newsom_%28cropped_3x4%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        824,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Greg Abbott": {
+      "file": "Greg_Abbott_at_NASA_2024_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        1055,
+        1500
+      ],
+      "via": "wikipedia-lead",
+      "bad": true,
+      "note": "no lead image"
+    },
+    "Hillary Clinton": {
+      "file": "Former_United_States_Secretary_of_State_Hillary_Rodham_Clinton_at_the_U.S._Department_of_State_on_September_26%2C_2023_in_Washington%2C_D.C._14_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        528,
+        703
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Howard Lutnick": {
+      "file": "File:Howard Lutnick 2025.jpg",
+      "size": [
+        849,
+        1100
+      ],
+      "via": "commons-strict",
+      "bad": true,
+      "note": "download failed"
+    },
+    "Jamie Dimon": {
+      "file": "File:Chancellor Rachel Reeves meets Jamie Dimon (54838700663).jpg",
+      "size": [
+        1500,
+        1000
+      ],
+      "via": "commons",
+      "bad": true,
+      "note": "download failed"
+    },
+    "Jeff Bezos": {
+      "file": "File:Jeff Bezos Unveils Blue Origin Lunar Lander.jpg",
+      "size": [
+        1500,
+        1001
+      ],
+      "via": "commons",
+      "bad": true,
+      "note": "no lead image"
+    },
+    "Jim Cramer": {
+      "file": "Andrew_Aziz_Cramer_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        1100,
+        914
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Joe Biden": {
+      "file": "Joe_Biden_presidential_portrait.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        879,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "John Ternus": {
+      "file": "John_Ternus_at_the_Apple_50th_Anniversary_Kickoff_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        571,
+        720
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Keir Starmer": {
+      "file": "Prime_Minister_Keir_Starmer_Portrait_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        788,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Kevin Warsh": {
+      "file": "Official_portrait_of_Kevin_M._Warsh_%28cropped%292.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        848,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Lai Ching-te": {
+      "file": "%E8%B3%B4%E6%B8%85%E5%BE%B7%E7%B8%BD%E7%B5%B1_%28cropped_2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        785,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Lee Jae-myung": {
+      "file": "File:Lee Jae-myung, 2021 (cropped 2).jpg",
+      "size": [
+        809,
+        1100
+      ],
+      "via": "commons-strict",
+      "bad": true,
+      "note": "download failed"
+    },
+    "Lisa Cook": {
+      "file": "File:Lisa D. Cook, Federal Reserve Governor.jpg",
+      "size": [
+        1200,
+        1500
+      ],
+      "via": "commons",
+      "bad": true,
+      "note": "download failed"
+    },
+    "Marco Rubio": {
+      "file": "File:Official portrait of Secretary Marco Rubio.jpg",
+      "size": [
+        1091,
+        1500
+      ],
+      "via": "commons",
+      "bad": true,
+      "note": "download failed"
+    },
+    "Mark Zuckerberg": {
+      "file": "File:Mark Zuckerberg (2025).jpg",
+      "size": [
+        1089,
+        1500
+      ],
+      "via": "commons",
+      "bad": true,
+      "note": "too small"
+    },
+    "Masoud Pezeshkian": {
+      "file": "Pezeshkian_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        632,
+        786
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Michael Barr": {
+      "file": "File:Michael S. Barr, Federal Reserve Member.jpg",
+      "size": [
+        1200,
+        1500
+      ],
+      "via": "commons",
+      "bad": true,
+      "note": "no lead image"
+    },
+    "Michelle Bowman": {
+      "file": "Michelle_Bowman.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        879,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Mike Johnson": {
+      "file": "File:Mike Johnson, official portrait, 116th Congress.jpg",
+      "size": [
+        1200,
+        1500
+      ],
+      "via": "commons",
+      "bad": true,
+      "note": "download failed"
+    },
+    "Mitch McConnell": {
+      "file": "Mitch_McConnell_2016_official_photo_%281%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        856,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Mohamed bin Zayed": {
+      "file": "Mohamed_bin_Zayed_Al_Nahyan_-_2024_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        856,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Mohammed bin Salman": {
+      "file": "%D8%A7%D9%84%D8%B5%D9%88%D8%B1%D8%A9_%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A%D8%A9_%D9%84%D9%84%D8%A3%D9%85%D9%8A%D8%B1_%D9%85%D8%AD%D9%85%D8%AF_%D8%A8%D9%86_%D8%B3%D9%84%D9%85%D8%A7%D9%86_%D8%A8%D9%86_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2_%D8%A2%D9%84_%D8%B3%D8%B9%D9%88%D8%AF_%28%D9%85%D9%82%D8%B5%D9%88%D8%B5%D8%A9%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        880,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Nancy Pelosi": {
+      "file": "File:Official photo of Speaker Nancy Pelosi in 2019.jpg",
+      "size": [
+        880,
+        1100
+      ],
+      "via": "commons-strict",
+      "bad": true,
+      "note": "download failed"
+    },
+    "Philip Jefferson": {
+      "file": "Jefferson_Philip_BDM_June_16_22-091_8x10_%2852247534443%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        1200,
+        1500
+      ],
+      "via": "wikipedia-lead",
+      "bad": true,
+      "note": "download failed"
+    },
+    "Recep Tayyip Erdoğan": {
+      "file": "File:2014- Recep Tayyip Erdoğan Stadium, Istanbul, Turkiye ( Ank Kumar ) 03.jpg",
+      "size": [
+        1100,
+        1100
+      ],
+      "via": "commons-strict",
+      "bad": true,
+      "note": "download failed"
+    },
+    "Sanae Takaichi": {
+      "file": "Official_portrait_of_Sanae_Takaichi%2C_Prime_Minister_of_Japan_%28HD%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        850,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Satya Nadella": {
+      "file": "File:MS-Exec-Nadella-Satya-2017-08-31-8-2.jpg",
+      "size": [
+        1000,
+        1500
+      ],
+      "via": "commons",
+      "bad": true,
+      "note": "download failed"
+    },
+    "Scott Bessent": {
+      "file": "Official_portrait_of_Treasury_Secretary_Scott_Bessent_%28borderless%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        873,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Sundar Pichai": {
+      "file": "Sundar_Pichai_-_2023_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        733,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Ted Cruz": {
+      "file": "Ted_Cruz_official_116th_portrait_%283x4_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        823,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Tim Cook": {
+      "file": "Tim_Cook_in_New_York_City_-_2026_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        735,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Vladimir Putin": {
+      "file": "%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2808-03-2024%29_%28cropped%29_%28higher_res%29_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        825,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Volodymyr Zelenskyy": {
+      "file": "Volodymyr_Zelensky_2022_official_portrait_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        848,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Warren Buffett": {
+      "file": "Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        818,
+        1090
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Xi Jinping": {
+      "file": "Prime_Minister_Keir_Starmer_visits_China_%2855066713683%29_%28cropped%2Bangle%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        825,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Cathie Wood": {
+      "file": "Cathie_Wood_ARK_Invest_Photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        887,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Jensen Huang": {
+      "file": "Jen-Hsun_Huang_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        645,
+        839
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Jerome Powell": {
+      "file": "Jerome_H._Powell%2C_Federal_Reserve_Chair_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "size": [
+        797,
+        1100
+      ],
+      "via": "wikipedia-lead"
+    },
+    "Michael Saylor": {
+      "file": "File:Michael Saylor (54559554529).jpg",
+      "size": [
+        1500,
+        1000
+      ],
+      "via": "commons",
+      "bad": true,
+      "note": "download failed"
+    },
+    "Mohamed El-Erian": {
+      "file": "File:Richard Grenell, Mohamed A El-Erian, and Matt Lashey, 4th of July 2018 in Berlin.jpg",
+      "size": [
+        1500,
+        1000
+      ],
+      "via": "commons"
+    },
+    "Vitalik Buterin": {
+      "file": "File:Vitalik Buterin TechCrunch London 2015.jpg",
+      "size": [
+        1100,
+        733
+      ],
+      "via": "commons",
+      "bad": true,
+      "note": "no lead image"
+    },
+    "Sam Bankman-Fried": {
+      "bad": true,
+      "note": "download failed"
+    }
+  },
+  "topics": {
+    "gold-bars": {
+      "file": "File:Gold bullion bars.jpg",
+      "size": [
+        2400,
+        1800
+      ]
+    },
+    "bitcoin-coin": {
+      "file": "File:Close-up of a Bitcoin physical coin in a womans hand and a laptop on her lap.jpg",
+      "size": [
+        2400,
+        1601
+      ]
+    },
+    "ethereum": {
+      "file": "File:Close-up of a physical Ethereum coin (51002904687).jpg",
+      "size": [
+        2400,
+        1596
+      ]
+    },
+    "trading-desk": {
+      "file": "File:Frankfurt Stock Exchange (Ank Kumar) 01.jpg",
+      "size": [
+        2400,
+        1600
+      ]
+    },
+    "nyse-floor": {
+      "file": "File:Kathy at New York Stock Exchange.jpg",
+      "size": [
+        1918,
+        2400
+      ]
+    },
+    "oil-refinery": {
+      "file": "File:Yaroslavnefteorgsintez oil refinery plant.jpg",
+      "size": [
+        2400,
+        1075
+      ]
+    },
+    "oil-tanker": {
+      "file": "File:Crude oil tanker Eagle San Diego.jpg",
+      "size": [
+        2400,
+        910
+      ]
+    },
+    "cairo-skyline": {
+      "file": "File:Part of Cairo, view of the Minaret of the Touloun Mosque, No. 9 (SM stf555).png",
+      "size": [
+        2400,
+        1982
+      ]
+    },
+    "egypt-pounds": {
+      "file": "File:SUD-S111b-Siege of Khartoum-50 Egyptian Pounds (1884).jpg",
+      "size": [
+        1912,
+        2400
+      ]
+    },
+    "silver": {
+      "file": "File:Silverdale Hoard items with lead container (FindID 462949).jpg",
+      "size": [
+        2400,
+        1600
+      ]
+    }
+  }
+}
