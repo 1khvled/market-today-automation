@@ -10,7 +10,7 @@ on:
         required: false
         default: "0"
       force:
-        description: "FORCE_POST=1: skip the 90-min cooldown (manual test posts)"
+        description: "FORCE_POST=1: skip the post gap (manual test posts)"
         required: false
         default: "0"
 
@@ -55,6 +55,10 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GROUP_SHARE_TARGETS: ${{ secrets.GROUP_SHARE_TARGETS }}
           MAX_AGE_MINUTES: "1440"
+          # Gap must be <= cron or runs get wasted (same 20/30 bug Ethan had:
+          # a 20-min cron can never satisfy a 30-min gap at the 20-min mark,
+          # so every other run was skipped and posts landed every ~40 min).
+          MIN_POST_GAP_MINUTES: "20"
           MIN_VIDEO_SCORE: "4"
           VIDEO_DEADLINE_HOUR: "20"
           VIDEO_DEADLINE_SCORE: "1"
