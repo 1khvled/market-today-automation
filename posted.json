@@ -11,6 +11,7 @@
     "63036692c3b611ed",
     "6b8cf3d57844a02e",
     "6dfde226099b02e8",
+    "749f44d93c1f420c",
     "7dd4c394ede9d017",
     "8388e8efd7832598",
     "95d6a1ee07f620c8",
@@ -42,10 +43,9 @@
   "day_counts": {
     "2026-10-03": 5,
     "2026-10-04": 6,
-    "2026-10-05": 10
+    "2026-10-05": 11
   },
   "recent_titles": [
-    "Iran's parliament speaker Qalibaf: Strait of Hormuz won't reopen until Tehran's conditions met, US can no longer delay \u2013 Nournews",
     "Breaking: The Trump administration is giving Vistra $4,000,000,000 loan to upgrade 3 nuclear plants \u2023 Nancy Pelosi bought up to $750K at ~$171 \u2023 Peter Thiel filed ~$60M position at ~$148 $VST trade...",
     "Don\u2019t sleep on Bitcoin.",
     "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
@@ -59,15 +59,16 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC approves first-ever 3x leveraged Bitcoin and Ethereum ETFs. \u2022 The SEC approved Cboe BZX to list six new Volatility Shares ETFs, including 3x Bitcoin and Ether ETFs, along with 3x go...",
     "Trump: Refinery Disruptions, Not Strait of Hormuz, Are Driving Gasoline Prices Higher - Truth Social",
     "\ud83d\udea8 LATEST: Bitcoin surged 43% in its best Q3 since 2017, but Treasury yields above 5% threaten further gains as October Fed hike odds plunge from over 75% to 24%.",
-    "I have two important updates to share with you today as we continue to build Metaplanet into a global financial platform rooted in Bitcoin. From the beginning, our strategy was never simply to accu..."
+    "I have two important updates to share with you today as we continue to build Metaplanet into a global financial platform rooted in Bitcoin. From the beginning, our strategy was never simply to accu...",
+    "Fairshake crypto PAC network backs 32 House candidates in midterms"
   ],
   "last_post": {
-    "hash": "63036692c3b611ed",
-    "fb_id": "1421089964411983_122106450597491654",
-    "title": "I have two important updates to share with you today as we continue to build Metaplanet into a global financial platform rooted in Bitcoin. From the beginning, our strategy was never simply to accu...",
-    "link": "https://x.com/gerovich/status/2107046348008874252",
-    "mode": "viral",
-    "at": "2026-10-05T18:34:36.254919+00:00"
+    "hash": "749f44d93c1f420c",
+    "fb_id": "1421089964411983_122106472011491654",
+    "title": "Fairshake crypto PAC network backs 32 House candidates in midterms",
+    "link": "https://www.cnbc.com/2026/10/05/fairshake-crypto-super-pac-house-races.html",
+    "mode": "serious",
+    "at": "2026-10-05T19:08:25.531548+00:00"
   },
   "history": [
     {
@@ -268,7 +269,210 @@
       "mode": "viral",
       "photo": "hires",
       "at": "2026-10-05T18:34:36.254919+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122106472011491654",
+      "topics": [
+        "crypto",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-05T19:08:25.531548+00:00"
     }
   ],
-  "last_video_post": "2026-10-05"
+  "last_video_post": "2026-10-05",
+  "recent_fps": [
+    {
+      "fp": [
+        "US",
+        "hormuz",
+        "iran",
+        "nournews",
+        "qalibaf",
+        "strait",
+        "tehran"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "$148",
+        "$171",
+        "$4,000,000,000",
+        "$60",
+        "$750",
+        "VST",
+        "nancy",
+        "pelosi",
+        "peter",
+        "thiel",
+        "trump",
+        "vistra"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "bitcoin",
+        "don"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "$5,000",
+        "trump"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "february",
+        "gulf",
+        "hormuz",
+        "iran",
+        "oil",
+        "persian",
+        "strait",
+        "war"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "WSJ",
+        "gold"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "CEO",
+        "aramco",
+        "less"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "US",
+        "brazil",
+        "iran",
+        "iraq",
+        "lula",
+        "now",
+        "president",
+        "trump"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "$174,",
+        "$203",
+        "BOFA",
+        "COIN",
+        "EPS",
+        "RAISE",
+        "TARGET",
+        "TO",
+        "buy",
+        "coinbase"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "$174,",
+        "$203",
+        "BOFA",
+        "COIN",
+        "EPS",
+        "RAISE",
+        "TARGET",
+        "TO",
+        "buy",
+        "coinbase"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "$29",
+        "IN",
+        "JUST",
+        "bitcoin",
+        "michael",
+        "saylor",
+        "strategy"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "3x",
+        "BZX",
+        "ETF",
+        "IN",
+        "JUST",
+        "SEC",
+        "bitcoin",
+        "cboe",
+        "ether",
+        "ethereum",
+        "shares",
+        "volatility"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "disruptions",
+        "driving",
+        "gasoline",
+        "higher",
+        "hormuz",
+        "not",
+        "prices",
+        "refinery",
+        "social",
+        "strait",
+        "trump",
+        "truth"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "LATEST",
+        "bitcoin",
+        "fed",
+        "october",
+        "treasury"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "bitcoin",
+        "metaplanet"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "PAC",
+        "act",
+        "congress",
+        "fairshake",
+        "house",
+        "senate"
+      ],
+      "at": "2026-10-05T19:08:25.531531+00:00"
+    }
+  ],
+  "recent_hooks": [
+    "\ud83d\udcca Fairshake PAC \u0628\u062a\u062f\u0639\u0645 32 \u0645\u0631\u0634\u062d \u0641\u064a \u0645\u062c\u0644\u0633 \u0627\u0644\u0646\u0648\u0627\u0628 \u0639\u0644\u0634\u0627\u0646 \u064a\u062d\u062f\u062f\u0648\u0627 \u0645\u0633\u062a\u0642\u0628\u0644 \u062a\u0646\u0638\u064a\u0645 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0628\u0639\u062f \u0627\u0644\u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a"
+  ]
 }
