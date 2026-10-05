@@ -3525,6 +3525,46 @@ def fb_token_ok() -> bool:
         return False
 
 
+# Event fingerprint machinery (module level).
+# "SEC approves 3x Bitcoin ETFs" and "SEC greenlights leveraged crypto
+# funds" share {sec, 3x, bitcoin} -> same event. Two Trump stories share
+# only {trump} -> different (min 2 shared tokens required).
+EVENT_STOP = {"the", "a", "an", "and", "for", "with", "from", "says", "say",
+              "new", "first", "after", "over", "amid", "report", "reports",
+              "breaking", "just", "live", "update", "vs", "will", "its",
+              "has", "have", "are", "was", "were", "ceo", "inc"}
+def event_fp(title: str, summary: str = "") -> list:
+    text = f"{title} {summary}"
+    toks = set()
+    for t in re.findall(r"\$[A-Za-z]{1,6}\b|\b[A-Z]{2,6}s?\b", text):
+        toks.add(t.upper().lstrip("$").rstrip("S") if len(t) > 3 else t.upper().lstrip("$"))
+    for t in re.findall(r"\$\d[\d,\.]*|\b\d+(?:\.\d+)?\s?(?:%|x)\b", text,
+                        re.I):
+        toks.add(t.lower().replace(" ", ""))
+    for w in re.findall(r"\b[A-Z][a-z]{2,}\b", text):
+        if w.lower() not in EVENT_STOP:
+            toks.add(w.lower())
+    return sorted(toks)
+def same_event(a, b) -> bool:
+    if not a or not b:
+        return False
+    inter = set(a) & set(b)
+    if len(inter) < 2:
+        return False
+    return len(inter) / min(len(a), len(b)) >= 0.5
+def _store_post_state(state: dict, title: str, summary: str,
+                      max_titles: int = 15) -> None:
+    """Record a published story for ALL dedup layers (titles, event
+    fingerprints, Arabic hooks are stored by the caller when available)."""
+    recent = state.get("recent_titles", [])
+    recent.append(title)
+    state["recent_titles"] = recent[-max_titles:]
+    rfps = state.get("recent_fps", [])
+    rfps.append({"fp": event_fp(title, summary),
+                 "at": datetime.now(timezone.utc).isoformat()})
+    state["recent_fps"] = rfps[-20:]
+
+
 def main() -> int:
     max_age = int(os.getenv("MAX_AGE_MINUTES", "1440"))  # 24h cap
     state_file = os.getenv("STATE_FILE", "posted.json")
@@ -3616,12 +3656,30 @@ def main() -> int:
     # headlines). Skip anything near-identical to a recently posted title.
     recent = state.get("recent_titles", [])
 
+
     def _too_similar(t: str) -> bool:
         tl = t.lower()
         return any(difflib.SequenceMatcher(None, tl, r.lower()).ratio() > 0.75
                    for r in recent)
 
     fresh = [c for c in fresh if not _too_similar(c["title"])]
+    # EVENT guard: same news, different wording ("SEC approves 3x ETFs" vs
+    # "SEC greenlights leveraged funds") sailed past the 0.75 title guard 4x
+    # in one afternoon (15:37/16:16/16:32/16:46). Fingerprints compare WHAT
+    # the story is about (entities + numbers), not how it's phrased.
+    fps = state.get("recent_fps", [])
+    if not fps and recent:
+        fps = [{"fp": event_fp(t), "at": None} for t in recent]
+        state["recent_fps"] = fps
+    before = len(fresh)
+    fresh = [c for c in fresh
+             if not any(same_event(event_fp(c["title"],
+                                            c.get("summary", "")),
+                                     e.get("fp"))
+                        for e in fps)]
+    if len(fresh) != before:
+        log(f"Event guard: dropped {before - len(fresh)} "
+            f"same-news-different-words.")
     # Within-run dedup: same story twice in one sweep (reposts) -> keep best.
     seen: list[str] = []
     deduped = []
@@ -3699,9 +3757,8 @@ def main() -> int:
                     keep_from = (now.date() - timedelta(days=2)).isoformat()
                     state["day_counts"] = {k: v for k, v in day_counts.items()
                                            if k >= keep_from}
-                    recent = state.get("recent_titles", [])
-                    recent.append(vpick["title"])
-                    state["recent_titles"] = recent[-15:]
+                    _store_post_state(state, vpick["title"],
+                                      vpick.get("summary", ""))
                     state["last_post"] = {
                         "hash": vh, "fb_id": post_id,
                         "title": vpick["title"], "link": vpick["link"],
@@ -3759,6 +3816,17 @@ def main() -> int:
         return 3
     print("--- POST (pre-credit) ---\n" + post + "\n------------")
 
+    # HOOK guard: the rewrite paraphrases, so two runs can produce near-twin
+    # Arabic hooks from different English sources ("SEC تفتح الباب لأول" x3
+    # in one afternoon). Compare the draft hook against recent Arabic hooks.
+    hook = (post.strip().split("\n") or [""])[0].strip()
+    hooks = state.get("recent_hooks", [])
+    if hook and any(difflib.SequenceMatcher(None, hook, h).ratio() > 0.65
+                    for h in hooks):
+        log("Hook already posted today with near-identical wording. "
+            "Skipping (event covered).")
+        return 0
+
     h = item_hash(pick["link"], pick["title"])
     img, ext, src = find_photo(pick)
     if os.getenv("PHOTO_SELECTIVE", "1") == "1" \
@@ -3796,9 +3864,10 @@ def main() -> int:
     keep_from = (now.date() - timedelta(days=2)).isoformat()
     state["day_counts"] = {k: v for k, v in day_counts.items()
                            if k >= keep_from}
-    recent = state.get("recent_titles", [])
-    recent.append(pick["title"])
-    state["recent_titles"] = recent[-15:]
+    _store_post_state(state, pick["title"], pick.get("summary", ""))
+    hooks = state.get("recent_hooks", [])
+    hooks.append((post.strip().split("\n") or [""])[0].strip())
+    state["recent_hooks"] = hooks[-15:]
     state["last_post"] = {
         "hash": h, "fb_id": post_id,
         "title": pick["title"], "link": pick["link"],
