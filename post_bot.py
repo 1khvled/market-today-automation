@@ -1779,6 +1779,7 @@ PEOPLE_PHOTOS = [
     (["michael barr"], "Michael Barr", ["Michael Barr Federal Reserve"]),
     (["michael burry", "burry"], "Michael Burry", ["Michael Burry portrait"]),
     (["michael saylor", "saylor"], "Michael Saylor", ["Michael Saylor portrait"]),
+    (["vivek ramaswamy", "ramaswamy", "w:strive"], "Vivek Ramaswamy", ["Vivek Ramaswamy portrait"]),
     (["jim cramer", "cramer"], "Jim Cramer", ["Jim Cramer portrait"]),
     (["warren buffett", "buffett"], "Warren Buffett", ["Warren Buffett portrait"]),
     (["bill ackman", "ackman"], "Bill Ackman", ["Bill Ackman portrait"]),

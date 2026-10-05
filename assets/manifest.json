@@ -568,6 +568,14 @@
     "Sam Bankman-Fried": {
       "bad": true,
       "note": "download failed"
+    },
+    "Vivek Ramaswamy": {
+      "file": "Vivek_Ramaswamy_(cropped)",
+      "size": [
+        825,
+        1100
+      ],
+      "via": "wikipedia-lead"
     }
   },
   "topics": {
