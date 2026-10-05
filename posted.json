@@ -2,6 +2,7 @@
   "posted_hashes": [
     "0633f220203a8367",
     "0709e3e2addffc4e",
+    "49e7734863e36891",
     "601a84aa97a5995b",
     "6b8cf3d57844a02e",
     "6dfde226099b02e8",
@@ -34,7 +35,7 @@
   "day_counts": {
     "2026-10-03": 5,
     "2026-10-04": 6,
-    "2026-10-05": 2
+    "2026-10-05": 3
   },
   "recent_titles": [
     "BREAKING: President Trump says higher US inflation will \"pay off\" US debt \"very rapidly\" in response to total US debt rising above $40 trillion. \"I know I'm the best in the world... you can pay off...",
@@ -49,15 +50,17 @@
     "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
     "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th....",
     "Gold climbs as softer inflation data reduces bets on further rate hikes \u2014 WSJ",
-    "Aramco CEO: Less than 10% of the world's oil inventory is actually available"
+    "Aramco CEO: Less than 10% of the world's oil inventory is actually available",
+    "\ud83c\udde7\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Brazil President Lula: \u201cThe US lied about Iran's nuclear weapons just like it lied about Iraq. It provoked this war. Now Trump says oil owners must pay him 20% for each ship he claims to unblo..."
   ],
   "last_post": {
-    "hash": "9fa77ac736134657",
-    "fb_id": "1421089964411983_122106000345491654",
-    "title": "Aramco CEO: Less than 10% of the world's oil inventory is actually available",
-    "link": "https://www.financialjuice.com/News/9791594/Aramco-CEO-Less-than-10-of-the-worlds-oil-inventory-is-actually-available.aspx?xy=rss",
-    "mode": "serious",
-    "at": "2026-10-05T09:11:12.469408+00:00"
+    "hash": "49e7734863e36891",
+    "fb_id": "2164679580778407",
+    "title": "\ud83c\udde7\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Brazil President Lula: \u201cThe US lied about Iran's nuclear weapons just like it lied about Iraq. It provoked this war. Now Trump says oil owners must pay him 20% for each ship he claims to unblo...",
+    "link": "https://x.com/Megatron_ron/status/2107047026961658114",
+    "mode": "viral",
+    "kind": "video",
+    "at": "2026-10-05T11:55:34.710026+00:00"
   },
   "history": [
     {
@@ -188,7 +191,16 @@
       "mode": "serious",
       "photo": "hires",
       "at": "2026-10-05T09:11:12.469408+00:00"
+    },
+    {
+      "fb_id": "2164679580778407",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "viral",
+      "at": "2026-10-05T11:55:34.710026+00:00"
     }
   ],
-  "last_video_post": "2026-10-04"
+  "last_video_post": "2026-10-05"
 }
