@@ -848,7 +848,7 @@ SYSTEM_PROMPT = """إنت بتكتب بوستات لصفحة "سوق اليوم"
 - الختام سطر واحد حاد: خلاصة، أو معنى للسوق، أو نكتة خفيفة. ممنوع تختم بسؤال. وممنوع كلمة "القاعدة:" — غيّر القفلة كل مرة، اللي يقرا بوستين ورا بعض لازم يحس إنهم مكتوبين بشكل مختلف.
 - رقم لازم في كل بوست. بوست من غير رقم = مرفوض.
 - أسماء الناس: التهجية العربية القياسية المشهورة فقط (ترامب، باول، ماسك، مايكل سيلور، بافيت، لاغارد، بوتين، شي جين بينغ، زيلينسكي، لولا دا سيلفا، بيلوسي، ألتمان). لو مش متأكد من التهجية، اكتب الاسم بالإنجليزي زي المصدر بالظبط — ممنوع التأليف نهائياً (ممنوع "مايك سلايتر" وأشباهها، وممنوع تحوير اسم مصدر).
-- أسماء الشركات: التيكر المجرد ممنوع — اكتب الاسم العربي المشهور (COIN تبقى كوينبيس، MSTR ستراتيجي، TSLA تسلا، NVDA إنفيديا). التيكر لوحده بيتقري كعملة مش كسهم. العملات الرقمية بس هي اللي بتفضل إنجليزي (BTC، ETH). أسماء الشركات الكاملة زي ما هي في المصدر.
+- أسماء الأسهم: الاسم بالإنجليزي + التيكر بين قوسين (Nvidia ($NVDA)، Coinbase ($COIN)). ممنوع التيكر لوحده (بيتقري كعملة) وممنوع الاسم بالعربي. العملات الرقمية تيكر بس (BTC، ETH).
 - المصدر بس هو المرجع: أرقام وحقائق وأسماء من العنوان أو الملخص فقط. ممنوع تخترع اقتباس ولا رقم ولا اسم ولا تميّز.
 - ممنوع تنسخ العنوان حرفياً، وممنوع تكتب المصدر أو اللينك.
 - الطول من 200 لـ 600 حرف. السطور ورا بعضها من غير سطور فاضية (البوست بيتقري كرصاصات).
@@ -1025,8 +1025,8 @@ def sanitize(post: str) -> str:
     # deterministic person names: mapping beats LLM transliteration
     # ("مايك سلايتر", "بيسي" both went live before this existed)
     post = _fix_person_names(post)
-    # bare tickers read as crypto tokens in Arabic copy ("لـ COIN" went live
-    # and reads as a coin, not Coinbase stock) -> standard Arabic names
+    # bare tickers read as crypto tokens ("لـ COIN" went live) -> expand to
+    # English name + ticker: Nvidia ($NVDA). Never Arabic, never bare.
     post = _fix_tickers(post)
     # strip CI workflow-command sequences (::group::, ::notice::, ##[..])
     # so LLM output can never swallow log sections or break rendering
@@ -1121,31 +1121,28 @@ AR_PERSON = {
 }
 
 
-# Same disease as people names, for listed companies: a bare Latin ticker in
-# Arabic copy reads as a crypto token ("لـ COIN" went live and readers see a
-# coin, not Coinbase stock). Map the confusing ones to their standard Arabic
-# name. Crypto CURRENCIES (BTC, ETH…) are untouched — only companies.
-# Case-sensitive on purpose: lowercase "coin" is a common noun, "COIN" is the
-# ticker. Whole-word so bitcoin/stablecoin/coinbase never match.
-# Tickers match UPPERCASE only ("COIN" is the stock, "coin" is a noun).
-# Full Latin brand names (Coinbase, Tesla…) stay as-is: they read fine.
-# Whole-word so bitcoin/stablecoin never match.
-AR_TICKER_CASED = {
-    "COIN": "كوينبيس",
-    "MSTR": "ستراتيجي",
-    "TSLA": "تسلا",
-    "NVDA": "إنفيديا",
-    "AAPL": "آبل",
-    "MSFT": "مايكروسوفت",
-    "GOOGL": "غوغل",
-    "AMZN": "أمازون",
-    "META": "ميتا",
+# Bare tickers in Arabic copy confuse readers ("لـ COIN" reads as a crypto
+# token, not Coinbase stock). House rule per owner: stocks are written as
+# ENGLISH name + ticker — Nvidia ($NVDA), Coinbase ($COIN). Never Arabic,
+# never ticker alone. Crypto CURRENCIES (BTC, ETH…) stay bare.
+# Case-sensitive ("coin" is a noun), whole-word (bitcoin/stablecoin never
+# match), and a ticker already inside parentheses is left alone.
+AR_STOCK = {
+    "COIN": "Coinbase ($COIN)",
+    "MSTR": "Strategy ($MSTR)",
+    "TSLA": "Tesla ($TSLA)",
+    "NVDA": "Nvidia ($NVDA)",
+    "AAPL": "Apple ($AAPL)",
+    "MSFT": "Microsoft ($MSFT)",
+    "GOOGL": "Google ($GOOGL)",
+    "AMZN": "Amazon ($AMZN)",
+    "META": "Meta ($META)",
 }
 
 
 def _fix_tickers(post: str) -> str:
-    for latin, arabic in AR_TICKER_CASED.items():
-        post = re.sub(r"\b" + latin + r"\b", arabic, post)
+    for ticker, full in AR_STOCK.items():
+        post = re.sub(r"\b" + ticker + r"\b(?![^(]*\))", full, post)
     return post
 
 
