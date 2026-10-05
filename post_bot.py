@@ -942,23 +942,21 @@ def gen_gemini(model: str, system: str, user: str) -> str:
 def gen_openrouter(model: str, system: str, user: str) -> str:
     import json as _json
     key = os.getenv("OPENROUTER_API_KEY", "").strip()
-    for _attempt in (1, 2):
-        r = requests.post(
-            "https://openrouter.ai/api/v1/chat/completions",
-            headers={"Authorization": f"Bearer {key}",
-                     "HTTP-Referer": "https://github.com/ethan-cole-fb-bot",
-                     "X-Title": "ethan-cole-fb-bot",
-                     "Content-Type": "application/json"},
-            json={"model": model, "max_tokens": 1000, "temperature": 0.5,
-                  "reasoning": {"exclude": True, "enabled": False},
-                  "messages": [{"role": "system", "content": system},
-                               {"role": "user", "content": user}]},
-            timeout=90)
-        d = r.json()
-        if r.status_code != 429:
-            break
-        log("OpenRouter 429 rate-limited, waiting 45s and retrying once…")
-        time.sleep(45)
+    # No sleep-retry here: the chain holds a MODEL LIST and fails over to
+    # the next slug immediately (faster + survives single-model outages).
+    # A 45s sleep per model would blow the 10-min run timeout.
+    r = requests.post(
+        "https://openrouter.ai/api/v1/chat/completions",
+        headers={"Authorization": f"Bearer {key}",
+                 "HTTP-Referer": "https://github.com/ethan-cole-fb-bot",
+                 "X-Title": "ethan-cole-fb-bot",
+                 "Content-Type": "application/json"},
+        json={"model": model, "max_tokens": 1000, "temperature": 0.5,
+              "reasoning": {"exclude": True, "enabled": False},
+              "messages": [{"role": "system", "content": system},
+                           {"role": "user", "content": user}]},
+        timeout=90)
+    d = r.json()
     if r.status_code != 200:
         raise RuntimeError(f"OpenRouter {model} HTTP {r.status_code}: "
                            f"{_json.dumps(d)[:200]}")
@@ -989,20 +987,17 @@ def gen_groq(model: str, system: str, user: str) -> str:
     key = os.getenv("GROQ_API_KEY", "").strip()
     if not key:
         raise RuntimeError("No GROQ_API_KEY set")
-    for _attempt in (1, 2):
-        r = requests.post(
-            "https://api.groq.com/openai/v1/chat/completions",
-            headers={"Authorization": f"Bearer {key}",
-                      "Content-Type": "application/json"},
-            json={"model": model, "max_tokens": 1000, "temperature": 0.5,
-                  "messages": [{"role": "system", "content": system},
-                               {"role": "user", "content": user}]},
-            timeout=90)
-        d = r.json()
-        if r.status_code != 429:
-            break
-        log("Groq 429 rate-limited, waiting 15s and retrying once…")
-        time.sleep(15)
+    # Same fail-fast policy as OpenRouter: the chain's model list is the
+    # retry, no sleeping inside a single call.
+    r = requests.post(
+        "https://api.groq.com/openai/v1/chat/completions",
+        headers={"Authorization": f"Bearer {key}",
+                 "Content-Type": "application/json"},
+        json={"model": model, "max_tokens": 1000, "temperature": 0.5,
+              "messages": [{"role": "system", "content": system},
+                           {"role": "user", "content": user}]},
+        timeout=90)
+    d = r.json()
     if r.status_code != 200:
         raise RuntimeError(f"Groq {model} HTTP {r.status_code}: "
                            f"{_json.dumps(d)[:200]}")
@@ -1253,24 +1248,42 @@ SYSTEM_PROMPT_VIRAL = SYSTEM_PROMPT + """
 - ممنوع تطلب لايك أو شير أو كومنت أو فولو صراحةً."""
 
 
+# Free-tier model slugs ROTATE without warning (Oct 2026: Groq retired
+# llama-3.3-70b-versatile/llama-3.1-8b-instant to Enterprise-only, OpenRouter
+# pulled qwen3.8-27b:free — the whole chain 404'd in one afternoon). So the
+# chain tries LISTS, not single slugs. Env pinnable via GROQ_MODELS /
+# OPENROUTER_MODELS (comma-separated); defaults track what is live now.
+GROQ_MODELS_DEFAULT = "openai/gpt-oss-20b,openai/gpt-oss-120b"
+OPENROUTER_MODELS_DEFAULT = ("google/gemma-4-31b-it:free,"
+                             "google/gemma-4-26b-a4b-it:free,"
+                             "nvidia/nemotron-3-super-120b-a12b:free")
+
+
+def _model_list(prefix: str, single: str, default: str) -> list:
+    multi = os.getenv(prefix + "MODELS", "").strip()
+    if multi:
+        return [m.strip() for m in multi.split(",") if m.strip()]
+    one = os.getenv(prefix + single, "").strip()
+    if one:
+        return [one]
+    return [m.strip() for m in default.split(",") if m.strip()]
+
+
 def rewrite_with_llm(candidate: dict) -> str:
     user_msg = USER_TEMPLATE.format(**candidate)
     system = (SYSTEM_PROMPT_VIRAL if candidate.get("mode") == "viral"
               else SYSTEM_PROMPT)
     chain: list[tuple[str, str]] = []
     if os.getenv("GROQ_API_KEY", "").strip():
-        chain.append(("groq",
-                      os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")))
-        chain.append(("groq",
-                      os.getenv("GROQ_MODEL_FALLBACK",
-                                "llama-3.1-8b-instant")))
+        chain += [("groq", m) for m in
+                  _model_list("GROQ_", "MODEL", GROQ_MODELS_DEFAULT)]
     if _gemini_keys():
         chain.append(("gemini",
                       os.getenv("GEMINI_MODEL", "gemini-2.5-flash")))
     if os.getenv("OPENROUTER_API_KEY", "").strip():
-        chain.append(("openrouter",
-                      os.getenv("OPENROUTER_MODEL",
-                                "qwen/qwen3.8-27b:free")))
+        chain += [("openrouter", m) for m in
+                  _model_list("OPENROUTER_", "MODEL",
+                              OPENROUTER_MODELS_DEFAULT)]
     if not chain:
         raise RuntimeError("No LLM key set (GROQ_API_KEY or OPENROUTER_API_KEY)")
     errors = []

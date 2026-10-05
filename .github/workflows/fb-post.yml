@@ -87,7 +87,7 @@ jobs:
           if [ "$OPEN" = "0" ]; then
             gh issue create --repo ${{ github.repository }} --title "[bot-alert] FB bot run failed" --body "Run ${{ github.run_id }} failed (publish error, dead token, or QC loop). Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           fi
-          python scripts/notify_telegram.py "🚨 سوق اليوم bot run FAILED (run ${{ github.run_id }}). Triage: 1) FB token dead/expired → re-seed per README section 3. 2) OpenRouter quota/rate-limit → wait for reset. 3) QC loop → open the run log, find 'Quality check FAILED'. 4) Publish error → FB API message is in the log. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
+          python scripts/notify_telegram.py "🚨 سوق اليوم bot run FAILED (run ${{ github.run_id }}). Triage: 1) FB token dead/expired → re-seed per README section 3. 2) OpenRouter quota/rate-limit → wait for reset. 3) QC loop → open the run log, find 'Quality check FAILED'. 4) Publish error → FB API message is in the log. 5) Model slug retired (free-tier rotation — 'All LLM providers failed' with 404s) → update OPENROUTER_MODELS/GROQ_MODELS defaults in post_bot.py. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
 
       - name: Resolve alert
         if: success()
