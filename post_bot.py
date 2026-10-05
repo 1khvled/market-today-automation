@@ -1476,19 +1476,95 @@ def _commons_api(params: dict):
     raise RuntimeError(f"Commons failed 3x: {last}")
 
 
-def _commons_fetch(pages, prefer=()):
-    pages = [p for p in pages
-             if not (p.get("title") or "").lower().endswith((".svg", ".tif"))]
-    if prefer:
-        for p in pages:
-            if any(w in (p.get("title") or "").lower() for w in prefer):
-                pages = [p]
-                break
-    if not pages:
+def _commons_fetch(pages, prefer=(), min_width=1100):
+    """Best raster image from a Commons page set.
+
+    Filters out PDFs/audio/svg/tif and anything narrower than min_width
+    (search used to return scanned book pages and 450px busts), then picks
+    the HIGHEST-resolution survivor instead of the first hit."""
+    cands = []
+    for p in pages or []:
+        title = (p.get("title") or "").lower()
+        if title.endswith((".svg", ".tif", ".tiff", ".pdf", ".djvu", ".webm",
+                           ".ogv", ".wav", ".ogg")):
+            continue
+        info = (p.get("imageinfo") or [{}])[0]
+        if not str(info.get("mime", "")).startswith("image/"):
+            continue
+        w = info.get("width") or 0
+        if w and w < min_width:
+            continue
+        cands.append((w, p, info))
+    if not cands:
         return None, None
-    info = (pages[0].get("imageinfo") or [{}])[0]
+    if prefer:
+        matched = [c for c in cands
+                   if any(k in (c[1].get("title") or "").lower()
+                          for k in prefer)]
+        if matched:
+            cands = matched
+    info = max(cands, key=lambda c: c[0])[2]
     return _download_image(info.get("thumburl") or info.get("url"),
                            min_bytes=500)  # logos are legitimately tiny
+
+
+# Verified high-resolution Commons files per core beat (audited Oct 2026:
+# width x height confirmed). Keyword order = priority; rotation by story link
+# spreads variety so the same beat doesn't repeat the same frame.
+HIRES_TOPICS = [
+    (["gold", "xau", "الذهب", "bullion", "gold price"],
+     [["File:Gold bullion bars.jpg"],
+      ["File:Photograph of a vault with gold bars - NARA - 296609.jpg"]]),
+    (["bitcoin", "btc"],
+     [["File:Bitcoin BTC golden coin with the symbol.jpg"],
+      ["File:Close-up of a Bitcoin physical coin in a womans hand and a "
+       "laptop on her lap.jpg"],
+      ["File:Bitcoin on Laptop Keyboard.jpg"]]),
+    (["oil", "brent", "wti", "opec", "hormuz", "نفط"],
+     [["File:Blue hour fog over Preemraff oil refinery by Brofjorden.jpg"],
+      ["File:Baltic Sun II, Southampton Water (42126691392).jpg"],
+      ["File:Baltic Swift, Southampton Water (42126688852).jpg"]]),
+    (["cairo", "egx", "bourse", "البورصة", "مصر", "egp", "جنيه"],
+     [["File:تصوير شارع الفن (شارع الشريفين - البورصة) 02.jpg"],
+      ["File:تصوير شارع الفن (شارع الشريفين - البورصة) 03.jpg"]]),
+    (["crypto", "ethereum", "eth", "stablecoin", "usdt"],
+     [["File:Bitcoin (50799812413).jpg"],
+      ["File:An actual Bitcoin transaction from the Kraken cryptocurrency "
+       "exchange to a hardware LedgerWallet.jpg"]]),
+]
+
+
+def hires_topic_photo(text: str):
+    """(bytes) for the story's core beat, rotating by story hash so repeated
+    beats don't reuse one frame. None when the beat has no verified file."""
+    tl = (text or "").lower()
+    for keys, pools in HIRES_TOPICS:
+        if not any(k in tl for k in keys):
+            continue
+        pool = [f for grp in pools for f in grp]
+        start = int(hashlib.sha256(tl.encode()).hexdigest(), 16) % len(pool)
+        for off in range(len(pool)):
+            data, _ext = _commons_exact([pool[(start + off) % len(pool)]])
+            if data and _big_enough(data):
+                return data
+        return None
+    return None
+
+
+def _commons_exact(files: list, min_width=1400):
+    """Download specific verified Commons file titles (highest res wins)."""
+    if not files:
+        return None, None
+    try:
+        j = _commons_api({"titles": "|".join(files[:4]),
+                          "prop": "imageinfo", "iiprop": "url|size|mime",
+                          "iiurlwidth": "2000"})
+        pages = [p for p in ((j.get("query") or {}).get("pages") or {}).values()
+                 if not p.get("missing")]
+        return _commons_fetch(pages, min_width=min_width)
+    except Exception as ex:
+        log(f"Commons exact fetch failed: {ex}")
+        return None, None
 
 
 PHOTO_CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),
@@ -2407,7 +2483,7 @@ def _openverse_photo(query: str):
 # Photo selectivity: post a photo only when it's genuinely good (the
 # story's own image, a face, a logo, or a split starring one). Generic
 # scene splits go text-only. PHOTO_SELECTIVE=0 restores always-photo.
-PHOTO_WORTHY = {"source", "og:image", "face", "entity-logo",
+PHOTO_WORTHY = {"source", "og:image", "face", "entity-logo", "hires",
                 "split:face+logo", "split:face", "split:logo"}
 
 
@@ -2589,6 +2665,17 @@ def select_visuals(candidate: dict):
             try:
                 branded, ext = _brand_image(f)
                 return branded, ext, "face"
+            except Exception:
+                pass
+    # 2b. HIRES TOPIC PHOTO: for the page's core beats (gold, crypto, oil,
+    # Egypt market) a real 4K-10K Commons photo beats a flat logo card.
+    # Verified exact file titles only — no blind search, no junk.
+    if not persons:
+        hires = hires_topic_photo(text)
+        if hires:
+            try:
+                branded, ext = _brand_image(hires)
+                return branded, ext, "hires"
             except Exception:
                 pass
     # 3. single-company subject; named CEO anywhere -> logo + face,
