@@ -8,6 +8,7 @@
     "49e7734863e36891",
     "544cebfd17e81e38",
     "601a84aa97a5995b",
+    "63036692c3b611ed",
     "6b8cf3d57844a02e",
     "6dfde226099b02e8",
     "7dd4c394ede9d017",
@@ -41,10 +42,9 @@
   "day_counts": {
     "2026-10-03": 5,
     "2026-10-04": 6,
-    "2026-10-05": 9
+    "2026-10-05": 10
   },
   "recent_titles": [
-    "Retail investors are rushing into Treasury ETFs: Retail investors bought +$61 million of the 20+ Year Treasury Bond ETF, $TLT, on Wednesday, their largest daily purchase in at least 12 months. This...",
     "Iran's parliament speaker Qalibaf: Strait of Hormuz won't reopen until Tehran's conditions met, US can no longer delay \u2013 Nournews",
     "Breaking: The Trump administration is giving Vistra $4,000,000,000 loan to upgrade 3 nuclear plants \u2023 Nancy Pelosi bought up to $750K at ~$171 \u2023 Peter Thiel filed ~$60M position at ~$148 $VST trade...",
     "Don\u2019t sleep on Bitcoin.",
@@ -58,15 +58,16 @@
     "JUST IN: Michael Saylor's 'Strategy' buys 334.3 Bitcoin worth $29 million.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC approves first-ever 3x leveraged Bitcoin and Ethereum ETFs. \u2022 The SEC approved Cboe BZX to list six new Volatility Shares ETFs, including 3x Bitcoin and Ether ETFs, along with 3x go...",
     "Trump: Refinery Disruptions, Not Strait of Hormuz, Are Driving Gasoline Prices Higher - Truth Social",
-    "\ud83d\udea8 LATEST: Bitcoin surged 43% in its best Q3 since 2017, but Treasury yields above 5% threaten further gains as October Fed hike odds plunge from over 75% to 24%."
+    "\ud83d\udea8 LATEST: Bitcoin surged 43% in its best Q3 since 2017, but Treasury yields above 5% threaten further gains as October Fed hike odds plunge from over 75% to 24%.",
+    "I have two important updates to share with you today as we continue to build Metaplanet into a global financial platform rooted in Bitcoin. From the beginning, our strategy was never simply to accu..."
   ],
   "last_post": {
-    "hash": "7dd4c394ede9d017",
-    "fb_id": "1421089964411983_122106431577491654",
-    "title": "\ud83d\udea8 LATEST: Bitcoin surged 43% in its best Q3 since 2017, but Treasury yields above 5% threaten further gains as October Fed hike odds plunge from over 75% to 24%.",
-    "link": "https://x.com/Cointelegraph/status/2107166645500129586",
-    "mode": "serious",
-    "at": "2026-10-05T18:03:49.469601+00:00"
+    "hash": "63036692c3b611ed",
+    "fb_id": "1421089964411983_122106450597491654",
+    "title": "I have two important updates to share with you today as we continue to build Metaplanet into a global financial platform rooted in Bitcoin. From the beginning, our strategy was never simply to accu...",
+    "link": "https://x.com/gerovich/status/2107046348008874252",
+    "mode": "viral",
+    "at": "2026-10-05T18:34:36.254919+00:00"
   },
   "history": [
     {
@@ -257,6 +258,16 @@
       "mode": "serious",
       "photo": "hires",
       "at": "2026-10-05T18:03:49.469601+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122106450597491654",
+      "topics": [
+        "crypto",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "hires",
+      "at": "2026-10-05T18:34:36.254919+00:00"
     }
   ],
   "last_video_post": "2026-10-05"
