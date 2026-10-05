@@ -2,6 +2,7 @@
   "posted_hashes": [
     "0633f220203a8367",
     "0709e3e2addffc4e",
+    "2512ce2309eb0afd",
     "3cd711dbb502becd",
     "49e7734863e36891",
     "544cebfd17e81e38",
@@ -40,10 +41,9 @@
   "day_counts": {
     "2026-10-03": 5,
     "2026-10-04": 6,
-    "2026-10-05": 8
+    "2026-10-05": 9
   },
   "recent_titles": [
-    "FUN FACT: 10 years ago today, Bitcoin was $612",
     "Retail investors are rushing into Treasury ETFs: Retail investors bought +$61 million of the 20+ Year Treasury Bond ETF, $TLT, on Wednesday, their largest daily purchase in at least 12 months. This...",
     "Iran's parliament speaker Qalibaf: Strait of Hormuz won't reopen until Tehran's conditions met, US can no longer delay \u2013 Nournews",
     "Breaking: The Trump administration is giving Vistra $4,000,000,000 loan to upgrade 3 nuclear plants \u2023 Nancy Pelosi bought up to $750K at ~$171 \u2023 Peter Thiel filed ~$60M position at ~$148 $VST trade...",
@@ -57,15 +57,16 @@
     "$COIN - BOFA RAISES COINBASE TARGET TO $203 BofA raised its Coinbase price target to $203 from $174, reiterating a Buy rating. The bank lifted its 2027\u20132028 EPS forecasts on expectations for strong...",
     "JUST IN: Michael Saylor's 'Strategy' buys 334.3 Bitcoin worth $29 million.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury withdraws proposed crypto surveillance rules targeting unhosted wallets and crypto mixers.",
-    "I gave my AI Agent the task of beating the NASDAQ 100 over the long term without taking on a lot more risk than the index This is what my beat the NASDAQ portfolio looks like right now: Nvidia $NVD..."
+    "I gave my AI Agent the task of beating the NASDAQ 100 over the long term without taking on a lot more risk than the index This is what my beat the NASDAQ portfolio looks like right now: Nvidia $NVD...",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC approves first-ever 3x leveraged Bitcoin and Ethereum ETFs. \u2022 The SEC approved Cboe BZX to list six new Volatility Shares ETFs, including 3x Bitcoin and Ether ETFs, along with 3x go..."
   ],
   "last_post": {
-    "hash": "7f0d3da8ca7d890e",
-    "fb_id": "1421089964411983_122106283683491654",
-    "title": "I gave my AI Agent the task of beating the NASDAQ 100 over the long term without taking on a lot more risk than the index This is what my beat the NASDAQ portfolio looks like right now: Nvidia $NVD...",
-    "link": "https://x.com/StockMKTNewz/status/2107113987615625600",
+    "hash": "2512ce2309eb0afd",
+    "fb_id": "1421089964411983_122106301887491654",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC approves first-ever 3x leveraged Bitcoin and Ethereum ETFs. \u2022 The SEC approved Cboe BZX to list six new Volatility Shares ETFs, including 3x Bitcoin and Ether ETFs, along with 3x go...",
+    "link": "https://x.com/WatcherGuru/status/2107126629373731285",
     "mode": "serious",
-    "at": "2026-10-05T14:47:47.598179+00:00"
+    "at": "2026-10-05T15:17:15.541535+00:00"
   },
   "history": [
     {
@@ -245,6 +246,17 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-05T14:47:47.598179+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122106301887491654",
+      "topics": [
+        "crypto",
+        "gold",
+        "gold_oil"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-05T15:17:15.541535+00:00"
     }
   ],
   "last_video_post": "2026-10-05"
