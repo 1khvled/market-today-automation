@@ -21,6 +21,7 @@
     "beda8733ff194127",
     "c06511202eb083f4",
     "dcb1e30ca1ece06b",
+    "e50973c2a4ff38c6",
     "f041ccdd0f70088f",
     "faa585879730d067",
     "fbe4b3be838aadc5",
@@ -46,10 +47,9 @@
   "day_counts": {
     "2026-10-03": 5,
     "2026-10-04": 6,
-    "2026-10-05": 14
+    "2026-10-05": 15
   },
   "recent_titles": [
-    "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th....",
     "Gold climbs as softer inflation data reduces bets on further rate hikes \u2014 WSJ",
     "Aramco CEO: Less than 10% of the world's oil inventory is actually available",
     "\ud83c\udde7\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Brazil President Lula: \u201cThe US lied about Iran's nuclear weapons just like it lied about Iraq. It provoked this war. Now Trump says oil owners must pay him 20% for each ship he claims to unblo...",
@@ -63,15 +63,16 @@
     "Fairshake crypto PAC network backs 32 House candidates in midterms",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC Chair Mike Selig releases video unveiling proposed rules to regulate US crypto markets. \"Clear rules of the road start now.\"",
     "Wall Street banks launch record $60 bln chip deal for Broadcom and Anthropic - FT. $AVGO",
-    "\ud83d\udd25 INSIGHT: VanEck's research presents a $500K case for Bitcoin based on the gap between Bitcoin's market cap and gold's."
+    "\ud83d\udd25 INSIGHT: VanEck's research presents a $500K case for Bitcoin based on the gap between Bitcoin's market cap and gold's.",
+    "The Conservative Party in the UK has unveiled plans for a \u00a310 billion air and missile defense system dubbed the \u201cBritannia Shield,\u201d modelled partly on Israel\u2019s Iron Dome. The system would combine a..."
   ],
   "last_post": {
-    "hash": "18c7bac99efbb9a3",
-    "fb_id": "1421089964411983_122106565719491654",
-    "title": "\ud83d\udd25 INSIGHT: VanEck's research presents a $500K case for Bitcoin based on the gap between Bitcoin's market cap and gold's.",
-    "link": "https://x.com/Cointelegraph/status/2107216984672702957",
+    "hash": "e50973c2a4ff38c6",
+    "fb_id": "1421089964411983_122106601479491654",
+    "title": "The Conservative Party in the UK has unveiled plans for a \u00a310 billion air and missile defense system dubbed the \u201cBritannia Shield,\u201d modelled partly on Israel\u2019s Iron Dome. The system would combine a...",
+    "link": "https://x.com/clashreport/status/2107237196650492370",
     "mode": "serious",
-    "at": "2026-10-05T21:33:21.322393+00:00"
+    "at": "2026-10-05T22:48:42.649149+00:00"
   },
   "history": [
     {
@@ -311,6 +312,15 @@
       "mode": "serious",
       "photo": "hires",
       "at": "2026-10-05T21:33:21.322393+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122106601479491654",
+      "topics": [
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "split:face",
+      "at": "2026-10-05T22:48:42.649149+00:00"
     }
   ],
   "last_video_post": "2026-10-05",
@@ -534,12 +544,30 @@
         "bitcoin"
       ],
       "at": "2026-10-05T21:33:21.322372+00:00"
+    },
+    {
+      "fp": [
+        "UK",
+        "britain",
+        "britannia",
+        "cartlidge",
+        "conservative",
+        "dome",
+        "iron",
+        "israel",
+        "james",
+        "party",
+        "shadow",
+        "shield"
+      ],
+      "at": "2026-10-05T22:48:42.649135+00:00"
     }
   ],
   "recent_hooks": [
     "\ud83d\udcca Fairshake PAC \u0628\u062a\u062f\u0639\u0645 32 \u0645\u0631\u0634\u062d \u0641\u064a \u0645\u062c\u0644\u0633 \u0627\u0644\u0646\u0648\u0627\u0628 \u0639\u0644\u0634\u0627\u0646 \u064a\u062d\u062f\u062f\u0648\u0627 \u0645\u0633\u062a\u0642\u0628\u0644 \u062a\u0646\u0638\u064a\u0645 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0628\u0639\u062f \u0627\u0644\u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a",
     "\ud83d\udee2\ufe0f Mike Selig: \u0641\u064a\u062f\u064a\u0648 \u062c\u062f\u064a\u062f \u064a\u0639\u0644\u0646 10 \u0642\u0648\u0627\u0639\u062f \u062c\u062f\u064a\u062f\u0629 \u0644\u0633\u0648\u0642 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0641\u064a \u0623\u0645\u0631\u064a\u0643\u0627",
     "\ud83d\udcf0 Wall Street banks \u0643\u0634\u0641\u062a \u0639\u0646 \u0635\u0641\u0642\u0629 \u0631\u0642\u0627\u0642\u0627\u062a \u0642\u064a\u0627\u0633\u064a\u0629 \u0628\u0642\u064a\u0645\u0629 60 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631 \u0644\u0640 Broadcom \u0648 Anthropic",
-    "\ud83d\ude80 VanEck \u0628\u062a\u0642\u0648\u0644 \u0625\u0646 \u0627\u0644\u0641\u062c\u0648\u0629 \u0628\u064a\u0646 \u0642\u064a\u0645\u0629 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0648\u0627\u0644\u0630\u0647\u0628 \u0628\u062a\u062f\u0639\u0645 \u062d\u0627\u0644\u0629 500 \u0623\u0644\u0641 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646"
+    "\ud83d\ude80 VanEck \u0628\u062a\u0642\u0648\u0644 \u0625\u0646 \u0627\u0644\u0641\u062c\u0648\u0629 \u0628\u064a\u0646 \u0642\u064a\u0645\u0629 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0648\u0627\u0644\u0630\u0647\u0628 \u0628\u062a\u062f\u0639\u0645 \u062d\u0627\u0644\u0629 500 \u0623\u0644\u0641 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646",
+    "\ud83d\udee1\ufe0f \u062d\u0632\u0628 \u0627\u0644\u0645\u062d\u0627\u0641\u0638\u064a\u0646 \u0627\u0644\u0628\u0631\u064a\u0637\u0627\u0646\u064a \u064a\u0643\u0634\u0641 \u0639\u0646 \u062e\u0637\u0629 \u0646\u0638\u0627\u0645 \u062f\u0641\u0627\u0639 \u062c\u0648\u064a \u0648\u0635\u0627\u0631\u0648\u062e\u064a \u0628\u0627\u0633\u0645 \u201c\u062f\u0631\u0639 britannia\u201d \u0628\u062a\u0643\u0644\u0641\u0629 10 \u0645\u0644\u064a\u0627\u0631 \u062c\u0646\u064a\u0647 \u0625\u0633\u062a\u0631\u0644\u064a\u0646\u064a\u060c \u0648\u062c\u064a\u0645\u0633 \u0643\u0627\u0631\u062a\u0644\u062f\u062c \u0642\u0627\u0644 \u0625\u0646 \u0627\u0644\u0646\u0638\u0627\u0645 \u0633\u064a\u0639\u0632\u0632 \u0627\u0644\u062d\u0645\u0627\u064a\u0629 \u0627\u0644\u062c\u0648\u064a\u0629 \u0644\u0644\u0645\u0645\u0644\u0643\u0629"
   ]
 }
