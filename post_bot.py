@@ -1445,7 +1445,7 @@ OUTLET_TOKENS = (
     "pelositracker", "testingcatalog", "chatgptapp", "priyannkaaaa",
     "bridgemindai", "techcrunch", "bbc", "aljazeera",
 )
-OUTLET_SHORT = ("cnbc", "sofi", "verge")
+OUTLET_SHORT = ("cnbc", "sofi", "verge", "ft")
 
 
 def _outlet_leak(post: str) -> str | None:
@@ -1498,6 +1498,39 @@ def _emoji_lines(post: str) -> int:
     return n
 
 
+# Companies with a fixed identity plate: if the source names one, the post
+# must name it recognizably — Latin as-is or standard Arabic. Catches
+# Arabic-script mangling ("بوركم" for Broadcom shipped once).
+COMPANY_PLATE = {"broadcom": "برودكوم", "anthropic": "أنثروبيك",
+                 "coinbase": "كوينبيس", "tesla": "تسلا",
+                 "nvidia": "إنفيديا", "microstrategy": "مايكروستراتيجي",
+                 "strategy": "ستراتيجي", "google": "غوغل",
+                 "microsoft": "مايكروسوفت", "apple": "آبل",
+                 "amazon": "أمازون", "openai": "أوبن أيه آي"}
+
+
+def _latin_allow() -> set:
+    """Every Latin token a clean post may contain: tickers, mapped names,
+    crypto, acronyms, venues, person surnames. Built from the maps so it
+    cannot drift from them."""
+    allow = set()
+    for t in list(AR_STOCK.keys()):
+        allow.add(t.lower())
+    for v in list(AR_STOCK.values()) + list(AR_PERSON.values()):
+        for w in re.findall(r"[A-Za-z]+", v):
+            allow.add(w.lower())
+    for k in list(AR_PERSON.keys()) + list(COMPANY_PLATE.keys()):
+        for w in re.findall(r"[A-Za-z]+", k):
+            allow.add(w.lower())
+    allow |= {"btc", "eth", "usdt", "usdc", "sol", "bnb", "xrp", "bitcoin",
+              "ethereum", "stablecoin", "crypto", "defi", "nft", "etf",
+              "etfs", "ai", "ceo", "cfo", "cto", "ipo", "cpi", "gdp", "fed",
+              "sec", "nasdaq", "nyse", "dow", "mag", "tlt", "spy", "qqq",
+              "bofa", "cboe", "bzx", "egx", "q3", "openai", "spacex",
+              "volatility", "shares"}
+    return allow
+
+
 def quality_check(post: str, source_title: str) -> list[str]:
     problems = []
     if len(post) > 600:
@@ -1536,6 +1569,22 @@ def quality_check(post: str, source_title: str) -> list[str]:
         # outlet named without @ ("KobeissiLetter reports" failed a live run):
         # personified wire or attribution line, both banned.
         problems.append(f"names outlet/feed '{_leak}' (sources never appear)")
+    # Plate: a titled company must appear recognizably (Latin or standard
+    # Arabic). Catches Arabic-script mangling ("بوركم" shipped for Broadcom).
+    _tl2 = source_title.lower()
+    _pl = post.lower()
+    for _lat, _ar in COMPANY_PLATE.items():
+        if _lat in _tl2 and _lat not in _pl and _ar not in post:
+            problems.append(f"source company '{_lat}' named unrecognizably")
+            break
+    # Allowlist: single foreign-word leaks ("gerade" shipped inside an
+    # otherwise-Arabic draft). Tickers/names/acronyms pass; anything else
+    # fails, even once.
+    _allow = _latin_allow()
+    _badlatin = sorted({t for t in re.findall(r"\$?([A-Za-z]{2,})", post)
+                        if t.lower() not in _allow})
+    if _badlatin:
+        problems.append(f"unlisted Latin words ({_badlatin[:4]})")
     # Voice gates: MSA press-release salad with English chunks ships past
     # every mechanical check (a super-120b draft did exactly that, then got
     # length-trimmed into worse salad). Three independent tells:
