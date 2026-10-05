@@ -7,6 +7,7 @@
     "6dfde226099b02e8",
     "8388e8efd7832598",
     "95d6a1ee07f620c8",
+    "9fa77ac736134657",
     "beda8733ff194127",
     "c06511202eb083f4",
     "dcb1e30ca1ece06b",
@@ -33,7 +34,7 @@
   "day_counts": {
     "2026-10-03": 5,
     "2026-10-04": 6,
-    "2026-10-05": 1
+    "2026-10-05": 2
   },
   "recent_titles": [
     "BREAKING: President Trump says higher US inflation will \"pay off\" US debt \"very rapidly\" in response to total US debt rising above $40 trillion. \"I know I'm the best in the world... you can pay off...",
@@ -47,15 +48,16 @@
     "Don\u2019t sleep on Bitcoin.",
     "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
     "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th....",
-    "Gold climbs as softer inflation data reduces bets on further rate hikes \u2014 WSJ"
+    "Gold climbs as softer inflation data reduces bets on further rate hikes \u2014 WSJ",
+    "Aramco CEO: Less than 10% of the world's oil inventory is actually available"
   ],
   "last_post": {
-    "hash": "95d6a1ee07f620c8",
-    "fb_id": "1421089964411983_122105736747491654",
-    "title": "Gold climbs as softer inflation data reduces bets on further rate hikes \u2014 WSJ",
-    "link": "https://x.com/FirstSquawk/status/2106925737538445528",
+    "hash": "9fa77ac736134657",
+    "fb_id": "1421089964411983_122106000345491654",
+    "title": "Aramco CEO: Less than 10% of the world's oil inventory is actually available",
+    "link": "https://www.financialjuice.com/News/9791594/Aramco-CEO-Less-than-10-of-the-worlds-oil-inventory-is-actually-available.aspx?xy=rss",
     "mode": "serious",
-    "at": "2026-10-05T02:04:55.429418+00:00"
+    "at": "2026-10-05T09:11:12.469408+00:00"
   },
   "history": [
     {
@@ -177,6 +179,15 @@
       "mode": "serious",
       "photo": "face",
       "at": "2026-10-05T02:04:55.429418+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122106000345491654",
+      "topics": [
+        "gold_oil"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-05T09:11:12.469408+00:00"
     }
   ],
   "last_video_post": "2026-10-04"
