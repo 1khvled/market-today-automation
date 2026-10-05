@@ -965,6 +965,43 @@ def gen_openrouter(model: str, system: str, user: str) -> str:
         raise RuntimeError(f"OpenRouter {model} parse error: {ex}")
 
 
+def gen_groq(model: str, system: str, user: str) -> str:
+    """Groq (OpenAI-compatible API) free tier. Our prompts are ~2k tokens so
+    the small-context models are plenty. Fast + generous limits, hence first
+    in the chain; OpenRouter stays as backup."""
+    import json as _json
+    key = os.getenv("GROQ_API_KEY", "").strip()
+    if not key:
+        raise RuntimeError("No GROQ_API_KEY set")
+    for _attempt in (1, 2):
+        r = requests.post(
+            "https://api.groq.com/openai/v1/chat/completions",
+            headers={"Authorization": f"Bearer {key}",
+                      "Content-Type": "application/json"},
+            json={"model": model, "max_tokens": 1000, "temperature": 0.5,
+                  "messages": [{"role": "system", "content": system},
+                               {"role": "user", "content": user}]},
+            timeout=90)
+        d = r.json()
+        if r.status_code != 429:
+            break
+        log("Groq 429 rate-limited, waiting 15s and retrying once…")
+        time.sleep(15)
+    if r.status_code != 200:
+        raise RuntimeError(f"Groq {model} HTTP {r.status_code}: "
+                           f"{_json.dumps(d)[:200]}")
+    try:
+        text = (d["choices"][0]["message"].get("content") or "").strip()
+        if not text:
+            raise RuntimeError(
+                f"Groq {model} returned no text "
+                f"(finish_reason={d['choices'][0].get('finish_reason')}, "
+                f"output_json={_json.dumps(d)[:300]})")
+        return text
+    except Exception as ex:
+        raise RuntimeError(f"Groq {model} parse error: {ex}")
+
+
 def sanitize(post: str) -> str:
     """Facebook renders no markdown: **bold** -> UPPERCASE, strip # headers,
     > quotes and ALL stray asterisks/backticks (bullets preserved as -).
@@ -1157,6 +1194,12 @@ def rewrite_with_llm(candidate: dict) -> str:
     system = (SYSTEM_PROMPT_VIRAL if candidate.get("mode") == "viral"
               else SYSTEM_PROMPT)
     chain: list[tuple[str, str]] = []
+    if os.getenv("GROQ_API_KEY", "").strip():
+        chain.append(("groq",
+                      os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")))
+        chain.append(("groq",
+                      os.getenv("GROQ_MODEL_FALLBACK",
+                                "llama-3.1-8b-instant")))
     if _gemini_keys():
         chain.append(("gemini",
                       os.getenv("GEMINI_MODEL", "gemini-2.5-flash")))
@@ -1165,13 +1208,13 @@ def rewrite_with_llm(candidate: dict) -> str:
                       os.getenv("OPENROUTER_MODEL",
                                 "qwen/qwen3.8-27b:free")))
     if not chain:
-        raise RuntimeError("No LLM key set (GEMINI_API_KEY or OPENROUTER_API_KEY)")
+        raise RuntimeError("No LLM key set (GROQ_API_KEY or OPENROUTER_API_KEY)")
     errors = []
+    _GEN = {"gemini": gen_gemini, "openrouter": gen_openrouter,
+            "groq": gen_groq}
     for kind, model in chain:
         try:
-            text = (gen_gemini(model, system, user_msg)
-                    if kind == "gemini"
-                    else gen_openrouter(model, system, user_msg))
+            text = _GEN[kind](model, system, user_msg)
             text = sanitize(text)  # strip markdown BEFORE QC so ** never passes
         except Exception as ex:
             errors.append(f"{model}: {ex}")
