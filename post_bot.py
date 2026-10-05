@@ -1289,7 +1289,8 @@ SYSTEM_PROMPT_VIRAL = SYSTEM_PROMPT + """
 # chain tries LISTS, not single slugs. Env pinnable via GROQ_MODELS /
 # OPENROUTER_MODELS (comma-separated); defaults track what is live now.
 GROQ_MODELS_DEFAULT = "openai/gpt-oss-20b,openai/gpt-oss-120b"
-NVIDIA_MODELS_DEFAULT = "nvidia/nemotron-3-super-120b-a12b"
+NVIDIA_MODELS_DEFAULT = ("openai/gpt-oss-20b,"
+                         "nvidia/nemotron-3-super-120b-a12b")
 OPENROUTER_MODELS_DEFAULT = ("google/gemma-4-31b-it:free,"
                              "google/gemma-4-26b-a4b-it:free,"
                              "nvidia/nemotron-3-super-120b-a12b:free")
@@ -1408,6 +1409,14 @@ def quality_check(post: str, source_title: str) -> list[str]:
         problems.append("too long (>600 chars, feed posts get cut)")
     if len(post) < 150:
         problems.append("too short (<150 chars, page data: shorts flop)")
+    # Arabic page: English-drifted drafts (some models answer in English)
+    # read as slop. Require a real Arabic majority of letters.
+    letters = [c for c in post if c.isalpha()]
+    if letters:
+        ar = sum(1 for c in letters if "\u0600" <= c <= "\u06ff")
+        if ar / len(letters) < 0.4:
+            problems.append(
+                f"not Arabic enough ({ar / len(letters):.0%} Arabic letters)")
     tags = re.findall(r"#\w+", post)
     if len(tags) == 0:
         problems.append("no hashtags")
