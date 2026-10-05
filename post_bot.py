@@ -866,10 +866,16 @@ SYSTEM_PROMPT = """إنت بتكتب بوستات لصفحة "سوق اليوم"
 - أسماء الأسهم: الاسم بالإنجليزي + التيكر بين قوسين (Nvidia ($NVDA)، Coinbase ($COIN)). ممنوع التيكر لوحده (بيتقري كعملة) وممنوع الاسم بالعربي. العملات الرقمية تيكر بس (BTC، ETH).
 - التعريف: أول ذكر لأي شركة لازم يعرفها — اسم كامل + ($TICKER) لو مدرجة، ولو شركة غامضة اذكر طبيعتها. اسم مفرد عريان من غير تعريف (Strive، Metaplanet) بيخلي القارئ تايه؛ ممنوع.
 - المصدر بس هو المرجع: أرقام وحقائق وأسماء من العنوان أو الملخص فقط. ممنوع تخترع اقتباس ولا رقم ولا اسم ولا تميّز.
+- المصدر (Source) مش شخص: ممنوع تنسب له أقوال أو أفعال (ممنوع "@DeItaone قال"، ممنوع "CoinDesk ترى"). انقل الخبر نفسه، مش اللي ناقله.
 - ممنوع تنسخ العنوان حرفياً، وممنوع تكتب المصدر أو اللينك.
 - الطول من 200 لـ 600 حرف. السطور ورا بعضها من غير سطور فاضية (البوست بيتقري كرصاصات).
 - الهاشتاج في الآخر: #سوق_اليوم الأول دايماً، وبعده 3 لـ 4 من #ذهب #كريبتو #أسهم #اقتصاد #استثمار #أخبار_عاجلة (بالأندرسكور).
 - ممنوع تطلب لايك أو شير أو فولو أو كومنت أو "اكتب تم" صراحةً (بيكسر شرط الربح على فيسبوك).
+
+تنويع الهيكل (اللي بيفرق البوست الحي عن القالب):
+- غيّر فتحة البوست كل مرة: مرة ابدأ بالاقتباس، مرة بالرقم الصادم، مرة بجملة "بعد X.." (بعد قرار SEC..أول ETFs برافعة 3x)، مرة بالاسم والفعل. اللي يقرا 3 بوستات ورا بعض لازم يحس إن كل واحد مكتوب بطريقة مختلفة.
+- سطر الافتتاح لازم فيه اسم ملموس من الخبر (سفينة، برميل، شحنة، عملة، صندوق) + الرقم. ممنوع تفتح بكلمات مجردة (السوق، الاقتصاد، التطورات، المشهد).
+- علامة ".." مسموحة كفاصل بين السبب والنتيجة في سطر الافتتاح (بعد X..النتيجة) — دي لغة الصفحات الكبيرة.
 
 مثال على الستايل:
 "🛢️ لولا دا سيلفا: ترامب بيطلب 20% من ملاك النفط مقابل فتح السفن
@@ -1015,7 +1021,7 @@ def gen_groq(model: str, system: str, user: str) -> str:
 def gen_nvidia(model: str, system: str, user: str) -> str:
     """NVIDIA Build API (OpenAI-compatible). Verified live Oct 2026:
     super-120b writes clean on-voice copy but thinks 6k tokens first, so it
-    gets max_tokens 4096 and a long timeout. Content only — an empty content
+    gets max_tokens 8000 and a long timeout. Content only — an empty content
     (all-reasoning reply) is a failure, never a post."""
     import json as _json
     key = os.getenv("NVIDIA_API_KEY", "").strip()
@@ -1025,7 +1031,7 @@ def gen_nvidia(model: str, system: str, user: str) -> str:
         "https://integrate.api.nvidia.com/v1/chat/completions",
         headers={"Authorization": f"Bearer {key}",
                  "Content-Type": "application/json"},
-        json={"model": model, "max_tokens": 4096, "temperature": 0.5,
+        json={"model": model, "max_tokens": 8000, "temperature": 0.5,
               "messages": [{"role": "system", "content": system},
                            {"role": "user", "content": user}]},
         timeout=180)
@@ -1040,6 +1046,8 @@ def gen_nvidia(model: str, system: str, user: str) -> str:
     try:
         text = (d["choices"][0]["message"].get("content") or "").strip()
         if not text:
+            # reasoning models sometimes spend the whole budget thinking;
+            # empty content fails over to the next model, never ships
             raise RuntimeError(
                 f"NVIDIA {model} returned no content "
                 f"(finish_reason={d['choices'][0].get('finish_reason')})")
@@ -1422,8 +1430,20 @@ def quality_check(post: str, source_title: str) -> list[str]:
         problems.append("no hashtags")
     if len(tags) > MAX_HASHTAGS:
         problems.append(f"too many hashtags ({len(tags)})")
+    # tag relevance: crypto-titled posts must carry #كريبتو, gold-titled
+    # #ذهب (the model once tagged a Treasury-crypto story #ذهب).
+    _tl = source_title.lower()
+    _tags = " ".join(tags)
+    if ("crypto" in _tl or "bitcoin" in _tl) and "#كريبتو" not in _tags:
+        problems.append("crypto story missing #كريبتو tag")
+    if "gold" in _tl and "#ذهب" not in _tags:
+        problems.append("gold story missing #ذهب tag")
     if "http" in post:
         problems.append("contains URL (not allowed unless requested)")
+    if "@" in post:
+        # feeds are not people: "@DeItaone قال" shipped once when the model
+        # personified the Source field. No handles ever (no attribution).
+        problems.append("contains @handle (sources are never actors)")
     if re.search(r"(?i)\bwww\.|\.(com|org|net|io)\b", post):
         problems.append("contains bare domain (no URLs of any form)")
     if "*" in post or "`" in post:
