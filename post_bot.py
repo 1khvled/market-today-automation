@@ -1663,8 +1663,9 @@ def _commons_fetch(pages, prefer=(), min_width=1100):
 # spreads variety so the same beat doesn't repeat the same frame.
 HIRES_TOPICS = [
     (["gold", "xau", "الذهب", "bullion", "gold price"],
-     [["File:Gold bullion bars.jpg"],
-      ["File:Photograph of a vault with gold bars - NARA - 296609.jpg"]]),
+     # NOTE: "File:Gold bullion bars.jpg" (3D render) was removed Oct 2026 —
+     # it shipped on a bitcoin ETF story. Real vault photography only.
+     [["File:Photograph of a vault with gold bars - NARA - 296609.jpg"]]),
     (["bitcoin", "btc"],
      [["File:Bitcoin BTC golden coin with the symbol.jpg"],
       ["File:Close-up of a Bitcoin physical coin in a womans hand and a "
@@ -1684,20 +1685,22 @@ HIRES_TOPICS = [
 ]
 
 
-def hires_topic_photo(text: str):
+def hires_topic_photo(title: str, text: str):
     """(bytes) for the story's core beat, rotating by story hash so repeated
-    beats don't reuse one frame. None when the beat has no verified file."""
+    beats don't reuse one frame. Subject-scored: the hook outranks the body,
+    so a bitcoin story that mentions gold still resolves bitcoin. None when
+    the beat has no verified file."""
+    rows = _beat_scores(title, text, HIRES_TOPICS)
+    if not rows:
+        return None
     tl = (text or "").lower()
-    for keys, pools in HIRES_TOPICS:
-        if not any(k in tl for k in keys):
-            continue
+    for keys, pools in rows:
         pool = [f for grp in pools for f in grp]
         start = int(hashlib.sha256(tl.encode()).hexdigest(), 16) % len(pool)
         for off in range(len(pool)):
             data, _ext = _commons_exact([pool[(start + off) % len(pool)]])
             if data and _big_enough(data):
                 return data
-        return None
     return None
 
 
@@ -1957,19 +1960,20 @@ def _split_image(face: bytes, logo: bytes):
 NEUTRAL_TOPICS = ["stocks-nyse.jpg", "market-hall.jpg", "wallstreet.jpg"]
 
 
-def _topic_raw_files(text: str, link: str, n: int = 2) -> list:
-    """Up to n unbranded topic filenames for text (ordered, distinct)."""
+def _topic_raw_files(title: str, text: str, link: str,
+                     n: int = 2) -> list:
+    """Up to n unbranded topic filenames for text (ordered, distinct).
+    Walks rows by subject relevance so a bitcoin story mentioning gold still
+    yields bitcoin scenes first."""
     picked: list = []
-    for keys, files in TOPIC_PHOTOS:
-        if any(k in text for k in keys):
-            start = int(hashlib.sha256(link.encode()).hexdigest(), 16)
-            for i in range(len(files)):
-                fn = files[(start + i) % len(files)]
-                if fn not in picked:
-                    picked.append(fn)
-                if len(picked) >= n:
-                    return picked
-            break
+    for keys, files in _score_topic_rows(title, text):
+        start = int(hashlib.sha256(link.encode()).hexdigest(), 16)
+        for i in range(len(files)):
+            fn = files[(start + i) % len(files)]
+            if fn not in picked:
+                picked.append(fn)
+            if len(picked) >= n:
+                return picked
     start = int(hashlib.sha256((link + "neutral").encode()).hexdigest(), 16)
     for i in range(len(NEUTRAL_TOPICS)):
         fn = NEUTRAL_TOPICS[(start + i) % len(NEUTRAL_TOPICS)]
@@ -2365,7 +2369,7 @@ def split_card(candidate: dict):
         if live:
             scenes.append(live)
             log("split scene: live web photo")
-    for fn in _topic_raw_files(text, link, 2):
+    for fn in _topic_raw_files(candidate.get("title", ""), text, link, 2):
         p = os.path.join(ASSETS_DIR, "topics", fn)
         if os.path.exists(p):
             try:
@@ -2533,22 +2537,25 @@ def add_source(post: str, outlet: str) -> str:
 # File rotation per story link spreads variety across posts.
 TOPIC_PHOTOS = [
     (["s&p", "nasdaq", "dow", "stock market", "nyse"],
-     ["stocks-nyse.jpg", "market-hall.jpg", "wallstreet.jpg"]),
+     ["chart-screen.jpg", "stocks-nyse.jpg", "market-hall.jpg",
+      "wallstreet.jpg"]),
     (["wall street", "treasury", "bond yield", "ecb"],
      ["wallstreet.jpg", "stocks-nyse.jpg"]),
     (["mortgage", "rates", "yield", "bonds", "dollar"],
-     ["wallstreet.jpg", "stocks-nyse.jpg"]),
+     ["cash-dollars.jpg", "wallstreet.jpg", "stocks-nyse.jpg"]),
     (["white house", "trump", "biden", "vance", "congress", "senate",
       "election", "supreme court", "tariff", "trade", "modi", "maga"],
      ["whitehouse.jpg"]),
     (["fed", "powell", "warsh", "fomc", "interest rate", "rate cut",
       "rate hike"],
      ["fed.jpg"]),
-    (["bitcoin", "btc"], ["bitcoin.jpg"]),
+    (["bitcoin", "btc"], ["bitcoin-trade.jpg", "bitcoin.jpg"]),
     (["crypto", "ethereum", "defi", "hack", "exchange", "wallet"],
-     ["bitcoin.jpg"]),
-    (["gold"], ["gold.jpg"]),
-    (["oil", "opec", "brent", "hormuz", "gas"], ["oil.jpg"]),
+     ["bitcoin-trade.jpg", "bitcoin.jpg"]),
+    (["gold"], ["gold-vault.jpg", "gold.jpg"]),
+    (["oil", "opec", "brent", "hormuz"], ["oil.jpg"]),
+    # NOTE: no bare "gas" here — it matches "gas fees" in DeFi text and used
+    # to route crypto stories to the oil photo.
     (["gpu", "semiconductor", "ai chip", "artificial intelligence",
       "generative ai"],
      ["chips.jpg"]),
@@ -2557,10 +2564,30 @@ TOPIC_PHOTOS = [
 ]
 
 
+def _beat_scores(title: str, text: str, rows: list) -> list:
+    """Rows ordered by subject relevance. The hook defines the subject, so
+    title hits weigh 3x (a bitcoin ETF story that mentions gold/silver in the
+    body must resolve bitcoin, not gold). Ties break by table order."""
+    tl = (title or "").lower()
+    scored = []
+    for i, (keys, files) in enumerate(rows):
+        s = (sum(3 for k in keys if k in tl)
+             + sum(1 for k in keys if k in text))
+        if s:
+            scored.append((-s, i, keys, files))
+    scored.sort()
+    return [(keys, files) for _, _, keys, files in scored]
+
+
+def _score_topic_rows(title: str, text: str) -> list:
+    """TOPIC_PHOTOS rows ordered by subject relevance (see _beat_scores)."""
+    return _beat_scores(title, text, TOPIC_PHOTOS)
+
+
 def topic_photo(candidate: dict):
     """(bytes, ext, src) branded topic photo, else (None, None, None)."""
     text = f"{candidate.get('title', '')} {candidate.get('summary', '')}".lower()
-    for keys, files in TOPIC_PHOTOS:
+    for keys, files in _score_topic_rows(candidate.get("title", ""), text):
         if not any(k in text for k in keys):
             continue
         start = int(hashlib.sha256(
@@ -2860,7 +2887,7 @@ def select_visuals(candidate: dict):
     # Egypt market) a real 4K-10K Commons photo beats a flat logo card.
     # Verified exact file titles only — no blind search, no junk.
     if not persons:
-        hires = hires_topic_photo(text)
+        hires = hires_topic_photo(candidate.get("title", ""), text)
         if hires:
             try:
                 branded, ext = _brand_image(hires)
@@ -2969,18 +2996,31 @@ def select_visuals(candidate: dict):
 
 
 def find_photo(candidate: dict):
-    """(bytes, ext, src). Every image gets debranded + Ethan Cole footer;
-    logo card when the story names an entity but has no photo.
-    X attachments go LAST for X-sourced posts: X media is unvetted
-    (memes, screenshots, pricing cards) while article og:images are
-    editorially chosen, so RSS keeps source-first but X goes
-    subject-first (logo/face beats a random screenshot)."""
+    """(bytes, ext, src). SUBJECT-FIRST: curated relevance beats source art.
+    Oct 2026 incident: a bitcoin ETF story shipped the article's generic
+    gold-bars hero image. The story's own subject (face/logo/topic scene)
+    always wins now; source/og art is fallback; scraped web photos last
+    resort before neutral. X attachments stay deprioritized: X media is
+    unvetted (memes, screenshots, pricing cards)."""
+    # 1. subject visuals: person/face, entity logo, topic scenes
+    vimg, vext, vsrc = select_visuals(candidate)
+    if vimg:
+        return vimg, vext, vsrc
+    simg, sext, ssrc = split_card(candidate)
+    if simg:
+        return simg, sext, ssrc
+    face = people_photo(candidate)
+    if face[0]:
+        return face[0], face[1], "face"
+    card = entity_logo(candidate)
+    if card[0]:
+        return card[0], card[1], "entity-logo"
+    timg, text_, tsrc = topic_photo(candidate)
+    if timg:
+        return timg, text_, tsrc
+    # 2. source art fallback (demoted from first: editorial hero images are
+    # generic as often as apt)
     raw = None  # (data, src)
-    x_post = (candidate.get("feed") or "").startswith("X @")
-    if x_post:
-        vimg, vext, vsrc = select_visuals(candidate)
-        if vimg:
-            return vimg, vext, vsrc
     if candidate.get("photo_url"):
         key = "src-" + hashlib.sha256(
             candidate["photo_url"].encode()).hexdigest()[:16]
@@ -3012,26 +3052,6 @@ def find_photo(candidate: dict):
     if raw and not _big_enough(raw[0]):
         log("Source/og photo too small, falling through to curated photos")
         raw = None
-    if not raw and not x_post:
-        vimg, vext, vsrc = select_visuals(candidate)
-        if vimg:
-            return vimg, vext, vsrc
-    if not raw:
-        simg, sext, ssrc = split_card(candidate)
-        if simg:
-            return simg, sext, ssrc
-    if not raw:
-        face = people_photo(candidate)
-        if face[0]:
-            return face[0], face[1], "face"
-    if not raw:
-        card = entity_logo(candidate)
-        if card[0]:
-            return card[0], card[1], "entity-logo"
-    if not raw:
-        timg, text_, tsrc = topic_photo(candidate)
-        if timg:
-            return timg, text_, tsrc
     if not raw:
         gdata, _gext = _google_photo(
             " ".join((candidate.get("keywords") or [])[:3])

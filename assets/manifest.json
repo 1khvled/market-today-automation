@@ -648,6 +648,46 @@
         2400,
         1600
       ]
+    },
+    "gold-bars.jpg": {
+      "file": "CC0 staged real bullion (replaced 3D render)",
+      "size": [
+        1600,
+        1200
+      ],
+      "via": "unsplash-license"
+    },
+    "gold-vault.jpg": {
+      "file": "CC0/Unsplash real vault close-up",
+      "size": [
+        1600,
+        1067
+      ],
+      "via": "unsplash-license"
+    },
+    "bitcoin-trade.jpg": {
+      "file": "Unsplash BTC coin + trading screens",
+      "size": [
+        1600,
+        1069
+      ],
+      "via": "unsplash-license"
+    },
+    "chart-screen.jpg": {
+      "file": "Unsplash candlestick screen",
+      "size": [
+        1600,
+        1067
+      ],
+      "via": "unsplash-license"
+    },
+    "cash-dollars.jpg": {
+      "file": "Unsplash dollar bills",
+      "size": [
+        1600,
+        1067
+      ],
+      "via": "unsplash-license"
     }
   }
 }
