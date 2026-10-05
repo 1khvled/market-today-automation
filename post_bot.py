@@ -1215,6 +1215,7 @@ AR_STOCK = {
     "AMZN": "Amazon ($AMZN)",
     "META": "Meta ($META)",
     "VST": "Vistra ($VST)",
+    "AVGO": "Broadcom ($AVGO)",
     "STRC": "Strategy ($STRC)",
     "STRF": "Strategy ($STRF)",
     "SATA": "Strive ($SATA)",
@@ -1521,6 +1522,9 @@ def _latin_allow() -> set:
             allow.add(w.lower())
     for k in list(AR_PERSON.keys()) + list(COMPANY_PLATE.keys()):
         for w in re.findall(r"[A-Za-z]+", k):
+            allow.add(w.lower())
+    for v in list(COMPANY_PLATE.values()):
+        for w in re.findall(r"[A-Za-z]+", v):
             allow.add(w.lower())
     allow |= {"btc", "eth", "usdt", "usdc", "sol", "bnb", "xrp", "bitcoin",
               "ethereum", "stablecoin", "crypto", "defi", "nft", "etf",
