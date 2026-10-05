@@ -980,9 +980,8 @@ def gen_openrouter(model: str, system: str, user: str) -> str:
 
 
 def gen_groq(model: str, system: str, user: str) -> str:
-    """Groq (OpenAI-compatible API) free tier. Our prompts are ~2k tokens so
-    the small-context models are plenty. Fast + generous limits, hence first
-    in the chain; OpenRouter stays as backup."""
+    """Groq (OpenAI-compatible API) free tier. Fast + generous limits, hence
+    first in the chain; others are backup."""
     import json as _json
     key = os.getenv("GROQ_API_KEY", "").strip()
     if not key:
@@ -1011,6 +1010,42 @@ def gen_groq(model: str, system: str, user: str) -> str:
         return text
     except Exception as ex:
         raise RuntimeError(f"Groq {model} parse error: {ex}")
+
+
+def gen_nvidia(model: str, system: str, user: str) -> str:
+    """NVIDIA Build API (OpenAI-compatible). Verified live Oct 2026:
+    super-120b writes clean on-voice copy but thinks 6k tokens first, so it
+    gets max_tokens 4096 and a long timeout. Content only — an empty content
+    (all-reasoning reply) is a failure, never a post."""
+    import json as _json
+    key = os.getenv("NVIDIA_API_KEY", "").strip()
+    if not key:
+        raise RuntimeError("No NVIDIA_API_KEY set")
+    r = requests.post(
+        "https://integrate.api.nvidia.com/v1/chat/completions",
+        headers={"Authorization": f"Bearer {key}",
+                 "Content-Type": "application/json"},
+        json={"model": model, "max_tokens": 4096, "temperature": 0.5,
+              "messages": [{"role": "system", "content": system},
+                           {"role": "user", "content": user}]},
+        timeout=180)
+    try:
+        d = r.json()
+    except Exception:
+        raise RuntimeError(f"NVIDIA {model} HTTP {r.status_code}: "
+                           f"non-JSON body")
+    if r.status_code != 200:
+        raise RuntimeError(f"NVIDIA {model} HTTP {r.status_code}: "
+                           f"{_json.dumps(d)[:200]}")
+    try:
+        text = (d["choices"][0]["message"].get("content") or "").strip()
+        if not text:
+            raise RuntimeError(
+                f"NVIDIA {model} returned no content "
+                f"(finish_reason={d['choices'][0].get('finish_reason')})")
+        return text
+    except Exception as ex:
+        raise RuntimeError(f"NVIDIA {model} parse error: {ex}")
 
 
 def sanitize(post: str) -> str:
@@ -1254,6 +1289,7 @@ SYSTEM_PROMPT_VIRAL = SYSTEM_PROMPT + """
 # chain tries LISTS, not single slugs. Env pinnable via GROQ_MODELS /
 # OPENROUTER_MODELS (comma-separated); defaults track what is live now.
 GROQ_MODELS_DEFAULT = "openai/gpt-oss-20b,openai/gpt-oss-120b"
+NVIDIA_MODELS_DEFAULT = "nvidia/nemotron-3-super-120b-a12b"
 OPENROUTER_MODELS_DEFAULT = ("google/gemma-4-31b-it:free,"
                              "google/gemma-4-26b-a4b-it:free,"
                              "nvidia/nemotron-3-super-120b-a12b:free")
@@ -1277,6 +1313,9 @@ def rewrite_with_llm(candidate: dict) -> str:
     if os.getenv("GROQ_API_KEY", "").strip():
         chain += [("groq", m) for m in
                   _model_list("GROQ_", "MODEL", GROQ_MODELS_DEFAULT)]
+    if os.getenv("NVIDIA_API_KEY", "").strip():
+        chain += [("nvidia", m) for m in
+                  _model_list("NVIDIA_", "MODEL", NVIDIA_MODELS_DEFAULT)]
     if _gemini_keys():
         chain.append(("gemini",
                       os.getenv("GEMINI_MODEL", "gemini-2.5-flash")))
@@ -1288,7 +1327,7 @@ def rewrite_with_llm(candidate: dict) -> str:
         raise RuntimeError("No LLM key set (GROQ_API_KEY or OPENROUTER_API_KEY)")
     errors = []
     _GEN = {"gemini": gen_gemini, "openrouter": gen_openrouter,
-            "groq": gen_groq}
+            "groq": gen_groq, "nvidia": gen_nvidia}
     for kind, model in chain:
         try:
             text = _GEN[kind](model, system, user_msg)
