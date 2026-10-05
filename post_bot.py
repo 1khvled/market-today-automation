@@ -1084,6 +1084,11 @@ def sanitize(post: str) -> str:
     post = _fix_tickers(post)
     # obscure firms get an identifier (bare "Strive" ships readers lost)
     post = _fix_entities(post)
+    # places: "Wall Street banks" shipped verbatim mid-sentence
+    post = _fix_places(post)
+    # glued Arabic proclitics on Latin names ("لبroadcom", "وبيتكوين" is
+    # fine Arabic but "لـBroadcom" without space reads broken): split them.
+    post = re.sub(r"([\u0600-\u06FF])([A-Za-z$])", r"\1 \2", post)
     # strip CI workflow-command sequences (::group::, ::notice::, ##[..])
     # so LLM output can never swallow log sections or break rendering
     post = re.sub(r"::(?i:group|endgroup|notice|warning|error|debug|add-mask|set-output|set-env|save-state|echo|command)\b", ":", post)
@@ -1175,6 +1180,20 @@ AR_PERSON = {
     "mohammed bin salman": "محمد بن سلمان",
     "benjamin netanyahu": "نتنياهو",
 }
+
+
+# Places/institutions with a standard Arabic rendering. Same disease as
+# tickers: "Wall Street banks" shipped verbatim inside Arabic copy.
+AR_PLACES = {
+    "wall street": "وول ستريت",
+    "white house": "البيت الأبيض",
+}
+
+
+def _fix_places(post: str) -> str:
+    for latin, arabic in AR_PLACES.items():
+        post = re.sub(r"(?i)\b" + latin + r"\b", arabic, post)
+    return post
 
 
 # Bare tickers in Arabic copy confuse readers ("لـ COIN" reads as a crypto
@@ -1438,6 +1457,45 @@ def _outlet_leak(post: str) -> str | None:
     return None
 
 
+# Egyptian-dialect voice markers. MSA press-release salad ("كشفت ... عن
+# صفقة"، "أوضحت"، "سيستغل") carries none of these; every shippable post
+# does. بـ-verbs (بيطلب، بتقول) are the strongest signal.
+DIALECT_STRONG = ("مش", "عشان", "علشان", "كده", "بقى", "ازاي", "دلوقتي",
+                  "برضه", "خلاص", "لسه", "عايز", "أوي")
+
+
+def _dialect_hits(post: str) -> int:
+    n = sum(post.count(w) for w in DIALECT_STRONG)
+    n += len(re.findall(r"[\s(\"“']ب[يتى]\w+", post))
+    return n
+
+
+def _latin_runs(post: str) -> int:
+    """Longest run of consecutive Latin-script words. Single names
+    (Broadcom, Anthropic, Coinbase) are fine; English PHRASES
+    ('Wall Street banks') are translated-press-release slop."""
+    best, cur = 0, 0
+    for tok in re.split(r"\s+", post):
+        t = tok.strip(".,!?;:\"“”'()#$%@").strip()
+        if re.fullmatch(r"[A-Za-z]{2,}", t or ""):
+            cur += 1
+            best = max(best, cur)
+        else:
+            cur = 0
+    return best
+
+
+def _emoji_lines(post: str) -> int:
+    """Lines opening with an emoji/symbol (arrows, dingbats, pictographs,
+    flags). Arabic/Latin/digits don't count — threshold is 0x2190."""
+    n = 0
+    for ln in post.split("\n"):
+        s = ln.strip()
+        if s and not s.startswith("#") and ord(s[0]) >= 0x2190:
+            n += 1
+    return n
+
+
 def quality_check(post: str, source_title: str) -> list[str]:
     problems = []
     if len(post) > 600:
@@ -1476,6 +1534,16 @@ def quality_check(post: str, source_title: str) -> list[str]:
         # outlet named without @ ("KobeissiLetter reports" failed a live run):
         # personified wire or attribution line, both banned.
         problems.append(f"names outlet/feed '{_leak}' (sources never appear)")
+    # Voice gates: MSA press-release salad with English chunks ships past
+    # every mechanical check (a super-120b draft did exactly that, then got
+    # length-trimmed into worse salad). Three independent tells:
+    if _latin_runs(post) >= 3:
+        problems.append("English phrase inside Arabic copy "
+                        "(single names are fine, phrases are slop)")
+    if _dialect_hits(post) < 1:
+        problems.append("no Egyptian-dialect voice (reads translated)")
+    if _emoji_lines(post) < 3:
+        problems.append("no emoji-bullet structure (house format)")
     if re.search(r"(?i)\bwww\.|\.(com|org|net|io)\b", post):
         problems.append("contains bare domain (no URLs of any form)")
     if "*" in post or "`" in post:
