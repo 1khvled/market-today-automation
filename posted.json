@@ -2,6 +2,7 @@
   "posted_hashes": [
     "0633f220203a8367",
     "0709e3e2addffc4e",
+    "2512ce2309eb0afd",
     "3cd711dbb502becd",
     "49e7734863e36891",
     "544cebfd17e81e38",
@@ -38,10 +39,9 @@
   "day_counts": {
     "2026-10-03": 5,
     "2026-10-04": 6,
-    "2026-10-05": 6
+    "2026-10-05": 7
   },
   "recent_titles": [
-    "A milestone for Digital Credit: $STRC\u2019s 30-day historical volatility is now 9%, below $SPY. We\u2019re harnessing the power of Bitcoin while reducing price volatility for income investors. This is what ...",
     "Hegseth: Iran wants to play games with things like the Strait of Hormuz, they don't control it, we do. They have literally gotten nothing through. Our blockade has been ironclad, and we're running ...",
     "FUN FACT: 10 years ago today, Bitcoin was $612",
     "Retail investors are rushing into Treasury ETFs: Retail investors bought +$61 million of the 20+ Year Treasury Bond ETF, $TLT, on Wednesday, their largest daily purchase in at least 12 months. This...",
@@ -55,15 +55,16 @@
     "\ud83c\udde7\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Brazil President Lula: \u201cThe US lied about Iran's nuclear weapons just like it lied about Iraq. It provoked this war. Now Trump says oil owners must pay him 20% for each ship he claims to unblo...",
     "$COIN - BOFA RAISES COINBASE TARGET TO $203 BofA raised its Coinbase price target to $203 from $174, reiterating a Buy rating. The bank lifted its 2027\u20132028 EPS forecasts on expectations for strong...",
     "$COIN - BOFA RAISES COINBASE TARGET TO $203 BofA raised its Coinbase price target to $203 from $174, reiterating a Buy rating. The bank lifted its 2027\u20132028 EPS forecasts on expectations for strong...",
-    "JUST IN: Michael Saylor's 'Strategy' buys 334.3 Bitcoin worth $29 million."
+    "JUST IN: Michael Saylor's 'Strategy' buys 334.3 Bitcoin worth $29 million.",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC approves first-ever 3x leveraged Bitcoin and Ethereum ETFs. \u2022 The SEC approved Cboe BZX to list six new Volatility Shares ETFs, including 3x Bitcoin and Ether ETFs, along with 3x go..."
   ],
   "last_post": {
-    "hash": "f041ccdd0f70088f",
-    "fb_id": "1421089964411983_122106315717491654",
-    "title": "JUST IN: Michael Saylor's 'Strategy' buys 334.3 Bitcoin worth $29 million.",
-    "link": "https://x.com/WatcherGuru/status/2107077686258716987",
+    "hash": "2512ce2309eb0afd",
+    "fb_id": "1421089964411983_122106376917491654",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC approves first-ever 3x leveraged Bitcoin and Ethereum ETFs. \u2022 The SEC approved Cboe BZX to list six new Volatility Shares ETFs, including 3x Bitcoin and Ether ETFs, along with 3x go...",
+    "link": "https://x.com/WatcherGuru/status/2107126629373731285",
     "mode": "viral",
-    "at": "2026-10-05T15:37:37.893736+00:00"
+    "at": "2026-10-05T16:46:28.851892+00:00"
   },
   "history": [
     {
@@ -222,6 +223,17 @@
       "mode": "viral",
       "photo": "split:face+logo",
       "at": "2026-10-05T13:31:29.838186+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122106376917491654",
+      "topics": [
+        "crypto",
+        "gold",
+        "gold_oil"
+      ],
+      "mode": "viral",
+      "photo": "hires",
+      "at": "2026-10-05T16:46:28.851892+00:00"
     }
   ],
   "last_video_post": "2026-10-05"
