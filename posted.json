@@ -20,6 +20,7 @@
     "c06511202eb083f4",
     "dcb1e30ca1ece06b",
     "f041ccdd0f70088f",
+    "faa585879730d067",
     "fbe4b3be838aadc5",
     "febbc2efe8a87926"
   ],
@@ -43,10 +44,9 @@
   "day_counts": {
     "2026-10-03": 5,
     "2026-10-04": 6,
-    "2026-10-05": 11
+    "2026-10-05": 12
   },
   "recent_titles": [
-    "Breaking: The Trump administration is giving Vistra $4,000,000,000 loan to upgrade 3 nuclear plants \u2023 Nancy Pelosi bought up to $750K at ~$171 \u2023 Peter Thiel filed ~$60M position at ~$148 $VST trade...",
     "Don\u2019t sleep on Bitcoin.",
     "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
     "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th....",
@@ -60,15 +60,16 @@
     "Trump: Refinery Disruptions, Not Strait of Hormuz, Are Driving Gasoline Prices Higher - Truth Social",
     "\ud83d\udea8 LATEST: Bitcoin surged 43% in its best Q3 since 2017, but Treasury yields above 5% threaten further gains as October Fed hike odds plunge from over 75% to 24%.",
     "I have two important updates to share with you today as we continue to build Metaplanet into a global financial platform rooted in Bitcoin. From the beginning, our strategy was never simply to accu...",
-    "Fairshake crypto PAC network backs 32 House candidates in midterms"
+    "Fairshake crypto PAC network backs 32 House candidates in midterms",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC Chair Mike Selig releases video unveiling proposed rules to regulate US crypto markets. \"Clear rules of the road start now.\""
   ],
   "last_post": {
-    "hash": "749f44d93c1f420c",
-    "fb_id": "1421089964411983_122106472011491654",
-    "title": "Fairshake crypto PAC network backs 32 House candidates in midterms",
-    "link": "https://www.cnbc.com/2026/10/05/fairshake-crypto-super-pac-house-races.html",
-    "mode": "serious",
-    "at": "2026-10-05T19:08:25.531548+00:00"
+    "hash": "faa585879730d067",
+    "fb_id": "1421089964411983_122106503481491654",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC Chair Mike Selig releases video unveiling proposed rules to regulate US crypto markets. \"Clear rules of the road start now.\"",
+    "link": "https://x.com/WatcherGuru/status/2107138333268955426",
+    "mode": "viral",
+    "at": "2026-10-05T19:48:42.286354+00:00"
   },
   "history": [
     {
@@ -279,6 +280,15 @@
       "mode": "serious",
       "photo": "hires",
       "at": "2026-10-05T19:08:25.531548+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122106503481491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "hires",
+      "at": "2026-10-05T19:48:42.286354+00:00"
     }
   ],
   "last_video_post": "2026-10-05",
@@ -470,9 +480,23 @@
         "senate"
       ],
       "at": "2026-10-05T19:08:25.531531+00:00"
+    },
+    {
+      "fp": [
+        "CFTC",
+        "IN",
+        "JUST",
+        "US",
+        "chair",
+        "clear",
+        "mike",
+        "selig"
+      ],
+      "at": "2026-10-05T19:48:42.286336+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udcca Fairshake PAC \u0628\u062a\u062f\u0639\u0645 32 \u0645\u0631\u0634\u062d \u0641\u064a \u0645\u062c\u0644\u0633 \u0627\u0644\u0646\u0648\u0627\u0628 \u0639\u0644\u0634\u0627\u0646 \u064a\u062d\u062f\u062f\u0648\u0627 \u0645\u0633\u062a\u0642\u0628\u0644 \u062a\u0646\u0638\u064a\u0645 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0628\u0639\u062f \u0627\u0644\u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a"
+    "\ud83d\udcca Fairshake PAC \u0628\u062a\u062f\u0639\u0645 32 \u0645\u0631\u0634\u062d \u0641\u064a \u0645\u062c\u0644\u0633 \u0627\u0644\u0646\u0648\u0627\u0628 \u0639\u0644\u0634\u0627\u0646 \u064a\u062d\u062f\u062f\u0648\u0627 \u0645\u0633\u062a\u0642\u0628\u0644 \u062a\u0646\u0638\u064a\u0645 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0628\u0639\u062f \u0627\u0644\u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a",
+    "\ud83d\udee2\ufe0f Mike Selig: \u0641\u064a\u062f\u064a\u0648 \u062c\u062f\u064a\u062f \u064a\u0639\u0644\u0646 10 \u0642\u0648\u0627\u0639\u062f \u062c\u062f\u064a\u062f\u0629 \u0644\u0633\u0648\u0642 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0641\u064a \u0623\u0645\u0631\u064a\u0643\u0627"
   ]
 }
