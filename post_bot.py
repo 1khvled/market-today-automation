@@ -849,6 +849,7 @@ SYSTEM_PROMPT = """إنت بتكتب بوستات لصفحة "سوق اليوم"
 - رقم لازم في كل بوست. بوست من غير رقم = مرفوض.
 - أسماء الناس: التهجية العربية القياسية المشهورة فقط (ترامب، باول، ماسك، مايكل سيلور، بافيت، لاغارد، بوتين، شي جين بينغ، زيلينسكي، لولا دا سيلفا، بيلوسي، ألتمان). لو مش متأكد من التهجية، اكتب الاسم بالإنجليزي زي المصدر بالظبط — ممنوع التأليف نهائياً (ممنوع "مايك سلايتر" وأشباهها، وممنوع تحوير اسم مصدر).
 - أسماء الأسهم: الاسم بالإنجليزي + التيكر بين قوسين (Nvidia ($NVDA)، Coinbase ($COIN)). ممنوع التيكر لوحده (بيتقري كعملة) وممنوع الاسم بالعربي. العملات الرقمية تيكر بس (BTC، ETH).
+- التعريف: أول ذكر لأي شركة لازم يعرفها — اسم كامل + ($TICKER) لو مدرجة، ولو شركة غامضة اذكر طبيعتها. اسم مفرد عريان من غير تعريف (Strive، Metaplanet) بيخلي القارئ تايه؛ ممنوع.
 - المصدر بس هو المرجع: أرقام وحقائق وأسماء من العنوان أو الملخص فقط. ممنوع تخترع اقتباس ولا رقم ولا اسم ولا تميّز.
 - ممنوع تنسخ العنوان حرفياً، وممنوع تكتب المصدر أو اللينك.
 - الطول من 200 لـ 600 حرف. السطور ورا بعضها من غير سطور فاضية (البوست بيتقري كرصاصات).
@@ -1028,6 +1029,8 @@ def sanitize(post: str) -> str:
     # bare tickers read as crypto tokens ("لـ COIN" went live) -> expand to
     # English name + ticker: Nvidia ($NVDA). Never Arabic, never bare.
     post = _fix_tickers(post)
+    # obscure firms get an identifier (bare "Strive" ships readers lost)
+    post = _fix_entities(post)
     # strip CI workflow-command sequences (::group::, ::notice::, ##[..])
     # so LLM output can never swallow log sections or break rendering
     post = re.sub(r"::(?i:group|endgroup|notice|warning|error|debug|add-mask|set-output|set-env|save-state|echo|command)\b", ":", post)
@@ -1137,7 +1140,25 @@ AR_STOCK = {
     "GOOGL": "Google ($GOOGL)",
     "AMZN": "Amazon ($AMZN)",
     "META": "Meta ($META)",
+    "VST": "Vistra ($VST)",
+    "STRC": "Strategy ($STRC)",
+    "STRF": "Strategy ($STRF)",
+    "SATA": "Strive ($SATA)",
 }
+
+
+# Obscure-but-real firms get an identifier (Nasdaq-verified, Oct 2026:
+# ASST/SATA = Strive, Inc. common/preferred). Unknown names stay as source.
+AR_ENTITY = {
+    "strive": "شركة سترايف (Strive, Inc.)",
+    "metaplanet": "شركة Metaplanet",
+}
+
+
+def _fix_entities(post: str) -> str:
+    for name, full in AR_ENTITY.items():
+        post = re.sub(r"(?i)\b" + name + r"\b", full, post)
+    return post
 
 
 def _fix_tickers(post: str) -> str:
