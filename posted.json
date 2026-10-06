@@ -21,6 +21,7 @@
     "749f44d93c1f420c",
     "7dd4c394ede9d017",
     "8388e8efd7832598",
+    "867efb8ff1a70888",
     "95d6a1ee07f620c8",
     "9fa77ac736134657",
     "ba533a34928a8dc1",
@@ -55,10 +56,9 @@
   "day_counts": {
     "2026-10-04": 6,
     "2026-10-05": 16,
-    "2026-10-06": 8
+    "2026-10-06": 9
   },
   "recent_titles": [
-    "I have two important updates to share with you today as we continue to build Metaplanet into a global financial platform rooted in Bitcoin. From the beginning, our strategy was never simply to accu...",
     "Fairshake crypto PAC network backs 32 House candidates in midterms",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC Chair Mike Selig releases video unveiling proposed rules to regulate US crypto markets. \"Clear rules of the road start now.\"",
     "Wall Street banks launch record $60 bln chip deal for Broadcom and Anthropic - FT. $AVGO",
@@ -72,15 +72,16 @@
     "Ukrainian drones hit the Volodarskaya oil depot in Moscow Oblast, reportedly setting at least two fuel tanks on fire. The facility is the largest oil depot in Moscow Oblast by storage capacity and ...",
     "ECB\u2019s Lane: There are problems if inflation runs too low compared to our 2% target",
     "Yemen forces reclaim key Red Sea port city from Iran-backed Houthis in major counteroffensive",
-    "\ud83c\uddfa\ud83c\uddf8 WHAT TO WATCH TODAY \u2014 U.S. MARKETS \ud83d\udd388:15 AM ET \u2014 ADP Weekly Employment Change \ud83d\udd25 8:30 AM ET \u2014 U.S. Trade Balance \ud83d\udd389:05 AM ET \u2014 NY Fed President Williams \ud83d\udd3810:00 AM ET \u2014 RCM/TIPP Economic Optimism ..."
+    "\ud83c\uddfa\ud83c\uddf8 WHAT TO WATCH TODAY \u2014 U.S. MARKETS \ud83d\udd388:15 AM ET \u2014 ADP Weekly Employment Change \ud83d\udd25 8:30 AM ET \u2014 U.S. Trade Balance \ud83d\udd389:05 AM ET \u2014 NY Fed President Williams \ud83d\udd3810:00 AM ET \u2014 RCM/TIPP Economic Optimism ...",
+    "Smaller altcoins shine as bitcoin stills trades around $85,000"
   ],
   "last_post": {
-    "hash": "6b96c1836ac774cf",
-    "fb_id": "1421089964411983_122106882945491654",
-    "title": "\ud83c\uddfa\ud83c\uddf8 WHAT TO WATCH TODAY \u2014 U.S. MARKETS \ud83d\udd388:15 AM ET \u2014 ADP Weekly Employment Change \ud83d\udd25 8:30 AM ET \u2014 U.S. Trade Balance \ud83d\udd389:05 AM ET \u2014 NY Fed President Williams \ud83d\udd3810:00 AM ET \u2014 RCM/TIPP Economic Optimism ...",
-    "link": "https://x.com/DeItaone/status/2107417329478820020",
+    "hash": "867efb8ff1a70888",
+    "fb_id": "1421089964411983_122106896241491654",
+    "title": "Smaller altcoins shine as bitcoin stills trades around $85,000",
+    "link": "https://www.coindesk.com/markets/2026/10/06/smaller-altcoins-shine-as-bitcoin-stills-trades-around-usd85-000",
     "mode": "serious",
-    "at": "2026-10-06T10:35:08.822515+00:00"
+    "at": "2026-10-06T11:03:50.868294+00:00"
   },
   "history": [
     {
@@ -405,25 +406,19 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-06T10:35:08.822515+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122106896241491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-06T11:03:50.868294+00:00"
     }
   ],
   "last_video_post": "2026-10-06",
   "recent_fps": [
-    {
-      "fp": [
-        "$174,",
-        "$203",
-        "BOFA",
-        "COIN",
-        "EPS",
-        "RAISE",
-        "TARGET",
-        "TO",
-        "buy",
-        "coinbase"
-      ],
-      "at": null
-    },
     {
       "fp": [
         "$29",
@@ -678,6 +673,13 @@
         "year"
       ],
       "at": "2026-10-06T10:35:08.822501+00:00"
+    },
+    {
+      "fp": [
+        "$85,000",
+        "smaller"
+      ],
+      "at": "2026-10-06T11:03:50.868277+00:00"
     }
   ],
   "recent_hooks": [
@@ -693,6 +695,7 @@
     "\ud83d\udcc8 \u0627\u0644\u0635\u0646\u062f\u0648\u0642: BTC \u0633\u062c\u0644 \u0635\u0627\u0641\u064a \u062e\u0631\u0648\u062c -$89.90M \u0628\u064a\u0646\u0645\u0627 ETH \u062c\u0630\u0628 +$110.84M \u062a\u062f\u0641\u0642 \u062f\u0627\u062e\u0644\u064a",
     "\ud83d\udcc9 \"\u062a\u0636\u062e\u0645 \u0645\u0646\u062e\u0641\u0636 \u062c\u062f\u0627\u064b\" \u0628\u064a\u062e\u0644\u0642 \u0645\u0634\u0627\u0643\u0644 \u0644\u0648 \u0623\u0642\u0644 \u0645\u0646 2%\u060c \u062f\u0647 \u0643\u0644\u0627\u0645 \u0641\u064a\u0644\u064a\u0628 \u0644\u064a\u0646 \u0645\u0646 \u0627\u0644\u0628\u0646\u0643 \u0627\u0644\u0645\u0631\u0643\u0632\u064a \u0627\u0644\u0623\u0648\u0631\u0648\u0628\u064a.",
     "\ud83d\udee2\ufe0f \u0628\u0631\u0645\u064a\u0644 \u0628\u0631\u0646\u062a \u0644\u0633\u0647 \u0639\u0646\u062f 100 \u062f\u0648\u0644\u0627\u0631 \u0645\u0639 \u0627\u0633\u062a\u0645\u0631\u0627\u0631 \u0627\u0644\u062a\u0648\u062a\u0631 \u0641\u064a \u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
-    "\ud83d\udcc8 \u0627\u0644\u064a\u0648\u0645 \u0627\u0644\u0633\u0648\u0642 \u0628\u064a\u0631\u0627\u0642\u0628 95 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631 \u0641\u064a \u0645\u0632\u0627\u062f \u0633\u0646\u062f\u0627\u062a \u0627\u0644\u062e\u0632\u0627\u0646\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0644\u0623\u062c\u0644 6 \u0623\u0633\u0627\u0628\u064a\u0639."
+    "\ud83d\udcc8 \u0627\u0644\u064a\u0648\u0645 \u0627\u0644\u0633\u0648\u0642 \u0628\u064a\u0631\u0627\u0642\u0628 95 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631 \u0641\u064a \u0645\u0632\u0627\u062f \u0633\u0646\u062f\u0627\u062a \u0627\u0644\u062e\u0632\u0627\u0646\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0644\u0623\u062c\u0644 6 \u0623\u0633\u0627\u0628\u064a\u0639.",
+    "\ud83d\udcb5 \u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0628\u062a\u062f\u0627\u0648\u0644 \u062d\u0648\u0627\u0644\u064a 85,000 \u062f\u0648\u0644\u0627\u0631"
   ]
 }
