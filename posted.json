@@ -21,6 +21,7 @@
     "8388e8efd7832598",
     "95d6a1ee07f620c8",
     "9fa77ac736134657",
+    "ba533a34928a8dc1",
     "beda8733ff194127",
     "c06511202eb083f4",
     "dcb1e30ca1ece06b",
@@ -52,10 +53,9 @@
   "day_counts": {
     "2026-10-04": 6,
     "2026-10-05": 16,
-    "2026-10-06": 5
+    "2026-10-06": 6
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC approves first-ever 3x leveraged Bitcoin and Ethereum ETFs. \u2022 The SEC approved Cboe BZX to list six new Volatility Shares ETFs, including 3x Bitcoin and Ether ETFs, along with 3x go...",
     "Trump: Refinery Disruptions, Not Strait of Hormuz, Are Driving Gasoline Prices Higher - Truth Social",
     "\ud83d\udea8 LATEST: Bitcoin surged 43% in its best Q3 since 2017, but Treasury yields above 5% threaten further gains as October Fed hike odds plunge from over 75% to 24%.",
     "I have two important updates to share with you today as we continue to build Metaplanet into a global financial platform rooted in Bitcoin. From the beginning, our strategy was never simply to accu...",
@@ -69,16 +69,16 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Gemini crypto exchange co-founder Tyler Winklevoss says \"clear rules\" for crypto are coming.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump blames rising gas prices on \"Dumocrats\" and Russian oil refineries being attacked by Ukraine.",
     "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC and SOL spot ETFs saw net outflows, while ETH saw net inflows. XRP recorded zero net flow on October 5th. BTC: -$89.90M ETH: +$110.84M SOL: -$9.25M XRP: $0",
-    "Ukrainian drones hit the Volodarskaya oil depot in Moscow Oblast, reportedly setting at least two fuel tanks on fire. The facility is the largest oil depot in Moscow Oblast by storage capacity and ..."
+    "Ukrainian drones hit the Volodarskaya oil depot in Moscow Oblast, reportedly setting at least two fuel tanks on fire. The facility is the largest oil depot in Moscow Oblast by storage capacity and ...",
+    "ECB\u2019s Lane: There are problems if inflation runs too low compared to our 2% target"
   ],
   "last_post": {
-    "hash": "f657b460fe198b75",
-    "fb_id": "1417668660544932",
-    "title": "Ukrainian drones hit the Volodarskaya oil depot in Moscow Oblast, reportedly setting at least two fuel tanks on fire. The facility is the largest oil depot in Moscow Oblast by storage capacity and ...",
-    "link": "https://x.com/clashreport/status/2107359991925702983",
+    "hash": "ba533a34928a8dc1",
+    "fb_id": "1421089964411983_122106802149491654",
+    "title": "ECB\u2019s Lane: There are problems if inflation runs too low compared to our 2% target",
+    "link": "https://www.financialjuice.com/News/9793122/ECBs-Lane-There-are-problems-if-inflation-runs-too-low-compared-to-our-2-target.aspx?xy=rss",
     "mode": "serious",
-    "kind": "video",
-    "at": "2026-10-06T07:03:44.801766+00:00"
+    "at": "2026-10-06T07:34:10.109490+00:00"
   },
   "history": [
     {
@@ -373,18 +373,20 @@
       ],
       "mode": "serious",
       "at": "2026-10-06T07:03:44.801766+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122106802149491654",
+      "topics": [
+        "inflation",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "flag:eu",
+      "at": "2026-10-06T07:34:10.109490+00:00"
     }
   ],
   "last_video_post": "2026-10-06",
   "recent_fps": [
-    {
-      "fp": [
-        "CEO",
-        "aramco",
-        "less"
-      ],
-      "at": null
-    },
     {
       "fp": [
         "US",
@@ -620,6 +622,14 @@
         "volodarskaya"
       ],
       "at": "2026-10-06T07:03:44.801753+00:00"
+    },
+    {
+      "fp": [
+        "ECB",
+        "lane",
+        "there"
+      ],
+      "at": "2026-10-06T07:34:10.109479+00:00"
     }
   ],
   "recent_hooks": [
@@ -632,6 +642,7 @@
     "\ud83d\udcc8 \u062a\u0648\u0642\u0639\u0627\u062a \u0627\u0644\u0633\u0648\u0642 \u0628\u0640 \"\u0627\u0643\u062a\u0633\u0627\u062d\" \u062f\u064a\u0645\u0642\u0631\u0627\u0637\u064a \u0641\u064a \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \u0627\u0644\u062a\u062c\u062f\u064a\u062f \u0627\u0644\u0646\u0635\u0641\u064a 2026 \u0628\u062a\u0648\u0635\u0644 67%\u060c \u0631\u0642\u0645 \u0642\u064a\u0627\u0633\u064a \u062c\u062f\u064a\u062f.",
     "\ud83d\udc8e \u062a\u0627\u064a\u0644\u0631 \u0648\u064a\u0646\u0643\u0644\u064a\u0641\u0648\u0633 (\u0634\u0631\u064a\u0643 \u0645\u0624\u0633\u0633 \u062c\u064a\u0645\u064a\u0646\u064a): \"\u0642\u0648\u0627\u0639\u062f \u0648\u0627\u0636\u062d\u0629\" \u0644\u0644\u0639\u0645\u0644\u0627\u062a \u0627\u0644\u0631\u0642\u0645\u064a\u0629 \u062c\u0627\u064a\u0629",
     "\ud83d\udee2\ufe0f \u062a\u0631\u0627\u0645\u0628: \u0627\u0631\u062a\u0641\u0627\u0639 \u0623\u0633\u0639\u0627\u0631 \u0627\u0644\u0628\u0646\u0632\u064a\u0646 \u0628\u0633\u0628\u0628 \"\u0627\u0644\u062f\u064a\u0645\u0648\u0642\u0631\u0627\u0637\u064a\u064a\u0646\" \u0648\u0647\u062c\u0645\u0627\u062a \u0623\u0648\u0643\u0631\u0627\u0646\u064a\u0629 \u0639\u0644\u0649 \u0645\u0635\u0627\u0641\u064a \u0627\u0644\u0646\u0641\u0637 \u0627\u0644\u0631\u0648\u0633\u064a\u0629",
-    "\ud83d\udcc8 \u0627\u0644\u0635\u0646\u062f\u0648\u0642: BTC \u0633\u062c\u0644 \u0635\u0627\u0641\u064a \u062e\u0631\u0648\u062c -$89.90M \u0628\u064a\u0646\u0645\u0627 ETH \u062c\u0630\u0628 +$110.84M \u062a\u062f\u0641\u0642 \u062f\u0627\u062e\u0644\u064a"
+    "\ud83d\udcc8 \u0627\u0644\u0635\u0646\u062f\u0648\u0642: BTC \u0633\u062c\u0644 \u0635\u0627\u0641\u064a \u062e\u0631\u0648\u062c -$89.90M \u0628\u064a\u0646\u0645\u0627 ETH \u062c\u0630\u0628 +$110.84M \u062a\u062f\u0641\u0642 \u062f\u0627\u062e\u0644\u064a",
+    "\ud83d\udcc9 \"\u062a\u0636\u062e\u0645 \u0645\u0646\u062e\u0641\u0636 \u062c\u062f\u0627\u064b\" \u0628\u064a\u062e\u0644\u0642 \u0645\u0634\u0627\u0643\u0644 \u0644\u0648 \u0623\u0642\u0644 \u0645\u0646 2%\u060c \u062f\u0647 \u0643\u0644\u0627\u0645 \u0641\u064a\u0644\u064a\u0628 \u0644\u064a\u0646 \u0645\u0646 \u0627\u0644\u0628\u0646\u0643 \u0627\u0644\u0645\u0631\u0643\u0632\u064a \u0627\u0644\u0623\u0648\u0631\u0648\u0628\u064a."
   ]
 }
