@@ -27,6 +27,7 @@
     "e50973c2a4ff38c6",
     "e8db4b728ba26ead",
     "f041ccdd0f70088f",
+    "f657b460fe198b75",
     "faa585879730d067",
     "fbe4b3be838aadc5",
     "febbc2efe8a87926"
@@ -51,10 +52,9 @@
   "day_counts": {
     "2026-10-04": 6,
     "2026-10-05": 16,
-    "2026-10-06": 4
+    "2026-10-06": 5
   },
   "recent_titles": [
-    "JUST IN: Michael Saylor's 'Strategy' buys 334.3 Bitcoin worth $29 million.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC approves first-ever 3x leveraged Bitcoin and Ethereum ETFs. \u2022 The SEC approved Cboe BZX to list six new Volatility Shares ETFs, including 3x Bitcoin and Ether ETFs, along with 3x go...",
     "Trump: Refinery Disruptions, Not Strait of Hormuz, Are Driving Gasoline Prices Higher - Truth Social",
     "\ud83d\udea8 LATEST: Bitcoin surged 43% in its best Q3 since 2017, but Treasury yields above 5% threaten further gains as October Fed hike odds plunge from over 75% to 24%.",
@@ -68,15 +68,17 @@
     "BREAKING: Market expectations of a Democrat \"sweep\" in the 2026 Midterm elections rise to a record 67%. Last year at this time, the market saw just a 24% chance of a Democrat \"sweep.\" Election Day ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Gemini crypto exchange co-founder Tyler Winklevoss says \"clear rules\" for crypto are coming.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump blames rising gas prices on \"Dumocrats\" and Russian oil refineries being attacked by Ukraine.",
-    "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC and SOL spot ETFs saw net outflows, while ETH saw net inflows. XRP recorded zero net flow on October 5th. BTC: -$89.90M ETH: +$110.84M SOL: -$9.25M XRP: $0"
+    "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC and SOL spot ETFs saw net outflows, while ETH saw net inflows. XRP recorded zero net flow on October 5th. BTC: -$89.90M ETH: +$110.84M SOL: -$9.25M XRP: $0",
+    "Ukrainian drones hit the Volodarskaya oil depot in Moscow Oblast, reportedly setting at least two fuel tanks on fire. The facility is the largest oil depot in Moscow Oblast by storage capacity and ..."
   ],
   "last_post": {
-    "hash": "4987c4f1f6f22605",
-    "fb_id": "1421089964411983_122106774765491654",
-    "title": "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC and SOL spot ETFs saw net outflows, while ETH saw net inflows. XRP recorded zero net flow on October 5th. BTC: -$89.90M ETH: +$110.84M SOL: -$9.25M XRP: $0",
-    "link": "https://x.com/Cointelegraph/status/2107342772101361839",
+    "hash": "f657b460fe198b75",
+    "fb_id": "1417668660544932",
+    "title": "Ukrainian drones hit the Volodarskaya oil depot in Moscow Oblast, reportedly setting at least two fuel tanks on fire. The facility is the largest oil depot in Moscow Oblast by storage capacity and ...",
+    "link": "https://x.com/clashreport/status/2107359991925702983",
     "mode": "serious",
-    "at": "2026-10-06T06:19:15.409114+00:00"
+    "kind": "video",
+    "at": "2026-10-06T07:03:44.801766+00:00"
   },
   "history": [
     {
@@ -363,17 +365,18 @@
       "mode": "serious",
       "photo": "hires",
       "at": "2026-10-06T06:19:15.409114+00:00"
+    },
+    {
+      "fb_id": "1417668660544932",
+      "topics": [
+        "gold_oil"
+      ],
+      "mode": "serious",
+      "at": "2026-10-06T07:03:44.801766+00:00"
     }
   ],
-  "last_video_post": "2026-10-05",
+  "last_video_post": "2026-10-06",
   "recent_fps": [
-    {
-      "fp": [
-        "WSJ",
-        "gold"
-      ],
-      "at": null
-    },
     {
       "fp": [
         "CEO",
@@ -608,6 +611,15 @@
         "october"
       ],
       "at": "2026-10-06T06:19:15.409095+00:00"
+    },
+    {
+      "fp": [
+        "moscow",
+        "oblast",
+        "ukrainian",
+        "volodarskaya"
+      ],
+      "at": "2026-10-06T07:03:44.801753+00:00"
     }
   ],
   "recent_hooks": [
