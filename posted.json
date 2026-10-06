@@ -2,6 +2,7 @@
   "posted_hashes": [
     "0633f220203a8367",
     "0709e3e2addffc4e",
+    "08ac912336069268",
     "15b83123dc1dda58",
     "165959e512fafa32",
     "18c7bac99efbb9a3",
@@ -60,10 +61,9 @@
   "day_counts": {
     "2026-10-04": 6,
     "2026-10-05": 16,
-    "2026-10-06": 13
+    "2026-10-06": 14
   },
   "recent_titles": [
-    "The Conservative Party in the UK has unveiled plans for a \u00a310 billion air and missile defense system dubbed the \u201cBritannia Shield,\u201d modelled partly on Israel\u2019s Iron Dome. The system would combine a...",
     "Wall Street banks launch record $60 bln chip deal for Broadcom and Anthropic - FT. $AVGO",
     "BREAKING: Market expectations of a Democrat \"sweep\" in the 2026 Midterm elections rise to a record 67%. Last year at this time, the market saw just a 24% chance of a Democrat \"sweep.\" Election Day ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Gemini crypto exchange co-founder Tyler Winklevoss says \"clear rules\" for crypto are coming.",
@@ -77,15 +77,16 @@
     "U.S. YIELDS RETREAT FROM 24-YEAR HIGHS Treasury yields pulled back as oil fell below $100 and Scott Bessent pledged that stronger growth and spending restraint would begin improving the U.S. debt t...",
     "Live updates: Bitcoin rises above $86,000 as oil prices, bond yields retreat",
     "Since Strategy adopted the Bitcoin Standard in 2020, Digital Equity ($MSTR) and Digital Capital ($BTC) have delivered 52% and 38% annualized returns, outperforming the stock, gold, real estate, and...",
-    "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year"
+    "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
+    "JUST IN: \"Big Short\" investor Michael Burry warns a stock market crash is coming. \"The stock market is quite obviously in its first stage of grief, denial. Per 2000 and 2008, this stage lasts 6-9 m..."
   ],
   "last_post": {
-    "hash": "15b83123dc1dda58",
-    "fb_id": "1421089964411983_122106974067491654",
-    "title": "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
-    "link": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html",
-    "mode": "serious",
-    "at": "2026-10-06T13:17:40.651878+00:00"
+    "hash": "08ac912336069268",
+    "fb_id": "1421089964411983_122107034379491654",
+    "title": "JUST IN: \"Big Short\" investor Michael Burry warns a stock market crash is coming. \"The stock market is quite obviously in its first stage of grief, denial. Per 2000 and 2008, this stage lasts 6-9 m...",
+    "link": "https://x.com/WatcherGuru/status/2107488844882780538",
+    "mode": "viral",
+    "at": "2026-10-06T15:34:57.906507+00:00"
   },
   "history": [
     {
@@ -462,17 +463,19 @@
       "mode": "serious",
       "photo": "face",
       "at": "2026-10-06T13:17:40.651878+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122107034379491654",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-06T15:34:57.906507+00:00"
     }
   ],
   "last_video_post": "2026-10-06",
   "recent_fps": [
-    {
-      "fp": [
-        "bitcoin",
-        "metaplanet"
-      ],
-      "at": null
-    },
     {
       "fp": [
         "PAC",
@@ -720,10 +723,22 @@
         "trump"
       ],
       "at": "2026-10-06T13:17:40.651867+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "big",
+        "burry",
+        "michael",
+        "per",
+        "short",
+        "today"
+      ],
+      "at": "2026-10-06T15:34:57.906495+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\ude80 VanEck \u0628\u062a\u0642\u0648\u0644 \u0625\u0646 \u0627\u0644\u0641\u062c\u0648\u0629 \u0628\u064a\u0646 \u0642\u064a\u0645\u0629 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0648\u0627\u0644\u0630\u0647\u0628 \u0628\u062a\u062f\u0639\u0645 \u062d\u0627\u0644\u0629 500 \u0623\u0644\u0641 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646",
     "\ud83d\udee1\ufe0f \u062d\u0632\u0628 \u0627\u0644\u0645\u062d\u0627\u0641\u0638\u064a\u0646 \u0627\u0644\u0628\u0631\u064a\u0637\u0627\u0646\u064a \u064a\u0643\u0634\u0641 \u0639\u0646 \u062e\u0637\u0629 \u0646\u0638\u0627\u0645 \u062f\u0641\u0627\u0639 \u062c\u0648\u064a \u0648\u0635\u0627\u0631\u0648\u062e\u064a \u0628\u0627\u0633\u0645 \u201c\u062f\u0631\u0639 britannia\u201d \u0628\u062a\u0643\u0644\u0641\u0629 10 \u0645\u0644\u064a\u0627\u0631 \u062c\u0646\u064a\u0647 \u0625\u0633\u062a\u0631\u0644\u064a\u0646\u064a\u060c \u0648\u062c\u064a\u0645\u0633 \u0643\u0627\u0631\u062a\u0644\u062f\u062c \u0642\u0627\u0644 \u0625\u0646 \u0627\u0644\u0646\u0638\u0627\u0645 \u0633\u064a\u0639\u0632\u0632 \u0627\u0644\u062d\u0645\u0627\u064a\u0629 \u0627\u0644\u062c\u0648\u064a\u0629 \u0644\u0644\u0645\u0645\u0644\u0643\u0629",
     "\ud83d\udcb5 \u0648\u0648\u0644 \u0633\u062a\u0631\u064a\u062a \u0628\u062a\u0637\u0644\u0642 \u0623\u0636\u062e\u0645 \u0635\u0641\u0642\u0629 \u0631\u0642\u0627\u0626\u0642 \u0641\u064a \u0627\u0644\u062a\u0627\u0631\u064a\u062e \u2014 60 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631 \u0644\u0628\u0631\u064a\u062f\u0643\u0648\u0645 (Broadcom $AVGO) \u0648\u0623\u0646\u062b\u0631\u0648\u0628\u064a\u0643 (Anthropic)",
     "\ud83d\udcc8 \u062a\u0648\u0642\u0639\u0627\u062a \u0627\u0644\u0633\u0648\u0642 \u0628\u0640 \"\u0627\u0643\u062a\u0633\u0627\u062d\" \u062f\u064a\u0645\u0642\u0631\u0627\u0637\u064a \u0641\u064a \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \u0627\u0644\u062a\u062c\u062f\u064a\u062f \u0627\u0644\u0646\u0635\u0641\u064a 2026 \u0628\u062a\u0648\u0635\u0644 67%\u060c \u0631\u0642\u0645 \u0642\u064a\u0627\u0633\u064a \u062c\u062f\u064a\u062f.",
@@ -737,6 +752,7 @@
     "\ud83d\udcc9 \u0633\u0643\u0648\u062a \u0628\u064a\u0633\u0646\u062a: \u0639\u0648\u0627\u0626\u062f \u0627\u0644\u0633\u0646\u062f\u0627\u062a \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u062a\u0631\u0627\u062c\u0639\u062a \u0625\u0644\u0649 5.27% \u0644\u0644\u0639\u0634\u0631 \u0633\u0646\u0648\u0627\u062a \u06485.63% \u0644\u0644\u062b\u0644\u0627\u062b\u064a\u0646 \u0628\u0639\u062f \u0647\u0628\u0648\u0637 \u0627\u0644\u0646\u0641\u0637 \u062a\u062d\u062a 100 \u062f\u0648\u0644\u0627\u0631",
     "\ud83d\udcc8 BTC \u0628\u064a\u0631\u062a\u0641\u0639 \u0641\u0648\u0642 86,000 \u062f\u0648\u0644\u0627\u0631\u060c \u0628\u0639\u062f \u062a\u0631\u0627\u062c\u0639 \u0623\u0633\u0639\u0627\u0631 \u0627\u0644\u0646\u0641\u0637 \u0648\u0639\u0648\u0627\u0626\u062f \u0627\u0644\u0633\u0646\u062f\u0627\u062a.",
     "\ud83d\udcc8 \u0645\u0627\u064a\u0643\u0644 \u0633\u064a\u0644\u0648\u0631: \u0628\u0639\u062f \u0627\u0639\u062a\u0645\u0627\u062f \u0645\u0639\u064a\u0627\u0631 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 2020\u060c \u0627\u0644\u0623\u0633\u0647\u0645 \u0627\u0644\u0631\u0642\u0645\u064a\u0629 ($MSTR) \u0648\u0627\u0644\u0631\u0623\u0633\u0645\u0627\u0644 \u0627\u0644\u0631\u0642\u0645\u064a ($BTC) \u062d\u0642\u0642\u0627 52% \u064838% \u0639\u0627\u0626\u062f\u064b\u0627 \u0633\u0646\u0648\u064a\u064b\u0627.",
-    "\ud83d\udcc9 \u062a\u0631\u0627\u0645\u0628: \u0627\u0644\u0634\u062d\u0646\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0633\u062c\u0644\u062a \u0639\u062c\u0632 \u062a\u062c\u0627\u0631\u064a 105.6 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631"
+    "\ud83d\udcc9 \u062a\u0631\u0627\u0645\u0628: \u0627\u0644\u0634\u062d\u0646\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0633\u062c\u0644\u062a \u0639\u062c\u0632 \u062a\u062c\u0627\u0631\u064a 105.6 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631",
+    "\ud83d\udcc9 \u0645\u0627\u064a\u0643\u0644 \u0628\u064a\u0631\u064a: \"\u0633\u0648\u0642 \u0627\u0644\u0623\u0633\u0647\u0645 \u0641\u064a \u0623\u0648\u0644 \u0645\u0631\u062d\u0644\u0629 \u062d\u0632\u0646\u060c \u0627\u0644\u0625\u0646\u0643\u0627\u0631\" \u0648\u0628\u064a\u062d\u0630\u0631 \u0645\u0646 \u0627\u0646\u0647\u064a\u0627\u0631 \u0642\u0627\u062f\u0645."
   ]
 }
