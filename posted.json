@@ -11,6 +11,7 @@
     "240cca53e4daffc5",
     "2512ce2309eb0afd",
     "2ba5616c804d07b1",
+    "2bbf1d770e89e3e5",
     "3cd711dbb502becd",
     "4049ffb5054e5890",
     "4987c4f1f6f22605",
@@ -45,10 +46,10 @@
   "tuner": {
     "topics": {},
     "mult": {},
-    "updated": "2026-10-06"
+    "updated": "2026-10-07"
   },
   "comment_review": {
-    "posts": 7,
+    "posts": 8,
     "comments": 0,
     "likes": 0,
     "questions": 0,
@@ -57,15 +58,14 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-06"
+    "updated": "2026-10-07"
   },
   "day_counts": {
-    "2026-10-04": 6,
     "2026-10-05": 16,
-    "2026-10-06": 15
+    "2026-10-06": 15,
+    "2026-10-07": 1
   },
   "recent_titles": [
-    "BREAKING: Market expectations of a Democrat \"sweep\" in the 2026 Midterm elections rise to a record 67%. Last year at this time, the market saw just a 24% chance of a Democrat \"sweep.\" Election Day ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Gemini crypto exchange co-founder Tyler Winklevoss says \"clear rules\" for crypto are coming.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump blames rising gas prices on \"Dumocrats\" and Russian oil refineries being attacked by Ukraine.",
     "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC and SOL spot ETFs saw net outflows, while ETH saw net inflows. XRP recorded zero net flow on October 5th. BTC: -$89.90M ETH: +$110.84M SOL: -$9.25M XRP: $0",
@@ -79,15 +79,17 @@
     "Since Strategy adopted the Bitcoin Standard in 2020, Digital Equity ($MSTR) and Digital Capital ($BTC) have delivered 52% and 38% annualized returns, outperforming the stock, gold, real estate, and...",
     "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
     "JUST IN: \"Big Short\" investor Michael Burry warns a stock market crash is coming. \"The stock market is quite obviously in its first stage of grief, denial. Per 2000 and 2008, this stage lasts 6-9 m...",
-    "JUST IN: Bitcoin 'Fear & Greed Index' rises to 73, greed."
+    "JUST IN: Bitcoin 'Fear & Greed Index' rises to 73, greed.",
+    "Trump: Democrats can\u2019t do the dividend because they don\u2019t do tariffs. Therefore, the country is gonna go bankrupt."
   ],
   "last_post": {
-    "hash": "8ee6632d4eb19bae",
-    "fb_id": "1421089964411983_122107053543491654",
-    "title": "JUST IN: Bitcoin 'Fear & Greed Index' rises to 73, greed.",
-    "link": "https://x.com/WatcherGuru/status/2107485000467898510",
-    "mode": "viral",
-    "at": "2026-10-06T16:21:45.897167+00:00"
+    "hash": "2bbf1d770e89e3e5",
+    "fb_id": "1386967480173494",
+    "title": "Trump: Democrats can\u2019t do the dividend because they don\u2019t do tariffs. Therefore, the country is gonna go bankrupt.",
+    "link": "https://x.com/clashreport/status/2107582999600762988",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-10-07T00:04:13.488597+00:00"
   },
   "history": [
     {
@@ -482,23 +484,18 @@
       "mode": "viral",
       "photo": "hires",
       "at": "2026-10-06T16:21:45.897167+00:00"
+    },
+    {
+      "fb_id": "1386967480173494",
+      "topics": [
+        "power"
+      ],
+      "mode": "serious",
+      "at": "2026-10-07T00:04:13.488597+00:00"
     }
   ],
-  "last_video_post": "2026-10-06",
+  "last_video_post": "2026-10-07",
   "recent_fps": [
-    {
-      "fp": [
-        "CFTC",
-        "IN",
-        "JUST",
-        "US",
-        "chair",
-        "clear",
-        "mike",
-        "selig"
-      ],
-      "at": "2026-10-05T19:48:42.286336+00:00"
-    },
     {
       "fp": [
         "$60",
@@ -746,6 +743,14 @@
         "index"
       ],
       "at": "2026-10-06T16:21:45.897147+00:00"
+    },
+    {
+      "fp": [
+        "democrats",
+        "therefore",
+        "trump"
+      ],
+      "at": "2026-10-07T00:04:13.488584+00:00"
     }
   ],
   "recent_hooks": [
