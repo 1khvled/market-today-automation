@@ -38,6 +38,7 @@
     "8c979261e3d4a088",
     "8ee6632d4eb19bae",
     "95d6a1ee07f620c8",
+    "9e325382b8a92054",
     "9fa77ac736134657",
     "a23d3c794e093681",
     "ab3071f3cb0c58cd",
@@ -75,12 +76,11 @@
     "updated": "2026-10-08"
   },
   "day_counts": {
-    "2026-10-05": 16,
     "2026-10-06": 15,
-    "2026-10-07": 15
+    "2026-10-07": 15,
+    "2026-10-08": 1
   },
   "recent_titles": [
-    "Trump: Democrats can\u2019t do the dividend because they don\u2019t do tariffs. Therefore, the country is gonna go bankrupt.",
     "BREAKING: The bond sell-off is starting to hit corporate America. Companies are being forced to rethink how and when they borrow, and the weakest, lowest-rated businesses now face a rising risk of ...",
     "Trillions are being \u2018wasted\u2019 on the AI boom, Arthur Hayes says. He\u2019s betting on what comes next",
     "China gold holdings $323.52 billion at end-Sept vs $350.08 billion at end-Aug: central bank",
@@ -94,26 +94,19 @@
     "EU states expect no new oil release obligations after G7 pact.",
     "Resigned Iranian Oil Minister Mohsen Paknejad: My resignation has nothing to do with Trump\u2019s claims. Iran\u2019s oil production and exports continued even under sanctions and blockade. They have suffere...",
     "WSJ reports that Treasury Secretary Scott Bessent has consolidated power at the department while clashing with staff and overseeing unusually high turnover. More than a dozen current and former off...",
-    "Treasury yields rise as oil moves higher, traders await key U.S. bond sale"
+    "Treasury yields rise as oil moves higher, traders await key U.S. bond sale",
+    "BREAKING: Hundreds of masked Islamists in NYC just violently stormed an October 7th vigil being held in Union Square. The masked terrorists are openly holding up signs of Yahya Sinwar."
   ],
   "last_post": {
-    "hash": "6482cce3bbbc5bbf",
-    "fb_id": "1421089964411983_122107509717491654",
-    "title": "Treasury yields rise as oil moves higher, traders await key U.S. bond sale",
-    "link": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html",
-    "mode": "serious",
-    "at": "2026-10-07T10:17:42.178616+00:00"
+    "hash": "9e325382b8a92054",
+    "fb_id": "2519395531879912",
+    "title": "BREAKING: Hundreds of masked Islamists in NYC just violently stormed an October 7th vigil being held in Union Square. The masked terrorists are openly holding up signs of Yahya Sinwar.",
+    "link": "https://x.com/EYakoby/status/2107975853544280415",
+    "mode": "viral",
+    "kind": "video",
+    "at": "2026-10-08T00:19:51.231508+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122104909095491654",
-      "topics": [
-        "gold_oil"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-04T06:35:56.240796+00:00"
-    },
     {
       "fb_id": "1421089964411983_122105180445491654",
       "topics": [
@@ -584,17 +577,16 @@
       "mode": "serious",
       "photo": "hires",
       "at": "2026-10-07T10:17:42.178616+00:00"
+    },
+    {
+      "fb_id": "2519395531879912",
+      "topics": [],
+      "mode": "viral",
+      "at": "2026-10-08T00:19:51.231508+00:00"
     }
   ],
-  "last_video_post": "2026-10-07",
+  "last_video_post": "2026-10-08",
   "recent_fps": [
-    {
-      "fp": [
-        "$86,000",
-        "bitcoin"
-      ],
-      "at": "2026-10-06T12:04:40.397500+00:00"
-    },
     {
       "fp": [
         "BTC",
@@ -809,6 +801,19 @@
         "wednesday"
       ],
       "at": "2026-10-07T10:17:42.178604+00:00"
+    },
+    {
+      "fp": [
+        "NYC",
+        "hundreds",
+        "islamists",
+        "october",
+        "sinwar",
+        "square",
+        "union",
+        "yahya"
+      ],
+      "at": "2026-10-08T00:19:51.231491+00:00"
     }
   ],
   "recent_hooks": [
