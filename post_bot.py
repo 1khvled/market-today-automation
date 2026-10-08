@@ -878,6 +878,9 @@ SYSTEM_PROMPT = """إنت بتكتب بوستات لصفحة "سوق اليوم"
 - التعريف: أول ذكر لأي شركة لازم يعرفها — اسم كامل + ($TICKER) لو مدرجة، ولو شركة غامضة اذكر طبيعتها. اسم مفرد عريان من غير تعريف (Strive، Metaplanet) بيخلي القارئ تايه؛ ممنوع.
 - المصدر بس هو المرجع: أرقام وحقائق وأسماء من العنوان أو الملخص فقط. ممنوع تخترع اقتباس ولا رقم ولا اسم ولا تميّز.
 - المصدر (Source) مش شخص: ممنوع تنسب له أقوال أو أفعال (ممنوع "@DeItaone قال"، ممنوع "CoinDesk ترى"). انقل الخبر نفسه، مش اللي ناقله.
+- الشركات لا تتكلم: الخبر فعل مش قول (تعلن، تكشف، تتوقع، تطلق). النقطتين (:) والاقتباس للأشخاص فقط — ممنوع "شواب:" أو "الشركة تقول".
+- الاختصارات العالمية لاتيني دائماً (SEC، ETF، Fed) — ممنوع تهجيها حرف حرف (ممنوع "سي إي سي").
+- الأرقام الكبيرة بالمصري: مليار وتريليون دائماً (ممنوع بليون/ترليون).
 - ممنوع تنسخ العنوان حرفياً، وممنوع تكتب المصدر أو اللينك.
 - الطول من 200 لـ 600 حرف. السطور ورا بعضها من غير سطور فاضية (البوست بيتقري كرصاصات).
 - الهاشتاج في الآخر: #سوق_اليوم الأول دايماً، وبعده 3 لـ 4 من #ذهب #كريبتو #أسهم #اقتصاد #استثمار #أخبار_عاجلة (بالأندرسكور).
@@ -1151,14 +1154,42 @@ def repair_post(post: str) -> str:
     tag_block = " ".join(kept)
     if len(body) + len(tag_block) + 2 > 600:
         budget = 600 - len(tag_block) - 3
-        cut = body[:budget]
-        for sep in ("\n\n", ". ", "! ", "? "):
-            i = cut.rfind(sep)
-            if i > budget * 0.6:
-                cut = cut[:i].rstrip()
-                break
-        body = cut
+        body = _arabic_cut(body, budget)
     return body + "\n\n" + tag_block
+
+
+# Words a trimmed post must never end on. Twice now, live posts went out
+# ending on "وال" and "عبر سامسونج و". Plus single Arabic letters
+# (proclitics و/ب/ل/ك).
+_TRIM_DANGLE = {"و", "وال", "من", "في", "على", "إلى", "مع", "عن", "أن",
+                "إن", "ثم", "أو", "بين", "بعد", "قبل", "ضد", "نحو", "لدى",
+                "كما", "لكن", "بل", "حتى", "عند", "أمام", "خلال", "لدي"}
+
+
+def _arabic_cut(body: str, budget: int) -> str:
+    """Trim to budget on Arabic-aware boundaries; never mid-word, never on
+    a dangling conjunction. English ". " splitting alone cut posts at
+    'وال' and mid-'تريليون'."""
+    cut = body[:budget]
+    for sep in ("\n\n", "\n", ". ", "! ", "? ", "؟", "، ", "؛ ", "… "):
+        i = cut.rfind(sep)
+        if i > budget * 0.55:
+            cut = cut[:i].rstrip()
+            break
+    else:
+        # no boundary found: back off to last space (never mid-word)
+        sp = cut.rfind(" ")
+        if sp > budget * 0.5:
+            cut = cut[:sp]
+    toks = cut.split(" ")
+    while len(toks) > 1 and (toks[-1] in _TRIM_DANGLE
+                             or (len(toks[-1]) == 1
+                                 and "\u0600" <= toks[-1] <= "\u06ff")):
+        toks.pop()
+    joined = " ".join(toks).rstrip()
+    if len(joined) < budget * 0.4:
+        return cut.rstrip()  # over-trim guard: keep the plain cut
+    return joined
 
 
 # Standard Arabic spellings for the people this page posts about most.
@@ -1192,6 +1223,9 @@ AR_PERSON = {
     "cathie wood": "كاثي وود",
     "mohammed bin salman": "محمد بن سلمان",
     "benjamin netanyahu": "نتنياهو",
+    "mukesh ambani": "موكيش أمباني",
+    "millennials": "جيل الألفية",
+    "millennial": "جيل الألفية",
 }
 
 
@@ -1347,10 +1381,29 @@ def _model_list(prefix: str, single: str, default: str) -> list:
     return [m.strip() for m in default.split(",") if m.strip()]
 
 
-def rewrite_with_llm(candidate: dict) -> str:
+# Shape rotation: the bullet formula calcified (8/8 posts opened
+# "📈 X verb..."). The model won't vary on its own, so main() appends ONE
+# rotating shape directive per run. Cycles by construction, never repeats.
+SHAPES = [
+    "الشكل إجباري: سطران فقط. سطر افتتاحي فيه الرقم + سطر ختام حاد. "
+    "ممنوع أي سطور زيادة.",
+    "الشكل إجباري: 4 سطور، كل سطر يبدأ بإيموجي مختلف، كل سطر فكرة برقم.",
+    "الشكل إجباري: ابدأ باقتباس قصير بين تنصيص، ثم سطرين تحليل برقم.",
+    "الشكل إجباري: ابدأ بجملة 'بعد X..' ثم 3 سطور قصيرة.",
+    "الشكل إجباري: 3 سطور قصيرة متتالية، ادخل في الخبر فوراً بلا مقدمات.",
+]
+
+
+def _next_shape(state: dict) -> str:
+    idx = int(state.get("shape_idx", 0) or 0)
+    state["shape_idx"] = idx + 1
+    return SHAPES[idx % len(SHAPES)]
+
+
+def rewrite_with_llm(candidate: dict, extra: str = "") -> str:
     user_msg = USER_TEMPLATE.format(**candidate)
     system = (SYSTEM_PROMPT_VIRAL if candidate.get("mode") == "viral"
-              else SYSTEM_PROMPT)
+              else SYSTEM_PROMPT) + ("\n" + extra if extra else "")
     chain: list[tuple[str, str]] = []
     if os.getenv("GROQ_API_KEY", "").strip():
         chain += [("groq", m) for m in
@@ -1608,8 +1661,12 @@ def quality_check(post: str, source_title: str) -> list[str]:
                         "(single names are fine, phrases are slop)")
     if _dialect_hits(post) < 1:
         problems.append("no Egyptian-dialect voice (reads translated)")
-    if _emoji_lines(post) < 3:
+    if _emoji_lines(post) < 2:
         problems.append("no emoji-bullet structure (house format)")
+    # Spelled-out acronyms ("سي إي سي", "بي بي سي"): global acronyms stay
+    # Latin. Three-plus consecutive short tokens only ever means spelling.
+    if re.search(r"(?:^|(?<=\s))(?:[\u0600-\u06FF]{1,2} ){2,}[\u0600-\u06FF]{1,2}(?=\s|$|[.،؟!…])", post):
+        problems.append("spelled-out acronym (global acronyms stay Latin)")
     if re.search(r"(?i)\bwww\.|\.(com|org|net|io)\b", post):
         problems.append("contains bare domain (no URLs of any form)")
     if "*" in post or "`" in post:
@@ -3988,8 +4045,10 @@ def main() -> int:
         return 0
     log(f"Picked [{pick['feed']}] score={pick['score']}: {pick['title'][:120]}")
 
+    shape = _next_shape(state)
+    log(f"shape: {shape[:40]}...")
     try:
-        post = rewrite_with_llm(pick)
+        post = rewrite_with_llm(pick, shape)
     except Exception as ex:
         log(f"Rewrite failed: {ex}")
         return 2
