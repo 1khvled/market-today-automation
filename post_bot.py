@@ -1463,8 +1463,10 @@ def rewrite_with_llm(candidate: dict, extra: str = "") -> str:
             continue
         bad_names = hallucinated_names(text, candidate.get("title", "") + " "
                                        + candidate.get("summary", ""))
-        if bad_names or quality_check(text, candidate["title"]):
-            first_fail = quality_check(text, candidate["title"])
+        if bad_names or quality_check(text, candidate["title"],
+                                      candidate.get("summary", "")):
+            first_fail = quality_check(text, candidate["title"],
+                                       candidate.get("summary", ""))
             if bad_names:
                 first_fail.append(
                     f"invented names not in source: {bad_names}")
@@ -1472,7 +1474,8 @@ def rewrite_with_llm(candidate: dict, extra: str = "") -> str:
             fixed_names = hallucinated_names(
                 fixed, candidate.get("title", "") + " "
                 + candidate.get("summary", ""))
-            if not fixed_names and not quality_check(fixed, candidate["title"]):
+            if not fixed_names and not quality_check(fixed, candidate["title"],
+                                                         candidate.get("summary", "")):
                 log(f"Rewrite OK via {model} (auto-repaired: {first_fail})")
                 return fixed
             print('--- FAILED DRAFT ---\n' + text + '\n--------------------')
@@ -1626,11 +1629,23 @@ def _latin_allow() -> set:
               "etfs", "ai", "ceo", "cfo", "cto", "ipo", "cpi", "gdp", "fed",
               "sec", "nasdaq", "nyse", "dow", "mag", "tlt", "spy", "qqq",
               "bofa", "cboe", "bzx", "egx", "q3", "openai", "spacex",
-              "volatility", "shares"}
+              "volatility", "shares",
+              # plain finance English that clean drafts legitimately carry
+              # (killed good Gemini drafts before this existed)
+              "futures", "options", "dividend", "dividends", "merger",
+              "mergers", "acquisition", "acquisitions", "earnings",
+              "revenue", "revenues", "profit", "profits", "rally", "crash",
+              "surge", "plunge", "hike", "hikes", "cut", "cuts", "tariff",
+              "tariffs", "equity", "equities", "bond", "bonds", "yield",
+              "yields", "fund", "funds", "bank", "banks", "market",
+              "markets", "commodity", "commodities", "discovery", "record",
+              "high", "highs", "low", "lows", "rate", "rates", "deal",
+              "deals", "stake", "loss", "losses", "growth", "debt"}
     return allow
 
 
-def quality_check(post: str, source_title: str) -> list[str]:
+def quality_check(post: str, source_title: str,
+                  source_extra: str = "") -> list[str]:
     problems = []
     if len(post) > 600:
         problems.append("too long (>600 chars, feed posts get cut)")
@@ -1681,9 +1696,12 @@ def quality_check(post: str, source_title: str) -> list[str]:
             problems.append(f"source company '{_lat}' named unrecognizably")
             break
     # Allowlist: single foreign-word leaks ("gerade" shipped inside an
-    # otherwise-Arabic draft). Tickers/names/acronyms pass; anything else
-    # fails, even once.
+    # otherwise-Arabic draft). Tickers/names/acronyms/finance-English pass;
+    # anything else fails, even once. Source words always pass (a draft that
+    # echoes the source's own vocabulary is faithful, not slop).
     _allow = _latin_allow()
+    _allow |= {t.lower() for t in
+               re.findall(r"[A-Za-z]{2,}", source_title + " " + source_extra)}
     _badlatin = sorted({t for t in re.findall(r"\$?([A-Za-z]{2,})", post)
                         if t.lower() not in _allow})
     if _badlatin:
@@ -4046,7 +4064,8 @@ def main() -> int:
                 f"{vpick['title'][:100]}")
             try:
                 vpost = sanitize(rewrite_with_llm(vpick))
-                vprobs = quality_check(vpost, vpick["title"])
+                vprobs = quality_check(vpost, vpick["title"],
+                                       vpick.get("summary", ""))
             except Exception as ex:
                 vpost, vprobs = None, [str(ex)[:100]]
             if vpost and not vprobs:
@@ -4129,7 +4148,7 @@ def main() -> int:
         return 2
 
     post = sanitize(post)  # FB has no markdown: **bold** -> CAPS etc.
-    problems = quality_check(post, pick["title"])
+    problems = quality_check(post, pick["title"], pick.get("summary", ""))
     if problems:
         log(f"Quality check FAILED: {problems}")
         print("--- DRAFT (rejected) ---\n" + post)
