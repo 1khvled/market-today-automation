@@ -27,6 +27,7 @@
     "4a51f2278a92d102",
     "544cebfd17e81e38",
     "55c2087412b8909b",
+    "57fdfed093392a30",
     "58cfd490098879f3",
     "601a84aa97a5995b",
     "63036692c3b611ed",
@@ -96,10 +97,9 @@
   "day_counts": {
     "2026-10-07": 15,
     "2026-10-08": 15,
-    "2026-10-09": 4
+    "2026-10-09": 5
   },
   "recent_titles": [
-    "JUST IN: Democrat James Talarico is now a 66% favorite to win the Texas Senate race, per Polymarket\u2060.com. It has been back and forth between him and Ken Paxton all race. Texas has not elected a Dem...",
     "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia's largest bank Sberbank officially approved as crypto custodian to launch Bitcoin, Ethereum and USDT products.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Samsung partners with Solana to enable crypto stablecoin transactions for 82 million devices in US with Samsung Wallet.",
     "China finance ministry auctions 5-year special treasury bonds at 1.37% yield: traders",
@@ -113,26 +113,19 @@
     "BREAKING: The Nasdaq 100 extends losses to -1.5% on the day as oil prices rise and OpenAI\u2019s annualized revenue comes in $20 billion below expectations.",
     "BREAKING: Bitcoin falls below $81,000 as over $400 million worth of levered longs are liquidated in 60 minutes.",
     "New tech to power bitcoin lending is set to debut with $500 million in commitments",
-    "Global Markets Rebound as Oil Prices Fall and AI Fears Ease US stock futures climbed as easing concerns over AI investments and falling oil prices lifted investor sentiment. S&P 500 futures gained ..."
+    "Global Markets Rebound as Oil Prices Fall and AI Fears Ease US stock futures climbed as easing concerns over AI investments and falling oil prices lifted investor sentiment. S&P 500 futures gained ...",
+    "All signs point to Bitcoin."
   ],
   "last_post": {
-    "hash": "ded239d9282d5753",
-    "fb_id": "1421089964411983_122108639079491654",
-    "title": "Global Markets Rebound as Oil Prices Fall and AI Fears Ease US stock futures climbed as easing concerns over AI investments and falling oil prices lifted investor sentiment. S&P 500 futures gained ...",
-    "link": "https://x.com/FirstSquawk/status/2108481738142065066",
-    "mode": "serious",
-    "at": "2026-10-09T09:06:19.289031+00:00"
+    "hash": "57fdfed093392a30",
+    "fb_id": "2293872271184821",
+    "title": "All signs point to Bitcoin.",
+    "link": "https://x.com/saylor/status/2108528489917776267",
+    "mode": "viral",
+    "kind": "video",
+    "at": "2026-10-09T16:21:17.223454+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122106601479491654",
-      "topics": [
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "split:face",
-      "at": "2026-10-05T22:48:42.649149+00:00"
-    },
     {
       "fb_id": "1421089964411983_122106668085491654",
       "topics": [
@@ -602,17 +595,18 @@
       "mode": "serious",
       "photo": "split:face+logo",
       "at": "2026-10-09T09:06:19.289031+00:00"
+    },
+    {
+      "fb_id": "2293872271184821",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "at": "2026-10-09T16:21:17.223454+00:00"
     }
   ],
-  "last_video_post": "2026-10-08",
+  "last_video_post": "2026-10-09",
   "recent_fps": [
-    {
-      "fp": [
-        "treasury",
-        "wednesday"
-      ],
-      "at": "2026-10-07T10:17:42.178604+00:00"
-    },
     {
       "fp": [
         "NYC",
@@ -827,6 +821,13 @@
         "rebound"
       ],
       "at": "2026-10-09T09:06:19.289015+00:00"
+    },
+    {
+      "fp": [
+        "all",
+        "bitcoin"
+      ],
+      "at": "2026-10-09T16:21:17.223442+00:00"
     }
   ],
   "recent_hooks": [
