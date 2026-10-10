@@ -5,6 +5,7 @@
     "06e66bab9ed6a263",
     "0709e3e2addffc4e",
     "08ac912336069268",
+    "097ddd47ca9fec7d",
     "13adddf1fd843cb7",
     "15b83123dc1dda58",
     "165959e512fafa32",
@@ -103,12 +104,11 @@
     "updated": "2026-10-10"
   },
   "day_counts": {
-    "2026-10-07": 15,
     "2026-10-08": 15,
-    "2026-10-09": 13
+    "2026-10-09": 13,
+    "2026-10-10": 1
   },
   "recent_titles": [
-    "Jim Cramer's top 10 things to watch in the stock market Thursday",
     "UK Foreign Secretary Ed Miliband: Today, we are announcing more sanctions on Putin\u2019s war machine, the shadow fleet, oil companies, crypto and war financing. We are your brothers and your sisters in...",
     "BREAKING: The Nasdaq 100 extends losses to -1.5% on the day as oil prices rise and OpenAI\u2019s annualized revenue comes in $20 billion below expectations.",
     "BREAKING: Bitcoin falls below $81,000 as over $400 million worth of levered longs are liquidated in 60 minutes.",
@@ -122,26 +122,19 @@
     "S&P on the UK: Oil & gas prices & those for other inputs tied to conflict in the Middle East, like fertilizer, affecting inflation & interest rates.",
     "BREAKING: China\u2019s central bank officially bought +23 tonnes of gold in September, its largest monthly purchase since September 2023. This follows +20 tonnes purchased in both August and July, and m...",
     "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-    "\ud83c\uddfa\ud83c\uddf8 JUST IN: Treasury Secretary Scott Bessent says the US will likely seize $1 billion in crypto linked to Iran this week as part of its sanctions crackdown."
+    "\ud83c\uddfa\ud83c\uddf8 JUST IN: Treasury Secretary Scott Bessent says the US will likely seize $1 billion in crypto linked to Iran this week as part of its sanctions crackdown.",
+    "Trump: More oil is coming through the Strait today than it was before the war. Do you believe that one?"
   ],
   "last_post": {
-    "hash": "6b0fd84fce068a75",
-    "fb_id": "1421089964411983_122108991921491654",
-    "title": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Treasury Secretary Scott Bessent says the US will likely seize $1 billion in crypto linked to Iran this week as part of its sanctions crackdown.",
-    "link": "https://x.com/Cointelegraph/status/2108676576745226698",
+    "hash": "097ddd47ca9fec7d",
+    "fb_id": "2138513904209700",
+    "title": "Trump: More oil is coming through the Strait today than it was before the war. Do you believe that one?",
+    "link": "https://x.com/clashreport/status/2108719632584704077",
     "mode": "serious",
-    "at": "2026-10-09T22:32:34.747133+00:00"
+    "kind": "video",
+    "at": "2026-10-10T00:50:15.800575+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122106896241491654",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "hires",
-      "at": "2026-10-06T11:03:50.868294+00:00"
-    },
     {
       "fb_id": "1421089964411983_122106914265491654",
       "topics": [
@@ -611,18 +604,19 @@
       "mode": "serious",
       "photo": "face",
       "at": "2026-10-09T22:32:34.747133+00:00"
+    },
+    {
+      "fb_id": "2138513904209700",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "serious",
+      "at": "2026-10-10T00:50:15.800575+00:00"
     }
   ],
-  "last_video_post": "2026-10-09",
+  "last_video_post": "2026-10-10",
   "recent_fps": [
-    {
-      "fp": [
-        "$83,000",
-        "bitcoin",
-        "iran"
-      ],
-      "at": "2026-10-08T04:33:10.481541+00:00"
-    },
     {
       "fp": [
         "$13",
@@ -833,6 +827,14 @@
         "treasury"
       ],
       "at": "2026-10-09T22:32:34.747117+00:00"
+    },
+    {
+      "fp": [
+        "more",
+        "strait",
+        "trump"
+      ],
+      "at": "2026-10-10T00:50:15.800561+00:00"
     }
   ],
   "recent_hooks": [
