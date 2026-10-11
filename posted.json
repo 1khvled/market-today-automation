@@ -62,6 +62,7 @@
     "80be697d6204611b",
     "8338fa19f7fc3596",
     "8388e8efd7832598",
+    "850df80d5bf2aab4",
     "867efb8ff1a70888",
     "884ec865bb833271",
     "89ac828e8f5cead9",
@@ -125,10 +126,9 @@
   "day_counts": {
     "2026-10-09": 13,
     "2026-10-10": 15,
-    "2026-10-11": 5
+    "2026-10-11": 6
   },
   "recent_titles": [
-    "\ud83d\udca5 \u9884\u8ba1 AI \u6a21\u578b RSI Index \u5c06\u572811\u6708\u8fce\u6765\u6fc0\u70c8\u5916\u63a8\uff01 \u8c01\u79bb\u201c\u81ea\u6211\u9012\u5f52\u8fdb\u5316\u51fa\u4e0b\u4e00\u4ee3\u6a21\u578b\u201d\u6700\u8fd1\uff1f\uff01 \u53ef\u9884\u89c1 RSI \u80fd\u529b\u4ece\u9ad8\u5230\u4f4e\uff1a 1\ufe0f\u20e3Anthropic\uff08Opus 6/Fable 6\uff09\u2192 39.8% \u4f9d\u7136\u9886\u8dd1 2\ufe0f\u20e3OpenAI\uff08GPT-6.x\uff09\u2192 37.8% \u7d27\u8ffd\u731b\u8d76 3\ufe0f\u20e3xAI Grok \u2192 36.0% \u9ed1\u9a6c\u6301\u7eed\u53d1\u529b 4\ufe0f\u20e3Google\uff08Gemini 4.x\uff09\u2192 32.5...",
     "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018",
     "One year ago today, crypto suffered its largest liquidation event in history, wiping out over $19,100,000,000 in leveraged positions.",
     "\ud83d\udd25\ud83d\udea8 JUST IN: Ripple-backed XRP treasury Evernorth just closed its SPAC merger, dragging 473M XRP and $300M cash onto Nasdaq with XRPN set to trade Monday.",
@@ -142,29 +142,19 @@
     "NEW: \ud83c\udde7\ud83c\uddec Bulgaria's First Investment Bank will offer Bitcoin and crypto assets to over 1 million clients \ud83d\ude80",
     "FUN FACT: Bitcoin $BTC has a larger market cap than Bank of America and Bank of China combined.",
     "Trump Calls on Democratic Senator John Fetterman to Join the Republican Party",
-    "BREAKING: The Bank of Japan's total assets declined -$98 billion in Q3 2026, to $3.95 trillion, the lowest since Q1 2020. Since the Q1 2024 peak, the BoJ has reduced its balance sheet by -$828 bill..."
+    "BREAKING: The Bank of Japan's total assets declined -$98 billion in Q3 2026, to $3.95 trillion, the lowest since Q1 2020. Since the Q1 2024 peak, the BoJ has reduced its balance sheet by -$828 bill...",
+    "Hedge funds held around $2 trillion in U.S. Treasurys at the end of last year, nearly three times what they held five years ago. What does this mean for the world's largest bond market? CNBC's Lee ..."
   ],
   "last_post": {
-    "hash": "968e8a3c14a86d3b",
-    "fb_id": "1421089964411983_122109682269491654",
-    "title": "BREAKING: The Bank of Japan's total assets declined -$98 billion in Q3 2026, to $3.95 trillion, the lowest since Q1 2020. Since the Q1 2024 peak, the BoJ has reduced its balance sheet by -$828 bill...",
-    "link": "https://x.com/KobeissiLetter/status/2108991201378496677",
-    "mode": "viral",
-    "at": "2026-10-11T03:18:08.866798+00:00"
+    "hash": "850df80d5bf2aab4",
+    "fb_id": "1084939844522988",
+    "title": "Hedge funds held around $2 trillion in U.S. Treasurys at the end of last year, nearly three times what they held five years ago. What does this mean for the world's largest bond market? CNBC's Lee ...",
+    "link": "https://x.com/CNBC/status/2109131912232976741",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-10-11T04:02:51.043365+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122107493463491654",
-      "topics": [
-        "gold_oil",
-        "inflation",
-        "power",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "face",
-      "at": "2026-10-07T09:50:06.248024+00:00"
-    },
     {
       "fb_id": "1421089964411983_122107509717491654",
       "topics": [
@@ -620,18 +610,18 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-11T03:18:08.866798+00:00"
+    },
+    {
+      "fb_id": "1084939844522988",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "serious",
+      "at": "2026-10-11T04:02:51.043365+00:00"
     }
   ],
-  "last_video_post": "2026-10-10",
+  "last_video_post": "2026-10-11",
   "recent_fps": [
-    {
-      "fp": [
-        "more",
-        "strait",
-        "trump"
-      ],
-      "at": "2026-10-10T00:50:15.800561+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -864,6 +854,19 @@
         "since"
       ],
       "at": "2026-10-11T03:18:08.866788+00:00"
+    },
+    {
+      "fp": [
+        "$2",
+        "CNBC",
+        "hedge",
+        "lee",
+        "shan",
+        "treasurys",
+        "what",
+        "ying"
+      ],
+      "at": "2026-10-11T04:02:51.043351+00:00"
     }
   ],
   "recent_hooks": [
