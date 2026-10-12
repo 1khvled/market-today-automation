@@ -110,6 +110,7 @@
     "e8adf47b4abfd467",
     "e8db4b728ba26ead",
     "ebb9dfc4c90a11b6",
+    "eec6a6d1910591bf",
     "efb052f68304f89a",
     "f041ccdd0f70088f",
     "f5828dfd0f21b9c4",
@@ -141,10 +142,9 @@
   "day_counts": {
     "2026-10-10": 15,
     "2026-10-11": 15,
-    "2026-10-12": 6
+    "2026-10-12": 7
   },
   "recent_titles": [
-    "Middle East Conflict, Mounting Debt Set to Take Centre Stage at IMF-World Bank Meetings - RTRS",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\udde6 The US is offering the Russians huge sums of money to accept a limited ceasefire, per NYT The U.S. proposed three major economic incentives to persuade Russia to accept a limited c...",
     "Trump praises Putin: Putin is freeing up a lot of oil for the world, okay? A good thing. And by the way, at a very low price.",
     "JUST IN: Microsoft $MSFT CEO Satya Nadella calls for \"emergency brake\" on advanced AI.",
@@ -158,28 +158,18 @@
     "Why China is importing a record amount of gold \u2014 and what it means for prices",
     "\ud83d\udea8Tibo 28\u5929\u519b\u4ee4\u72b6 Day7 \u66f4\u65b0\u5df2\u5151\u73b0\uff01\u4eca\u5929\u6ca1\u6709 Reset\uff0c\u800c\u662f\u771f\u6539\u8fdb\uff01 \ud83d\udd39GPT-6.1 Sol \u5728 Codex & Work \u9ed8\u8ba4\u4e0a\u4e0b\u6587\u4ece 272k \u98d9\u5347\u81f3 500k\uff08+80%\uff09 \ud83d\udd39\u5927\u5e45\u51cf\u5c11\u4e0a\u4e0b\u6587\u538b\u7f29\uff0c\u957f\u4efb\u52a1\u66f4\u7a33 \ud83d\udd39\u9002\u5408\u9700\u8981\u957f\u671f\u4fdd\u6301\u7ec6\u8282\u4e0e\u4e0a\u4e0b\u6587\u7684\u590d\u6742\u5de5\u4f5c \ud83d\udd39\u5df2\u6d4b\u8bd5\u9a8c\u8bc1\uff0c\u65b0\u751c\u871c\u70b9\uff0c\u53ef\u624b\u52a8\u8c03\u6574\uff08\u6700\u9ad8\u4ecd 1M\uff09 \ud83d\udd39\u989d\u5916\u5927\u798f\u5229\uff1a\u8ba2\u9605\u989d\u5ea6\u4f7f\u7528\u65f6\u4e0d\u518d\u6536\u957f\u4e0a\u4e0b\u6587\u8d39\u7528\uff01 \u793e\u533a\u5f88\u591a\u4eba\u60f3\u8981 Res...",
     "Trump has said it is the Democrats that led to high prices. He says Republicans are \"fixing it.\" Inflation is currently running at 3.4%, well above the Fed's 2% target.",
-    "GOLD TRADES ABOVE $4,200 AMID STRONG ETF INFLOWS AHEAD OF KEY US INFLATION FIGURES"
+    "GOLD TRADES ABOVE $4,200 AMID STRONG ETF INFLOWS AHEAD OF KEY US INFLATION FIGURES",
+    "BREAKING: The Trump Administration is now threatening to halt weapons supplies to Ukraine in an effort to pressure Zelensky to stop striking Russian energy infrastructure, per FT. Details include: ..."
   ],
   "last_post": {
-    "hash": "22d5c45b7327d829",
-    "fb_id": "1421089964411983_122110257381491654",
-    "title": "GOLD TRADES ABOVE $4,200 AMID STRONG ETF INFLOWS AHEAD OF KEY US INFLATION FIGURES",
-    "link": "https://x.com/FirstSquawk/status/2109478707127824745",
-    "mode": "serious",
-    "at": "2026-10-12T03:17:24.096183+00:00"
+    "hash": "eec6a6d1910591bf",
+    "fb_id": "1421089964411983_122110270629491654",
+    "title": "BREAKING: The Trump Administration is now threatening to halt weapons supplies to Ukraine in an effort to pressure Zelensky to stop striking Russian energy infrastructure, per FT. Details include: ...",
+    "link": "https://x.com/KobeissiLetter/status/2109371986296352861",
+    "mode": "viral",
+    "at": "2026-10-12T03:48:19.567719+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122108169915491654",
-      "topics": [
-        "crypto",
-        "gold_oil",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "face",
-      "at": "2026-10-08T14:06:22.086041+00:00"
-    },
     {
       "fb_id": "1421089964411983_122108424591491654",
       "topics": [
@@ -632,20 +622,20 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-12T03:17:24.096183+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122110270629491654",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "split:face+face",
+      "at": "2026-10-12T03:48:19.567719+00:00"
     }
   ],
   "last_video_post": "2026-10-12",
   "recent_fps": [
-    {
-      "fp": [
-        "NEW",
-        "bank",
-        "bitcoin",
-        "bulgaria",
-        "investment"
-      ],
-      "at": "2026-10-11T00:35:06.072904+00:00"
-    },
     {
       "fp": [
         "BTC",
@@ -891,10 +881,23 @@
         "US"
       ],
       "at": "2026-10-12T03:17:24.096167+00:00"
+    },
+    {
+      "fp": [
+        "FT",
+        "US",
+        "administration",
+        "details",
+        "european",
+        "russian",
+        "trump",
+        "ukraine",
+        "zelensky"
+      ],
+      "at": "2026-10-12T03:48:19.567702+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udcc9 \u0628\u0646\u0643 \u0627\u0644\u064a\u0627\u0628\u0627\u0646 \u062e\u0641\u0651\u0636 \u0623\u0635\u0648\u0644\u0647 \u0628\u0640 98 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631 \u0641\u064a \u0627\u0644\u0631\u0628\u0639 \u0627\u0644\u062b\u0627\u0644\u062b 2026\u060c \u0648\u0635\u0627\u0631 \u0625\u062c\u0645\u0627\u0644\u064a \u0627\u0644\u0623\u0635\u0648\u0644 3.95 \u062a\u0631\u064a\u0644\u064a\u0648\u0646 \u2014 \u0627\u0644\u0623\u062f\u0646\u0649 \u0645\u0646\u0630 2020",
     "\ud83d\uddde\ufe0f RTRS: \u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637 conflict \u0648 Mounting debt \u0647\u062a\u0627\u062e\u062f \u0645\u0631\u0643\u0632 \u0631\u0626\u064a\u0633\u064a \u0641\u064a \u0627\u062c\u062a\u0645\u0627\u0639\u0627\u062a IMF-World Bank (2 \u0645\u0624\u0633\u0633\u0627\u062a)",
     "\ud83d\udcb5 \u0623\u0645\u0631\u064a\u0643\u0627 \u0628\u062a\u0639\u0631\u0636 \u0639\u0644\u0649 \u0631\u0648\u0633\u064a\u0627 \u0645\u0644\u064a\u0627\u0631\u0627\u062a \u0627\u0644\u062f\u0648\u0644\u0627\u0631\u0627\u062a \u0627\u0644\u0645\u062c\u0645\u062f\u0629 \u0639\u0634\u0627\u0646 \u062a\u0642\u0628\u0644 \u0628\u0648\u0642\u0641 \u0625\u0637\u0644\u0627\u0642 \u0646\u0627\u0631 \u0645\u062d\u062f\u0648\u062f",
     "\ud83d\udee2\ufe0f \u062a\u0631\u0627\u0645\u0628: 1 \u062a\u0631\u0627\u0645\u0628 \u064a\u0645\u062f\u062d \u0628\u0648\u062a\u064a\u0646 \u0648\u064a\u0642\u0648\u0644 \"\u0628\u0648\u062a\u064a\u0646 \u064a\u0641\u0631\u062c \u0628\u0631\u0645\u064a\u0644\u0627\u062a \u0627\u0644\u0646\u0641\u0637 \u0628\u0623\u0633\u0639\u0627\u0631 \u0645\u0646\u062e\u0641\u0636\u0629\"",
@@ -908,7 +911,8 @@
     "\ud83e\udd47 \u0627\u0644\u0635\u064a\u0646 \u0628\u062a\u0634\u062a\u0631\u064a \u062f\u0647\u0628 \u0628\u0643\u0645\u064a\u0627\u062a \u0642\u064a\u0627\u0633\u064a\u0629.. \u0648\u062f\u0647 \u0645\u0639\u0646\u0627\u0647 \u0625\u064a\u0647 \u0644\u0623\u0633\u0639\u0627\u0631 \u0627\u0644\u062f\u0647\u0628 \u0627\u0644\u0639\u0627\u0644\u0645\u064a\u0629\u061f",
     "\ud83e\udd16 \"GPT-6.1 Sol \u0628\u064a\u0642\u062f\u0645 \u0642\u0641\u0632\u0629 80% \u0641\u064a \u0641\u0647\u0645 \u0627\u0644\u0633\u064a\u0627\u0642!\" Tibo \u0628\u064a\u0639\u0644\u0646 \u0639\u0646 \u062a\u062d\u062f\u064a\u062b \u0642\u0648\u064a \u0644\u0640 Codex & Work.",
     "\ud83d\udcc8 \u0628\u0639\u062f \u062a\u0635\u0631\u064a\u062d \u062a\u0631\u0627\u0645\u0628 \u0639\u0646 \u0627\u0644\u0623\u0633\u0639\u0627\u0631.. \u0627\u0644\u062a\u0636\u062e\u0645 \u0639\u0646\u062f 3.4% \u0641\u0648\u0642 \u0647\u062f\u0641 Fed 2%",
-    "\ud83e\udd47 \u0627\u0644\u0630\u0647\u0628 \u064a\u062a\u062e\u0637\u0649 4,200 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0648\u0646\u0635\u0629 \u0648\u0633\u0637 \u062a\u062f\u0641\u0642\u0627\u062a \u0642\u0648\u064a\u0629 \u0644\u0635\u0646\u0627\u062f\u064a\u0642 ETF \u0642\u0628\u0644 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u062a\u0636\u062e\u0645 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629"
+    "\ud83e\udd47 \u0627\u0644\u0630\u0647\u0628 \u064a\u062a\u062e\u0637\u0649 4,200 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0648\u0646\u0635\u0629 \u0648\u0633\u0637 \u062a\u062f\u0641\u0642\u0627\u062a \u0642\u0648\u064a\u0629 \u0644\u0635\u0646\u0627\u062f\u064a\u0642 ETF \u0642\u0628\u0644 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u062a\u0636\u062e\u0645 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629",
+    "\ud83d\udee2\ufe0f \u062a\u0631\u0627\u0645\u0628: 1. \u062a\u0631\u0627\u0645\u0628 \u0628\u064a\u0647\u062f\u062f \u0628\u0648\u0642\u0641 \u0623\u0633\u0644\u062d\u0629 \u0644\u0623\u0648\u0643\u0631\u0627\u0646\u064a\u0627 \u0644\u0636\u063a\u0637 \u0639\u0644\u0649 \u0632\u064a\u0644\u064a\u0646\u0633\u0643\u064a."
   ],
-  "shape_idx": 45
+  "shape_idx": 46
 }
