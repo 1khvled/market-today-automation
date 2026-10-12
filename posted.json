@@ -105,6 +105,7 @@
     "e6b870c80c40e563",
     "e8adf47b4abfd467",
     "e8db4b728ba26ead",
+    "ebb9dfc4c90a11b6",
     "efb052f68304f89a",
     "f041ccdd0f70088f",
     "f5828dfd0f21b9c4",
@@ -136,10 +137,9 @@
   "day_counts": {
     "2026-10-10": 15,
     "2026-10-11": 15,
-    "2026-10-12": 1
+    "2026-10-12": 2
   },
   "recent_titles": [
-    "NEW: \ud83c\udde7\ud83c\uddec Bulgaria's First Investment Bank will offer Bitcoin and crypto assets to over 1 million clients \ud83d\ude80",
     "FUN FACT: Bitcoin $BTC has a larger market cap than Bank of America and Bank of China combined.",
     "Trump Calls on Democratic Senator John Fetterman to Join the Republican Party",
     "BREAKING: The Bank of Japan's total assets declined -$98 billion in Q3 2026, to $3.95 trillion, the lowest since Q1 2020. Since the Q1 2024 peak, the BoJ has reduced its balance sheet by -$828 bill...",
@@ -153,26 +153,19 @@
     "ANTHROPIC \ud83d\udd25: Beyond a new Voice experience, Anthropic is developing features called \"Arborio\" and \"Iggy.\" > Arborio has an icon that likely points to a Claude Health experience for the web (current...",
     "\ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8Trump thanks Russia for saving him with the diesel amid midterms: \u201cRussia agreed to send us millions and millions of barrels of oil. And it's diesel \u2014 that's what we really need! So, thank you!\u201d",
     "\ud83d\udea8\u65b0\u4f5c\u54c1\u6765\u5566\uff01Claude Opus5.5\u5236\u4f5c\u63a2\u9669\u89c6\u9891\u5e95\u5ea7\uff0c\u5df2\u7ecf\u5b8c\u6210\uff0c\u6309\u7167\u6e38\u620f\u7684\u65b9\u5f0f\u5448\u73b0\uff0c\u4e3b\u8981\u5f15\u5165\u4e86\u897f\u85cf\u73e0\u5cf0\uff0c\u6d1b\u5b50\u5cf0\u51e0\u5927\u5cf0\u7684\u5efa\u6a21\uff0c\u56f4\u7ed5\u73e0\u5cf0\u9644\u8fd1\u4e00\u767e\u516c\u91cc108\u56fd\u9053\u3002 \u4e0b\u4e00\u6b65\u662f\u914d\u5408\u63a2\u9669\u6545\u4e8b\uff0c\u7136\u540ehaiku5.5\u6765\u64cd\u63a7\u6e38\u620f\u8d70\u6545\u4e8b\u4e2d\u7684\u8def\u7ebf\uff0c\u5f55\u5236\u89c6\u9891\uff0c\u914d\u97f3\u8bb2\u8ff0\u6545\u4e8b\uff0c\u5982\u679c\u6709\u771f\u5b9e\u56fe\u7247\u53ef\u4ee5\u5728\u6574\u4e2a\u89c6\u9891\u4e2d\u653e\u4e00\u90e8\u5206\u771f\u5b9e\u56fe\u7247\uff0c\u63d0\u5347\u771f\u5b9e\u5ea6\u548c\u89c2\u8d4f\u6027\u3002 \u8fd9\u4e48\u505a\u795e\u79d8\u56ed\u8001\u5e08\u7c7b\u578b\u7684\u89c6\u9891\u5c31\u53ef\u4ee5\u90e8\u5206\u5c55\u73b0\u51fa\u6765\u4e86\u3002",
-    "JUST IN: Tom Lee predicts Ethereum $ETH will surpass $5,000 by the end of this year."
+    "JUST IN: Tom Lee predicts Ethereum $ETH will surpass $5,000 by the end of this year.",
+    "JUST IN: \ud83c\uddee\ud83c\uddf7 A third oil tanker struck a naval mine in the Strait of Hormuz today Iran's IRGC Navy announced a third oil tanker struck a naval mine in the Strait of Hormuz today, triggering an explo..."
   ],
   "last_post": {
-    "hash": "d83a3d5c86146f73",
-    "fb_id": "1421089964411983_122110196883491654",
-    "title": "JUST IN: Tom Lee predicts Ethereum $ETH will surpass $5,000 by the end of this year.",
-    "link": "https://x.com/WatcherGuru/status/2109286743589691526",
+    "hash": "ebb9dfc4c90a11b6",
+    "fb_id": "1417105576555683",
+    "title": "JUST IN: \ud83c\uddee\ud83c\uddf7 A third oil tanker struck a naval mine in the Strait of Hormuz today Iran's IRGC Navy announced a third oil tanker struck a naval mine in the Strait of Hormuz today, triggering an explo...",
+    "link": "https://x.com/Megatron_ron/status/2109399884365468008",
     "mode": "viral",
-    "at": "2026-10-12T00:03:50.943140+00:00"
+    "kind": "video",
+    "at": "2026-10-12T00:34:25.368043+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122107970505491654",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "hires",
-      "at": "2026-10-08T05:35:33.955526+00:00"
-    },
     {
       "fb_id": "1421089964411983_122108016633491654",
       "topics": [
@@ -628,19 +621,18 @@
       "mode": "viral",
       "photo": "hires",
       "at": "2026-10-12T00:03:50.943140+00:00"
+    },
+    {
+      "fb_id": "1417105576555683",
+      "topics": [
+        "gold_oil"
+      ],
+      "mode": "viral",
+      "at": "2026-10-12T00:34:25.368043+00:00"
     }
   ],
-  "last_video_post": "2026-10-11",
+  "last_video_post": "2026-10-12",
   "recent_fps": [
-    {
-      "fp": [
-        "US",
-        "delisting",
-        "myanmar",
-        "trump"
-      ],
-      "at": "2026-10-10T08:47:16.822299+00:00"
-    },
     {
       "fp": [
         "$170",
@@ -882,6 +874,19 @@
         "tom"
       ],
       "at": "2026-10-12T00:03:50.943129+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "IRGC",
+        "JUST",
+        "hormuz",
+        "iran",
+        "iranian",
+        "navy",
+        "strait"
+      ],
+      "at": "2026-10-12T00:34:25.368029+00:00"
     }
   ],
   "recent_hooks": [
