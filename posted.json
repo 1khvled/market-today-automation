@@ -103,6 +103,7 @@
     "c36fafc8b431eafd",
     "c3e8c628e0d58eef",
     "c4b3e4064151e1a3",
+    "c623f18fc00030b7",
     "d26034239bd1c674",
     "d3dc0525d66d3983",
     "d83a3d5c86146f73",
@@ -133,7 +134,7 @@
   "tuner": {
     "topics": {},
     "mult": {},
-    "updated": "2026-10-12"
+    "updated": "2026-10-13"
   },
   "comment_review": {
     "posts": 8,
@@ -145,15 +146,14 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-12"
+    "updated": "2026-10-13"
   },
   "day_counts": {
-    "2026-10-10": 15,
     "2026-10-11": 15,
-    "2026-10-12": 15
+    "2026-10-12": 15,
+    "2026-10-13": 1
   },
   "recent_titles": [
-    "JUST IN: Tom Lee predicts Ethereum $ETH will surpass $5,000 by the end of this year.",
     "JUST IN: \ud83c\uddee\ud83c\uddf7 A third oil tanker struck a naval mine in the Strait of Hormuz today Iran's IRGC Navy announced a third oil tanker struck a naval mine in the Strait of Hormuz today, triggering an explo...",
     "Why China is importing a record amount of gold \u2014 and what it means for prices",
     "\ud83d\udea8Tibo 28\u5929\u519b\u4ee4\u72b6 Day7 \u66f4\u65b0\u5df2\u5151\u73b0\uff01\u4eca\u5929\u6ca1\u6709 Reset\uff0c\u800c\u662f\u771f\u6539\u8fdb\uff01 \ud83d\udd39GPT-6.1 Sol \u5728 Codex & Work \u9ed8\u8ba4\u4e0a\u4e0b\u6587\u4ece 272k \u98d9\u5347\u81f3 500k\uff08+80%\uff09 \ud83d\udd39\u5927\u5e45\u51cf\u5c11\u4e0a\u4e0b\u6587\u538b\u7f29\uff0c\u957f\u4efb\u52a1\u66f4\u7a33 \ud83d\udd39\u9002\u5408\u9700\u8981\u957f\u671f\u4fdd\u6301\u7ec6\u8282\u4e0e\u4e0a\u4e0b\u6587\u7684\u590d\u6742\u5de5\u4f5c \ud83d\udd39\u5df2\u6d4b\u8bd5\u9a8c\u8bc1\uff0c\u65b0\u751c\u871c\u70b9\uff0c\u53ef\u624b\u52a8\u8c03\u6574\uff08\u6700\u9ad8\u4ecd 1M\uff09 \ud83d\udd39\u989d\u5916\u5927\u798f\u5229\uff1a\u8ba2\u9605\u989d\u5ea6\u4f7f\u7528\u65f6\u4e0d\u518d\u6536\u957f\u4e0a\u4e0b\u6587\u8d39\u7528\uff01 \u793e\u533a\u5f88\u591a\u4eba\u60f3\u8981 Res...",
@@ -167,27 +167,18 @@
     "Ledger says unauthorized implant found in at least one device sold by CryptoBilis",
     "World Bank jobs council urges 'crisis-era' support measures as IMF warns of AI \u2018tsunami\u2019 hit",
     "\ud83d\udea8 UPDATE: OKX\u2019s Star Xu criticizes CZ\u2019s framing of Binance\u2019s $800M post-crash compensation, saying the Oct. 10 collapse caused tens of billions in losses across crypto.",
-    "JUST IN: Michael Saylor hints at another Bitcoin announcement tomorrow \ud83d\udc40 \"There's always room for more orange.\""
+    "JUST IN: Michael Saylor hints at another Bitcoin announcement tomorrow \ud83d\udc40 \"There's always room for more orange.\"",
+    "BREAKING: Global physical gold-backed ETFs attracted +$30.7 billion in inflows in Q3 2026, their largest quarterly intake on record. In September, inflows totaled +$10 billion, the 3rd-largest mont..."
   ],
   "last_post": {
-    "hash": "03e22223f98f7cc0",
-    "fb_id": "1421089964411983_122110464021491654",
-    "title": "JUST IN: Michael Saylor hints at another Bitcoin announcement tomorrow \ud83d\udc40 \"There's always room for more orange.\"",
-    "link": "https://x.com/BitcoinMagazine/status/2109274424696283349",
+    "hash": "c623f18fc00030b7",
+    "fb_id": "1421089964411983_122110834275491654",
+    "title": "BREAKING: Global physical gold-backed ETFs attracted +$30.7 billion in inflows in Q3 2026, their largest quarterly intake on record. In September, inflows totaled +$10 billion, the 3rd-largest mont...",
+    "link": "https://x.com/KobeissiLetter/status/2109665195249328159",
     "mode": "viral",
-    "at": "2026-10-12T10:18:07.294106+00:00"
+    "at": "2026-10-13T00:03:27.054509+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122108922795491654",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "split:face+face",
-      "at": "2026-10-09T19:32:39.514516+00:00"
-    },
     {
       "fb_id": "1421089964411983_122108945805491654",
       "topics": [
@@ -640,31 +631,20 @@
       "mode": "viral",
       "photo": "split:face+logo",
       "at": "2026-10-12T10:18:07.294106+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122110834275491654",
+      "topics": [
+        "crypto",
+        "gold"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-13T00:03:27.054509+00:00"
     }
   ],
   "last_video_post": "2026-10-12",
   "recent_fps": [
-    {
-      "fp": [
-        "anthropic",
-        "black",
-        "burry",
-        "calls",
-        "clorox",
-        "companies",
-        "decker",
-        "deckers",
-        "domino",
-        "lululemon",
-        "michael",
-        "outdoor",
-        "pizza",
-        "sept",
-        "smucker",
-        "stanley"
-      ],
-      "at": "2026-10-11T08:17:34.371049+00:00"
-    },
     {
       "fp": [
         "ICC",
@@ -885,10 +865,22 @@
         "there"
       ],
       "at": "2026-10-12T10:18:07.294087+00:00"
+    },
+    {
+      "fp": [
+        "$10",
+        "$17.9",
+        "$30.7",
+        "ETF",
+        "august",
+        "global",
+        "september",
+        "this"
+      ],
+      "at": "2026-10-13T00:03:27.054496+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83e\udd16 Claude Opus 5.5 \u0639\u0645\u0644 \"\u0642\u0627\u0639\u062f\u0629\" \u0641\u064a\u062f\u064a\u0648 \u0627\u0633\u062a\u0643\u0634\u0627\u0641\u064a \u062c\u062f\u064a\u062f\u060c \u0628\u064a\u0642\u062f\u0645 \u062c\u0628\u0627\u0644 \u0625\u064a\u0641\u0631\u0633\u062a \u0648\u0644\u0648\u062a\u0633\u064a \u0641\u064a \u0627\u0644\u062a\u0628\u062a \u062d\u0648\u0627\u0644\u064a\u0646 \u0637\u0631\u064a\u0642 108 \u0627\u0644\u0633\u0631\u064a\u0639 \u0644\u0645\u0633\u0627\u0641\u0629 100 \u0643\u064a\u0644\u0648\u0645\u062a\u0631.",
     "\ud83d\udcc8 \u062a\u0648\u0645 \u0644\u064a \u0628\u064a\u062a\u0648\u0642\u0639 \u0625\u064a\u062b\u064a\u0631\u064a\u0648\u0645 $ETH \u0647\u064a\u0643\u0633\u0631 \u0627\u0644\u0640 5,000 \u062f\u0648\u0644\u0627\u0631 \u0642\u0628\u0644 \u0646\u0647\u0627\u064a\u0629 \u0627\u0644\u0633\u0646\u0629 \u062f\u064a.",
     "\ud83e\udd47 \u0627\u0644\u0635\u064a\u0646 \u0628\u062a\u0634\u062a\u0631\u064a \u062f\u0647\u0628 \u0628\u0643\u0645\u064a\u0627\u062a \u0642\u064a\u0627\u0633\u064a\u0629.. \u0648\u062f\u0647 \u0645\u0639\u0646\u0627\u0647 \u0625\u064a\u0647 \u0644\u0623\u0633\u0639\u0627\u0631 \u0627\u0644\u062f\u0647\u0628 \u0627\u0644\u0639\u0627\u0644\u0645\u064a\u0629\u061f",
     "\ud83e\udd16 \"GPT-6.1 Sol \u0628\u064a\u0642\u062f\u0645 \u0642\u0641\u0632\u0629 80% \u0641\u064a \u0641\u0647\u0645 \u0627\u0644\u0633\u064a\u0627\u0642!\" Tibo \u0628\u064a\u0639\u0644\u0646 \u0639\u0646 \u062a\u062d\u062f\u064a\u062b \u0642\u0648\u064a \u0644\u0640 Codex & Work.",
@@ -902,7 +894,8 @@
     "\u26a0\ufe0f \u0644\u064a\u062f\u062c\u0631: \u0644\u0642\u0648\u0627 \"\u0634\u0631\u064a\u062d\u0629\" \u0645\u0634 \u0645\u0631\u062e\u0635\u0629 \u0641\u064a \u062c\u0647\u0627\u0632 \u0648\u0627\u062d\u062f \u0639\u0644\u0649 \u0627\u0644\u0623\u0642\u0644 \u0645\u0646 \u0627\u0644\u0644\u064a \u0628\u0627\u0639\u062a\u0647 CryptoBilis",
     "\u26a0\ufe0f \u0643\u0631\u064a\u0633\u062a\u0627\u0644\u064a\u0646\u0627 \u062c\u0648\u0631\u062c\u064a\u0641\u0627 \u0645\u0646 \u0635\u0646\u062f\u0648\u0642 \u0627\u0644\u0646\u0642\u062f \u0627\u0644\u062f\u0648\u0644\u064a: \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0628\u064a\u0636\u0631\u0628 \u0633\u0648\u0642 \u0627\u0644\u0639\u0645\u0644 \u0627\u0644\u0639\u0627\u0644\u0645\u064a \u0632\u064a \"\u062a\u0633\u0648\u0646\u0627\u0645\u064a \u0628\u0637\u064a\u0621\"",
     "\ud83d\udea8 \"\u0639\u0634\u0631\u0627\u062a \u0627\u0644\u0645\u0644\u064a\u0627\u0631\u0627\u062a \u062e\u0633\u0627\u0626\u0631 \u0641\u064a \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0645\u0634 800 \u0645\u0644\u064a\u0648\u0646!\"",
-    "\ud83d\udfe0 \u0628\u0639\u062f \u062a\u0644\u0645\u064a\u062d\u0627\u062a \u0645\u0627\u064a\u0643\u0644 \u0633\u064a\u0644\u0648\u0631: \u0641\u064a\u0647 \u0625\u0639\u0644\u0627\u0646 \u062c\u062f\u064a\u062f \u0639\u0646 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0628\u0643\u0631\u0629!"
+    "\ud83d\udfe0 \u0628\u0639\u062f \u062a\u0644\u0645\u064a\u062d\u0627\u062a \u0645\u0627\u064a\u0643\u0644 \u0633\u064a\u0644\u0648\u0631: \u0641\u064a\u0647 \u0625\u0639\u0644\u0627\u0646 \u062c\u062f\u064a\u062f \u0639\u0646 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0628\u0643\u0631\u0629!",
+    "\ud83e\udd47 \u0635\u0646\u0627\u062f\u064a\u0642 \u0627\u0644\u0630\u0647\u0628 \u0627\u0644\u0639\u0627\u0644\u0645\u064a\u0629 \u0633\u062d\u0628\u062a 30.7 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631 \u0641\u064a \u0627\u0644\u0631\u0628\u0639 \u0627\u0644\u062b\u0627\u0644\u062b 2026.. \u0623\u0643\u0628\u0631 \u062a\u062f\u0641\u0642\u0627\u062a \u0631\u0628\u0639 \u0633\u0646\u0648\u064a\u0629 \u0641\u064a \u0627\u0644\u062a\u0627\u0631\u064a\u062e."
   ],
-  "shape_idx": 54
+  "shape_idx": 55
 }
