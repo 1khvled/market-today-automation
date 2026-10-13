@@ -104,6 +104,7 @@
     "be292a9a08d661c2",
     "beda8733ff194127",
     "c06511202eb083f4",
+    "c251468873bbe41c",
     "c36fafc8b431eafd",
     "c3e8c628e0d58eef",
     "c4b3e4064151e1a3",
@@ -155,10 +156,9 @@
   "day_counts": {
     "2026-10-11": 15,
     "2026-10-12": 15,
-    "2026-10-13": 5
+    "2026-10-13": 6
   },
   "recent_titles": [
-    "GOLD TRADES ABOVE $4,200 AMID STRONG ETF INFLOWS AHEAD OF KEY US INFLATION FIGURES",
     "BREAKING: The Trump Administration is now threatening to halt weapons supplies to Ukraine in an effort to pressure Zelensky to stop striking Russian energy infrastructure, per FT. Details include: ...",
     "BREAKING: 84% of S&P 500 stocks are now trading at least -10% below their all-time highs. Real Estate leads the drawdown, with 97% of stocks down at least -10%, followed by Materials at 96%, Utilit...",
     "China\u2019s central bank has bought gold for 23 straight months, and the country is importing more of the precious metal than ever. The People\u2019s Bank of China added about 23 tonnes in September, its bi...",
@@ -172,26 +172,19 @@
     "BREAKING: Brent crude oil prices surge above $107/barrel after Ukraine's President Zelensky accuses Russia of striking 6 Ukranian energy facilities today. Iran also said a third crude oil supertank...",
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes 6%.",
     "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
-    "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen"
+    "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
+    "\ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Iran has released footage of targeting another oil tanker early this morning"
   ],
   "last_post": {
-    "hash": "067557f77f432331",
-    "fb_id": "1421089964411983_122110910607491654",
-    "title": "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
-    "link": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html",
-    "mode": "serious",
-    "at": "2026-10-13T03:32:00.844418+00:00"
+    "hash": "c251468873bbe41c",
+    "fb_id": "1094625476872471",
+    "title": "\ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Iran has released footage of targeting another oil tanker early this morning",
+    "link": "https://x.com/Megatron_ron/status/2109642806168056190",
+    "mode": "viral",
+    "kind": "video",
+    "at": "2026-10-13T04:06:06.319142+00:00"
   },
   "history": [
-    {
-      "fb_id": "2138513904209700",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "serious",
-      "at": "2026-10-10T00:50:15.800575+00:00"
-    },
     {
       "fb_id": "1421089964411983_122109053697491654",
       "topics": [
@@ -644,22 +637,18 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-13T03:32:00.844418+00:00"
+    },
+    {
+      "fb_id": "1094625476872471",
+      "topics": [
+        "gold_oil"
+      ],
+      "mode": "viral",
+      "at": "2026-10-13T04:06:06.319142+00:00"
     }
   ],
-  "last_video_post": "2026-10-12",
+  "last_video_post": "2026-10-13",
   "recent_fps": [
-    {
-      "fp": [
-        "$5,000",
-        "ETH",
-        "IN",
-        "JUST",
-        "ethereum",
-        "lee",
-        "tom"
-      ],
-      "at": "2026-10-12T00:03:50.943129+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -876,6 +865,12 @@
         "IMF"
       ],
       "at": "2026-10-13T03:32:00.844398+00:00"
+    },
+    {
+      "fp": [
+        "iran"
+      ],
+      "at": "2026-10-13T04:06:06.319127+00:00"
     }
   ],
   "recent_hooks": [
