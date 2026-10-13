@@ -83,6 +83,7 @@
     "89ac828e8f5cead9",
     "8c979261e3d4a088",
     "8ee6632d4eb19bae",
+    "90475a1c74fc1067",
     "950c95725e6f781d",
     "959bd28d9c00ec90",
     "95d6a1ee07f620c8",
@@ -156,10 +157,9 @@
   "day_counts": {
     "2026-10-11": 15,
     "2026-10-12": 15,
-    "2026-10-13": 6
+    "2026-10-13": 7
   },
   "recent_titles": [
-    "BREAKING: The Trump Administration is now threatening to halt weapons supplies to Ukraine in an effort to pressure Zelensky to stop striking Russian energy infrastructure, per FT. Details include: ...",
     "BREAKING: 84% of S&P 500 stocks are now trading at least -10% below their all-time highs. Real Estate leads the drawdown, with 97% of stocks down at least -10%, followed by Materials at 96%, Utilit...",
     "China\u2019s central bank has bought gold for 23 straight months, and the country is importing more of the precious metal than ever. The People\u2019s Bank of China added about 23 tonnes in September, its bi...",
     "\ud83d\udd25 BIG: Tokenized stock market cap hits a record $3.9B, with BNB Chain, Ethereum, and Solana holding about 70% of the market, per Token Terminal.",
@@ -173,27 +173,18 @@
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes 6%.",
     "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
     "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
-    "\ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Iran has released footage of targeting another oil tanker early this morning"
+    "\ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Iran has released footage of targeting another oil tanker early this morning",
+    "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures"
   ],
   "last_post": {
-    "hash": "c251468873bbe41c",
-    "fb_id": "1094625476872471",
-    "title": "\ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Iran has released footage of targeting another oil tanker early this morning",
-    "link": "https://x.com/Megatron_ron/status/2109642806168056190",
-    "mode": "viral",
-    "kind": "video",
-    "at": "2026-10-13T04:06:06.319142+00:00"
+    "hash": "90475a1c74fc1067",
+    "fb_id": "1421089964411983_122110932195491654",
+    "title": "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures",
+    "link": "https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures",
+    "mode": "serious",
+    "at": "2026-10-13T04:49:53.413809+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122109053697491654",
-      "topics": [
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "split:face+face",
-      "at": "2026-10-10T01:36:10.164119+00:00"
-    },
     {
       "fb_id": "1421089964411983_122109072111491654",
       "topics": [
@@ -645,23 +636,20 @@
       ],
       "mode": "viral",
       "at": "2026-10-13T04:06:06.319142+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122110932195491654",
+      "topics": [
+        "crypto",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-13T04:49:53.413809+00:00"
     }
   ],
   "last_video_post": "2026-10-13",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "IRGC",
-        "JUST",
-        "hormuz",
-        "iran",
-        "iranian",
-        "navy",
-        "strait"
-      ],
-      "at": "2026-10-12T00:34:25.368029+00:00"
-    },
     {
       "fp": [
         "beijing",
@@ -871,10 +859,18 @@
         "iran"
       ],
       "at": "2026-10-13T04:06:06.319127+00:00"
+    },
+    {
+      "fp": [
+        "$83,000",
+        "bitcoin",
+        "korean",
+        "nasdaq"
+      ],
+      "at": "2026-10-13T04:49:53.413791+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83e\udd47 \u0627\u0644\u0630\u0647\u0628 \u064a\u062a\u062e\u0637\u0649 4,200 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0648\u0646\u0635\u0629 \u0648\u0633\u0637 \u062a\u062f\u0641\u0642\u0627\u062a \u0642\u0648\u064a\u0629 \u0644\u0635\u0646\u0627\u062f\u064a\u0642 ETF \u0642\u0628\u0644 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u062a\u0636\u062e\u0645 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629",
     "\ud83d\udee2\ufe0f \u062a\u0631\u0627\u0645\u0628: 1. \u062a\u0631\u0627\u0645\u0628 \u0628\u064a\u0647\u062f\u062f \u0628\u0648\u0642\u0641 \u0623\u0633\u0644\u062d\u0629 \u0644\u0623\u0648\u0643\u0631\u0627\u0646\u064a\u0627 \u0644\u0636\u063a\u0637 \u0639\u0644\u0649 \u0632\u064a\u0644\u064a\u0646\u0633\u0643\u064a.",
     "\ud83d\udcca \u0627\u0644\u062a\u0642\u0631\u064a\u0631 - 84% \u0645\u0646 \u0623\u0633\u0647\u0645 S&P 500 \u0628\u062a\u062f\u0627\u0648\u0644 \u0627\u0644\u0622\u0646 \u062a\u062d\u062a \u0623\u0639\u0644\u0649 \u0645\u0633\u062a\u0648\u0649 \u0644\u0647\u0627 \u0628\u0640 -10% \u0623\u0648 \u0623\u0643\u062b\u0631",
     "\ud83e\udd47 \u0627\u0644\u0628\u0646\u0643 \u0627\u0644\u0645\u0631\u0643\u0632\u064a \u0627\u0644\u0635\u064a\u0646\u064a: 23 \u0634\u0647\u0631 \u0645\u062a\u0648\u0627\u0635\u0644 \u0628\u064a\u0634\u062a\u0631\u0649 \u062f\u0647\u0628.. \u0648\u0633\u0628\u062a\u0645\u0628\u0631 \u0636\u0627\u0641 23 \u0637\u0646",
@@ -888,7 +884,8 @@
     "\ud83d\udee2\ufe0f \u0632\u064a\u0644\u064a\u0646\u0633\u0643\u064a: \u0631\u0648\u0633\u064a\u0627 \u0636\u0631\u0628\u062a 6 \u0645\u0646\u0634\u0622\u062a \u0637\u0627\u0642\u0629 \u0623\u0648\u0643\u0631\u0627\u0646\u064a\u0629.. \u0648\u0628\u0631\u0646\u062a \u0642\u0641\u0632 \u0641\u0648\u0642 107 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0628\u0631\u0645\u064a\u0644",
     "\ud83d\udcc9 \u0643\u0648\u0631\u064a\u0627 \u0627\u0644\u062c\u0646\u0648\u0628\u064a\u0629: \u0645\u0624\u0634\u0631 KOSPI \u064a\u0647\u0648\u064a 6% \u0641\u064a \u062c\u0644\u0633\u0629 \u0648\u0627\u062d\u062f\u0629",
     "\ud83d\udcc9 \u0623\u0633\u0647\u0645 \u0634\u0631\u0643\u062a\u064a\u0646 \u0622\u0633\u064a\u0648\u064a\u062a\u064a\u0646 (SK Hynix\u060c SoftBank) \u0634\u0647\u062f\u062a \u0627\u0646\u062e\u0641\u0627\u0636\u0627\u064b \u0628\u0639\u062f \u062a\u0631\u0627\u062c\u0639 \u0631\u0642\u0627\u0642\u0627\u062a \u0648\u0648\u0644 \u0633\u062a\u0631\u064a\u062a",
-    "\ud83d\udfe2 IMF \u064a\u062d\u0630\u0631 \u0641\u064a 2026: \u0639\u0648\u0627\u0626\u062f \u0627\u0644\u0633\u0646\u062f\u0627\u062a \u0627\u0644\u062d\u0643\u0648\u0645\u064a\u0629 \u0645\u0645\u0643\u0646 \u062a\u0642\u0641\u0632 \u0628\u0634\u0643\u0644 \u063a\u064a\u0631 \u0645\u0646\u0638\u0645"
+    "\ud83d\udfe2 IMF \u064a\u062d\u0630\u0631 \u0641\u064a 2026: \u0639\u0648\u0627\u0626\u062f \u0627\u0644\u0633\u0646\u062f\u0627\u062a \u0627\u0644\u062d\u0643\u0648\u0645\u064a\u0629 \u0645\u0645\u0643\u0646 \u062a\u0642\u0641\u0632 \u0628\u0634\u0643\u0644 \u063a\u064a\u0631 \u0645\u0646\u0638\u0645",
+    "\ud83d\udcc8 \u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0627\u0631\u062a\u0641\u0639\u062a \u0641\u0648\u0642 83 \u0623\u0644\u0641 \u062f\u0648\u0644\u0627\u0631 \u0628\u0639\u062f \u0645\u0627 \u0627\u062a\u0641\u0643\u0643\u062a \u0645\u0646 \u0627\u0644\u0623\u0633\u0647\u0645 \u0627\u0644\u0643\u0648\u0631\u064a\u0629 \u0648\u0627\u0644\u0639\u0642\u0648\u062f \u0627\u0644\u0622\u062c\u0644\u0629 \u0644\u0644\u0646\u0627\u0633\u062f\u0627\u0643"
   ],
-  "shape_idx": 59
+  "shape_idx": 60
 }
