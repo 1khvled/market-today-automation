@@ -111,6 +111,7 @@
     "a26723d092184d6c",
     "a2c6cf467d5f8672",
     "ab3071f3cb0c58cd",
+    "acb0acd96b4822ea",
     "afbdbc995a2e88e3",
     "b065ec14a78e401d",
     "b09058b4d4b8ce58",
@@ -176,10 +177,9 @@
   "day_counts": {
     "2026-10-12": 15,
     "2026-10-13": 15,
-    "2026-10-14": 11
+    "2026-10-14": 12
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Wells Fargo CEO says the bank is preparing for potential crypto stablecoin opportunities in the US.",
     "The future of Bitcoin is the future of finance. This morning at the World Bank, I joined Chris Brummer, Founder & CEO of The Fintech Foundation, for a 25-minute fireside chat at DC Fintech Week. @f...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump administration official ordered regulators to withdraw insider trading referral involving billions in suspicious trades before President Trump's Iran announcement, Bloomberg repor...",
     "Breaking: Michael Burry says the market is \"within 0-9 months of a significant top\" Most of his short book consist of: \u2022 Nasdaq 100 $QQQ puts \u2022 Semiconductor ETF $SMH puts Both positions expire in ...",
@@ -193,26 +193,18 @@
     "Coinbase, which holds 5% of all bitcoin, wants the quantum fix started now",
     "Zelensky told NPR that the Trump administration threatened to cut off intelligence-sharing unless Ukraine stopped striking Russian oil refineries.",
     "Russia launched its largest combined missile-and-drone attack on Ukraine overnight, firing 167 weapons \u2014 39 ballistic missiles and 128 drones \u2014 primarily targeting energy infrastructure in Kyiv and...",
-    "U.S. Treasury yields inch lower as investors await key inflation report"
+    "U.S. Treasury yields inch lower as investors await key inflation report",
+    "Credit \u00c1gricole: FX Risk - FJElite"
   ],
   "last_post": {
-    "hash": "a2c6cf467d5f8672",
-    "fb_id": "1421089964411983_122111499909491654",
-    "title": "U.S. Treasury yields inch lower as investors await key inflation report",
-    "link": "https://www.cnbc.com/2026/10/14/us-treasury-yields-cpi-inflation-report.html",
+    "hash": "acb0acd96b4822ea",
+    "fb_id": "1421089964411983_122111530191491654",
+    "title": "Credit \u00c1gricole: FX Risk - FJElite",
+    "link": "https://www.financialjuice.com/News/9804852/Credit-%c3%81gricole-FX-Risk---FJElite.aspx?xy=rss",
     "mode": "serious",
-    "at": "2026-10-14T07:46:58.895865+00:00"
+    "at": "2026-10-14T09:06:31.710532+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122109720153491654",
-      "topics": [
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-11T04:47:51.401283+00:00"
-    },
     {
       "fb_id": "1421089964411983_122109753303491654",
       "topics": [
@@ -681,19 +673,21 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-14T07:46:58.895865+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122111530191491654",
+      "topics": [
+        "gold_oil",
+        "power",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "split:face",
+      "at": "2026-10-14T09:06:31.710532+00:00"
     }
   ],
   "last_video_post": "2026-10-14",
   "recent_fps": [
-    {
-      "fp": [
-        "$83,000",
-        "bitcoin",
-        "korean",
-        "nasdaq"
-      ],
-      "at": "2026-10-13T04:49:53.413791+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -954,10 +948,26 @@
         "wednesday"
       ],
       "at": "2026-10-14T07:46:58.895852+00:00"
+    },
+    {
+      "fp": [
+        "FX",
+        "IMF",
+        "US",
+        "credit",
+        "despite",
+        "east",
+        "iran",
+        "markets",
+        "middle",
+        "president",
+        "risk",
+        "trump"
+      ],
+      "at": "2026-10-14T09:06:31.710517+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83c\uddee\ud83c\uddf7 \u0628\u0639\u062f \u062a\u062d\u0630\u064a\u0631 \u0625\u064a\u0631\u0627\u0646 \u0644\u062c\u064a\u0631\u0627\u0646\u0647\u0627 \u0645\u0646 \u0647\u062c\u0648\u0645 \u0628\u0631\u064a \u0644\u0648 \u0627\u0644\u062d\u0631\u0628 \u0631\u062c\u0639\u062a\u060c \u0627\u0644\u0646\u0641\u0637 \u0645\u0645\u0643\u0646 \u064a\u0648\u0644\u0639",
     "\ud83c\udfe6 \u0627\u0644\u0631\u0626\u064a\u0633 \u0627\u0644\u062a\u0646\u0641\u064a\u0630\u064a \u0644\u0640 Wells Fargo\u060c \u062a\u0634\u0627\u0631\u0644\u064a \u0634\u0627\u0631\u0641\u060c \u0628\u064a\u0642\u0648\u0644 \u0627\u0644\u0628\u0646\u0643 \u0628\u064a\u062c\u0647\u0632 \u0644\u0641\u0631\u0635 \u0627\u0644\u0639\u0645\u0644\u0627\u062a \u0627\u0644\u0645\u0633\u062a\u0642\u0631\u0629 \u0641\u064a \u0623\u0645\u0631\u064a\u0643\u0627.",
     "\ud83e\udd47 \u0645\u0627\u064a\u0643\u0644 \u0633\u064a\u0644\u0648\u0631: \u0645\u0633\u062a\u0642\u0628\u0644 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0647\u0648 \u0645\u0633\u062a\u0642\u0628\u0644 \u0627\u0644\u062a\u0645\u0648\u064a\u0644\u060c \u0648\u0627\u0644\u0639\u0645\u0644\u0629 \u0627\u0644\u0631\u0642\u0645\u064a\u0629 \u0647\u064a \u0627\u0644\u062f\u0647\u0628 \u0627\u0644\u062c\u062f\u064a\u062f.",
     "\ud83d\udee2\ufe0f \u062a\u0631\u0627\u0645\u0628: \u0645\u0633\u0624\u0648\u0644 \u0628\u0625\u062f\u0627\u0631\u062a\u0647 \u0623\u0645\u0631 \u0628\u0633\u062d\u0628 \u0628\u0644\u0627\u063a \u062a\u062f\u0627\u0648\u0644 \u062f\u0627\u062e\u0644\u064a \u0628\u0645\u0644\u064a\u0627\u0631\u0627\u062a \u0627\u0644\u062f\u0648\u0644\u0627\u0631\u0627\u062a \u0642\u0628\u0644 \u0625\u0639\u0644\u0627\u0646 \u0625\u064a\u0631\u0627\u0646",
@@ -971,7 +981,8 @@
     "\ud83e\ude99 Coinbase ($COIN) \u0628\u062a\u062d\u0648\u0632 5% \u0645\u0646 \u0643\u0644 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0648\u062a\u0642\u0648\u0644: \"\u0646\u062d\u062a\u0627\u062c \u0646\u0628\u062f\u0623 \u0625\u0635\u0644\u0627\u062d \u0627\u0644\u0643\u0648\u0627\u0646\u062a\u0648\u0645 \u062f\u0644\u0648\u0642\u062a\u064a\"",
     "\ud83d\udee2\ufe0f \u0632\u064a\u0644\u064a\u0646\u0633\u0643\u064a \u0642\u0627\u0644 \u0625\u0646 \u0625\u062f\u0627\u0631\u0629 \u062a\u0631\u0627\u0645\u0628 \u0647\u062f\u062f\u062a \u0628\u0648\u0642\u0641 \u0645\u0634\u0627\u0631\u0643\u0629 \u0627\u0644\u0645\u062e\u0627\u0628\u0631\u0627\u062a \u0644\u0648 \u0623\u0648\u0643\u0631\u0627\u0646\u064a\u0627 \u0645\u0627\u0633\u062a\u0634\u0644\u062a\u0634 \u0639\u0644\u0649 \u0645\u0635\u0627\u0641\u064a \u0627\u0644\u0646\u0641\u0637 \u0627\u0644\u0631\u0648\u0633\u064a\u0629",
     "\ud83d\udca5 \u0631\u0648\u0633\u064a\u0627 \u0634\u0646\u062a \u0623\u0643\u0628\u0631 \u0647\u062c\u0648\u0645 \u0628\u0635\u0648\u0627\u0631\u064a\u062e \u0648\u0637\u0627\u0626\u0631\u0627\u062a \u0645\u0633\u064a\u0631\u0629 \u0639\u0644\u0649 \u0623\u0648\u0643\u0631\u0627\u0646\u064a\u0627: 167 \u0633\u0644\u0627\u062d \u2014 39 \u0635\u0627\u0631\u0648\u062e \u0628\u0627\u0644\u0633\u062a\u064a \u0648128 \u062f\u0631\u0648\u0646 \u2014 \u0627\u0633\u062a\u0647\u062f\u0641\u062a \u0645\u062d\u0637\u0627\u062a \u0627\u0644\u0637\u0627\u0642\u0629 \u0641\u064a \u0643\u064a\u064a\u0641 \u0648\u062e\u0627\u0631\u0643\u064a\u0641 \u0642\u0628\u0644 \u0645\u0648\u0633\u0645 \u0627\u0644\u062a\u062f\u0641\u0626\u0629",
-    "\ud83d\udcc9 \u0639\u0648\u0627\u0626\u062f \u0633\u0646\u062f\u0627\u062a \u0627\u0644\u062e\u0632\u0627\u0646\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0628\u062a\u0646\u0632\u0644.. \u0627\u0644\u0633\u0648\u0642 \u0645\u0633\u062a\u0646\u064a \u062a\u0642\u0631\u064a\u0631 \u0627\u0644\u062a\u0636\u062e\u0645 (CPI)"
+    "\ud83d\udcc9 \u0639\u0648\u0627\u0626\u062f \u0633\u0646\u062f\u0627\u062a \u0627\u0644\u062e\u0632\u0627\u0646\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0628\u062a\u0646\u0632\u0644.. \u0627\u0644\u0633\u0648\u0642 \u0645\u0633\u062a\u0646\u064a \u062a\u0642\u0631\u064a\u0631 \u0627\u0644\u062a\u0636\u062e\u0645 (CPI)",
+    "\ud83d\udcc8 \u0631\u063a\u0645 \u062a\u062d\u0630\u064a\u0631 IMF \u0645\u0646 \u0639\u0648\u0627\u0626\u062f \u0627\u0644\u0633\u0646\u062f\u0627\u062a \u0627\u0644\u0639\u0627\u0644\u064a\u0629 \u0648\u0627\u0631\u062a\u0641\u0627\u0639 \u0627\u0644\u0646\u0641\u0637.. \u0627\u0644\u0645\u0633\u062a\u062b\u0645\u0631\u064a\u0646 \u0644\u0633\u0647 \u0628\u064a\u062a\u062d\u0645\u0644\u0648\u0627 \u0645\u062e\u0627\u0637\u0631 \u0642\u0648\u064a\u0629"
   ],
-  "shape_idx": 78
+  "shape_idx": 79
 }
