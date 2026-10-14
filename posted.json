@@ -85,6 +85,7 @@
     "8285d95bbe7c0540",
     "8338fa19f7fc3596",
     "8388e8efd7832598",
+    "8465540a6146924a",
     "850df80d5bf2aab4",
     "867efb8ff1a70888",
     "884ec865bb833271",
@@ -167,10 +168,9 @@
   "day_counts": {
     "2026-10-12": 15,
     "2026-10-13": 15,
-    "2026-10-14": 2
+    "2026-10-14": 3
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes 6%.",
     "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
     "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
     "\ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Iran has released footage of targeting another oil tanker early this morning",
@@ -184,26 +184,18 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump administration official ordered regulators to withdraw insider trading referral involving billions in suspicious trades before President Trump's Iran announcement, Bloomberg repor...",
     "Breaking: Michael Burry says the market is \"within 0-9 months of a significant top\" Most of his short book consist of: \u2022 Nasdaq 100 $QQQ puts \u2022 Semiconductor ETF $SMH puts Both positions expire in ...",
     "Gemini 4 Argon is now globally available. Built to solve your hardest problems from start to finish, the model brings frontier capabilities across coding, enterprise workflows, and cyber defense.",
-    "GOLD FELL 0.2% TO $4,162.71 AN OUNCE, RECOVERING FROM SESSION LOWS AS FED\u2019S JOHN WILLIAMS SIGNALLED NO FURTHER RATE HIKES MAY BE NEEDED IN 2027. LOWER US TREASURY YIELDS AND A WEAKER DOLLAR SUPPORT..."
+    "GOLD FELL 0.2% TO $4,162.71 AN OUNCE, RECOVERING FROM SESSION LOWS AS FED\u2019S JOHN WILLIAMS SIGNALLED NO FURTHER RATE HIKES MAY BE NEEDED IN 2027. LOWER US TREASURY YIELDS AND A WEAKER DOLLAR SUPPORT...",
+    "\ud83c\uddfa\ud83c\uddf8 Senator Elizabeth Warren has repeatedly stated that cryptocurrency is used for money laundering and to avoid sanctions. Today, the US government fined Bank of America $1.2 billion for violating ..."
   ],
   "last_post": {
-    "hash": "44f573eae528189d",
-    "fb_id": "1421089964411983_122111304903491654",
-    "title": "GOLD FELL 0.2% TO $4,162.71 AN OUNCE, RECOVERING FROM SESSION LOWS AS FED\u2019S JOHN WILLIAMS SIGNALLED NO FURTHER RATE HIKES MAY BE NEEDED IN 2027. LOWER US TREASURY YIELDS AND A WEAKER DOLLAR SUPPORT...",
-    "link": "https://x.com/FirstSquawk/status/2110162026446344700",
-    "mode": "serious",
-    "at": "2026-10-14T00:35:43.459566+00:00"
+    "hash": "8465540a6146924a",
+    "fb_id": "1421089964411983_122111367669491654",
+    "title": "\ud83c\uddfa\ud83c\uddf8 Senator Elizabeth Warren has repeatedly stated that cryptocurrency is used for money laundering and to avoid sanctions. Today, the US government fined Bank of America $1.2 billion for violating ...",
+    "link": "https://x.com/WatcherGuru/status/2110150272467284132",
+    "mode": "viral",
+    "at": "2026-10-14T02:05:56.517100+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122109233691491654",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "hires",
-      "at": "2026-10-10T09:16:53.435393+00:00"
-    },
     {
       "fb_id": "1421089964411983_122109256491491654",
       "topics": [
@@ -666,22 +658,20 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-14T00:35:43.459566+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122111367669491654",
+      "topics": [
+        "crypto",
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "face",
+      "at": "2026-10-14T02:05:56.517100+00:00"
     }
   ],
   "last_video_post": "2026-10-14",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "IMF",
-        "bank",
-        "chief",
-        "georgieva",
-        "kristalina",
-        "world"
-      ],
-      "at": "2026-10-12T08:46:20.685406+00:00"
-    },
     {
       "fp": [
         "$800",
@@ -946,10 +936,22 @@
         "YIELD"
       ],
       "at": "2026-10-14T00:35:43.459550+00:00"
+    },
+    {
+      "fp": [
+        "$1.2",
+        "US",
+        "america",
+        "bank",
+        "elizabeth",
+        "senator",
+        "today",
+        "warren"
+      ],
+      "at": "2026-10-14T02:05:56.517080+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83e\udd47 \u0635\u0646\u0627\u062f\u064a\u0642 \u0627\u0644\u0630\u0647\u0628 \u0627\u0644\u0639\u0627\u0644\u0645\u064a\u0629 \u0633\u062d\u0628\u062a 30.7 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631 \u0641\u064a \u0627\u0644\u0631\u0628\u0639 \u0627\u0644\u062b\u0627\u0644\u062b 2026.. \u0623\u0643\u0628\u0631 \u062a\u062f\u0641\u0642\u0627\u062a \u0631\u0628\u0639 \u0633\u0646\u0648\u064a\u0629 \u0641\u064a \u0627\u0644\u062a\u0627\u0631\u064a\u062e.",
     "\ud83d\udee2\ufe0f \u0632\u064a\u0644\u064a\u0646\u0633\u0643\u064a: \u0631\u0648\u0633\u064a\u0627 \u0636\u0631\u0628\u062a 6 \u0645\u0646\u0634\u0622\u062a \u0637\u0627\u0642\u0629 \u0623\u0648\u0643\u0631\u0627\u0646\u064a\u0629.. \u0648\u0628\u0631\u0646\u062a \u0642\u0641\u0632 \u0641\u0648\u0642 107 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0628\u0631\u0645\u064a\u0644",
     "\ud83d\udcc9 \u0643\u0648\u0631\u064a\u0627 \u0627\u0644\u062c\u0646\u0648\u0628\u064a\u0629: \u0645\u0624\u0634\u0631 KOSPI \u064a\u0647\u0648\u064a 6% \u0641\u064a \u062c\u0644\u0633\u0629 \u0648\u0627\u062d\u062f\u0629",
     "\ud83d\udcc9 \u0623\u0633\u0647\u0645 \u0634\u0631\u0643\u062a\u064a\u0646 \u0622\u0633\u064a\u0648\u064a\u062a\u064a\u0646 (SK Hynix\u060c SoftBank) \u0634\u0647\u062f\u062a \u0627\u0646\u062e\u0641\u0627\u0636\u0627\u064b \u0628\u0639\u062f \u062a\u0631\u0627\u062c\u0639 \u0631\u0642\u0627\u0642\u0627\u062a \u0648\u0648\u0644 \u0633\u062a\u0631\u064a\u062a",
@@ -963,7 +965,8 @@
     "\ud83e\udd47 \u0645\u0627\u064a\u0643\u0644 \u0633\u064a\u0644\u0648\u0631: \u0645\u0633\u062a\u0642\u0628\u0644 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0647\u0648 \u0645\u0633\u062a\u0642\u0628\u0644 \u0627\u0644\u062a\u0645\u0648\u064a\u0644\u060c \u0648\u0627\u0644\u0639\u0645\u0644\u0629 \u0627\u0644\u0631\u0642\u0645\u064a\u0629 \u0647\u064a \u0627\u0644\u062f\u0647\u0628 \u0627\u0644\u062c\u062f\u064a\u062f.",
     "\ud83d\udee2\ufe0f \u062a\u0631\u0627\u0645\u0628: \u0645\u0633\u0624\u0648\u0644 \u0628\u0625\u062f\u0627\u0631\u062a\u0647 \u0623\u0645\u0631 \u0628\u0633\u062d\u0628 \u0628\u0644\u0627\u063a \u062a\u062f\u0627\u0648\u0644 \u062f\u0627\u062e\u0644\u064a \u0628\u0645\u0644\u064a\u0627\u0631\u0627\u062a \u0627\u0644\u062f\u0648\u0644\u0627\u0631\u0627\u062a \u0642\u0628\u0644 \u0625\u0639\u0644\u0627\u0646 \u0625\u064a\u0631\u0627\u0646",
     "\"\ud83d\udcc9 \u0645\u0627\u064a\u0643\u0644 \u0628\u064a\u0631\u064a: \u0627\u0644\u0633\u0648\u0642 \u0639\u0644\u0649 \u0628\u0639\u062f 0-9 \u0623\u0634\u0647\u0631 \u0645\u0646 \u0642\u0645\u0629 \u0643\u0628\u0631\u0649",
-    "\ud83e\udd47 \u062c\u0648\u0646 \u0648\u064a\u0644\u064a\u0627\u0645\u0632 \u0642\u0627\u0644: \u0627\u0644\u0630\u0647\u0628 \u0646\u0632\u0644 0.2% \u0644\u0640 4,162.71 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0623\u0648\u0646\u0635\u0629\u060c \u0648\u062a\u0639\u0627\u0641\u0649 \u0645\u0646 \u0623\u062f\u0646\u0649 \u0645\u0633\u062a\u0648\u064a\u0627\u062a \u0627\u0644\u062c\u0644\u0633\u0629 \u0628\u0639\u062f \u0645\u0627 \u0623\u0634\u0627\u0631 \u0625\u0646 \u0632\u064a\u0627\u062f\u0629 \u0627\u0644\u0641\u0627\u064a\u062f\u0629 \u0645\u0634 \u0645\u062d\u062a\u0627\u062c\u0629 \u0641\u064a 2027"
+    "\ud83e\udd47 \u062c\u0648\u0646 \u0648\u064a\u0644\u064a\u0627\u0645\u0632 \u0642\u0627\u0644: \u0627\u0644\u0630\u0647\u0628 \u0646\u0632\u0644 0.2% \u0644\u0640 4,162.71 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0623\u0648\u0646\u0635\u0629\u060c \u0648\u062a\u0639\u0627\u0641\u0649 \u0645\u0646 \u0623\u062f\u0646\u0649 \u0645\u0633\u062a\u0648\u064a\u0627\u062a \u0627\u0644\u062c\u0644\u0633\u0629 \u0628\u0639\u062f \u0645\u0627 \u0623\u0634\u0627\u0631 \u0625\u0646 \u0632\u064a\u0627\u062f\u0629 \u0627\u0644\u0641\u0627\u064a\u062f\u0629 \u0645\u0634 \u0645\u062d\u062a\u0627\u062c\u0629 \u0641\u064a 2027",
+    "\ud83d\udea8 \u0625\u0644\u064a\u0632\u0627\u0628\u064a\u062b \u0648\u0627\u0631\u0646: \u0642\u0627\u0644\u062a \u0625\u0646 \u0627\u0644\u0639\u0645\u0644\u0627\u062a \u0627\u0644\u0631\u0642\u0645\u064a\u0629 \u062a\u064f\u0633\u062a\u064e\u062e\u062f\u0645 \u0641\u064a \u063a\u0633\u064a\u0644 \u0627\u0644\u0623\u0645\u0648\u0627\u0644 \u0648\u062a\u062c\u0646\u0628 \u0627\u0644\u0639\u0642\u0648\u0628\u0627\u062a\u060c \u0648\u0627\u0644\u064a\u0648\u0645 \u063a\u0631\u0645\u062a \u0627\u0644\u062d\u0643\u0648\u0645\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0628\u0646\u0643 \u0623\u0648\u0641 \u0623\u0645\u0631\u064a\u0643\u0627 1.2 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631"
   ],
-  "shape_idx": 69
+  "shape_idx": 70
 }
