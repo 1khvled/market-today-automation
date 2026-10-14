@@ -152,6 +152,7 @@
     "f5828dfd0f21b9c4",
     "f657b460fe198b75",
     "f6ab0f1cbf1e0293",
+    "f6fec4d1afc3d367",
     "f99897bde7abfc3a",
     "f9d7a58cfd4f31e8",
     "faa585879730d067",
@@ -179,10 +180,9 @@
   "day_counts": {
     "2026-10-12": 15,
     "2026-10-13": 15,
-    "2026-10-14": 14
+    "2026-10-14": 15
   },
   "recent_titles": [
-    "Breaking: Michael Burry says the market is \"within 0-9 months of a significant top\" Most of his short book consist of: \u2022 Nasdaq 100 $QQQ puts \u2022 Semiconductor ETF $SMH puts Both positions expire in ...",
     "Gemini 4 Argon is now globally available. Built to solve your hardest problems from start to finish, the model brings frontier capabilities across coding, enterprise workflows, and cyber defense.",
     "GOLD FELL 0.2% TO $4,162.71 AN OUNCE, RECOVERING FROM SESSION LOWS AS FED\u2019S JOHN WILLIAMS SIGNALLED NO FURTHER RATE HIKES MAY BE NEEDED IN 2027. LOWER US TREASURY YIELDS AND A WEAKER DOLLAR SUPPORT...",
     "\ud83c\uddfa\ud83c\uddf8 Senator Elizabeth Warren has repeatedly stated that cryptocurrency is used for money laundering and to avoid sanctions. Today, the US government fined Bank of America $1.2 billion for violating ...",
@@ -196,26 +196,18 @@
     "U.S. Treasury yields inch lower as investors await key inflation report",
     "Credit \u00c1gricole: FX Risk - FJElite",
     "IRAN WARNS U.S. COULD LAUNCH NEW STRIKES BEFORE MIDTERMS IRGC spokesman Hossein Mohebbi warns Washington could restart attacks on Iran ahead of the November 3 elections, despite Trump's pledge not ...",
-    "Absolutely incredible. Just 10 stocks have driven 70% of the S&P 500\u2019s gain since March 30th. These stocks have added +16 percentage points to the index\u2019s +23% gain over this period. Nvidia, $NVDA,..."
+    "Absolutely incredible. Just 10 stocks have driven 70% of the S&P 500\u2019s gain since March 30th. These stocks have added +16 percentage points to the index\u2019s +23% gain over this period. Nvidia, $NVDA,...",
+    "Bitcoin holds above $83,000 ahead of U.S. inflation data as altcoins lag"
   ],
   "last_post": {
-    "hash": "0a52496223e50902",
-    "fb_id": "1421089964411983_122111564481491654",
-    "title": "Absolutely incredible. Just 10 stocks have driven 70% of the S&P 500\u2019s gain since March 30th. These stocks have added +16 percentage points to the index\u2019s +23% gain over this period. Nvidia, $NVDA,...",
-    "link": "https://x.com/KobeissiLetter/status/2110234262553117073",
-    "mode": "viral",
-    "at": "2026-10-14T10:46:26.623585+00:00"
+    "hash": "f6fec4d1afc3d367",
+    "fb_id": "1421089964411983_122111573313491654",
+    "title": "Bitcoin holds above $83,000 ahead of U.S. inflation data as altcoins lag",
+    "link": "https://www.coindesk.com/markets/2026/10/14/bitcoin-holds-above-usd83-000-ahead-of-u-s-inflation-data-as-altcoins-lag",
+    "mode": "serious",
+    "at": "2026-10-14T11:19:10.601488+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122109787731491654",
-      "topics": [
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "split:face+face",
-      "at": "2026-10-11T07:32:36.103849+00:00"
-    },
     {
       "fb_id": "1421089964411983_122109806907491654",
       "topics": [
@@ -688,33 +680,20 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-14T10:46:26.623585+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122111573313491654",
+      "topics": [
+        "crypto",
+        "inflation"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-14T11:19:10.601488+00:00"
     }
   ],
   "last_video_post": "2026-10-14",
   "recent_fps": [
-    {
-      "fp": [
-        "BOFA",
-        "DERAIL",
-        "HIT",
-        "MAY",
-        "NEED",
-        "RALLY",
-        "STOCK",
-        "TO",
-        "YIELD",
-        "america",
-        "august",
-        "bank",
-        "consumer",
-        "fed",
-        "key",
-        "october",
-        "technology",
-        "treasury"
-      ],
-      "at": "2026-10-13T11:18:05.966890+00:00"
-    },
     {
       "fp": [
         "WSJ",
@@ -977,10 +956,16 @@
         "this"
       ],
       "at": "2026-10-14T10:46:26.623571+00:00"
+    },
+    {
+      "fp": [
+        "$83,000",
+        "bitcoin"
+      ],
+      "at": "2026-10-14T11:19:10.601476+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udee2\ufe0f \u062a\u0631\u0627\u0645\u0628: \u0645\u0633\u0624\u0648\u0644 \u0628\u0625\u062f\u0627\u0631\u062a\u0647 \u0623\u0645\u0631 \u0628\u0633\u062d\u0628 \u0628\u0644\u0627\u063a \u062a\u062f\u0627\u0648\u0644 \u062f\u0627\u062e\u0644\u064a \u0628\u0645\u0644\u064a\u0627\u0631\u0627\u062a \u0627\u0644\u062f\u0648\u0644\u0627\u0631\u0627\u062a \u0642\u0628\u0644 \u0625\u0639\u0644\u0627\u0646 \u0625\u064a\u0631\u0627\u0646",
     "\"\ud83d\udcc9 \u0645\u0627\u064a\u0643\u0644 \u0628\u064a\u0631\u064a: \u0627\u0644\u0633\u0648\u0642 \u0639\u0644\u0649 \u0628\u0639\u062f 0-9 \u0623\u0634\u0647\u0631 \u0645\u0646 \u0642\u0645\u0629 \u0643\u0628\u0631\u0649",
     "\ud83e\udd47 \u062c\u0648\u0646 \u0648\u064a\u0644\u064a\u0627\u0645\u0632 \u0642\u0627\u0644: \u0627\u0644\u0630\u0647\u0628 \u0646\u0632\u0644 0.2% \u0644\u0640 4,162.71 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0623\u0648\u0646\u0635\u0629\u060c \u0648\u062a\u0639\u0627\u0641\u0649 \u0645\u0646 \u0623\u062f\u0646\u0649 \u0645\u0633\u062a\u0648\u064a\u0627\u062a \u0627\u0644\u062c\u0644\u0633\u0629 \u0628\u0639\u062f \u0645\u0627 \u0623\u0634\u0627\u0631 \u0625\u0646 \u0632\u064a\u0627\u062f\u0629 \u0627\u0644\u0641\u0627\u064a\u062f\u0629 \u0645\u0634 \u0645\u062d\u062a\u0627\u062c\u0629 \u0641\u064a 2027",
     "\ud83d\udea8 \u0625\u0644\u064a\u0632\u0627\u0628\u064a\u062b \u0648\u0627\u0631\u0646: \u0642\u0627\u0644\u062a \u0625\u0646 \u0627\u0644\u0639\u0645\u0644\u0627\u062a \u0627\u0644\u0631\u0642\u0645\u064a\u0629 \u062a\u064f\u0633\u062a\u064e\u062e\u062f\u0645 \u0641\u064a \u063a\u0633\u064a\u0644 \u0627\u0644\u0623\u0645\u0648\u0627\u0644 \u0648\u062a\u062c\u0646\u0628 \u0627\u0644\u0639\u0642\u0648\u0628\u0627\u062a\u060c \u0648\u0627\u0644\u064a\u0648\u0645 \u063a\u0631\u0645\u062a \u0627\u0644\u062d\u0643\u0648\u0645\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0628\u0646\u0643 \u0623\u0648\u0641 \u0623\u0645\u0631\u064a\u0643\u0627 1.2 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631",
@@ -994,7 +979,8 @@
     "\ud83d\udcc9 \u0639\u0648\u0627\u0626\u062f \u0633\u0646\u062f\u0627\u062a \u0627\u0644\u062e\u0632\u0627\u0646\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0628\u062a\u0646\u0632\u0644.. \u0627\u0644\u0633\u0648\u0642 \u0645\u0633\u062a\u0646\u064a \u062a\u0642\u0631\u064a\u0631 \u0627\u0644\u062a\u0636\u062e\u0645 (CPI)",
     "\ud83d\udcc8 \u0631\u063a\u0645 \u062a\u062d\u0630\u064a\u0631 IMF \u0645\u0646 \u0639\u0648\u0627\u0626\u062f \u0627\u0644\u0633\u0646\u062f\u0627\u062a \u0627\u0644\u0639\u0627\u0644\u064a\u0629 \u0648\u0627\u0631\u062a\u0641\u0627\u0639 \u0627\u0644\u0646\u0641\u0637.. \u0627\u0644\u0645\u0633\u062a\u062b\u0645\u0631\u064a\u0646 \u0644\u0633\u0647 \u0628\u064a\u062a\u062d\u0645\u0644\u0648\u0627 \u0645\u062e\u0627\u0637\u0631 \u0642\u0648\u064a\u0629",
     "\u26a0\ufe0f \u0625\u064a\u0631\u0627\u0646 \u0628\u062a\u062d\u0630\u0631 \u0623\u0645\u0631\u064a\u0643\u0627: \u0645\u0645\u0643\u0646 \u062a\u0636\u0631\u0628\u0648\u0646\u0627 \u062a\u0627\u0646\u064a \u0642\u0628\u0644 \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \u0646\u0635 \u0627\u0644\u0645\u062f\u0629 \u0641\u064a 3 \u0646\u0648\u0641\u0645\u0628\u0631",
-    "\ud83d\udcc8 10 \u0623\u0633\u0647\u0645 \u0628\u0633 \u0634\u0627\u0644\u062a 70% \u0645\u0646 \u0645\u0643\u0627\u0633\u0628 \u0627\u0644\u0640 S&P 500 \u0645\u0646 \u0645\u0627\u0631\u0633 \u0627\u0644\u0644\u064a \u0641\u0627\u062a"
+    "\ud83d\udcc8 10 \u0623\u0633\u0647\u0645 \u0628\u0633 \u0634\u0627\u0644\u062a 70% \u0645\u0646 \u0645\u0643\u0627\u0633\u0628 \u0627\u0644\u0640 S&P 500 \u0645\u0646 \u0645\u0627\u0631\u0633 \u0627\u0644\u0644\u064a \u0641\u0627\u062a",
+    "\ud83d\udcc8 \u0627\u0644\u0633\u0648\u0642: \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u062b\u0627\u0628\u062a \u0641\u0648\u0642 83,000 \u062f\u0648\u0644\u0627\u0631 \u0642\u0628\u0644 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u062a\u0636\u062e\u0645 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629"
   ],
-  "shape_idx": 81
+  "shape_idx": 82
 }
