@@ -37,6 +37,7 @@
     "31edcb10d3042c04",
     "34727a29e1cc7b4e",
     "352579361ebc4eef",
+    "3b5a4f82b0492a55",
     "3ccaf6ca07aa5503",
     "3cd711dbb502becd",
     "3dd4f0dd14d205b0",
@@ -148,7 +149,7 @@
   "tuner": {
     "topics": {},
     "mult": {},
-    "updated": "2026-10-13"
+    "updated": "2026-10-14"
   },
   "comment_review": {
     "posts": 8,
@@ -160,15 +161,14 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-13"
+    "updated": "2026-10-14"
   },
   "day_counts": {
-    "2026-10-11": 15,
     "2026-10-12": 15,
-    "2026-10-13": 15
+    "2026-10-13": 15,
+    "2026-10-14": 1
   },
   "recent_titles": [
-    "BREAKING: Global physical gold-backed ETFs attracted +$30.7 billion in inflows in Q3 2026, their largest quarterly intake on record. In September, inflows totaled +$10 billion, the 3rd-largest mont...",
     "BREAKING: Brent crude oil prices surge above $107/barrel after Ukraine's President Zelensky accuses Russia of striking 6 Ukranian energy facilities today. Iran also said a third crude oil supertank...",
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes 6%.",
     "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
@@ -182,26 +182,19 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Wells Fargo CEO says the bank is preparing for potential crypto stablecoin opportunities in the US.",
     "The future of Bitcoin is the future of finance. This morning at the World Bank, I joined Chris Brummer, Founder & CEO of The Fintech Foundation, for a 25-minute fireside chat at DC Fintech Week. @f...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump administration official ordered regulators to withdraw insider trading referral involving billions in suspicious trades before President Trump's Iran announcement, Bloomberg repor...",
-    "Breaking: Michael Burry says the market is \"within 0-9 months of a significant top\" Most of his short book consist of: \u2022 Nasdaq 100 $QQQ puts \u2022 Semiconductor ETF $SMH puts Both positions expire in ..."
+    "Breaking: Michael Burry says the market is \"within 0-9 months of a significant top\" Most of his short book consist of: \u2022 Nasdaq 100 $QQQ puts \u2022 Semiconductor ETF $SMH puts Both positions expire in ...",
+    "Gemini 4 Argon is now globally available. Built to solve your hardest problems from start to finish, the model brings frontier capabilities across coding, enterprise workflows, and cyber defense."
   ],
   "last_post": {
-    "hash": "43f52b63261fde16",
-    "fb_id": "1421089964411983_122111181927491654",
-    "title": "Breaking: Michael Burry says the market is \"within 0-9 months of a significant top\" Most of his short book consist of: \u2022 Nasdaq 100 $QQQ puts \u2022 Semiconductor ETF $SMH puts Both positions expire in ...",
-    "link": "https://x.com/burrytracker/status/2110028249782722703",
-    "mode": "serious",
-    "at": "2026-10-13T17:08:26.558550+00:00"
+    "hash": "3b5a4f82b0492a55",
+    "fb_id": "2667190320393279",
+    "title": "Gemini 4 Argon is now globally available. Built to solve your hardest problems from start to finish, the model brings frontier capabilities across coding, enterprise workflows, and cyber defense.",
+    "link": "https://x.com/GoogleDeepMind/status/2110039274922131792",
+    "mode": "viral",
+    "kind": "video",
+    "at": "2026-10-14T00:06:39.431790+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122109203265491654",
-      "topics": [
-        "gold_oil"
-      ],
-      "mode": "viral",
-      "photo": "hires",
-      "at": "2026-10-10T08:17:51.281577+00:00"
-    },
     {
       "fb_id": "1421089964411983_122109218319491654",
       "topics": [
@@ -663,17 +656,18 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-13T17:08:26.558550+00:00"
+    },
+    {
+      "fb_id": "2667190320393279",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "at": "2026-10-14T00:06:39.431790+00:00"
     }
   ],
-  "last_video_post": "2026-10-13",
+  "last_video_post": "2026-10-14",
   "recent_fps": [
-    {
-      "fp": [
-        "LATEST",
-        "french"
-      ],
-      "at": "2026-10-12T07:46:15.092647+00:00"
-    },
     {
       "fp": [
         "ledger"
@@ -915,6 +909,14 @@
         "this"
       ],
       "at": "2026-10-13T17:08:26.558537+00:00"
+    },
+    {
+      "fp": [
+        "argon",
+        "built",
+        "gemini"
+      ],
+      "at": "2026-10-14T00:06:39.431746+00:00"
     }
   ],
   "recent_hooks": [
