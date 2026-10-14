@@ -38,6 +38,7 @@
     "2bbf1d770e89e3e5",
     "31edcb10d3042c04",
     "34727a29e1cc7b4e",
+    "34cb966e950b108e",
     "352579361ebc4eef",
     "3b5a4f82b0492a55",
     "3ccaf6ca07aa5503",
@@ -172,10 +173,9 @@
   "day_counts": {
     "2026-10-12": 15,
     "2026-10-13": 15,
-    "2026-10-14": 7
+    "2026-10-14": 8
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddec\ud83c\udde7 Standard Chartered officially launches custody services for Ripple's $RLUSD stablecoin on the $XRP Ledger.",
     "HSBC: DON'T FIGHT THE AI TRADE AS STOCK RALLY GAINS MOMENTUM HSBC expects strong Q3 earnings and accelerating AI demand to extend the equity bull market. S&P 500 forward valuations have fallen 16.5...",
     "BOFA: U.S. TREASURY YIELDS MAY NEED TO HIT 6% TO DERAIL STOCK RALLY Bank of America's latest fund manager survey finds that 10-year Treasury yields would need to approach 6% before investors meanin...",
     "\ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf1 Iran has warned neighboring states that it will launch a ground offensive into their territories if the war resumes, per WSJ Iran has warned regional countries that its armed forces could co...",
@@ -189,26 +189,18 @@
     ".@RoKhanna You say billionaires are buying democracy. Apparently, your outrage depends on which billionaires are spending the money. I traced four funding routes involving the Soros network, Tides,...",
     "China finance ministry auctions 50-year ultra-long special treasury bonds at 2.2166% yield: traders",
     "Bitcoin climbs toward $84,000 after Fed\u2019s Williams sees no rate hikes in 2027",
-    "JUST IN: Michael Saylor say Bitcoin is at the \"beginning of a bull market.\""
+    "JUST IN: Michael Saylor say Bitcoin is at the \"beginning of a bull market.\"",
+    "Coinbase, which holds 5% of all bitcoin, wants the quantum fix started now"
   ],
   "last_post": {
-    "hash": "b9f09c1b08ea1fb9",
-    "fb_id": "1421089964411983_122111457525491654",
-    "title": "JUST IN: Michael Saylor say Bitcoin is at the \"beginning of a bull market.\"",
-    "link": "https://x.com/WatcherGuru/status/2110092405949218919",
-    "mode": "viral",
-    "at": "2026-10-14T05:19:17.458102+00:00"
+    "hash": "34cb966e950b108e",
+    "fb_id": "1421089964411983_122111476833491654",
+    "title": "Coinbase, which holds 5% of all bitcoin, wants the quantum fix started now",
+    "link": "https://www.coindesk.com/tech/2026/10/14/coinbase-which-holds-5-of-all-bitcoin-wants-the-quantum-fix-started-now",
+    "mode": "serious",
+    "at": "2026-10-14T06:19:15.290842+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122109661485491654",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "hires",
-      "at": "2026-10-11T02:20:27.072063+00:00"
-    },
     {
       "fb_id": "1421089964411983_122109670971491654",
       "topics": [
@@ -673,20 +665,19 @@
       "mode": "viral",
       "photo": "split:face+logo",
       "at": "2026-10-14T05:19:17.458102+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122111476833491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-14T06:19:15.290842+00:00"
     }
   ],
   "last_video_post": "2026-10-14",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "KOSPI",
-        "korea",
-        "south"
-      ],
-      "at": "2026-10-13T02:05:17.544041+00:00"
-    },
     {
       "fp": [
         "SK",
@@ -944,10 +935,15 @@
         "saylor"
       ],
       "at": "2026-10-14T05:19:17.458083+00:00"
+    },
+    {
+      "fp": [
+        "coinbase"
+      ],
+      "at": "2026-10-14T06:19:15.290832+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udcc8 \u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0627\u0631\u062a\u0641\u0639\u062a \u0641\u0648\u0642 83 \u0623\u0644\u0641 \u062f\u0648\u0644\u0627\u0631 \u0628\u0639\u062f \u0645\u0627 \u0627\u062a\u0641\u0643\u0643\u062a \u0645\u0646 \u0627\u0644\u0623\u0633\u0647\u0645 \u0627\u0644\u0643\u0648\u0631\u064a\u0629 \u0648\u0627\u0644\u0639\u0642\u0648\u062f \u0627\u0644\u0622\u062c\u0644\u0629 \u0644\u0644\u0646\u0627\u0633\u062f\u0627\u0643",
     "\ud83c\udfe6 \u0633\u062a\u0627\u0646\u062f\u0631\u062f \u062a\u0634\u0627\u0631\u062a\u0631\u062f \u062a\u0637\u0644\u0642 \u062e\u062f\u0645\u0627\u062a \u062d\u0641\u0638 \u0644\u0639\u0645\u0644\u0629 Ripple's $RLUSD \u0627\u0644\u0645\u0633\u062a\u0642\u0631\u0629 \u0639\u0644\u0649 XRP Ledger.",
     "\ud83d\udcc8 HSBC: \u0645\u062a\u062a\u062e\u0627\u0646\u0642\u0634 \u0645\u0639 \u0645\u0648\u062c\u0629 \u0627\u0644\u0640 AI.. \u0627\u0644\u0623\u0633\u0647\u0645 \u0644\u0633\u0647 \u0647\u062a\u0648\u0644\u0639 \u0623\u0643\u062a\u0631 \u0641\u064a \u0627\u0644\u0631\u0628\u0639 \u0627\u0644\u062a\u0627\u0644\u062a",
     "\"\ud83d\udcc9 BOFA \u0628\u064a\u062d\u0630\u0631: \u0644\u0648 \u0639\u0627\u0626\u062f \u0627\u0644\u0633\u0646\u062f\u0627\u062a \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0644\u0640 10 \u0633\u0646\u0648\u0627\u062a \u0648\u0635\u0644 6%.. \u0627\u0644\u0623\u0633\u0647\u0645 \u0647\u062a\u062a\u0639\u0637\u0644",
@@ -961,7 +957,8 @@
     "\ud83d\udcb5 \u0628\u064a\u0644 \u0623\u0643\u0645\u0627\u0646: \u0631\u0648 \u062e\u0646\u0627 \u062a\u0642\u0648\u0644 \u0627\u0644\u0645\u0644\u064a\u0627\u0631\u062f\u064a\u0631\u0627\u062a \u064a\u0634\u062a\u0631\u0648\u0646 \u0627\u0644\u062f\u064a\u0645\u0642\u0631\u0627\u0637\u064a\u0629.. \u0644\u0643\u0646 \u063a\u0636\u0628\u0643 \u064a\u0639\u062a\u0645\u062f \u0639\u0644\u0649 \u0623\u064a \u0645\u0644\u064a\u0627\u0631\u062f\u064a\u0631 \u0628\u064a\u062f\u0641\u0639 \u0627\u0644\u0641\u0644\u0648\u0633",
     "\ud83d\udcca \u0627\u0644\u062e\u0628\u0631: \u0648\u0632\u0627\u0631\u0629 \u0627\u0644\u0645\u0627\u0644\u064a\u0629 \u0627\u0644\u0635\u064a\u0646\u064a\u0629 \u062a\u0637\u0631\u062d \u0633\u0646\u062f\u0627\u062a \u062e\u0632\u064a\u0646\u0629 \u062e\u0627\u0635\u0629 \u0644\u0645\u062f\u0629 50 \u0633\u0646\u0629 \u0628\u0639\u0627\u0626\u062f 2.2166% \u062d\u0633\u0628 \u0627\u0644\u0645\u062a\u0639\u0627\u0645\u0644\u0648\u0646",
     "\ud83e\ude99 Bitcoin \u0628\u064a\u0644\u0642\u0649 $84,000 \u0628\u0639\u062f \u0645\u0627 Fed\u2019s Williams \u0642\u0627\u0644 \u0645\u0627 \u0641\u064a\u0634 \u0631\u0641\u0639 \u0641\u0627\u0626\u062f\u0629 2027",
-    "\ud83e\ude99 1 \u0645\u0627\u064a\u0643\u0644 \u0633\u064a\u0644\u0648\u0631: BTC \u0641\u064a \u0628\u062f\u0627\u064a\u0629 \u0627\u0644\u0633\u0648\u0642 \u0627\u0644\u0635\u0627\u0639\u062f\u0629 'beginning of a bull market'."
+    "\ud83e\ude99 1 \u0645\u0627\u064a\u0643\u0644 \u0633\u064a\u0644\u0648\u0631: BTC \u0641\u064a \u0628\u062f\u0627\u064a\u0629 \u0627\u0644\u0633\u0648\u0642 \u0627\u0644\u0635\u0627\u0639\u062f\u0629 'beginning of a bull market'.",
+    "\ud83e\ude99 Coinbase ($COIN) \u0628\u062a\u062d\u0648\u0632 5% \u0645\u0646 \u0643\u0644 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0648\u062a\u0642\u0648\u0644: \"\u0646\u062d\u062a\u0627\u062c \u0646\u0628\u062f\u0623 \u0625\u0635\u0644\u0627\u062d \u0627\u0644\u0643\u0648\u0627\u0646\u062a\u0648\u0645 \u062f\u0644\u0648\u0642\u062a\u064a\""
   ],
-  "shape_idx": 74
+  "shape_idx": 75
 }
