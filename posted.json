@@ -144,6 +144,7 @@
     "eec6a6d1910591bf",
     "efb052f68304f89a",
     "f041ccdd0f70088f",
+    "f423d63bf056a5f2",
     "f5828dfd0f21b9c4",
     "f657b460fe198b75",
     "f6ab0f1cbf1e0293",
@@ -174,10 +175,9 @@
   "day_counts": {
     "2026-10-12": 15,
     "2026-10-13": 15,
-    "2026-10-14": 9
+    "2026-10-14": 10
   },
   "recent_titles": [
-    "BOFA: U.S. TREASURY YIELDS MAY NEED TO HIT 6% TO DERAIL STOCK RALLY Bank of America's latest fund manager survey finds that 10-year Treasury yields would need to approach 6% before investors meanin...",
     "\ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf1 Iran has warned neighboring states that it will launch a ground offensive into their territories if the war resumes, per WSJ Iran has warned regional countries that its armed forces could co...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Wells Fargo CEO says the bank is preparing for potential crypto stablecoin opportunities in the US.",
     "The future of Bitcoin is the future of finance. This morning at the World Bank, I joined Chris Brummer, Founder & CEO of The Fintech Foundation, for a 25-minute fireside chat at DC Fintech Week. @f...",
@@ -191,26 +191,18 @@
     "Bitcoin climbs toward $84,000 after Fed\u2019s Williams sees no rate hikes in 2027",
     "JUST IN: Michael Saylor say Bitcoin is at the \"beginning of a bull market.\"",
     "Coinbase, which holds 5% of all bitcoin, wants the quantum fix started now",
-    "Zelensky told NPR that the Trump administration threatened to cut off intelligence-sharing unless Ukraine stopped striking Russian oil refineries."
+    "Zelensky told NPR that the Trump administration threatened to cut off intelligence-sharing unless Ukraine stopped striking Russian oil refineries.",
+    "Russia launched its largest combined missile-and-drone attack on Ukraine overnight, firing 167 weapons \u2014 39 ballistic missiles and 128 drones \u2014 primarily targeting energy infrastructure in Kyiv and..."
   ],
   "last_post": {
-    "hash": "8ea319de834d9953",
-    "fb_id": "1421089964411983_122111482449491654",
-    "title": "Zelensky told NPR that the Trump administration threatened to cut off intelligence-sharing unless Ukraine stopped striking Russian oil refineries.",
-    "link": "https://x.com/clashreport/status/2110253690669928720",
+    "hash": "f423d63bf056a5f2",
+    "fb_id": "1421089964411983_122111489019491654",
+    "title": "Russia launched its largest combined missile-and-drone attack on Ukraine overnight, firing 167 weapons \u2014 39 ballistic missiles and 128 drones \u2014 primarily targeting energy infrastructure in Kyiv and...",
+    "link": "https://x.com/clashreport/status/2110266102978682899",
     "mode": "serious",
-    "at": "2026-10-14T06:50:53.236539+00:00"
+    "at": "2026-10-14T07:18:08.372866+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122109682269491654",
-      "topics": [
-        "inflation"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-11T03:18:08.866798+00:00"
-    },
     {
       "fb_id": "1084939844522988",
       "topics": [
@@ -676,16 +668,20 @@
       "mode": "serious",
       "photo": "split:face+face",
       "at": "2026-10-14T06:50:53.236539+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122111489019491654",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-10-14T07:18:08.372866+00:00"
     }
   ],
   "last_video_post": "2026-10-14",
   "recent_fps": [
-    {
-      "fp": [
-        "IMF"
-      ],
-      "at": "2026-10-13T03:32:00.844398+00:00"
-    },
     {
       "fp": [
         "iran"
@@ -941,10 +937,21 @@
         "zelensky"
       ],
       "at": "2026-10-14T06:50:53.236523+00:00"
+    },
+    {
+      "fp": [
+        "CHP",
+        "ballistic",
+        "darnytska",
+        "kharkiv",
+        "kyiv",
+        "russia",
+        "ukraine"
+      ],
+      "at": "2026-10-14T07:18:08.372852+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udcc8 HSBC: \u0645\u062a\u062a\u062e\u0627\u0646\u0642\u0634 \u0645\u0639 \u0645\u0648\u062c\u0629 \u0627\u0644\u0640 AI.. \u0627\u0644\u0623\u0633\u0647\u0645 \u0644\u0633\u0647 \u0647\u062a\u0648\u0644\u0639 \u0623\u0643\u062a\u0631 \u0641\u064a \u0627\u0644\u0631\u0628\u0639 \u0627\u0644\u062a\u0627\u0644\u062a",
     "\"\ud83d\udcc9 BOFA \u0628\u064a\u062d\u0630\u0631: \u0644\u0648 \u0639\u0627\u0626\u062f \u0627\u0644\u0633\u0646\u062f\u0627\u062a \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0644\u0640 10 \u0633\u0646\u0648\u0627\u062a \u0648\u0635\u0644 6%.. \u0627\u0644\u0623\u0633\u0647\u0645 \u0647\u062a\u062a\u0639\u0637\u0644",
     "\ud83c\uddee\ud83c\uddf7 \u0628\u0639\u062f \u062a\u062d\u0630\u064a\u0631 \u0625\u064a\u0631\u0627\u0646 \u0644\u062c\u064a\u0631\u0627\u0646\u0647\u0627 \u0645\u0646 \u0647\u062c\u0648\u0645 \u0628\u0631\u064a \u0644\u0648 \u0627\u0644\u062d\u0631\u0628 \u0631\u062c\u0639\u062a\u060c \u0627\u0644\u0646\u0641\u0637 \u0645\u0645\u0643\u0646 \u064a\u0648\u0644\u0639",
     "\ud83c\udfe6 \u0627\u0644\u0631\u0626\u064a\u0633 \u0627\u0644\u062a\u0646\u0641\u064a\u0630\u064a \u0644\u0640 Wells Fargo\u060c \u062a\u0634\u0627\u0631\u0644\u064a \u0634\u0627\u0631\u0641\u060c \u0628\u064a\u0642\u0648\u0644 \u0627\u0644\u0628\u0646\u0643 \u0628\u064a\u062c\u0647\u0632 \u0644\u0641\u0631\u0635 \u0627\u0644\u0639\u0645\u0644\u0627\u062a \u0627\u0644\u0645\u0633\u062a\u0642\u0631\u0629 \u0641\u064a \u0623\u0645\u0631\u064a\u0643\u0627.",
@@ -958,7 +965,8 @@
     "\ud83e\ude99 Bitcoin \u0628\u064a\u0644\u0642\u0649 $84,000 \u0628\u0639\u062f \u0645\u0627 Fed\u2019s Williams \u0642\u0627\u0644 \u0645\u0627 \u0641\u064a\u0634 \u0631\u0641\u0639 \u0641\u0627\u0626\u062f\u0629 2027",
     "\ud83e\ude99 1 \u0645\u0627\u064a\u0643\u0644 \u0633\u064a\u0644\u0648\u0631: BTC \u0641\u064a \u0628\u062f\u0627\u064a\u0629 \u0627\u0644\u0633\u0648\u0642 \u0627\u0644\u0635\u0627\u0639\u062f\u0629 'beginning of a bull market'.",
     "\ud83e\ude99 Coinbase ($COIN) \u0628\u062a\u062d\u0648\u0632 5% \u0645\u0646 \u0643\u0644 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0648\u062a\u0642\u0648\u0644: \"\u0646\u062d\u062a\u0627\u062c \u0646\u0628\u062f\u0623 \u0625\u0635\u0644\u0627\u062d \u0627\u0644\u0643\u0648\u0627\u0646\u062a\u0648\u0645 \u062f\u0644\u0648\u0642\u062a\u064a\"",
-    "\ud83d\udee2\ufe0f \u0632\u064a\u0644\u064a\u0646\u0633\u0643\u064a \u0642\u0627\u0644 \u0625\u0646 \u0625\u062f\u0627\u0631\u0629 \u062a\u0631\u0627\u0645\u0628 \u0647\u062f\u062f\u062a \u0628\u0648\u0642\u0641 \u0645\u0634\u0627\u0631\u0643\u0629 \u0627\u0644\u0645\u062e\u0627\u0628\u0631\u0627\u062a \u0644\u0648 \u0623\u0648\u0643\u0631\u0627\u0646\u064a\u0627 \u0645\u0627\u0633\u062a\u0634\u0644\u062a\u0634 \u0639\u0644\u0649 \u0645\u0635\u0627\u0641\u064a \u0627\u0644\u0646\u0641\u0637 \u0627\u0644\u0631\u0648\u0633\u064a\u0629"
+    "\ud83d\udee2\ufe0f \u0632\u064a\u0644\u064a\u0646\u0633\u0643\u064a \u0642\u0627\u0644 \u0625\u0646 \u0625\u062f\u0627\u0631\u0629 \u062a\u0631\u0627\u0645\u0628 \u0647\u062f\u062f\u062a \u0628\u0648\u0642\u0641 \u0645\u0634\u0627\u0631\u0643\u0629 \u0627\u0644\u0645\u062e\u0627\u0628\u0631\u0627\u062a \u0644\u0648 \u0623\u0648\u0643\u0631\u0627\u0646\u064a\u0627 \u0645\u0627\u0633\u062a\u0634\u0644\u062a\u0634 \u0639\u0644\u0649 \u0645\u0635\u0627\u0641\u064a \u0627\u0644\u0646\u0641\u0637 \u0627\u0644\u0631\u0648\u0633\u064a\u0629",
+    "\ud83d\udca5 \u0631\u0648\u0633\u064a\u0627 \u0634\u0646\u062a \u0623\u0643\u0628\u0631 \u0647\u062c\u0648\u0645 \u0628\u0635\u0648\u0627\u0631\u064a\u062e \u0648\u0637\u0627\u0626\u0631\u0627\u062a \u0645\u0633\u064a\u0631\u0629 \u0639\u0644\u0649 \u0623\u0648\u0643\u0631\u0627\u0646\u064a\u0627: 167 \u0633\u0644\u0627\u062d \u2014 39 \u0635\u0627\u0631\u0648\u062e \u0628\u0627\u0644\u0633\u062a\u064a \u0648128 \u062f\u0631\u0648\u0646 \u2014 \u0627\u0633\u062a\u0647\u062f\u0641\u062a \u0645\u062d\u0637\u0627\u062a \u0627\u0644\u0637\u0627\u0642\u0629 \u0641\u064a \u0643\u064a\u064a\u0641 \u0648\u062e\u0627\u0631\u0643\u064a\u0641 \u0642\u0628\u0644 \u0645\u0648\u0633\u0645 \u0627\u0644\u062a\u062f\u0641\u0626\u0629"
   ],
-  "shape_idx": 76
+  "shape_idx": 77
 }
