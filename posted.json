@@ -111,6 +111,7 @@
     "a23d3c794e093681",
     "a26723d092184d6c",
     "a2c6cf467d5f8672",
+    "a7782c3d8ef265c3",
     "ab3071f3cb0c58cd",
     "acb0acd96b4822ea",
     "afbdbc995a2e88e3",
@@ -178,12 +179,11 @@
     "updated": "2026-10-15"
   },
   "day_counts": {
-    "2026-10-12": 15,
     "2026-10-13": 15,
-    "2026-10-14": 15
+    "2026-10-14": 15,
+    "2026-10-15": 1
   },
   "recent_titles": [
-    "Gemini 4 Argon is now globally available. Built to solve your hardest problems from start to finish, the model brings frontier capabilities across coding, enterprise workflows, and cyber defense.",
     "GOLD FELL 0.2% TO $4,162.71 AN OUNCE, RECOVERING FROM SESSION LOWS AS FED\u2019S JOHN WILLIAMS SIGNALLED NO FURTHER RATE HIKES MAY BE NEEDED IN 2027. LOWER US TREASURY YIELDS AND A WEAKER DOLLAR SUPPORT...",
     "\ud83c\uddfa\ud83c\uddf8 Senator Elizabeth Warren has repeatedly stated that cryptocurrency is used for money laundering and to avoid sanctions. Today, the US government fined Bank of America $1.2 billion for violating ...",
     ".@RoKhanna You say billionaires are buying democracy. Apparently, your outrage depends on which billionaires are spending the money. I traced four funding routes involving the Soros network, Tides,...",
@@ -197,27 +197,18 @@
     "Credit \u00c1gricole: FX Risk - FJElite",
     "IRAN WARNS U.S. COULD LAUNCH NEW STRIKES BEFORE MIDTERMS IRGC spokesman Hossein Mohebbi warns Washington could restart attacks on Iran ahead of the November 3 elections, despite Trump's pledge not ...",
     "Absolutely incredible. Just 10 stocks have driven 70% of the S&P 500\u2019s gain since March 30th. These stocks have added +16 percentage points to the index\u2019s +23% gain over this period. Nvidia, $NVDA,...",
-    "Bitcoin holds above $83,000 ahead of U.S. inflation data as altcoins lag"
+    "Bitcoin holds above $83,000 ahead of U.S. inflation data as altcoins lag",
+    "The Trump administration is considering easing sanctions on shadow fleet tankers previously used to transport Russian, Iranian and Venezuelan oil to reduce record-high shipping costs. The proposal ..."
   ],
   "last_post": {
-    "hash": "f6fec4d1afc3d367",
-    "fb_id": "1421089964411983_122111573313491654",
-    "title": "Bitcoin holds above $83,000 ahead of U.S. inflation data as altcoins lag",
-    "link": "https://www.coindesk.com/markets/2026/10/14/bitcoin-holds-above-usd83-000-ahead-of-u-s-inflation-data-as-altcoins-lag",
+    "hash": "a7782c3d8ef265c3",
+    "fb_id": "1421089964411983_122111871579491654",
+    "title": "The Trump administration is considering easing sanctions on shadow fleet tankers previously used to transport Russian, Iranian and Venezuelan oil to reduce record-high shipping costs. The proposal ...",
+    "link": "https://x.com/clashreport/status/2110599931165609987",
     "mode": "serious",
-    "at": "2026-10-14T11:19:10.601488+00:00"
+    "at": "2026-10-15T05:34:48.507633+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122109806907491654",
-      "topics": [
-        "ai",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-10-11T08:17:34.371063+00:00"
-    },
     {
       "fb_id": "1421089964411983_122109818007491654",
       "topics": [
@@ -690,19 +681,21 @@
       "mode": "serious",
       "photo": "hires",
       "at": "2026-10-14T11:19:10.601488+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122111871579491654",
+      "topics": [
+        "gold_oil",
+        "power",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "face",
+      "at": "2026-10-15T05:34:48.507633+00:00"
     }
   ],
   "last_video_post": "2026-10-14",
   "recent_fps": [
-    {
-      "fp": [
-        "WSJ",
-        "arab",
-        "iran",
-        "saudi"
-      ],
-      "at": "2026-10-13T12:46:38.189929+00:00"
-    },
     {
       "fp": [
         "CEO",
@@ -963,10 +956,21 @@
         "bitcoin"
       ],
       "at": "2026-10-14T11:19:10.601476+00:00"
+    },
+    {
+      "fp": [
+        "iranian",
+        "reuters",
+        "russian",
+        "source",
+        "treasury",
+        "trump",
+        "venezuelan"
+      ],
+      "at": "2026-10-15T05:34:48.507621+00:00"
     }
   ],
   "recent_hooks": [
-    "\"\ud83d\udcc9 \u0645\u0627\u064a\u0643\u0644 \u0628\u064a\u0631\u064a: \u0627\u0644\u0633\u0648\u0642 \u0639\u0644\u0649 \u0628\u0639\u062f 0-9 \u0623\u0634\u0647\u0631 \u0645\u0646 \u0642\u0645\u0629 \u0643\u0628\u0631\u0649",
     "\ud83e\udd47 \u062c\u0648\u0646 \u0648\u064a\u0644\u064a\u0627\u0645\u0632 \u0642\u0627\u0644: \u0627\u0644\u0630\u0647\u0628 \u0646\u0632\u0644 0.2% \u0644\u0640 4,162.71 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0623\u0648\u0646\u0635\u0629\u060c \u0648\u062a\u0639\u0627\u0641\u0649 \u0645\u0646 \u0623\u062f\u0646\u0649 \u0645\u0633\u062a\u0648\u064a\u0627\u062a \u0627\u0644\u062c\u0644\u0633\u0629 \u0628\u0639\u062f \u0645\u0627 \u0623\u0634\u0627\u0631 \u0625\u0646 \u0632\u064a\u0627\u062f\u0629 \u0627\u0644\u0641\u0627\u064a\u062f\u0629 \u0645\u0634 \u0645\u062d\u062a\u0627\u062c\u0629 \u0641\u064a 2027",
     "\ud83d\udea8 \u0625\u0644\u064a\u0632\u0627\u0628\u064a\u062b \u0648\u0627\u0631\u0646: \u0642\u0627\u0644\u062a \u0625\u0646 \u0627\u0644\u0639\u0645\u0644\u0627\u062a \u0627\u0644\u0631\u0642\u0645\u064a\u0629 \u062a\u064f\u0633\u062a\u064e\u062e\u062f\u0645 \u0641\u064a \u063a\u0633\u064a\u0644 \u0627\u0644\u0623\u0645\u0648\u0627\u0644 \u0648\u062a\u062c\u0646\u0628 \u0627\u0644\u0639\u0642\u0648\u0628\u0627\u062a\u060c \u0648\u0627\u0644\u064a\u0648\u0645 \u063a\u0631\u0645\u062a \u0627\u0644\u062d\u0643\u0648\u0645\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0628\u0646\u0643 \u0623\u0648\u0641 \u0623\u0645\u0631\u064a\u0643\u0627 1.2 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631",
     "\ud83d\udcb5 \u0628\u064a\u0644 \u0623\u0643\u0645\u0627\u0646: \u0631\u0648 \u062e\u0646\u0627 \u062a\u0642\u0648\u0644 \u0627\u0644\u0645\u0644\u064a\u0627\u0631\u062f\u064a\u0631\u0627\u062a \u064a\u0634\u062a\u0631\u0648\u0646 \u0627\u0644\u062f\u064a\u0645\u0642\u0631\u0627\u0637\u064a\u0629.. \u0644\u0643\u0646 \u063a\u0636\u0628\u0643 \u064a\u0639\u062a\u0645\u062f \u0639\u0644\u0649 \u0623\u064a \u0645\u0644\u064a\u0627\u0631\u062f\u064a\u0631 \u0628\u064a\u062f\u0641\u0639 \u0627\u0644\u0641\u0644\u0648\u0633",
@@ -980,7 +984,8 @@
     "\ud83d\udcc8 \u0631\u063a\u0645 \u062a\u062d\u0630\u064a\u0631 IMF \u0645\u0646 \u0639\u0648\u0627\u0626\u062f \u0627\u0644\u0633\u0646\u062f\u0627\u062a \u0627\u0644\u0639\u0627\u0644\u064a\u0629 \u0648\u0627\u0631\u062a\u0641\u0627\u0639 \u0627\u0644\u0646\u0641\u0637.. \u0627\u0644\u0645\u0633\u062a\u062b\u0645\u0631\u064a\u0646 \u0644\u0633\u0647 \u0628\u064a\u062a\u062d\u0645\u0644\u0648\u0627 \u0645\u062e\u0627\u0637\u0631 \u0642\u0648\u064a\u0629",
     "\u26a0\ufe0f \u0625\u064a\u0631\u0627\u0646 \u0628\u062a\u062d\u0630\u0631 \u0623\u0645\u0631\u064a\u0643\u0627: \u0645\u0645\u0643\u0646 \u062a\u0636\u0631\u0628\u0648\u0646\u0627 \u062a\u0627\u0646\u064a \u0642\u0628\u0644 \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \u0646\u0635 \u0627\u0644\u0645\u062f\u0629 \u0641\u064a 3 \u0646\u0648\u0641\u0645\u0628\u0631",
     "\ud83d\udcc8 10 \u0623\u0633\u0647\u0645 \u0628\u0633 \u0634\u0627\u0644\u062a 70% \u0645\u0646 \u0645\u0643\u0627\u0633\u0628 \u0627\u0644\u0640 S&P 500 \u0645\u0646 \u0645\u0627\u0631\u0633 \u0627\u0644\u0644\u064a \u0641\u0627\u062a",
-    "\ud83d\udcc8 \u0627\u0644\u0633\u0648\u0642: \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u062b\u0627\u0628\u062a \u0641\u0648\u0642 83,000 \u062f\u0648\u0644\u0627\u0631 \u0642\u0628\u0644 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u062a\u0636\u062e\u0645 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629"
+    "\ud83d\udcc8 \u0627\u0644\u0633\u0648\u0642: \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u062b\u0627\u0628\u062a \u0641\u0648\u0642 83,000 \u062f\u0648\u0644\u0627\u0631 \u0642\u0628\u0644 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u062a\u0636\u062e\u0645 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629",
+    "\ud83d\udee2\ufe0f \u062a\u0631\u0627\u0645\u0628 \u0642\u0627\u0644 \u0625\u0646 \u0625\u062f\u0627\u0631\u062a\u0647 \u0628\u062a\u0641\u0643\u0631 \u062a\u062e\u0641\u0641 \u0627\u0644\u0639\u0642\u0648\u0628\u0627\u062a \u0639\u0644\u0649 \u0623\u0633\u0637\u0648\u0644 \u0627\u0644\u0638\u0644 \u0627\u0644\u0644\u064a \u0628\u0646\u0642\u0644 \u0646\u0641\u0637 \u0631\u0648\u0633\u064a\u0627 \u0648\u0625\u064a\u0631\u0627\u0646 \u0648\u0641\u0646\u0632\u0648\u064a\u0644\u0627 (3 \u062f\u0648\u0644) \u0639\u0644\u0634\u0627\u0646 \u062a\u062e\u0641\u0636 \u062a\u0643\u0627\u0644\u064a\u0641 \u0627\u0644\u0634\u062d\u0646 \u0627\u0644\u0642\u064a\u0627\u0633\u064a\u0629"
   ],
-  "shape_idx": 82
+  "shape_idx": 83
 }
