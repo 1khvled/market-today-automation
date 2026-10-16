@@ -41,6 +41,7 @@
     "2bbf1d770e89e3e5",
     "31edcb10d3042c04",
     "34727a29e1cc7b4e",
+    "34b84d553010afb2",
     "34cb966e950b108e",
     "352579361ebc4eef",
     "3b5a4f82b0492a55",
@@ -197,10 +198,9 @@
   "day_counts": {
     "2026-10-14": 15,
     "2026-10-15": 15,
-    "2026-10-16": 2
+    "2026-10-16": 3
   },
   "recent_titles": [
-    "JAPAN\u2019S NIKKEI PLUNGES 3.5% AS FED RATE HIKE FEARS GROW Japanese stocks tumbled after hotter-than-expected U.S. inflation fueled expectations of higher interest rates. The Nikkei fell 3.5%, led by ...",
     "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
     "BREAKING: Gold prices fall toward $4,100/oz as US CPI inflation rises to 3.7%.",
     "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC, ETH, SOL and HYPE spot ETFs saw net outflows on Oct. 14, while XRP and ZEC spot ETFs saw net inflows. BTC: -$261.46M ETH: -$129.51M SOL: -$1.29M XRP: $740.41K ZEC: $3.68M HYPE: -...",
@@ -214,26 +214,18 @@
     "YARDENI CUTS S&P 500 TARGET TO 7,900 AS MARKET RISKS RISE Yardeni Research lowered its year-end S&P 500 target to 7,900 from 8,400, warning that investor caution could push stock valuations lower. ...",
     "BREAKING: September PPI Inflation unexpectedly rises to 6.3%, above expectations of 5.3%. Core PPI Inflation rose to 5.0%, above expectations of 4.4% PPI inflation is now at its second highest leve...",
     "Bitcoin is Digital Capital. Strategy transforms it into Digital Credit and Digital Equity. $BTC $STRC $MSTR",
-    "US 10-YEAR TREASURY YIELDS DROPPED 13 BASIS POINTS TO 5.06%, WHILE OIL SLIPPED TO $97.38 AND GOLD TRADED NEAR $4,154. MARKETS AWAIT FED CHAIR KEVIN WARSH\u2019S REMARKS FOR SIGNALS ON POTENTIAL RATE HIKES."
+    "US 10-YEAR TREASURY YIELDS DROPPED 13 BASIS POINTS TO 5.06%, WHILE OIL SLIPPED TO $97.38 AND GOLD TRADED NEAR $4,154. MARKETS AWAIT FED CHAIR KEVIN WARSH\u2019S REMARKS FOR SIGNALS ON POTENTIAL RATE HIKES.",
+    "\ud83c\uddfa\ud83c\uddf8 LATEST: A federal judge has denied a joint push by Gemini and the CFTC to scrap the Biden-era $5 million penalty against the Winklevoss-led crypto exchange."
   ],
   "last_post": {
-    "hash": "e488ece656bff226",
-    "fb_id": "1421089964411983_122112261309491654",
-    "title": "US 10-YEAR TREASURY YIELDS DROPPED 13 BASIS POINTS TO 5.06%, WHILE OIL SLIPPED TO $97.38 AND GOLD TRADED NEAR $4,154. MARKETS AWAIT FED CHAIR KEVIN WARSH\u2019S REMARKS FOR SIGNALS ON POTENTIAL RATE HIKES.",
-    "link": "https://x.com/FirstSquawk/status/2110893776470430152",
+    "hash": "34b84d553010afb2",
+    "fb_id": "1421089964411983_122112267831491654",
+    "title": "\ud83c\uddfa\ud83c\uddf8 LATEST: A federal judge has denied a joint push by Gemini and the CFTC to scrap the Biden-era $5 million penalty against the Winklevoss-led crypto exchange.",
+    "link": "https://x.com/Cointelegraph/status/2110891060570320917",
     "mode": "serious",
-    "at": "2026-10-16T00:47:26.392522+00:00"
+    "at": "2026-10-16T01:17:29.030216+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122110424241491654",
-      "topics": [
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-12T08:46:20.685417+00:00"
-    },
     {
       "fb_id": "1421089964411983_122110435107491654",
       "topics": [
@@ -717,30 +709,21 @@
       "mode": "serious",
       "photo": "face",
       "at": "2026-10-16T00:47:26.392522+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112267831491654",
+      "topics": [
+        "ai",
+        "crypto",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "face",
+      "at": "2026-10-16T01:17:29.030216+00:00"
     }
   ],
   "last_video_post": "2026-10-16",
   "recent_fps": [
-    {
-      "fp": [
-        "BEFORE",
-        "COULD",
-        "IRAN",
-        "IRGC",
-        "LAUNCH",
-        "NEW",
-        "WARN",
-        "hormuz",
-        "hossein",
-        "iran",
-        "mohebbi",
-        "november",
-        "strait",
-        "trump",
-        "washington"
-      ],
-      "at": "2026-10-14T10:01:29.026396+00:00"
-    },
     {
       "fp": [
         "AAPL",
@@ -1016,10 +999,20 @@
         "YIELD"
       ],
       "at": "2026-10-16T00:47:26.392509+00:00"
+    },
+    {
+      "fp": [
+        "$5",
+        "CFTC",
+        "LATEST",
+        "biden",
+        "gemini",
+        "winklevoss"
+      ],
+      "at": "2026-10-16T01:17:29.030202+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udee2\ufe0f \u0628\u0639\u062f \u0645\u0627 \u062e\u0627\u0645 \u063a\u0631\u0628 \u062a\u0643\u0633\u0627\u0633 \u062a\u062c\u0627\u0648\u0632 96 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0628\u0631\u0645\u064a\u0644.. Nasdaq 100 \u062e\u0633\u0631 1.6% \u0641\u064a \u064a\u0648\u0645 \u0648\u0627\u062d\u062f",
     "\ud83d\udcc9 \u0646\u064a\u0643\u0627\u064a \u0627\u0644\u064a\u0627\u0628\u0627\u0646 \u0628\u064a\u062e\u0633\u0631 3.5% \u0628\u0639\u062f \u0645\u0627 \u0627\u0644\u0641\u064a\u062f\u0631\u0627\u0644\u064a \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a \u0642\u0631\u0631 \u064a\u0631\u0641\u0639 \u0627\u0644\u0641\u0627\u064a\u062f\u0629",
     "\ud83d\udcc9 \u0623\u0633\u0647\u0645 SK Hynix \u0628\u062a\u0646\u0632\u0644 10% \u0641\u064a \u064a\u0648\u0645 \u0648\u0627\u062d\u062f \u0628\u0633\u0628\u0628 \u0645\u062e\u0627\u0648\u0641 \u0631\u0641\u0639 \u0627\u0644\u0641\u0627\u064a\u062f\u0629",
     "\ud83e\udd47 \u0627\u0644\u062f\u0647\u0628 \u0628\u064a\u0642\u0639.. \u0627\u0644\u0623\u0648\u0646\u0635\u0629 \u0642\u0631\u0628\u062a \u0645\u0646 4,100 \u062f\u0648\u0644\u0627\u0631 \u0628\u0639\u062f \u0645\u0627 \u062a\u0636\u062e\u0645 \u0623\u0645\u0631\u064a\u0643\u0627 \u0648\u0635\u0644 3.7%",
@@ -1033,7 +1026,8 @@
     "\ud83d\udcc9 BTC \u062a\u062d\u062a 81,000 \u062f\u0648\u0644\u0627\u0631 \u0648 ETH \u062a\u062d\u062a 2,400 \u062f\u0648\u0644\u0627\u0631 \u2014 \u0627\u0644\u0633\u0639\u0631 \u062f\u0647 \u0628\u064a\u062e\u0644\u064a \u0627\u0644\u0645\u062a\u062f\u0627\u0648\u0644\u064a\u0646 \u0627\u0644\u0645\u0635\u0631\u064a\u064a\u0646 \u0641\u064a \u062d\u0627\u0644\u0629 \u062a\u0648\u062a\u0631",
     "\ud83d\udcc9 \u064a\u0627\u0631\u062f\u064a\u0646\u064a \u062e\u0641\u0636\u062a \u0645\u0633\u062a\u0647\u062f\u0641 S&P 500 \u0644\u0640 7,900 \u0646\u0642\u0637\u0629 \u0645\u0646 8,400 \u0628\u0633\u0628\u0628 \u0645\u062e\u0627\u0637\u0631 \u0627\u0644\u0633\u0648\u0642 \u0627\u0644\u0644\u064a \u0628\u062a\u0632\u064a\u062f.",
     "\ud83d\udcc8 \u0633\u0628\u062a\u0645\u0628\u0631.. PPI inflation \u0642\u0641\u0632 \u0644\u0640 6.3% \u0623\u0639\u0644\u0649 \u0645\u0646 \u0627\u0644\u062a\u0648\u0642\u0639\u0627\u062a \u0628\u0640 5.3%",
-    "\"\ud83d\udcc9 \u0639\u0648\u0627\u0626\u062f \u0633\u0646\u062f\u0627\u062a \u0627\u0644\u062e\u0632\u0627\u0646\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0644\u0639\u0634\u0631 \u0633\u0646\u0648\u0627\u062a \u0646\u0632\u0644\u062a 13 \u0646\u0642\u0637\u0629 \u0623\u0633\u0627\u0633 \u0644\u0640 5.06%"
+    "\"\ud83d\udcc9 \u0639\u0648\u0627\u0626\u062f \u0633\u0646\u062f\u0627\u062a \u0627\u0644\u062e\u0632\u0627\u0646\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0644\u0639\u0634\u0631 \u0633\u0646\u0648\u0627\u062a \u0646\u0632\u0644\u062a 13 \u0646\u0642\u0637\u0629 \u0623\u0633\u0627\u0633 \u0644\u0640 5.06%",
+    "\ud83d\uded1 \u0628\u0639\u062f \u0642\u0631\u0627\u0631 \u0627\u0644\u0642\u0627\u0636\u064a.. Gemini \u0648 CFTC \u0631\u0641\u0636\u0648\u0627 \u0633\u062d\u0628 \u063a\u0631\u0627\u0645\u0629 5\u202f\u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0639\u0644\u0649 \u0645\u0646\u0635\u0629 \u062c\u064a\u0645\u064a\u0646\u064a \u0627\u0644\u0644\u064a \u0628\u064a\u062f\u064a\u0631\u0647\u0627 \u062a\u0648\u0623\u0645 \u0648\u064a\u0646\u0643\u0644\u0641\u0648\u0633"
   ],
-  "shape_idx": 98
+  "shape_idx": 99
 }
