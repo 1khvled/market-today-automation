@@ -152,6 +152,7 @@
     "dfe42122b9580316",
     "e18b53d68b9a46a2",
     "e387820dd3dd2c71",
+    "e488ece656bff226",
     "e50973c2a4ff38c6",
     "e6b870c80c40e563",
     "e8adf47b4abfd467",
@@ -196,10 +197,9 @@
   "day_counts": {
     "2026-10-14": 15,
     "2026-10-15": 15,
-    "2026-10-16": 1
+    "2026-10-16": 2
   },
   "recent_titles": [
-    "BREAKING: The Nasdaq 100 extends losses to -1.6% on the day as US oil prices top $96/barrel and Treasury Yields rise on hot inflation data.",
     "JAPAN\u2019S NIKKEI PLUNGES 3.5% AS FED RATE HIKE FEARS GROW Japanese stocks tumbled after hotter-than-expected U.S. inflation fueled expectations of higher interest rates. The Nikkei fell 3.5%, led by ...",
     "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
     "BREAKING: Gold prices fall toward $4,100/oz as US CPI inflation rises to 3.7%.",
@@ -213,27 +213,18 @@
     "JUST IN: Bitcoin falls under $81,000 and $ETH falls under $2,400. $350,000,000 worth of crypto longs liquidated in the past 10 minutes.",
     "YARDENI CUTS S&P 500 TARGET TO 7,900 AS MARKET RISKS RISE Yardeni Research lowered its year-end S&P 500 target to 7,900 from 8,400, warning that investor caution could push stock valuations lower. ...",
     "BREAKING: September PPI Inflation unexpectedly rises to 6.3%, above expectations of 5.3%. Core PPI Inflation rose to 5.0%, above expectations of 4.4% PPI inflation is now at its second highest leve...",
-    "Bitcoin is Digital Capital. Strategy transforms it into Digital Credit and Digital Equity. $BTC $STRC $MSTR"
+    "Bitcoin is Digital Capital. Strategy transforms it into Digital Credit and Digital Equity. $BTC $STRC $MSTR",
+    "US 10-YEAR TREASURY YIELDS DROPPED 13 BASIS POINTS TO 5.06%, WHILE OIL SLIPPED TO $97.38 AND GOLD TRADED NEAR $4,154. MARKETS AWAIT FED CHAIR KEVIN WARSH\u2019S REMARKS FOR SIGNALS ON POTENTIAL RATE HIKES."
   ],
   "last_post": {
-    "hash": "6a6d589b9dc8eefe",
-    "fb_id": "1684018563242302",
-    "title": "Bitcoin is Digital Capital. Strategy transforms it into Digital Credit and Digital Equity. $BTC $STRC $MSTR",
-    "link": "https://x.com/saylor/status/2110722489160732892",
-    "mode": "viral",
-    "kind": "video",
-    "at": "2026-10-16T00:17:21.002599+00:00"
+    "hash": "e488ece656bff226",
+    "fb_id": "1421089964411983_122112261309491654",
+    "title": "US 10-YEAR TREASURY YIELDS DROPPED 13 BASIS POINTS TO 5.06%, WHILE OIL SLIPPED TO $97.38 AND GOLD TRADED NEAR $4,154. MARKETS AWAIT FED CHAIR KEVIN WARSH\u2019S REMARKS FOR SIGNALS ON POTENTIAL RATE HIKES.",
+    "link": "https://x.com/FirstSquawk/status/2110893776470430152",
+    "mode": "serious",
+    "at": "2026-10-16T00:47:26.392522+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122110409457491654",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "hires",
-      "at": "2026-10-12T08:16:08.470398+00:00"
-    },
     {
       "fb_id": "1421089964411983_122110424241491654",
       "topics": [
@@ -714,27 +705,22 @@
       ],
       "mode": "viral",
       "at": "2026-10-16T00:17:21.002599+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112261309491654",
+      "topics": [
+        "fed",
+        "gold",
+        "gold_oil",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "face",
+      "at": "2026-10-16T00:47:26.392522+00:00"
     }
   ],
   "last_video_post": "2026-10-16",
   "recent_fps": [
-    {
-      "fp": [
-        "FX",
-        "IMF",
-        "US",
-        "credit",
-        "despite",
-        "east",
-        "iran",
-        "markets",
-        "middle",
-        "president",
-        "risk",
-        "trump"
-      ],
-      "at": "2026-10-14T09:06:31.710517+00:00"
-    },
     {
       "fp": [
         "BEFORE",
@@ -1002,10 +988,37 @@
         "strategy"
       ],
       "at": "2026-10-16T00:17:21.002585+00:00"
+    },
+    {
+      "fp": [
+        "$4,154.",
+        "$97.38",
+        "AND",
+        "AWAIT",
+        "BASI",
+        "CHAIR",
+        "FED",
+        "FOR",
+        "GOLD",
+        "HIKE",
+        "KEVIN",
+        "NEAR",
+        "OIL",
+        "ON",
+        "POINT",
+        "RATE",
+        "TO",
+        "TRADED",
+        "US",
+        "WARSH",
+        "WHILE",
+        "YEAR",
+        "YIELD"
+      ],
+      "at": "2026-10-16T00:47:26.392509+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udee2\ufe0f \u062a\u0631\u0627\u0645\u0628 \u0642\u0627\u0644 \u0625\u0646 \u0625\u062f\u0627\u0631\u062a\u0647 \u0628\u062a\u0641\u0643\u0631 \u062a\u062e\u0641\u0641 \u0627\u0644\u0639\u0642\u0648\u0628\u0627\u062a \u0639\u0644\u0649 \u0623\u0633\u0637\u0648\u0644 \u0627\u0644\u0638\u0644 \u0627\u0644\u0644\u064a \u0628\u0646\u0642\u0644 \u0646\u0641\u0637 \u0631\u0648\u0633\u064a\u0627 \u0648\u0625\u064a\u0631\u0627\u0646 \u0648\u0641\u0646\u0632\u0648\u064a\u0644\u0627 (3 \u062f\u0648\u0644) \u0639\u0644\u0634\u0627\u0646 \u062a\u062e\u0641\u0636 \u062a\u0643\u0627\u0644\u064a\u0641 \u0627\u0644\u0634\u062d\u0646 \u0627\u0644\u0642\u064a\u0627\u0633\u064a\u0629",
     "\ud83d\udee2\ufe0f \u0628\u0639\u062f \u0645\u0627 \u062e\u0627\u0645 \u063a\u0631\u0628 \u062a\u0643\u0633\u0627\u0633 \u062a\u062c\u0627\u0648\u0632 96 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0628\u0631\u0645\u064a\u0644.. Nasdaq 100 \u062e\u0633\u0631 1.6% \u0641\u064a \u064a\u0648\u0645 \u0648\u0627\u062d\u062f",
     "\ud83d\udcc9 \u0646\u064a\u0643\u0627\u064a \u0627\u0644\u064a\u0627\u0628\u0627\u0646 \u0628\u064a\u062e\u0633\u0631 3.5% \u0628\u0639\u062f \u0645\u0627 \u0627\u0644\u0641\u064a\u062f\u0631\u0627\u0644\u064a \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a \u0642\u0631\u0631 \u064a\u0631\u0641\u0639 \u0627\u0644\u0641\u0627\u064a\u062f\u0629",
     "\ud83d\udcc9 \u0623\u0633\u0647\u0645 SK Hynix \u0628\u062a\u0646\u0632\u0644 10% \u0641\u064a \u064a\u0648\u0645 \u0648\u0627\u062d\u062f \u0628\u0633\u0628\u0628 \u0645\u062e\u0627\u0648\u0641 \u0631\u0641\u0639 \u0627\u0644\u0641\u0627\u064a\u062f\u0629",
@@ -1019,7 +1032,8 @@
     "\ud83d\udcc9 \u0633\u0627\u0643\u0633\u0648 \u0628\u062a\u062d\u0630\u0631: \u0623\u0633\u0647\u0645 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0628\u0642\u0649 \u0641\u064a\u0647\u0627 \u0631\u0627\u0628\u062d\u064a\u0646 \u0648\u062e\u0627\u0633\u064a\u0646",
     "\ud83d\udcc9 BTC \u062a\u062d\u062a 81,000 \u062f\u0648\u0644\u0627\u0631 \u0648 ETH \u062a\u062d\u062a 2,400 \u062f\u0648\u0644\u0627\u0631 \u2014 \u0627\u0644\u0633\u0639\u0631 \u062f\u0647 \u0628\u064a\u062e\u0644\u064a \u0627\u0644\u0645\u062a\u062f\u0627\u0648\u0644\u064a\u0646 \u0627\u0644\u0645\u0635\u0631\u064a\u064a\u0646 \u0641\u064a \u062d\u0627\u0644\u0629 \u062a\u0648\u062a\u0631",
     "\ud83d\udcc9 \u064a\u0627\u0631\u062f\u064a\u0646\u064a \u062e\u0641\u0636\u062a \u0645\u0633\u062a\u0647\u062f\u0641 S&P 500 \u0644\u0640 7,900 \u0646\u0642\u0637\u0629 \u0645\u0646 8,400 \u0628\u0633\u0628\u0628 \u0645\u062e\u0627\u0637\u0631 \u0627\u0644\u0633\u0648\u0642 \u0627\u0644\u0644\u064a \u0628\u062a\u0632\u064a\u062f.",
-    "\ud83d\udcc8 \u0633\u0628\u062a\u0645\u0628\u0631.. PPI inflation \u0642\u0641\u0632 \u0644\u0640 6.3% \u0623\u0639\u0644\u0649 \u0645\u0646 \u0627\u0644\u062a\u0648\u0642\u0639\u0627\u062a \u0628\u0640 5.3%"
+    "\ud83d\udcc8 \u0633\u0628\u062a\u0645\u0628\u0631.. PPI inflation \u0642\u0641\u0632 \u0644\u0640 6.3% \u0623\u0639\u0644\u0649 \u0645\u0646 \u0627\u0644\u062a\u0648\u0642\u0639\u0627\u062a \u0628\u0640 5.3%",
+    "\"\ud83d\udcc9 \u0639\u0648\u0627\u0626\u062f \u0633\u0646\u062f\u0627\u062a \u0627\u0644\u062e\u0632\u0627\u0646\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0644\u0639\u0634\u0631 \u0633\u0646\u0648\u0627\u062a \u0646\u0632\u0644\u062a 13 \u0646\u0642\u0637\u0629 \u0623\u0633\u0627\u0633 \u0644\u0640 5.06%"
   ],
-  "shape_idx": 97
+  "shape_idx": 98
 }
