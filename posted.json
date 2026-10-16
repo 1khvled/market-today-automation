@@ -15,6 +15,7 @@
     "0f167e673f05e771",
     "109a368c58a2c37c",
     "126ff52b33bd93a7",
+    "127890aaaf4bfcae",
     "1345a7dd618330ca",
     "13adddf1fd843cb7",
     "13c687de517fc7e1",
@@ -209,10 +210,9 @@
   "day_counts": {
     "2026-10-14": 15,
     "2026-10-15": 15,
-    "2026-10-16": 14
+    "2026-10-16": 15
   },
   "recent_titles": [
-    "BREAKING: September PPI Inflation unexpectedly rises to 6.3%, above expectations of 5.3%. Core PPI Inflation rose to 5.0%, above expectations of 4.4% PPI inflation is now at its second highest leve...",
     "Bitcoin is Digital Capital. Strategy transforms it into Digital Credit and Digital Equity. $BTC $STRC $MSTR",
     "US 10-YEAR TREASURY YIELDS DROPPED 13 BASIS POINTS TO 5.06%, WHILE OIL SLIPPED TO $97.38 AND GOLD TRADED NEAR $4,154. MARKETS AWAIT FED CHAIR KEVIN WARSH\u2019S REMARKS FOR SIGNALS ON POTENTIAL RATE HIKES.",
     "\ud83c\uddfa\ud83c\uddf8 LATEST: A federal judge has denied a joint push by Gemini and the CFTC to scrap the Biden-era $5 million penalty against the Winklevoss-led crypto exchange.",
@@ -226,28 +226,18 @@
     "\u26a1\ufe0f NEW: Ledger launches the Ledger Atom, an $899 smartphone-like device built to secure crypto transactions and sensitive activity.",
     "XRP has failed to make holders rich like bitcoin and ether. Here\u2019s why",
     "Marco Rubio to visit Indian billionaire Ambani's refinery in Gujarat as U.S. diesel prices surge",
-    "\ud83d\udea8 LATEST: A scammer reportedly lost $4.8M of stolen money after storing the funds on tampered Ledgers. Bitcoin and Ether ETFs launch trading in Thailand and South Korea blocks 27 exchanges. All the..."
+    "\ud83d\udea8 LATEST: A scammer reportedly lost $4.8M of stolen money after storing the funds on tampered Ledgers. Bitcoin and Ether ETFs launch trading in Thailand and South Korea blocks 27 exchanges. All the...",
+    "\ud83d\udc0b NEW: Bitcoin wallets holding 10\u201310,000 $BTC hit an all-time high of 20,338, climbing sharply since mid-July despite price volatility, per Santiment."
   ],
   "last_post": {
-    "hash": "2555437bc3e1be4d",
-    "fb_id": "1421089964411983_122112365451491654",
-    "title": "\ud83d\udea8 LATEST: A scammer reportedly lost $4.8M of stolen money after storing the funds on tampered Ledgers. Bitcoin and Ether ETFs launch trading in Thailand and South Korea blocks 27 exchanges. All the...",
-    "link": "https://x.com/Cointelegraph/status/2110989182508183916",
+    "hash": "127890aaaf4bfcae",
+    "fb_id": "1421089964411983_122112383133491654",
+    "title": "\ud83d\udc0b NEW: Bitcoin wallets holding 10\u201310,000 $BTC hit an all-time high of 20,338, climbing sharply since mid-July despite price volatility, per Santiment.",
+    "link": "https://x.com/Cointelegraph/status/2111004372461044135",
     "mode": "serious",
-    "at": "2026-10-16T07:36:12.285175+00:00"
+    "at": "2026-10-16T08:02:45.618768+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122111042247491654",
-      "topics": [
-        "ai",
-        "fed",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-13T11:18:05.966905+00:00"
-    },
     {
       "fb_id": "1421089964411983_122111091909491654",
       "topics": [
@@ -729,23 +719,19 @@
       "mode": "serious",
       "photo": "hires",
       "at": "2026-10-16T07:36:12.285175+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112383133491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-16T08:02:45.618768+00:00"
     }
   ],
   "last_video_post": "2026-10-16",
   "recent_fps": [
-    {
-      "fp": [
-        "biden",
-        "democratic",
-        "democrats",
-        "james",
-        "joe",
-        "party",
-        "talarico",
-        "texas"
-      ],
-      "at": "2026-10-15T10:25:18.582237+00:00"
-    },
     {
       "fp": [
         "$150",
@@ -1000,10 +986,19 @@
         "thailand"
       ],
       "at": "2026-10-16T07:36:12.285159+00:00"
+    },
+    {
+      "fp": [
+        "BTC",
+        "NEW",
+        "bitcoin",
+        "july",
+        "santiment"
+      ],
+      "at": "2026-10-16T08:02:45.618751+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udcc9 \u064a\u0627\u0631\u062f\u064a\u0646\u064a \u062e\u0641\u0636\u062a \u0645\u0633\u062a\u0647\u062f\u0641 S&P 500 \u0644\u0640 7,900 \u0646\u0642\u0637\u0629 \u0645\u0646 8,400 \u0628\u0633\u0628\u0628 \u0645\u062e\u0627\u0637\u0631 \u0627\u0644\u0633\u0648\u0642 \u0627\u0644\u0644\u064a \u0628\u062a\u0632\u064a\u062f.",
     "\ud83d\udcc8 \u0633\u0628\u062a\u0645\u0628\u0631.. PPI inflation \u0642\u0641\u0632 \u0644\u0640 6.3% \u0623\u0639\u0644\u0649 \u0645\u0646 \u0627\u0644\u062a\u0648\u0642\u0639\u0627\u062a \u0628\u0640 5.3%",
     "\"\ud83d\udcc9 \u0639\u0648\u0627\u0626\u062f \u0633\u0646\u062f\u0627\u062a \u0627\u0644\u062e\u0632\u0627\u0646\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0644\u0639\u0634\u0631 \u0633\u0646\u0648\u0627\u062a \u0646\u0632\u0644\u062a 13 \u0646\u0642\u0637\u0629 \u0623\u0633\u0627\u0633 \u0644\u0640 5.06%",
     "\ud83d\uded1 \u0628\u0639\u062f \u0642\u0631\u0627\u0631 \u0627\u0644\u0642\u0627\u0636\u064a.. Gemini \u0648 CFTC \u0631\u0641\u0636\u0648\u0627 \u0633\u062d\u0628 \u063a\u0631\u0627\u0645\u0629 5\u202f\u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0639\u0644\u0649 \u0645\u0646\u0635\u0629 \u062c\u064a\u0645\u064a\u0646\u064a \u0627\u0644\u0644\u064a \u0628\u064a\u062f\u064a\u0631\u0647\u0627 \u062a\u0648\u0623\u0645 \u0648\u064a\u0646\u0643\u0644\u0641\u0648\u0633",
@@ -1017,7 +1012,8 @@
     "\ud83d\udcf1 Ledger \u0623\u0637\u0644\u0642\u062a \u062c\u0647\u0627\u0632 Ledger Atom \u0628\u0640 899 \u062f\u0648\u0644\u0627\u0631.. \u0645\u0634 \u0645\u0648\u0628\u0627\u064a\u0644 \u0639\u0627\u062f\u064a\u060c \u062f\u0647 \u062c\u0647\u0627\u0632 \u0644\u062a\u0623\u0645\u064a\u0646 \u0645\u0639\u0627\u0645\u0644\u0627\u062a \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0648\u0627\u0644\u0623\u0646\u0634\u0637\u0629 \u0627\u0644\u062d\u0633\u0627\u0633\u0629",
     "\"\ud83d\udcb8 XRP \u0645\u0634 \u0628\u064a\u0628\u0642\u0649 \u0632\u064a\u0651 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0648\u0627\u0644\u0625\u062b\u064a\u0631\u064a\u0648\u0645.. \u0627\u0644\u0646\u0627\u0633 \u0627\u0644\u0644\u064a \u0627\u062a\u062e\u062f\u0648\u0627 \u0641\u064a\u0647 \u0645\u0634 \u0634\u0627\u064a\u0641\u064a\u0646 \u062b\u0631\u0627\u0621 \u0632\u064a \u0627\u0644\u062a\u0627\u0646\u064a\u064a\u0646",
     "\ud83d\udee2\ufe0f \u0645\u0627\u0631\u0643\u0648 \u0631\u0648\u0628\u064a\u0648 \u0628\u064avisit \u0645\u0635\u0641\u0627\u0629 \u0623\u0645\u0628\u0627\u0646\u064a \u0641\u064a \u0627\u0644\u0647\u0646\u062f.. \u0648\u0627\u0644\u062f\u064a\u0632\u0644 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a \u0628\u0642\u0649 \u0628\u064a\u0635\u0639\u062f",
-    "\ud83d\udea8 \u0627\u0644\u0645\u062d\u062a\u0640\u0627\u0644 \u062e\u0633\u0631 4.8 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0628\u0639\u062f \u0645\u0627 \u062e\u0632\u0646 \u0627\u0644\u0641\u0644\u0648\u0633 \u0627\u0644\u0645\u0633\u0631\u0648\u0642\u0629 \u0639\u0644\u0649 \u0644\u064a\u062f\u062c\u0631\u0632 \u0645\u0632\u0648\u0631\u0629"
+    "\ud83d\udea8 \u0627\u0644\u0645\u062d\u062a\u0640\u0627\u0644 \u062e\u0633\u0631 4.8 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0628\u0639\u062f \u0645\u0627 \u062e\u0632\u0646 \u0627\u0644\u0641\u0644\u0648\u0633 \u0627\u0644\u0645\u0633\u0631\u0648\u0642\u0629 \u0639\u0644\u0649 \u0644\u064a\u062f\u062c\u0631\u0632 \u0645\u0632\u0648\u0631\u0629",
+    "\ud83d\udc0b \u0645\u062d\u0627\u0641\u0638 BTC \u0627\u0644\u0644\u064a \u0641\u064a\u0647\u0627 \u0645\u0646 10 \u0644\u0640 10,000 \u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0648\u0635\u0644\u062a \u0644\u0642\u0645\u0629 \u062a\u0627\u0631\u064a\u062e\u064a\u0629 20,338 \u0645\u062d\u0641\u0638\u0629\u060c \u0648\u062f\u0647 \u0631\u0642\u0645 \u0642\u064a\u0627\u0633\u064a \u062c\u062f\u064a\u062f \u0645\u0646 \u0646\u0635 \u064a\u0648\u0644\u064a\u0648 \u0631\u063a\u0645 \u062a\u0642\u0644\u0628\u0627\u062a \u0627\u0644\u0633\u0639\u0631."
   ],
-  "shape_idx": 110
+  "shape_idx": 111
 }
