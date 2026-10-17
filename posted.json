@@ -156,6 +156,7 @@
     "cd0744ccbaa1efb6",
     "d08268db4f781648",
     "d26034239bd1c674",
+    "d26cee70e4267489",
     "d3dc0525d66d3983",
     "d49a24778e1be5bf",
     "d83a3d5c86146f73",
@@ -217,10 +218,9 @@
   "day_counts": {
     "2026-10-15": 15,
     "2026-10-16": 15,
-    "2026-10-17": 7
+    "2026-10-17": 8
   },
   "recent_titles": [
-    "China finance ministry auctions 20-year ultra-long special treasury bonds at 2.0649% yield: traders",
     "Bitcoin buyers snap up a brief drop below $80,000 as Asian stocks rebound",
     "JUST IN: $5.3 billion Cardone Capital bought 60 BTC, worth $4.8 million! \ud83d\ude80",
     "\u26a1\ufe0f NEW: Ledger launches the Ledger Atom, an $899 smartphone-like device built to secure crypto transactions and sensitive activity.",
@@ -234,27 +234,18 @@
     "WARREN BUFFETT ON WHY ONE-DAY OPTIONS AREN'T INVESTING His take on the casino side of the stock market Buffett has compared the stock market to a church with a casino attached. People can move betw...",
     "Satoshi-era bitcoin faces a bigger quantum threat after Google\u2019s new Willow breakthrough",
     "\ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa HUGE: Trump waives key Russia sanctions and up to 100% tariffs on buyers of Russian oil and gas, just days before they were set to kick in under a law he signed last month.",
-    "BREAKING: The Nasdaq 100 extends losses to over -2% on the day as US oil prices surge above $100/barrel and inflation worries mount. The Nasdaq 100 is now down -7% from its high seen 10 days ago."
+    "BREAKING: The Nasdaq 100 extends losses to over -2% on the day as US oil prices surge above $100/barrel and inflation worries mount. The Nasdaq 100 is now down -7% from its high seen 10 days ago.",
+    "JUST IN: \ud83c\udde9\ud83c\uddea Germany's largest bank Deutsche Bank to launch crypto custody."
   ],
   "last_post": {
-    "hash": "de36c9b6900c733a",
-    "fb_id": "1421089964411983_122112864855491654",
-    "title": "BREAKING: The Nasdaq 100 extends losses to over -2% on the day as US oil prices surge above $100/barrel and inflation worries mount. The Nasdaq 100 is now down -7% from its high seen 10 days ago.",
-    "link": "https://x.com/KobeissiLetter/status/2111144677445447974",
+    "hash": "d26cee70e4267489",
+    "fb_id": "1421089964411983_122112870135491654",
+    "title": "JUST IN: \ud83c\udde9\ud83c\uddea Germany's largest bank Deutsche Bank to launch crypto custody.",
+    "link": "https://x.com/WatcherGuru/status/2111114587953377530",
     "mode": "viral",
-    "at": "2026-10-17T08:31:23.988637+00:00"
+    "at": "2026-10-17T09:02:08.937720+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122111367669491654",
-      "topics": [
-        "crypto",
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "face",
-      "at": "2026-10-14T02:05:56.517100+00:00"
-    },
     {
       "fb_id": "1421089964411983_122111404857491654",
       "topics": [
@@ -734,21 +725,19 @@
       "mode": "viral",
       "photo": "hires",
       "at": "2026-10-17T08:31:23.988637+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112870135491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "hires",
+      "at": "2026-10-17T09:02:08.937720+00:00"
     }
   ],
   "last_video_post": "2026-10-17",
   "recent_fps": [
-    {
-      "fp": [
-        "$5",
-        "CFTC",
-        "LATEST",
-        "biden",
-        "gemini",
-        "winklevoss"
-      ],
-      "at": "2026-10-16T01:17:29.030202+00:00"
-    },
     {
       "fp": [
         "$2",
@@ -961,10 +950,19 @@
         "nasdaq"
       ],
       "at": "2026-10-17T08:31:23.988620+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "bank",
+        "deutsche",
+        "germany"
+      ],
+      "at": "2026-10-17T09:02:08.937702+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udcc9 \"\u0645\u0624\u0634\u0631 \u0627\u0644\u062e\u0648\u0641 \u0648\u0627\u0644\u0637\u0645\u0639\" \u0644\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0646\u0632\u0644 \u0644\u0640 53 \"\u0645\u062d\u0627\u064a\u062f\" \u0628\u0639\u062f \u0645\u0627 \u0643\u0627\u0646 73 \"\u0637\u0645\u0639\" \u0645\u0646 10 \u0623\u064a\u0627\u0645.",
     "\ud83c\udde8\ud83c\uddf3 \u0628\u0639\u062f \u0645\u0627 \u0648\u0632\u0627\u0631\u0629 \u0627\u0644\u0645\u0627\u0644\u064a\u0629 \u0627\u0644\u0635\u064a\u0646\u064a\u0629 \u0628\u0627\u0639\u062a \u0633\u0646\u062f\u0627\u062a \u062e\u0632\u0627\u0646\u0629 \u062e\u0627\u0635\u0629 \u0637\u0648\u064a\u0644\u0629 \u0627\u0644\u0623\u062c\u0644 20 \u0633\u0646\u0629 \u0628\u0639\u0627\u0626\u062f 2.0649%",
     "\ud83d\udcc8 BTC \u0643\u0633\u0631 \u0627\u0644\u0640 80,000 \u062f\u0648\u0644\u0627\u0631 \u0648\u0631\u062c\u0639 \u062a\u0627\u0646\u064a.. \u0627\u0644\u0645\u0634\u062a\u0631\u064a\u0646 \u062e\u0637\u0641\u0648\u0627 \u0627\u0644\u0641\u0631\u0635\u0629 \u0641\u064a \u0622\u0633\u064a\u0627",
     "\ud83d\ude80 JUST IN: $5.3 \u0645\u0644\u064a\u0627\u0631 Cardone Capital \u0627\u0634\u062a\u0631\u0649 60 BTC \u0628\u0642\u064a\u0645\u0629 4.8 \u0645\u0644\u064a\u0648\u0646!",
@@ -978,7 +976,8 @@
     "\u26a0\ufe0f \u0628\u0639\u062f 5 \u0633\u0646\u064a\u0646 \u0645\u0646 \"\u0638\u0644\u0645\" \u062f\u064a\u0641\u064a\u062f \u0633\u0627\u0628\u0627\u062a\u064a\u0644\u064a\u060c \u0628\u064a\u0644 \u0623\u0643\u0645\u0627\u0646 \u0628\u064a\u0641\u062a\u062d \u0627\u0644\u0646\u0627\u0631 \u0639\u0644\u0649 MIT \u0648 HHMI.",
     "\ud83d\udee1\ufe0f Google \u062a\u0643\u0634\u0641 \u0639\u0646 \u0625\u0646\u062c\u0627\u0632 Willow \u0641\u064a 16 \u0623\u0643\u062a\u0648\u0628\u0631 2026 \u0648\u062a\u0632\u064a\u062f \u062e\u0637\u0631 \u0627\u0644\u0643\u0645 \u0639\u0644\u0649 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0633\u0627\u062a\u0648\u0634\u064a",
     "\ud83d\udee2\ufe0f \u062a\u0631\u0627\u0645\u0628 \u064a\u0631\u0641\u0639 \u062d\u0638\u0631 \u0631\u0648\u0633\u064a\u0627 \u0648100% \u0631\u0633\u0648\u0645 \u0639\u0644\u0649 \u0645\u0634\u062a\u0631\u064a \u0627\u0644\u0646\u0641\u0637 \u0648\u0627\u0644\u063a\u0627\u0632\u060c \u0642\u0628\u0644 \u0645\u0627 \u064a\u0637\u0628\u0642 \u0627\u0644\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u0644\u064a \u0648\u0642\u0639 \u0639\u0644\u064a\u0647 \u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u0645\u0627\u0636\u064a.",
-    "\ud83d\udcc9 \u0627\u0644\u0646\u0627\u0632\u062f\u0627\u0643 100 \u0628\u064a\u062e\u0633\u0631 \u0623\u0643\u062a\u0631 \u0645\u0646 2% \u0627\u0644\u0646\u0647\u0627\u0631\u062f\u0629\u060c \u0648\u0627\u0644\u062e\u0633\u0627\u0631\u0629 \u0648\u0635\u0644\u062a 7% \u0641\u064a 10 \u0623\u064a\u0627\u0645."
+    "\ud83d\udcc9 \u0627\u0644\u0646\u0627\u0632\u062f\u0627\u0643 100 \u0628\u064a\u062e\u0633\u0631 \u0623\u0643\u062a\u0631 \u0645\u0646 2% \u0627\u0644\u0646\u0647\u0627\u0631\u062f\u0629\u060c \u0648\u0627\u0644\u062e\u0633\u0627\u0631\u0629 \u0648\u0635\u0644\u062a 7% \u0641\u064a 10 \u0623\u064a\u0627\u0645.",
+    "\ud83c\udde9\ud83c\uddea \"\u062f\u0648\u064a\u062a\u0634\u0647 \u0628\u0646\u0643\" \u0627\u0644\u0623\u0644\u0645\u0627\u0646\u064a \u0628\u064a\u062e\u0634 \u0633\u0648\u0642 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0628\u062e\u062f\u0645\u0629 \u062d\u0641\u0638 \u0627\u0644\u0639\u0645\u0644\u0627\u062a \u0627\u0644\u0631\u0642\u0645\u064a\u0629."
   ],
-  "shape_idx": 117
+  "shape_idx": 118
 }
