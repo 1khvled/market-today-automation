@@ -139,6 +139,7 @@
     "b065ec14a78e401d",
     "b09058b4d4b8ce58",
     "b2c26501e86f55be",
+    "b5882075649e5905",
     "b61dbcd0676f8b71",
     "b88066e16c555a5d",
     "b9f09c1b08ea1fb9",
@@ -215,10 +216,9 @@
   "day_counts": {
     "2026-10-15": 15,
     "2026-10-16": 15,
-    "2026-10-17": 5
+    "2026-10-17": 6
   },
   "recent_titles": [
-    "JUST IN: Ripple launches 24/7 perpetual futures trading for Wall Street institutions.",
     "JUST IN: Bitcoin 'Fear & Greed Index' falls to 53 'Neutral' from its 2026 high of 73 'greed' 10 days ago.",
     "China finance ministry auctions 20-year ultra-long special treasury bonds at 2.0649% yield: traders",
     "Bitcoin buyers snap up a brief drop below $80,000 as Asian stocks rebound",
@@ -232,25 +232,18 @@
     "Democrats discovered billionaires in politics were a threat to democracy the exact day one stopped writing them checks. When Michael Bloomberg spent around $1 billion of his own money in the 2020 p...",
     "Five years ago, an important miscarriage of justice occurred. The story began in April 2018 when David Sabatini, an MIT, Howard Hughes Medical Institute (HHMI), and Whitehead Institute scientist an...",
     "WARREN BUFFETT ON WHY ONE-DAY OPTIONS AREN'T INVESTING His take on the casino side of the stock market Buffett has compared the stock market to a church with a casino attached. People can move betw...",
-    "Satoshi-era bitcoin faces a bigger quantum threat after Google\u2019s new Willow breakthrough"
+    "Satoshi-era bitcoin faces a bigger quantum threat after Google\u2019s new Willow breakthrough",
+    "\ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa HUGE: Trump waives key Russia sanctions and up to 100% tariffs on buyers of Russian oil and gas, just days before they were set to kick in under a law he signed last month."
   ],
   "last_post": {
-    "hash": "fedd312ac1d31a6d",
-    "fb_id": "1421089964411983_122112782133491654",
-    "title": "Satoshi-era bitcoin faces a bigger quantum threat after Google\u2019s new Willow breakthrough",
-    "link": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
+    "hash": "b5882075649e5905",
+    "fb_id": "1421089964411983_122112792513491654",
+    "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa HUGE: Trump waives key Russia sanctions and up to 100% tariffs on buyers of Russian oil and gas, just days before they were set to kick in under a law he signed last month.",
+    "link": "https://x.com/Cointelegraph/status/2111295978619781463",
     "mode": "serious",
-    "at": "2026-10-17T02:50:23.914315+00:00"
+    "at": "2026-10-17T03:33:51.751351+00:00"
   },
   "history": [
-    {
-      "fb_id": "2667190320393279",
-      "topics": [
-        "ai"
-      ],
-      "mode": "viral",
-      "at": "2026-10-14T00:06:39.431790+00:00"
-    },
     {
       "fb_id": "1421089964411983_122111304903491654",
       "topics": [
@@ -730,24 +723,20 @@
       "mode": "serious",
       "photo": "hires",
       "at": "2026-10-17T02:50:23.914315+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112792513491654",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "split:face",
+      "at": "2026-10-17T03:33:51.751351+00:00"
     }
   ],
   "last_video_post": "2026-10-17",
   "recent_fps": [
-    {
-      "fp": [
-        "BTC",
-        "MSTR",
-        "STRC",
-        "bitcoin",
-        "capital",
-        "credit",
-        "digital",
-        "equity",
-        "strategy"
-      ],
-      "at": "2026-10-16T00:17:21.002585+00:00"
-    },
     {
       "fp": [
         "$4,154.",
@@ -982,10 +971,18 @@
         "willow"
       ],
       "at": "2026-10-17T02:50:23.914294+00:00"
+    },
+    {
+      "fp": [
+        "HUGE",
+        "russia",
+        "russian",
+        "trump"
+      ],
+      "at": "2026-10-17T03:33:51.751340+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83e\udd16 OpenAI \u0643\u0634\u0641\u062a \u0625\u0646 \u0646\u0645\u0648\u0630\u062c AI \u062f\u0627\u062e\u0644\u064a \u0627\u0633\u062a\u062e\u0631\u062c \u0645\u0641\u0627\u062a\u064a\u062d \u0645\u0646 \u0639\u0628\u0627\u0631\u0627\u062a \u0627\u0633\u062a\u0631\u062f\u0627\u062f \u0639\u0644\u0646\u064a\u0629 \u0648\u062f\u0641\u0639 \u0645\u0646 \u0645\u062d\u0641\u0638\u0629 \u0643\u0631\u064a\u0628\u062a\u0648 \u0639\u0644\u0649 \u0634\u0628\u0643\u0629 \u0627\u062e\u062a\u0628\u0627\u0631 \u0625\u064a\u062b\u064a\u0631\u064a\u0648\u0645 \u0645\u0646 \u063a\u064a\u0631 \u0625\u0630\u0646",
     "\ud83d\udcc8 \u0631\u064a\u0628\u0644 \u062a\u0637\u0644\u0642 \u062a\u062f\u0627\u0648\u0644 \u0639\u0642\u0648\u062f \u0645\u0633\u062a\u0642\u0628\u0644\u064a\u0629 \u062f\u0627\u0626\u0645\u0629 24/7 \u0644\u0648\u0644 \u0633\u062a\u0631\u064a\u062a",
     "\ud83d\udcc9 \"\u0645\u0624\u0634\u0631 \u0627\u0644\u062e\u0648\u0641 \u0648\u0627\u0644\u0637\u0645\u0639\" \u0644\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0646\u0632\u0644 \u0644\u0640 53 \"\u0645\u062d\u0627\u064a\u062f\" \u0628\u0639\u062f \u0645\u0627 \u0643\u0627\u0646 73 \"\u0637\u0645\u0639\" \u0645\u0646 10 \u0623\u064a\u0627\u0645.",
     "\ud83c\udde8\ud83c\uddf3 \u0628\u0639\u062f \u0645\u0627 \u0648\u0632\u0627\u0631\u0629 \u0627\u0644\u0645\u0627\u0644\u064a\u0629 \u0627\u0644\u0635\u064a\u0646\u064a\u0629 \u0628\u0627\u0639\u062a \u0633\u0646\u062f\u0627\u062a \u062e\u0632\u0627\u0646\u0629 \u062e\u0627\u0635\u0629 \u0637\u0648\u064a\u0644\u0629 \u0627\u0644\u0623\u062c\u0644 20 \u0633\u0646\u0629 \u0628\u0639\u0627\u0626\u062f 2.0649%",
@@ -999,7 +996,8 @@
     "\ud83d\udcc8 \u0628\u0639\u062f \u0645\u0627 CPI \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0642\u0641\u0632\u062a \u0644\u0640 3.7%.. \u0639\u0627\u0626\u062f \u0627\u0644\u0633\u0646\u062f\u0627\u062a \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 10 \u0633\u0646\u0648\u0627\u062a \u0637\u0627\u0631 \u0644\u0640 5.33% \u0641\u064a \u0633\u0627\u0639\u0647",
     "\"\u26a0\ufe0f \u0628\u064a\u0644 \u0623\u0643\u0645\u0627\u0646: \"\u0627\u0644\u062f\u064a\u0645\u0642\u0631\u0627\u0637\u064a\u064a\u0646 \u0627\u0643\u062a\u0634\u0641\u0648\u0627 \u062e\u0637\u0631 \u0627\u0644\u0645\u0644\u064a\u0627\u0631\u062f\u064a\u0631\u0627\u062a \u0641\u064a \u0627\u0644\u0633\u064a\u0627\u0633\u0629 \u064a\u0648\u0645 \u0645\u0627 \u0648\u0627\u062d\u062f \u0628\u0637\u0644 \u064a\u062f\u0641\u0639 \u0644\u0647\u0645 \u0634\u064a\u0643\u0627\u062a!\"",
     "\u26a0\ufe0f \u0628\u0639\u062f 5 \u0633\u0646\u064a\u0646 \u0645\u0646 \"\u0638\u0644\u0645\" \u062f\u064a\u0641\u064a\u062f \u0633\u0627\u0628\u0627\u062a\u064a\u0644\u064a\u060c \u0628\u064a\u0644 \u0623\u0643\u0645\u0627\u0646 \u0628\u064a\u0641\u062a\u062d \u0627\u0644\u0646\u0627\u0631 \u0639\u0644\u0649 MIT \u0648 HHMI.",
-    "\ud83d\udee1\ufe0f Google \u062a\u0643\u0634\u0641 \u0639\u0646 \u0625\u0646\u062c\u0627\u0632 Willow \u0641\u064a 16 \u0623\u0643\u062a\u0648\u0628\u0631 2026 \u0648\u062a\u0632\u064a\u062f \u062e\u0637\u0631 \u0627\u0644\u0643\u0645 \u0639\u0644\u0649 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0633\u0627\u062a\u0648\u0634\u064a"
+    "\ud83d\udee1\ufe0f Google \u062a\u0643\u0634\u0641 \u0639\u0646 \u0625\u0646\u062c\u0627\u0632 Willow \u0641\u064a 16 \u0623\u0643\u062a\u0648\u0628\u0631 2026 \u0648\u062a\u0632\u064a\u062f \u062e\u0637\u0631 \u0627\u0644\u0643\u0645 \u0639\u0644\u0649 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0633\u0627\u062a\u0648\u0634\u064a",
+    "\ud83d\udee2\ufe0f \u062a\u0631\u0627\u0645\u0628 \u064a\u0631\u0641\u0639 \u062d\u0638\u0631 \u0631\u0648\u0633\u064a\u0627 \u0648100% \u0631\u0633\u0648\u0645 \u0639\u0644\u0649 \u0645\u0634\u062a\u0631\u064a \u0627\u0644\u0646\u0641\u0637 \u0648\u0627\u0644\u063a\u0627\u0632\u060c \u0642\u0628\u0644 \u0645\u0627 \u064a\u0637\u0628\u0642 \u0627\u0644\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u0644\u064a \u0648\u0642\u0639 \u0639\u0644\u064a\u0647 \u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u0645\u0627\u0636\u064a."
   ],
-  "shape_idx": 115
+  "shape_idx": 116
 }
