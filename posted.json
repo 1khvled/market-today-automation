@@ -176,6 +176,7 @@
     "eabb7a06f0820243",
     "eb5418710ba14727",
     "ebb9dfc4c90a11b6",
+    "ed6a34587915a3d4",
     "ed96a486156b55ea",
     "eec6a6d1910591bf",
     "efb052f68304f89a",
@@ -213,10 +214,9 @@
   "day_counts": {
     "2026-10-15": 15,
     "2026-10-16": 15,
-    "2026-10-17": 3
+    "2026-10-17": 4
   },
   "recent_titles": [
-    "BREAKING: Semiconductor stocks have now erased over -$2 trillion in market cap since October 6th. If the Semiconductor ETF, $SOXX, closes red today, it will mark the sector's 8th-straight daily los...",
     "\ud83d\udea8 JUST IN: OpenAI reveals one of its internal AI models tapped a crypto wallet without permission during a training task. The model derived keys from public recovery phrases to pay for a deployment...",
     "JUST IN: Ripple launches 24/7 perpetual futures trading for Wall Street institutions.",
     "JUST IN: Bitcoin 'Fear & Greed Index' falls to 53 'Neutral' from its 2026 high of 73 'greed' 10 days ago.",
@@ -230,28 +230,19 @@
     "\ud83d\udc0b NEW: Bitcoin wallets holding 10\u201310,000 $BTC hit an all-time high of 20,338, climbing sharply since mid-July despite price volatility, per Santiment.",
     "The last 48 hours have been very telling. After US CPI inflation rose to 3.7% on Wednesday, the 10Y Note Yield surged to 5.33%. ~24 hours later, it was -30 basis points lower as the S&P 500 and tec...",
     "Democrats discovered billionaires in politics were a threat to democracy the exact day one stopped writing them checks. When Michael Bloomberg spent around $1 billion of his own money in the 2020 p...",
-    "Five years ago, an important miscarriage of justice occurred. The story began in April 2018 when David Sabatini, an MIT, Howard Hughes Medical Institute (HHMI), and Whitehead Institute scientist an..."
+    "Five years ago, an important miscarriage of justice occurred. The story began in April 2018 when David Sabatini, an MIT, Howard Hughes Medical Institute (HHMI), and Whitehead Institute scientist an...",
+    "WARREN BUFFETT ON WHY ONE-DAY OPTIONS AREN'T INVESTING His take on the casino side of the stock market Buffett has compared the stock market to a church with a casino attached. People can move betw..."
   ],
   "last_post": {
-    "hash": "f8ca9752326577ba",
-    "fb_id": "1421089964411983_122112763089491654",
-    "title": "Five years ago, an important miscarriage of justice occurred. The story began in April 2018 when David Sabatini, an MIT, Howard Hughes Medical Institute (HHMI), and Whitehead Institute scientist an...",
-    "link": "https://x.com/BillAckman/status/2111246367750283532",
-    "mode": "viral",
-    "at": "2026-10-17T01:16:19.404618+00:00"
+    "hash": "ed6a34587915a3d4",
+    "fb_id": "4546432508958702",
+    "title": "WARREN BUFFETT ON WHY ONE-DAY OPTIONS AREN'T INVESTING His take on the casino side of the stock market Buffett has compared the stock market to a church with a casino attached. People can move betw...",
+    "link": "https://x.com/WOLF_Financial/status/2111263519606018535",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-10-17T02:06:08.943923+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122111168331491654",
-      "topics": [
-        "gold_oil",
-        "power",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "face",
-      "at": "2026-10-13T16:33:27.906863+00:00"
-    },
     {
       "fb_id": "1421089964411983_122111181927491654",
       "topics": [
@@ -733,28 +724,18 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-17T01:16:19.404618+00:00"
+    },
+    {
+      "fb_id": "4546432508958702",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "serious",
+      "at": "2026-10-17T02:06:08.943923+00:00"
     }
   ],
-  "last_video_post": "2026-10-16",
+  "last_video_post": "2026-10-17",
   "recent_fps": [
-    {
-      "fp": [
-        "$425",
-        "AI",
-        "AS",
-        "CUT",
-        "MARKET",
-        "RISE",
-        "RISK",
-        "TARGET",
-        "TO",
-        "fed",
-        "however",
-        "research",
-        "yardeni"
-      ],
-      "at": "2026-10-15T12:32:04.883644+00:00"
-    },
     {
       "fp": [
         "PPI",
@@ -991,6 +972,20 @@
         "whitehead"
       ],
       "at": "2026-10-17T01:16:19.404605+00:00"
+    },
+    {
+      "fp": [
+        "AREN",
+        "DAY",
+        "ON",
+        "ONE",
+        "WARREN",
+        "WHY",
+        "buffett",
+        "his",
+        "people"
+      ],
+      "at": "2026-10-17T02:06:08.943909+00:00"
     }
   ],
   "recent_hooks": [
