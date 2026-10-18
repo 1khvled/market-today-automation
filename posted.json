@@ -117,6 +117,7 @@
     "8388e8efd7832598",
     "8465540a6146924a",
     "850df80d5bf2aab4",
+    "867b20d0da8e6817",
     "867efb8ff1a70888",
     "884ec865bb833271",
     "89ac828e8f5cead9",
@@ -235,10 +236,9 @@
   "day_counts": {
     "2026-10-16": 15,
     "2026-10-17": 15,
-    "2026-10-18": 10
+    "2026-10-18": 11
   },
   "recent_titles": [
-    "JUST IN: $13 trillion Charles Schwab fully launches Bitcoin & Ethereum trading to its 40 million eligible retail clients.",
     "DAILY AI BRIEF \ud83d\uddde \u2014 Oct 17 OPENAI \ud83d\udd25: - OpenAI upgraded GPT-6 Astra Pro in ChatGPT with faster responses, better plugin and tool use, and multiple agents working in parallel, now available to Pro use...",
     "IMF Pledges Support as Iraq Seeks Emergency Financial Assistance Iraq has approached the International Monetary Fund (IMF) for a new financial program as the US-Israel war with Iran disrupts oil ex...",
     "BREAKING: The 3x leveraged long Semiconductor ETF, $SOXL, has attracted +$3.8 billion in inflows so far this week, putting it on track for its largest weekly intake on record. This follows 3 consec...",
@@ -252,26 +252,18 @@
     "JUST IN: The Bitcoin Fear & Greed Index is holding at 55, \"Greed\" \ud83d\udc40 Bullish \ud83d\ude80",
     "Deadly fire breaks out at Canada military base",
     "U.S. Secretary of State Marco Rubio is set to visit the world\u2019s largest oil refinery in Jamnagar, India, owned by billionaire Mukesh Ambani\u2019s Reliance Industries, as diesel prices surge ahead of U....",
-    "\ud83d\udea8\ud83c\uddf0\ud83c\uddf7 REGULATION: South Korea's 22% crypto tax has already been delayed three times. Now the country's five biggest exchanges are meeting the government on Tuesday to push for a fourth, with a ruling..."
+    "\ud83d\udea8\ud83c\uddf0\ud83c\uddf7 REGULATION: South Korea's 22% crypto tax has already been delayed three times. Now the country's five biggest exchanges are meeting the government on Tuesday to push for a fourth, with a ruling...",
+    "Calls for a \"Black Monday\" are spreading rapidly across social media right now. If history is any guide, this means the S&P 500 should hit 8,000 soon. Ignore the noise. Read our analysis below."
   ],
   "last_post": {
-    "hash": "e4a2f6ec34634ed5",
-    "fb_id": "1421089964411983_122113270689491654",
-    "title": "\ud83d\udea8\ud83c\uddf0\ud83c\uddf7 REGULATION: South Korea's 22% crypto tax has already been delayed three times. Now the country's five biggest exchanges are meeting the government on Tuesday to push for a fourth, with a ruling...",
-    "link": "https://x.com/Cointelegraph/status/2111676215505322251",
-    "mode": "serious",
-    "at": "2026-10-18T04:46:09.967643+00:00"
+    "hash": "867b20d0da8e6817",
+    "fb_id": "1421089964411983_122113282113491654",
+    "title": "Calls for a \"Black Monday\" are spreading rapidly across social media right now. If history is any guide, this means the S&P 500 should hit 8,000 soon. Ignore the noise. Read our analysis below.",
+    "link": "https://x.com/KobeissiLetter/status/2111679803560796451",
+    "mode": "viral",
+    "at": "2026-10-18T05:34:25.179039+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122111923605491654",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "hires",
-      "at": "2026-10-15T08:06:53.801992+00:00"
-    },
     {
       "fb_id": "1421089964411983_122111935821491654",
       "topics": [
@@ -738,19 +730,19 @@
       "mode": "serious",
       "photo": "hires",
       "at": "2026-10-18T04:46:09.967643+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113282113491654",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-18T05:34:25.179039+00:00"
     }
   ],
   "last_video_post": "2026-10-18",
   "recent_fps": [
-    {
-      "fp": [
-        "HUGE",
-        "russia",
-        "russian",
-        "trump"
-      ],
-      "at": "2026-10-17T03:33:51.751340+00:00"
-    },
     {
       "fp": [
         "$100",
@@ -985,10 +977,19 @@
         "tuesday"
       ],
       "at": "2026-10-18T04:46:09.967626+00:00"
+    },
+    {
+      "fp": [
+        "black",
+        "calls",
+        "ignore",
+        "monday",
+        "read"
+      ],
+      "at": "2026-10-18T05:34:25.179024+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udd25 \u0628\u0639\u062f \u0645\u0627 \u0643\u0627\u0646\u0648\u0627 \u0628\u064a\u0642\u0648\u0644\u0648\u0627 \u0643\u0631\u064a\u0628\u062a\u0648 \u0645\u0648\u0636\u0629.. Coinbase ($COIN) \u0639\u0646\u062f\u0647\u0627 \u0642\u0631\u0648\u0636 \u0628\u0640 2.3 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631 \u0645\u062f\u0639\u0648\u0645\u0629 \u0628\u0627\u0644\u0639\u0645\u0644\u0627\u062a \u0627\u0644\u0631\u0642\u0645\u064a\u0629.",
     "\ud83d\udcb0 \u062a\u0634\u0627\u0631\u0644\u0632 \u0634\u0648\u0627\u0628 (Charles Schwab) \u0627\u0644\u0644\u064a \u0628\u062a\u062f\u064a\u0631 13 \u062a\u0631\u064a\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631\u060c \u0641\u062a\u062d\u062a \u062a\u062f\u0627\u0648\u0644 BTC \u0648 ETH \u0644\u0640 40 \u0645\u0644\u064a\u0648\u0646 \u0639\u0645\u064a\u0644 \u0639\u0646\u062f\u0647\u0627.",
     "\ud83e\udd16 OpenAI \u062c\u0631\u0628\u062a GPT-6 Astra Pro \u0641\u064a ChatGPT.. \u0623\u0633\u0631\u0639 \u0631\u062f\u0648\u062f\u060c \u0648\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0623\u0641\u0636\u0644 \u0644\u0644\u0625\u0636\u0627\u0641\u0627\u062a\u060c \u0648\u0648\u0643\u0644\u0627\u0621 \u0645\u062a\u0639\u062f\u062f\u064a\u0646 \u064a\u0634\u062a\u063a\u0644\u0648\u0627 \u0641\u064a \u0646\u0641\u0633 \u0627\u0644\u0648\u0642\u062a",
     "\"\ud83d\udcb5 \u0627\u0644\u0639\u0631\u0627\u0642 \u064a\u0637\u0644\u0628 \u0645\u0633\u0627\u0639\u062f\u0629 \u0637\u0627\u0631\u0626\u0629 \u0645\u0646 \u0635\u0646\u062f\u0648\u0642 \u0627\u0644\u0646\u0642\u062f \u0627\u0644\u062f\u0648\u0644\u064a \u0628\u0633\u0628\u0628 \u062a\u0648\u0642\u0641 \u0635\u0627\u062f\u0631\u0627\u062a \u0627\u0644\u0646\u0641\u0637",
@@ -1002,7 +1003,8 @@
     "\ud83d\udcc8 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646: \u0645\u0624\u0634\u0631 \u0627\u0644\u062e\u0648\u0641 \u0648\u0627\u0644\u062c\u0634\u0639 \u062b\u0627\u0628\u062a \u0639\u0646\u062f 55 \"\u062c\u0634\u0639\" \u2014 Bullish \ud83d\ude80",
     "\u26a0\ufe0f \u062d\u0627\u062f\u062b \u062e\u0637\u064a\u0631 \u0641\u064a \u0642\u0627\u0639\u062f\u0629 \u0639\u0633\u0643\u0631\u064a\u0629 \u0643\u0646\u062f\u064a\u0629.. \u0648\u0632\u064a\u0631 \u0627\u0644\u062f\u0641\u0627\u0639 \u062f\u064a\u0641\u064a\u062f \u0645\u0627\u0643\u062c\u064a\u0646\u062a\u064a \u0623\u0643\u062f \u0648\u062c\u0648\u062f \u0636\u062d\u0627\u064a\u0627",
     "\"\ud83d\udee2\ufe0f \u0645\u0627\u0631\u0643\u0648 \u0631\u0648\u0628\u064a\u0648 \u0628\u064a\u0632\u0648\u0631 \u0623\u0643\u0628\u0631 \u0645\u0635\u0641\u0627\u0629 \u0646\u0641\u0637 \u0641\u064a \u0627\u0644\u0639\u0627\u0644\u0645 \u0641\u064a \u0627\u0644\u0647\u0646\u062f.. \u0648\u062f\u064a\u0632\u0644 \u0623\u0645\u0631\u064a\u0643\u0627 \u0628\u064a\u0632\u064a\u062f \u0642\u0628\u0644 \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \u0645\u0646\u062a\u0635\u0641 \u0627\u0644\u0645\u062f\u0629",
-    "\ud83c\uddf0\ud83c\uddf7 \u0628\u0639\u062f \u062a\u0623\u062c\u064a\u0644 3 \u0645\u0631\u0627\u062a.. \u0643\u0648\u0631\u064a\u0627 \u0627\u0644\u062c\u0646\u0648\u0628\u064a\u0629 \u0628\u062a\u0646\u0627\u0642\u0634 \u062a\u0623\u062c\u064a\u0644 \u0631\u0627\u0628\u0639 \u0644\u0636\u0631\u064a\u0628\u0629 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0627\u0644\u0640 22%"
+    "\ud83c\uddf0\ud83c\uddf7 \u0628\u0639\u062f \u062a\u0623\u062c\u064a\u0644 3 \u0645\u0631\u0627\u062a.. \u0643\u0648\u0631\u064a\u0627 \u0627\u0644\u062c\u0646\u0648\u0628\u064a\u0629 \u0628\u062a\u0646\u0627\u0642\u0634 \u062a\u0623\u062c\u064a\u0644 \u0631\u0627\u0628\u0639 \u0644\u0636\u0631\u064a\u0628\u0629 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0627\u0644\u0640 22%",
+    "\ud83d\udcc9 \u0627\u0644\u0645\u062d\u0644\u0644\u0648\u0646: \u062f\u0639\u0648\u0627\u062a \u0644\u0640 'Black Monday' \u062a\u0646\u062a\u0634\u0631 \u0648\u0633\u0648\u0642 S&P 500 \u0647\u064a\u0648\u0635\u0644 8000 \u0642\u0631\u064a\u0628\u064b\u0627."
   ],
-  "shape_idx": 134
+  "shape_idx": 135
 }
