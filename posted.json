@@ -88,6 +88,7 @@
     "6b0fd84fce068a75",
     "6b8cf3d57844a02e",
     "6b96c1836ac774cf",
+    "6cd48926a0ca24f4",
     "6d938cdfc0ac455c",
     "6dfde226099b02e8",
     "6f632453df63c6f0",
@@ -226,10 +227,9 @@
   "day_counts": {
     "2026-10-16": 15,
     "2026-10-17": 15,
-    "2026-10-18": 1
+    "2026-10-18": 2
   },
   "recent_titles": [
-    "Democrats discovered billionaires in politics were a threat to democracy the exact day one stopped writing them checks. When Michael Bloomberg spent around $1 billion of his own money in the 2020 p...",
     "Five years ago, an important miscarriage of justice occurred. The story began in April 2018 when David Sabatini, an MIT, Howard Hughes Medical Institute (HHMI), and Whitehead Institute scientist an...",
     "WARREN BUFFETT ON WHY ONE-DAY OPTIONS AREN'T INVESTING His take on the casino side of the stock market Buffett has compared the stock market to a church with a casino attached. People can move betw...",
     "Satoshi-era bitcoin faces a bigger quantum threat after Google\u2019s new Willow breakthrough",
@@ -243,28 +243,19 @@
     "IMF Pledges Support as Iraq Seeks Emergency Financial Assistance Iraq has approached the International Monetary Fund (IMF) for a new financial program as the US-Israel war with Iran disrupts oil ex...",
     "BREAKING: The 3x leveraged long Semiconductor ETF, $SOXL, has attracted +$3.8 billion in inflows so far this week, putting it on track for its largest weekly intake on record. This follows 3 consec...",
     "DeepSeek V4.1 Flash just dropped, and it's now the MOST EXPENSIVE small model on the BridgeBench lava lamp test. DeepSeek V4.1 Flash: $0.04, 4m 3s Claude Haiku 5.5: $0.03, 4m 34s GPT 6 Luna: under ...",
-    "FUN FACT: Less than 10% of the global population is invested in cryptocurrency."
+    "FUN FACT: Less than 10% of the global population is invested in cryptocurrency.",
+    "Abdul El-Sayed: We're paying $5,600 on average for a vanity tariff project that Donald Trump decided he wanted because Mark Carney is cooler than he is."
   ],
   "last_post": {
-    "hash": "dde12a97e4ef93ba",
-    "fb_id": "1421089964411983_122113149627491654",
-    "title": "FUN FACT: Less than 10% of the global population is invested in cryptocurrency.",
-    "link": "https://x.com/WatcherGuru/status/2111453854118424834",
-    "mode": "viral",
-    "at": "2026-10-18T00:02:05.014714+00:00"
+    "hash": "6cd48926a0ca24f4",
+    "fb_id": "1453643773290865",
+    "title": "Abdul El-Sayed: We're paying $5,600 on average for a vanity tariff project that Donald Trump decided he wanted because Mark Carney is cooler than he is.",
+    "link": "https://x.com/clashreport/status/2111612443453714519",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-10-18T00:31:53.356241+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122111530191491654",
-      "topics": [
-        "gold_oil",
-        "power",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "split:face",
-      "at": "2026-10-14T09:06:31.710532+00:00"
-    },
     {
       "fb_id": "1421089964411983_122111553615491654",
       "topics": [
@@ -741,17 +732,18 @@
       "mode": "viral",
       "photo": "hires",
       "at": "2026-10-18T00:02:05.014714+00:00"
+    },
+    {
+      "fb_id": "1453643773290865",
+      "topics": [
+        "power"
+      ],
+      "mode": "serious",
+      "at": "2026-10-18T00:31:53.356241+00:00"
     }
   ],
-  "last_video_post": "2026-10-17",
+  "last_video_post": "2026-10-18",
   "recent_fps": [
-    {
-      "fp": [
-        "XRP",
-        "here"
-      ],
-      "at": "2026-10-16T06:35:48.845646+00:00"
-    },
     {
       "fp": [
         "ambani",
@@ -1003,6 +995,18 @@
         "less"
       ],
       "at": "2026-10-18T00:02:05.014699+00:00"
+    },
+    {
+      "fp": [
+        "$5,600",
+        "abdul",
+        "carney",
+        "donald",
+        "mark",
+        "sayed",
+        "trump"
+      ],
+      "at": "2026-10-18T00:31:53.356227+00:00"
     }
   ],
   "recent_hooks": [
