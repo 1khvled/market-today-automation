@@ -1,6 +1,7 @@
 {
   "posted_hashes": [
     "024ffe48550c5175",
+    "028801d4b0ae116e",
     "03e22223f98f7cc0",
     "0633f220203a8367",
     "067557f77f432331",
@@ -238,10 +239,9 @@
   "day_counts": {
     "2026-10-16": 15,
     "2026-10-17": 15,
-    "2026-10-18": 13
+    "2026-10-18": 14
   },
   "recent_titles": [
-    "BREAKING: The 3x leveraged long Semiconductor ETF, $SOXL, has attracted +$3.8 billion in inflows so far this week, putting it on track for its largest weekly intake on record. This follows 3 consec...",
     "DeepSeek V4.1 Flash just dropped, and it's now the MOST EXPENSIVE small model on the BridgeBench lava lamp test. DeepSeek V4.1 Flash: $0.04, 4m 3s Claude Haiku 5.5: $0.03, 4m 34s GPT 6 Luna: under ...",
     "FUN FACT: Less than 10% of the global population is invested in cryptocurrency.",
     "Abdul El-Sayed: We're paying $5,600 on average for a vanity tariff project that Donald Trump decided he wanted because Mark Carney is cooler than he is.",
@@ -255,28 +255,18 @@
     "\ud83d\udea8\ud83c\uddf0\ud83c\uddf7 REGULATION: South Korea's 22% crypto tax has already been delayed three times. Now the country's five biggest exchanges are meeting the government on Tuesday to push for a fourth, with a ruling...",
     "Calls for a \"Black Monday\" are spreading rapidly across social media right now. If history is any guide, this means the S&P 500 should hit 8,000 soon. Ignore the noise. Read our analysis below.",
     "Billionaire investor Paul Tudor Jones says 2027 could be a really challenging year for the stock market. Ray Dalio recently called AI a \u201cclassic bubble.\" Yardeni Research cut its year-end S&P 500 t...",
-    "Large US bank stocks are under historic pressure: The KBW Bank Index has dropped for 6 consecutive weeks, its longest streak since the 2008 Financial Crisis. This also marks its 3rd-longest streak ..."
+    "Large US bank stocks are under historic pressure: The KBW Bank Index has dropped for 6 consecutive weeks, its longest streak since the 2008 Financial Crisis. This also marks its 3rd-longest streak ...",
+    "Chip-stock bets lost $52 million in 10 minutes with Wall Street shut"
   ],
   "last_post": {
-    "hash": "676d291d52901fab",
-    "fb_id": "1421089964411983_122113309221491654",
-    "title": "Large US bank stocks are under historic pressure: The KBW Bank Index has dropped for 6 consecutive weeks, its longest streak since the 2008 Financial Crisis. This also marks its 3rd-longest streak ...",
-    "link": "https://x.com/KobeissiLetter/status/2111504585260982410",
-    "mode": "viral",
-    "at": "2026-10-18T07:04:22.551095+00:00"
+    "hash": "028801d4b0ae116e",
+    "fb_id": "1421089964411983_122113316445491654",
+    "title": "Chip-stock bets lost $52 million in 10 minutes with Wall Street shut",
+    "link": "https://www.coindesk.com/markets/2026/10/18/chip-stock-bets-lost-usd52-million-in-10-minutes-with-wall-street-shut",
+    "mode": "serious",
+    "at": "2026-10-18T07:34:30.233987+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122111963571491654",
-      "topics": [
-        "fed",
-        "inflation",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-15T09:34:42.796772+00:00"
-    },
     {
       "fb_id": "1421089964411983_122111991375491654",
       "topics": [
@@ -740,21 +730,19 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-18T07:04:22.551095+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113316445491654",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-10-18T07:34:30.233987+00:00"
     }
   ],
   "last_video_post": "2026-10-18",
   "recent_fps": [
-    {
-      "fp": [
-        "$112",
-        "$4.33",
-        "US",
-        "brent",
-        "inflation",
-        "may"
-      ],
-      "at": "2026-10-17T09:33:43.665977+00:00"
-    },
     {
       "fp": [
         "$2.3",
@@ -1005,10 +993,18 @@
         "this"
       ],
       "at": "2026-10-18T07:04:22.551075+00:00"
+    },
+    {
+      "fp": [
+        "$52",
+        "chip",
+        "street",
+        "wall"
+      ],
+      "at": "2026-10-18T07:34:30.233976+00:00"
     }
   ],
   "recent_hooks": [
-    "\"\ud83d\udcb5 \u0627\u0644\u0639\u0631\u0627\u0642 \u064a\u0637\u0644\u0628 \u0645\u0633\u0627\u0639\u062f\u0629 \u0637\u0627\u0631\u0626\u0629 \u0645\u0646 \u0635\u0646\u062f\u0648\u0642 \u0627\u0644\u0646\u0642\u062f \u0627\u0644\u062f\u0648\u0644\u064a \u0628\u0633\u0628\u0628 \u062a\u0648\u0642\u0641 \u0635\u0627\u062f\u0631\u0627\u062a \u0627\u0644\u0646\u0641\u0637",
     "\ud83d\udcc8 \u0628\u0639\u062f 3 \u0623\u0633\u0627\u0628\u064a\u0639 \u0646\u0632\u064a\u0641\u060c \u0635\u0646\u062f\u0648\u0642 SOXL \u0628\u064a\u062c\u0630\u0628 3.8 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631 \u062a\u062f\u0641\u0642\u0627\u062a \u0641\u064a \u0623\u0633\u0628\u0648\u0639 \u0648\u0627\u062d\u062f!",
     "\ud83d\udca1 DeepSeek V4.1 Flash \u0646\u0632\u0644.. \u0648\u0623\u063a\u0644\u0649 \u0645\u0648\u062f\u064a\u0644 \u0635\u063a\u064a\u0631 \u0641\u064a \u0627\u062e\u062a\u0628\u0627\u0631 BridgeBench",
     "\ud83d\udcc9 \u0623\u0642\u0644 \u0645\u0646 10% \u0645\u0646 \u0633\u0643\u0627\u0646 \u0627\u0644\u0639\u0627\u0644\u0645 \u0628\u0633 \u0647\u0645\u0627 \u0627\u0644\u0644\u064a \u0645\u0639\u0627\u0647\u0645 \u0643\u0631\u064a\u0628\u062a\u0648.. \u064a\u0639\u0646\u064a 90% \u0644\u0633\u0647 \u0628\u0631\u0647 \u0627\u0644\u0644\u0639\u0628\u0629!",
@@ -1022,7 +1018,8 @@
     "\ud83c\uddf0\ud83c\uddf7 \u0628\u0639\u062f \u062a\u0623\u062c\u064a\u0644 3 \u0645\u0631\u0627\u062a.. \u0643\u0648\u0631\u064a\u0627 \u0627\u0644\u062c\u0646\u0648\u0628\u064a\u0629 \u0628\u062a\u0646\u0627\u0642\u0634 \u062a\u0623\u062c\u064a\u0644 \u0631\u0627\u0628\u0639 \u0644\u0636\u0631\u064a\u0628\u0629 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0627\u0644\u0640 22%",
     "\ud83d\udcc9 \u0627\u0644\u0645\u062d\u0644\u0644\u0648\u0646: \u062f\u0639\u0648\u0627\u062a \u0644\u0640 'Black Monday' \u062a\u0646\u062a\u0634\u0631 \u0648\u0633\u0648\u0642 S&P 500 \u0647\u064a\u0648\u0635\u0644 8000 \u0642\u0631\u064a\u0628\u064b\u0627.",
     "\ud83d\udcc9 \u0628\u0648\u0644 \u062a\u064a\u0648\u062f\u0648\u0631 \u062c\u0648\u0646\u0632: 2027 \u0633\u0646\u0629 \u0635\u0639\u0628\u0629 \u062c\u062f\u0627\u064b \u0639\u0644\u0649 \u0633\u0648\u0642 \u0627\u0644\u0623\u0633\u0647\u0645.",
-    "\ud83d\udcc9 \u0645\u0624\u0634\u0631 KBW \u0644\u0644\u0628\u0646\u0648\u0643 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0646\u0632\u0644 6 \u0623\u0633\u0627\u0628\u064a\u0639 \u0645\u062a\u062a\u0627\u0644\u064a\u0629 \u2014 \u0623\u0637\u0648\u0644 \u0633\u0644\u0633\u0644\u0629 \u0645\u0646\u0630 \u0623\u0632\u0645\u0629 2008"
+    "\ud83d\udcc9 \u0645\u0624\u0634\u0631 KBW \u0644\u0644\u0628\u0646\u0648\u0643 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0646\u0632\u0644 6 \u0623\u0633\u0627\u0628\u064a\u0639 \u0645\u062a\u062a\u0627\u0644\u064a\u0629 \u2014 \u0623\u0637\u0648\u0644 \u0633\u0644\u0633\u0644\u0629 \u0645\u0646\u0630 \u0623\u0632\u0645\u0629 2008",
+    "\ud83d\udcac \"\u0627\u0644\u062e\u0628\u064a\u0631\": \u0627\u0644\u0631\u0647\u0627\u0646\u0627\u062a \u0639\u0644\u0649 \u0623\u0633\u0647\u0645 \u0627\u0644\u0631\u0642\u0627\u0626\u0642 \u062e\u0633\u0631\u062a 52 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0641\u064a 10 \u062f\u0642\u0627\u0626\u0642"
   ],
-  "shape_idx": 137
+  "shape_idx": 138
 }
