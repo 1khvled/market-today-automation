@@ -202,6 +202,7 @@
     "ed6a34587915a3d4",
     "ed96a486156b55ea",
     "eec6a6d1910591bf",
+    "ef5cd9fc53be1c66",
     "efb052f68304f89a",
     "f041ccdd0f70088f",
     "f423d63bf056a5f2",
@@ -241,10 +242,9 @@
   "day_counts": {
     "2026-10-17": 15,
     "2026-10-18": 15,
-    "2026-10-19": 1
+    "2026-10-19": 2
   },
   "recent_titles": [
-    "Abdul El-Sayed: We're paying $5,600 on average for a vanity tariff project that Donald Trump decided he wanted because Mark Carney is cooler than he is.",
     "\ud83d\udd25\ud83c\udde7\ud83c\uddec BIG: Bulgaria's fourth-largest bank, Postbank, will let customers buy crypto, stocks and gold right inside its banking app from early 2027, making it the second Bulgarian bank to jump in this m...",
     "\ud83d\udea8 BIG: Mt. Gox's Mark Karpel\u00e8s says Ledger knew about advanced spy implants back in March and slams its response to what he calls \"a five-alarm fire in the making.\"",
     "ANTHROPIC: AI COULD PUSH U.S. GDP TO $44 TRILLION BY 2030 Anthropic co-founder Jack Clark says an internal model projects AI could boost U.S. GDP from $30 trillion to $44 trillion by 2030. Clark cr...",
@@ -258,27 +258,19 @@
     "Large US bank stocks are under historic pressure: The KBW Bank Index has dropped for 6 consecutive weeks, its longest streak since the 2008 Financial Crisis. This also marks its 3rd-longest streak ...",
     "Chip-stock bets lost $52 million in 10 minutes with Wall Street shut",
     "By Douglas Murray: Some things never change. In 1973, when Israel was facing a war of annihilation waged upon it by all of its neighbors, the U.S. was supplying weapons to its beleaguered ally. But...",
-    "MARKETS AWAIT EARNINGS FROM MORE THAN 70 S&P 500 COMPANIES, INCLUDING TESLA AND META, AMID CONCERNS OVER AI SPENDING RETURNS AND PERSISTENT INFLATION. US 10-YEAR TREASURY YIELDS HELD AT 5.06%, WHIL..."
+    "MARKETS AWAIT EARNINGS FROM MORE THAN 70 S&P 500 COMPANIES, INCLUDING TESLA AND META, AMID CONCERNS OVER AI SPENDING RETURNS AND PERSISTENT INFLATION. US 10-YEAR TREASURY YIELDS HELD AT 5.06%, WHIL...",
+    "JUST IN: \ud83c\uddeb\ud83c\uddf7\ud83c\uddee\ud83c\uddf7French President Emmanuel Macron says people are protesting because of Trump\u2019s war on Iran and heigh oil prices"
   ],
   "last_post": {
-    "hash": "f7bf2d0c5bf249ea",
-    "fb_id": "1421089964411983_122113632021491654",
-    "title": "MARKETS AWAIT EARNINGS FROM MORE THAN 70 S&P 500 COMPANIES, INCLUDING TESLA AND META, AMID CONCERNS OVER AI SPENDING RETURNS AND PERSISTENT INFLATION. US 10-YEAR TREASURY YIELDS HELD AT 5.06%, WHIL...",
-    "link": "https://x.com/FirstSquawk/status/2111985822312616103",
-    "mode": "serious",
-    "at": "2026-10-19T01:09:52.837592+00:00"
+    "hash": "ef5cd9fc53be1c66",
+    "fb_id": "1742324283500999",
+    "title": "JUST IN: \ud83c\uddeb\ud83c\uddf7\ud83c\uddee\ud83c\uddf7French President Emmanuel Macron says people are protesting because of Trump\u2019s war on Iran and heigh oil prices",
+    "link": "https://x.com/Megatron_ron/status/2111894455544676354",
+    "mode": "viral",
+    "kind": "video",
+    "at": "2026-10-19T01:35:39.526650+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122112017847491654",
-      "topics": [
-        "ai",
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-15T11:38:08.909642+00:00"
-    },
     {
       "fb_id": "1421089964411983_122112031491491654",
       "topics": [
@@ -742,27 +734,19 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-19T01:09:52.837592+00:00"
+    },
+    {
+      "fb_id": "1742324283500999",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "viral",
+      "at": "2026-10-19T01:35:39.526650+00:00"
     }
   ],
-  "last_video_post": "2026-10-18",
+  "last_video_post": "2026-10-19",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "BRIEF",
-        "DAILY",
-        "GOOGLE",
-        "GPT",
-        "OPENAI",
-        "astra",
-        "codex",
-        "google",
-        "oct",
-        "pro",
-        "work"
-      ],
-      "at": "2026-10-17T11:18:28.808822+00:00"
-    },
     {
       "fp": [
         "IMF",
@@ -1033,6 +1017,19 @@
         "YIELD"
       ],
       "at": "2026-10-19T01:09:52.837583+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "emmanuel",
+        "french",
+        "iran",
+        "macron",
+        "president",
+        "trump"
+      ],
+      "at": "2026-10-19T01:35:39.526638+00:00"
     }
   ],
   "recent_hooks": [
