@@ -4419,75 +4419,75 @@ def main() -> int:
             img, ext, src = None, None, "text-only"
     if not pick.get("is_product"):
         post = add_credit(post, credit_for(pick["feed"], src))
-        log(f"Visual: {src} | credit added")
-        if dry_run:
-            log("DRY_RUN=1, not publishing.")
-            return 0
-        try:
-            if img:
-                post_id = publish_photo_to_facebook(img, ext, post)
-                log(f"Published WITH PHOTO ({src})! FB id={post_id}")
-            else:
-                log("Text-only post (no worthy photo).")
-                post_id = publish_to_facebook(post)
-                log(f"Published (text-only)! FB post id={post_id}")
-            notify_post_live(post_id, post)
-            try:
-                if growth:
-                    g = growth.after_publish(
-                        post_id, post, pick["title"],
-                        pick.get("keywords", []),
-                        llm=lambda s, u: gen_gemini("gemini-3.5-flash", s, u),
-                        lang="ar")
-                    log(f"growth: seed comment "
-                        f"{g.get('seed_comment_id')}, "
-                        f"share kit sent={g.get('share_sent')}")
-            except Exception as _gx:
-                log(f"growth hook skipped: {_gx}")
-            if os.getenv("POST_STORIES", "1") == "1":
-                try:
-                    story_id = publish_story_from_photo(img, ext, post)
-                    log(f"Story published! id={story_id}")
-                except Exception as ex:
-                    log(f"Story skipped (feed post is live): {ex}")
-        except Exception as ex:
-            log(f"Publish failed: {ex}")
-            return 4
-
-        posted.add(h)
-        state["posted_hashes"] = sorted(posted)[-500:]
-        day_counts[today] = day_counts.get(today, 0) + 1
-        keep_from = (now.date() - timedelta(days=2)).isoformat()
-        state["day_counts"] = {k: v for k, v in day_counts.items()
-                               if k >= keep_from}
-        _store_post_state(state, pick["title"], pick.get("summary", ""))
-        hooks = state.get("recent_hooks", [])
-        hooks.append((post.strip().split("\n") or [""])[0].strip())
-        state["recent_hooks"] = hooks[-15:]
-        state["last_post"] = {
-            "hash": h, "fb_id": post_id,
-            "title": pick["title"], "link": pick["link"],
-            "mode": pick.get("mode", "serious"),
-            "at": datetime.now(timezone.utc).isoformat(),
-        }
-        hist = state.get("history", [])
-        hist.append({
-            "fb_id": post_id,
-            "topics": sorted({KW_TO_TOPIC[k] for k in pick["keywords"]
-                              if k in KW_TO_TOPIC}),
-            "mode": pick.get("mode", "serious"),
-            "photo": src,
-            "at": state["last_post"]["at"],
-        })
-        state["history"] = hist[-50:]
-        try:
-            import product_source as _ps2
-            if pick.get("is_product"):
-                _ps2.mark_used(state, pick.get("product_id", ""))
-        except Exception:
-            pass
-        save_state(state_file, state)
+    log(f"Visual: {src} | credit added")
+    if dry_run:
+        log("DRY_RUN=1, not publishing.")
         return 0
+    try:
+        if img:
+            post_id = publish_photo_to_facebook(img, ext, post)
+            log(f"Published WITH PHOTO ({src})! FB id={post_id}")
+        else:
+            log("Text-only post (no worthy photo).")
+            post_id = publish_to_facebook(post)
+            log(f"Published (text-only)! FB post id={post_id}")
+        notify_post_live(post_id, post)
+        try:
+            if growth:
+                g = growth.after_publish(
+                    post_id, post, pick["title"],
+                    pick.get("keywords", []),
+                    llm=lambda s, u: gen_gemini("gemini-3.5-flash", s, u),
+                    lang="ar")
+                log(f"growth: seed comment "
+                    f"{g.get('seed_comment_id')}, "
+                    f"share kit sent={g.get('share_sent')}")
+        except Exception as _gx:
+            log(f"growth hook skipped: {_gx}")
+        if os.getenv("POST_STORIES", "1") == "1":
+            try:
+                story_id = publish_story_from_photo(img, ext, post)
+                log(f"Story published! id={story_id}")
+            except Exception as ex:
+                log(f"Story skipped (feed post is live): {ex}")
+    except Exception as ex:
+        log(f"Publish failed: {ex}")
+        return 4
+
+    posted.add(h)
+    state["posted_hashes"] = sorted(posted)[-500:]
+    day_counts[today] = day_counts.get(today, 0) + 1
+    keep_from = (now.date() - timedelta(days=2)).isoformat()
+    state["day_counts"] = {k: v for k, v in day_counts.items()
+                           if k >= keep_from}
+    _store_post_state(state, pick["title"], pick.get("summary", ""))
+    hooks = state.get("recent_hooks", [])
+    hooks.append((post.strip().split("\n") or [""])[0].strip())
+    state["recent_hooks"] = hooks[-15:]
+    state["last_post"] = {
+        "hash": h, "fb_id": post_id,
+        "title": pick["title"], "link": pick["link"],
+        "mode": pick.get("mode", "serious"),
+        "at": datetime.now(timezone.utc).isoformat(),
+    }
+    hist = state.get("history", [])
+    hist.append({
+        "fb_id": post_id,
+        "topics": sorted({KW_TO_TOPIC[k] for k in pick["keywords"]
+                          if k in KW_TO_TOPIC}),
+        "mode": pick.get("mode", "serious"),
+        "photo": src,
+        "at": state["last_post"]["at"],
+    })
+    state["history"] = hist[-50:]
+    try:
+        import product_source as _ps2
+        if pick.get("is_product"):
+            _ps2.mark_used(state, pick.get("product_id", ""))
+    except Exception:
+        pass
+    save_state(state_file, state)
+    return 0
 
 
 if __name__ == "__main__":
