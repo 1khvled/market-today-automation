@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 Ethan Cole Finance + AI — Facebook auto-poster
 Runs every 20 min via GitHub Actions. Fetches RSS, filters by criteria,
@@ -35,6 +35,12 @@ from email.utils import parsedate_to_datetime
 
 import feedparser
 import requests
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
+    import growth
+except Exception:  # growth engine is optional - never fail a post for it
+    growth = None
 
 try:
     from dotenv import load_dotenv
@@ -3830,7 +3836,7 @@ def floor_plan(posts_today: int, hour: int):
     publish bar toward FLOOR_MIN_SCORE (default 2); after
     FLOOR_DEADLINE_HOUR UTC (default 21) with the floor unmet, catchup
     mode shrinks the cooldown so the day still hits its minimum."""
-    floor = int(os.getenv("MIN_POSTS_PER_DAY", "12"))
+    floor = int(os.getenv("MIN_POSTS_PER_DAY", "4"))
     if posts_today >= floor:
         return 0, False
     expected = (hour * floor) // 24
@@ -3931,6 +3937,17 @@ def main() -> int:
             "at": lp.get("at", now.isoformat()),
         }]
     _TUNER.update(tune_from_engagement(state))
+    try:
+        if growth:
+            _rn = growth.reply_backlog(
+                state,
+                llm=lambda s, u: gen_gemini("gemini-2.5-flash", s, u),
+                lang="ar")
+            if _rn:
+                log(f"growth: replied to {_rn} comment(s)")
+            save_state(state_file, state)
+    except Exception as _gx:
+        log(f"comment replies skipped: {_gx}")
     review_comments(state)
     save_state(state_file, state)
 
@@ -3939,7 +3956,7 @@ def main() -> int:
     today = now.date().isoformat()
     day_counts = state.get("day_counts", {})
     posts_today = day_counts.get(today, 0)
-    floor = int(os.getenv("MIN_POSTS_PER_DAY", "12"))
+    floor = int(os.getenv("MIN_POSTS_PER_DAY", "4"))
     discount, catchup = floor_plan(posts_today, now.hour)
     eff_gap = 20 if catchup else int(os.getenv("MIN_POST_GAP_MINUTES", "30"))
     eff_bar = max(int(os.getenv("FLOOR_MIN_SCORE", "2")),
@@ -4085,6 +4102,18 @@ def main() -> int:
                         post_id = publish_video_to_facebook(vid, vpost)
                         log(f"Published VIDEO! FB id={post_id}")
                         notify_post_live(post_id, vpost)
+                        try:
+                            if growth:
+                                g = growth.after_publish(
+                                    post_id, vpost, vpick["title"],
+                                    vpick.get("keywords", []),
+                                    llm=lambda s, u: gen_gemini("gemini-2.5-flash", s, u),
+                                    lang="ar")
+                                log(f"growth: seed comment "
+                                    f"{g.get('seed_comment_id')}, "
+                                    f"share kit sent={g.get('share_sent')}")
+                        except Exception as _gx:
+                            log(f"growth hook skipped: {_gx}")
                     except Exception as ex:
                         log(f"Video publish failed: {ex}")
                         return 4
@@ -4187,6 +4216,18 @@ def main() -> int:
             post_id = publish_to_facebook(post)
             log(f"Published (text-only)! FB post id={post_id}")
         notify_post_live(post_id, post)
+        try:
+            if growth:
+                g = growth.after_publish(
+                    post_id, post, pick["title"],
+                    pick.get("keywords", []),
+                    llm=lambda s, u: gen_gemini("gemini-2.5-flash", s, u),
+                    lang="ar")
+                log(f"growth: seed comment "
+                    f"{g.get('seed_comment_id')}, "
+                    f"share kit sent={g.get('share_sent')}")
+        except Exception as _gx:
+            log(f"growth hook skipped: {_gx}")
         if os.getenv("POST_STORIES", "1") == "1":
             try:
                 story_id = publish_story_from_photo(img, ext, post)

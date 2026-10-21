@@ -1,4 +1,4 @@
-name: FB auto-post (every 20 min)
+﻿name: FB auto-post (every 20 min)
 
 on:
   schedule:
@@ -42,6 +42,10 @@ jobs:
       # satisfy a 30-min gap at the 20-min mark, so every other run was
       # skipped and posts landed every ~40 min.
       MIN_POST_GAP_MINUTES: "20"
+      # Oct 2026: the floor was 12 -> the bot lowered its publish bar and shipped 12
+      # mediocre posts/day into an audience of 0. Volume into a small audience
+      # suppresses the reach of every post on it. 4/day, like the English page.
+      MIN_POSTS_PER_DAY: "4"
       MIN_VIDEO_SCORE: "4"
       VIDEO_DEADLINE_HOUR: "20"
       VIDEO_DEADLINE_SCORE: "1"
