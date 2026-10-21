@@ -1,1036 +1,1036 @@
 {
- "posted_hashes": [
-  "024ffe48550c5175",
-  "028801d4b0ae116e",
-  "03e22223f98f7cc0",
-  "052dbc27902715d9",
-  "0633f220203a8367",
-  "067557f77f432331",
-  "06e66bab9ed6a263",
-  "0709e3e2addffc4e",
-  "077fd34454c06618",
-  "08ac912336069268",
-  "097ddd47ca9fec7d",
-  "0a2d89beb2018edd",
-  "0a52496223e50902",
-  "0a5853d8bb9ad922",
-  "0f167e673f05e771",
-  "1098ec9725488722",
-  "109a368c58a2c37c",
-  "126ff52b33bd93a7",
-  "127890aaaf4bfcae",
-  "1345a7dd618330ca",
-  "13adddf1fd843cb7",
-  "13c687de517fc7e1",
-  "144c14d5e1cf0024",
-  "1528b973153dcb81",
-  "15b83123dc1dda58",
-  "165959e512fafa32",
-  "1812b60b3eeccbd9",
-  "18c7bac99efbb9a3",
-  "191614348896e501",
-  "1962708cba969b70",
-  "1db3d85a5eefcd9c",
-  "1ee80daa10c57716",
-  "21c7dbcb4d52ef5f",
-  "21ef9201893a99f1",
-  "22d5c45b7327d829",
-  "240cca53e4daffc5",
-  "240f0d6f2dd1ec84",
-  "24a1ef7e2c52c732",
-  "2512ce2309eb0afd",
-  "2555437bc3e1be4d",
-  "25a315273f34a5f7",
-  "25d3e965ce6b33b2",
-  "26fabbe70d66a03f",
-  "2953c3d646f94b9b",
-  "2a6f98175be395ca",
-  "2af3a6c2de23e766",
-  "2b92917337420592",
-  "2ba5616c804d07b1",
-  "2bbf1d770e89e3e5",
-  "31edcb10d3042c04",
-  "328dc2f45f9f3746",
-  "34727a29e1cc7b4e",
-  "34b84d553010afb2",
-  "34cb966e950b108e",
-  "352579361ebc4eef",
-  "352d927675da4e41",
-  "3b5a4f82b0492a55",
-  "3ccaf6ca07aa5503",
-  "3cd711dbb502becd",
-  "3dd4f0dd14d205b0",
-  "3e032252a431cdb8",
-  "3eadb0eb0f4f6560",
-  "4049ffb5054e5890",
-  "406cdd1698d4cb23",
-  "408c86a17881cce1",
-  "41740dba8c631efc",
-  "43f52b63261fde16",
-  "44f573eae528189d",
-  "45f2f7f4666dbaa1",
-  "4987c4f1f6f22605",
-  "49a324739eb6e6c5",
-  "49e7734863e36891",
-  "4a51f2278a92d102",
-  "4b94ffa4302e421e",
-  "4e53230da92c337b",
-  "4ff0bc5010516d44",
-  "51d7834f6c14241c",
-  "54257df43b169e47",
-  "544cebfd17e81e38",
-  "55c2087412b8909b",
-  "56c1e143f9130bb0",
-  "5710ab4c384cacfe",
-  "57fdfed093392a30",
-  "586e2edcb44b8066",
-  "58c3a27ad586c665",
-  "58cfd490098879f3",
-  "5f9ea6dc013b71b3",
-  "601a84aa97a5995b",
-  "63036692c3b611ed",
-  "63d8e6fd67210451",
-  "6482cce3bbbc5bbf",
-  "65239bf3a2c20e14",
-  "674b05779bb42d21",
-  "676d291d52901fab",
-  "67b3dc14d2c60b7e",
-  "6a6d589b9dc8eefe",
-  "6b0fd84fce068a75",
-  "6b8cf3d57844a02e",
-  "6b96c1836ac774cf",
-  "6cd48926a0ca24f4",
-  "6d6fe8f909c44493",
-  "6d938cdfc0ac455c",
-  "6dfde226099b02e8",
-  "6f632453df63c6f0",
-  "709f9d6c30e22552",
-  "7142200a90c09435",
-  "720cc98216e4fbd4",
-  "7287ed7fa4d9ebb6",
-  "736434c78c60fd62",
-  "73f99a65bb9da86d",
-  "748cf45e17750646",
-  "749f44d93c1f420c",
-  "74cdeee31d945601",
-  "7531dfadc0f9f7e0",
-  "77e96d9a8da9dd45",
-  "78225fe76c7690e2",
-  "7bd03f4783b9b2bb",
-  "7c887ce0c4c325c6",
-  "7dd4c394ede9d017",
-  "7ea5d4441a48c284",
-  "7ecc262303aef709",
-  "80be697d6204611b",
-  "8285d95bbe7c0540",
-  "8338fa19f7fc3596",
-  "8388e8efd7832598",
-  "8465540a6146924a",
-  "850df80d5bf2aab4",
-  "867b20d0da8e6817",
-  "867efb8ff1a70888",
-  "884ec865bb833271",
-  "89ac828e8f5cead9",
-  "8c979261e3d4a088",
-  "8ea319de834d9953",
-  "8ee6632d4eb19bae",
-  "8ef3dd72387f15df",
-  "90475a1c74fc1067",
-  "90ac7d356a64af06",
-  "950c95725e6f781d",
-  "959bd28d9c00ec90",
-  "95d6a1ee07f620c8",
-  "95dcd0b33ac20777",
-  "968e8a3c14a86d3b",
-  "9a4af24b838f2bf0",
-  "9bf4038f6b73620f",
-  "9ccc778a53c83331",
-  "9ce7471fdc2282c9",
-  "9d8445b9f0b9042f",
-  "9e325382b8a92054",
-  "9e444e91bb213e00",
-  "9e7a35d8c4d94bb6",
-  "9f162789c72b6097",
-  "9fa77ac736134657",
-  "a23d3c794e093681",
-  "a26723d092184d6c",
-  "a2c6cf467d5f8672",
-  "a7782c3d8ef265c3",
-  "a9d96bf57d206353",
-  "ab3071f3cb0c58cd",
-  "acb0acd96b4822ea",
-  "afbdbc995a2e88e3",
-  "b065ec14a78e401d",
-  "b09058b4d4b8ce58",
-  "b2c26501e86f55be",
-  "b30aca7560ced3a5",
-  "b5882075649e5905",
-  "b61dbcd0676f8b71",
-  "b88066e16c555a5d",
-  "b8d3b174a890c701",
-  "b9f09c1b08ea1fb9",
-  "ba533a34928a8dc1",
-  "bdc411ea8d97d10e",
-  "be292a9a08d661c2",
-  "beda8733ff194127",
-  "c06511202eb083f4",
-  "c1c6f3f514ba9133",
-  "c24a1411d02c521f",
-  "c251468873bbe41c",
-  "c36fafc8b431eafd",
-  "c3e8c628e0d58eef",
-  "c4b3e4064151e1a3",
-  "c623f18fc00030b7",
-  "cd0744ccbaa1efb6",
-  "cf30419eb4a156ca",
-  "d08268db4f781648",
-  "d26034239bd1c674",
-  "d26cee70e4267489",
-  "d3dc0525d66d3983",
-  "d49a24778e1be5bf",
-  "d83a3d5c86146f73",
-  "d9e68d9471ca15df",
-  "dcb1e30ca1ece06b",
-  "dde12a97e4ef93ba",
-  "de36c9b6900c733a",
-  "ded239d9282d5753",
-  "dfe42122b9580316",
-  "e18b53d68b9a46a2",
-  "e387820dd3dd2c71",
-  "e488ece656bff226",
-  "e4a2f6ec34634ed5",
-  "e50973c2a4ff38c6",
-  "e6b870c80c40e563",
-  "e72a683e3c7b9b38",
-  "e8adf47b4abfd467",
-  "e8db4b728ba26ead",
-  "e910e087e3f05243",
-  "e976e0f9292f844f",
-  "e9e2a2671f5985e3",
-  "eabb7a06f0820243",
-  "eb5418710ba14727",
-  "ebb9dfc4c90a11b6",
-  "ed6a34587915a3d4",
-  "ed96a486156b55ea",
-  "eec6a6d1910591bf",
-  "ef5cd9fc53be1c66",
-  "efb052f68304f89a",
-  "f041ccdd0f70088f",
-  "f423d63bf056a5f2",
-  "f5828dfd0f21b9c4",
-  "f62ac207f6cb98a6",
-  "f657b460fe198b75",
-  "f6ab0f1cbf1e0293",
-  "f6fec4d1afc3d367",
-  "f7bf2d0c5bf249ea",
-  "f8ca9752326577ba",
-  "f99897bde7abfc3a",
-  "f9d7a58cfd4f31e8",
-  "faa585879730d067",
-  "fbe4b3be838aadc5",
-  "fd7bbc659b22c741",
-  "fd91eb7bedaa641e",
-  "fe5ce6652339945a",
-  "febbc2efe8a87926",
-  "fedd312ac1d31a6d"
- ],
- "tuner": {
-  "topics": {},
-  "mult": {},
-  "updated": "2026-10-21"
- },
- "comment_review": {
-  "posts": 8,
-  "comments": 0,
-  "likes": 0,
-  "questions": 0,
-  "praise": 0,
-  "anger": 0,
-  "fake_claims": 0,
-  "by_topic": {},
-  "sample_questions": [],
-  "updated": "2026-10-21"
- },
- "day_counts": {
-  "2026-10-19": 7,
-  "2026-10-21": 7
- },
- "recent_titles": [
-  "By Douglas Murray: Some things never change. In 1973, when Israel was facing a war of annihilation waged upon it by all of its neighbors, the U.S. was supplying weapons to its beleaguered ally. But...",
-  "MARKETS AWAIT EARNINGS FROM MORE THAN 70 S&P 500 COMPANIES, INCLUDING TESLA AND META, AMID CONCERNS OVER AI SPENDING RETURNS AND PERSISTENT INFLATION. US 10-YEAR TREASURY YIELDS HELD AT 5.06%, WHIL...",
-  "JUST IN: 🇫🇷🇮🇷French President Emmanuel Macron says people are protesting because of Trump’s war on Iran and heigh oil prices",
-  "Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears",
-  "Trump on Ukraine: My decision on Russia is a very simple one. I am in the process of negotiating Peace in the war between Russia and Ukraine, and don’t want to do anything that will drive, foolishl...",
-  "Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates",
-  "JPMorgan warns that rising 30-year Treasury yields are becoming a growing threat to small- and mid-cap stocks. The driver: deteriorating government finances around the world. About 60% of global GD...",
-  "Bitcoin whale moves $34 million in BTC it got in 2013 when coins traded at $131",
-  "Israel and the United States will almost certainly attack Iran once again. This will mark the final chapter of this war. Through this attack, Trump and Netanyahu will fully carry out the threats th...",
-  "JUST IN: 🇺🇸 US Treasury Department to buy back up to $750 million in longer-term debt today 👀 Buy Bitcoin 🚀",
-  "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started 👀 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi...",
-  "Trump to throw spotlight on overseas crypto abuses at White House event",
-  "BREAKING: JPMorgan doubled its price target on SpaceX, $SPCX, to $500, from $240. It kept its Overweight rating.",
-  "Canada and Ontario unveil joint c$9 bln support package to help steel and auto sectors deal with US tariffs, and also boost critical minerals supply chain.",
-  "JUST IN: JPMorgan more than doubles its SpaceX $SPCX price target from $240 to $500."
- ],
- "last_post": {
-  "hash": "9a4af24b838f2bf0",
-  "fb_id": "1421089964411983_122114656449491654",
-  "title": "JUST IN: JPMorgan more than doubles its SpaceX $SPCX price target from $240 to $500.",
-  "link": "https://x.com/WatcherGuru/status/2112912971915510070",
-  "mode": "viral",
-  "at": "2026-10-21T19:19:08.249150+00:00"
- },
- "history": [
-  {
-   "fb_id": "1421089964411983_122112326931491654",
-   "topics": [
-    "crypto"
-   ],
-   "mode": "viral",
-   "photo": "hires",
-   "at": "2026-10-16T05:17:47.390512+00:00"
+  "posted_hashes": [
+    "024ffe48550c5175",
+    "028801d4b0ae116e",
+    "03e22223f98f7cc0",
+    "052dbc27902715d9",
+    "0633f220203a8367",
+    "067557f77f432331",
+    "06e66bab9ed6a263",
+    "0709e3e2addffc4e",
+    "077fd34454c06618",
+    "08ac912336069268",
+    "097ddd47ca9fec7d",
+    "0a2d89beb2018edd",
+    "0a52496223e50902",
+    "0a5853d8bb9ad922",
+    "0f167e673f05e771",
+    "1098ec9725488722",
+    "109a368c58a2c37c",
+    "126ff52b33bd93a7",
+    "127890aaaf4bfcae",
+    "1345a7dd618330ca",
+    "13adddf1fd843cb7",
+    "13c687de517fc7e1",
+    "144c14d5e1cf0024",
+    "1528b973153dcb81",
+    "15b83123dc1dda58",
+    "165959e512fafa32",
+    "1812b60b3eeccbd9",
+    "18c7bac99efbb9a3",
+    "191614348896e501",
+    "1962708cba969b70",
+    "1db3d85a5eefcd9c",
+    "1ee80daa10c57716",
+    "21c7dbcb4d52ef5f",
+    "21ef9201893a99f1",
+    "22d5c45b7327d829",
+    "240cca53e4daffc5",
+    "240f0d6f2dd1ec84",
+    "24a1ef7e2c52c732",
+    "2512ce2309eb0afd",
+    "2555437bc3e1be4d",
+    "25a315273f34a5f7",
+    "25d3e965ce6b33b2",
+    "26fabbe70d66a03f",
+    "2953c3d646f94b9b",
+    "2a6f98175be395ca",
+    "2af3a6c2de23e766",
+    "2b92917337420592",
+    "2ba5616c804d07b1",
+    "2bbf1d770e89e3e5",
+    "31edcb10d3042c04",
+    "328dc2f45f9f3746",
+    "34727a29e1cc7b4e",
+    "34b84d553010afb2",
+    "34cb966e950b108e",
+    "352579361ebc4eef",
+    "352d927675da4e41",
+    "3b5a4f82b0492a55",
+    "3ccaf6ca07aa5503",
+    "3cd711dbb502becd",
+    "3dd4f0dd14d205b0",
+    "3e032252a431cdb8",
+    "3eadb0eb0f4f6560",
+    "4049ffb5054e5890",
+    "406cdd1698d4cb23",
+    "408c86a17881cce1",
+    "41740dba8c631efc",
+    "43f52b63261fde16",
+    "44f573eae528189d",
+    "45f2f7f4666dbaa1",
+    "4987c4f1f6f22605",
+    "49a324739eb6e6c5",
+    "49e7734863e36891",
+    "4a51f2278a92d102",
+    "4b94ffa4302e421e",
+    "4e53230da92c337b",
+    "4ff0bc5010516d44",
+    "51d7834f6c14241c",
+    "54257df43b169e47",
+    "544cebfd17e81e38",
+    "55c2087412b8909b",
+    "56c1e143f9130bb0",
+    "5710ab4c384cacfe",
+    "57fdfed093392a30",
+    "586e2edcb44b8066",
+    "58c3a27ad586c665",
+    "58cfd490098879f3",
+    "5f9ea6dc013b71b3",
+    "601a84aa97a5995b",
+    "63036692c3b611ed",
+    "63d8e6fd67210451",
+    "6482cce3bbbc5bbf",
+    "65239bf3a2c20e14",
+    "674b05779bb42d21",
+    "676d291d52901fab",
+    "67b3dc14d2c60b7e",
+    "6a6d589b9dc8eefe",
+    "6b0fd84fce068a75",
+    "6b8cf3d57844a02e",
+    "6b96c1836ac774cf",
+    "6cd48926a0ca24f4",
+    "6d6fe8f909c44493",
+    "6d938cdfc0ac455c",
+    "6dfde226099b02e8",
+    "6f632453df63c6f0",
+    "709f9d6c30e22552",
+    "7142200a90c09435",
+    "720cc98216e4fbd4",
+    "7287ed7fa4d9ebb6",
+    "736434c78c60fd62",
+    "73f99a65bb9da86d",
+    "748cf45e17750646",
+    "749f44d93c1f420c",
+    "74cdeee31d945601",
+    "7531dfadc0f9f7e0",
+    "77e96d9a8da9dd45",
+    "78225fe76c7690e2",
+    "7bd03f4783b9b2bb",
+    "7c887ce0c4c325c6",
+    "7dd4c394ede9d017",
+    "7ea5d4441a48c284",
+    "7ecc262303aef709",
+    "80be697d6204611b",
+    "8285d95bbe7c0540",
+    "8338fa19f7fc3596",
+    "8388e8efd7832598",
+    "8465540a6146924a",
+    "850df80d5bf2aab4",
+    "867b20d0da8e6817",
+    "867efb8ff1a70888",
+    "884ec865bb833271",
+    "89ac828e8f5cead9",
+    "8c979261e3d4a088",
+    "8ea319de834d9953",
+    "8ee6632d4eb19bae",
+    "8ef3dd72387f15df",
+    "90475a1c74fc1067",
+    "90ac7d356a64af06",
+    "950c95725e6f781d",
+    "959bd28d9c00ec90",
+    "95d6a1ee07f620c8",
+    "95dcd0b33ac20777",
+    "968e8a3c14a86d3b",
+    "9a4af24b838f2bf0",
+    "9bf4038f6b73620f",
+    "9ccc778a53c83331",
+    "9ce7471fdc2282c9",
+    "9d8445b9f0b9042f",
+    "9e325382b8a92054",
+    "9e444e91bb213e00",
+    "9e7a35d8c4d94bb6",
+    "9f162789c72b6097",
+    "9fa77ac736134657",
+    "a23d3c794e093681",
+    "a26723d092184d6c",
+    "a2c6cf467d5f8672",
+    "a7782c3d8ef265c3",
+    "a9d96bf57d206353",
+    "ab3071f3cb0c58cd",
+    "acb0acd96b4822ea",
+    "afbdbc995a2e88e3",
+    "b065ec14a78e401d",
+    "b09058b4d4b8ce58",
+    "b2c26501e86f55be",
+    "b30aca7560ced3a5",
+    "b5882075649e5905",
+    "b61dbcd0676f8b71",
+    "b88066e16c555a5d",
+    "b8d3b174a890c701",
+    "b9f09c1b08ea1fb9",
+    "ba533a34928a8dc1",
+    "bdc411ea8d97d10e",
+    "be292a9a08d661c2",
+    "beda8733ff194127",
+    "c06511202eb083f4",
+    "c1c6f3f514ba9133",
+    "c24a1411d02c521f",
+    "c251468873bbe41c",
+    "c36fafc8b431eafd",
+    "c3e8c628e0d58eef",
+    "c4b3e4064151e1a3",
+    "c623f18fc00030b7",
+    "cd0744ccbaa1efb6",
+    "cf30419eb4a156ca",
+    "d08268db4f781648",
+    "d26034239bd1c674",
+    "d26cee70e4267489",
+    "d3dc0525d66d3983",
+    "d49a24778e1be5bf",
+    "d83a3d5c86146f73",
+    "d9e68d9471ca15df",
+    "dcb1e30ca1ece06b",
+    "dde12a97e4ef93ba",
+    "de36c9b6900c733a",
+    "ded239d9282d5753",
+    "dfe42122b9580316",
+    "e18b53d68b9a46a2",
+    "e387820dd3dd2c71",
+    "e488ece656bff226",
+    "e4a2f6ec34634ed5",
+    "e50973c2a4ff38c6",
+    "e6b870c80c40e563",
+    "e72a683e3c7b9b38",
+    "e8adf47b4abfd467",
+    "e8db4b728ba26ead",
+    "e910e087e3f05243",
+    "e976e0f9292f844f",
+    "e9e2a2671f5985e3",
+    "eabb7a06f0820243",
+    "eb5418710ba14727",
+    "ebb9dfc4c90a11b6",
+    "ed6a34587915a3d4",
+    "ed96a486156b55ea",
+    "eec6a6d1910591bf",
+    "ef5cd9fc53be1c66",
+    "efb052f68304f89a",
+    "f041ccdd0f70088f",
+    "f423d63bf056a5f2",
+    "f5828dfd0f21b9c4",
+    "f62ac207f6cb98a6",
+    "f657b460fe198b75",
+    "f6ab0f1cbf1e0293",
+    "f6fec4d1afc3d367",
+    "f7bf2d0c5bf249ea",
+    "f8ca9752326577ba",
+    "f99897bde7abfc3a",
+    "f9d7a58cfd4f31e8",
+    "faa585879730d067",
+    "fbe4b3be838aadc5",
+    "fd7bbc659b22c741",
+    "fd91eb7bedaa641e",
+    "fe5ce6652339945a",
+    "febbc2efe8a87926",
+    "fedd312ac1d31a6d"
+  ],
+  "tuner": {
+    "topics": {},
+    "mult": {},
+    "updated": "2026-10-21"
   },
-  {
-   "fb_id": "1421089964411983_122112333903491654",
-   "topics": [
-    "crypto"
-   ],
-   "mode": "serious",
-   "photo": "hires",
-   "at": "2026-10-16T06:05:30.874823+00:00"
+  "comment_review": {
+    "posts": 8,
+    "comments": 0,
+    "likes": 0,
+    "questions": 0,
+    "praise": 0,
+    "anger": 0,
+    "fake_claims": 0,
+    "by_topic": {},
+    "sample_questions": [],
+    "updated": "2026-10-21"
   },
-  {
-   "fb_id": "1421089964411983_122112343497491654",
-   "topics": [
-    "crypto"
-   ],
-   "mode": "serious",
-   "photo": "hires",
-   "at": "2026-10-16T06:35:48.845657+00:00"
+  "day_counts": {
+    "2026-10-19": 7,
+    "2026-10-21": 7
   },
-  {
-   "fb_id": "1421089964411983_122112355539491654",
-   "topics": [
-    "gold_oil",
-    "power"
-   ],
-   "mode": "serious",
-   "photo": "split:flag+face",
-   "at": "2026-10-16T07:06:04.782853+00:00"
+  "recent_titles": [
+    "By Douglas Murray: Some things never change. In 1973, when Israel was facing a war of annihilation waged upon it by all of its neighbors, the U.S. was supplying weapons to its beleaguered ally. But...",
+    "MARKETS AWAIT EARNINGS FROM MORE THAN 70 S&P 500 COMPANIES, INCLUDING TESLA AND META, AMID CONCERNS OVER AI SPENDING RETURNS AND PERSISTENT INFLATION. US 10-YEAR TREASURY YIELDS HELD AT 5.06%, WHIL...",
+    "JUST IN: \ud83c\uddeb\ud83c\uddf7\ud83c\uddee\ud83c\uddf7French President Emmanuel Macron says people are protesting because of Trump\u2019s war on Iran and heigh oil prices",
+    "Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears",
+    "Trump on Ukraine: My decision on Russia is a very simple one. I am in the process of negotiating Peace in the war between Russia and Ukraine, and don\u2019t want to do anything that will drive, foolishl...",
+    "Bitcoin, Korea\u2019s Kospi and Nasdaq futures rally as China GDP beats estimates",
+    "JPMorgan warns that rising 30-year Treasury yields are becoming a growing threat to small- and mid-cap stocks. The driver: deteriorating government finances around the world. About 60% of global GD...",
+    "Bitcoin whale moves $34 million in BTC it got in 2013 when coins traded at $131",
+    "Israel and the United States will almost certainly attack Iran once again. This will mark the final chapter of this war. Through this attack, Trump and Netanyahu will fully carry out the threats th...",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury Department to buy back up to $750 million in longer-term debt today \ud83d\udc40 Buy Bitcoin \ud83d\ude80",
+    "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started \ud83d\udc40 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi...",
+    "Trump to throw spotlight on overseas crypto abuses at White House event",
+    "BREAKING: JPMorgan doubled its price target on SpaceX, $SPCX, to $500, from $240. It kept its Overweight rating.",
+    "Canada and Ontario unveil joint c$9 bln support package to help steel and auto sectors deal with US tariffs, and also boost critical minerals supply chain.",
+    "JUST IN: JPMorgan more than doubles its SpaceX $SPCX price target from $240 to $500."
+  ],
+  "last_post": {
+    "hash": "9a4af24b838f2bf0",
+    "fb_id": "1421089964411983_122114656449491654",
+    "title": "JUST IN: JPMorgan more than doubles its SpaceX $SPCX price target from $240 to $500.",
+    "link": "https://x.com/WatcherGuru/status/2112912971915510070",
+    "mode": "viral",
+    "at": "2026-10-21T19:19:08.249150+00:00"
   },
-  {
-   "fb_id": "1421089964411983_122112365451491654",
-   "topics": [
-    "crypto"
-   ],
-   "mode": "serious",
-   "photo": "hires",
-   "at": "2026-10-16T07:36:12.285175+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122112383133491654",
-   "topics": [
-    "crypto"
-   ],
-   "mode": "serious",
-   "photo": "hires",
-   "at": "2026-10-16T08:02:45.618768+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122112732567491654",
-   "topics": [
-    "inflation",
-    "power",
-    "stocks"
-   ],
-   "mode": "viral",
-   "photo": "text-only",
-   "at": "2026-10-17T00:05:35.699545+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122112745131491654",
-   "topics": [
-    "power",
-    "stocks"
-   ],
-   "mode": "viral",
-   "photo": "split:flag+face",
-   "at": "2026-10-17T00:47:27.236962+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122112763089491654",
-   "topics": [
-    "power"
-   ],
-   "mode": "viral",
-   "photo": "text-only",
-   "at": "2026-10-17T01:16:19.404618+00:00"
-  },
-  {
-   "fb_id": "4546432508958702",
-   "topics": [
-    "stocks"
-   ],
-   "mode": "serious",
-   "at": "2026-10-17T02:06:08.943923+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122112782133491654",
-   "topics": [
-    "crypto"
-   ],
-   "mode": "serious",
-   "photo": "hires",
-   "at": "2026-10-17T02:50:23.914315+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122112792513491654",
-   "topics": [
-    "gold_oil",
-    "power"
-   ],
-   "mode": "serious",
-   "photo": "split:face",
-   "at": "2026-10-17T03:33:51.751351+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122112864855491654",
-   "topics": [
-    "gold_oil",
-    "inflation",
-    "stocks"
-   ],
-   "mode": "viral",
-   "photo": "hires",
-   "at": "2026-10-17T08:31:23.988637+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122112870135491654",
-   "topics": [
-    "crypto"
-   ],
-   "mode": "viral",
-   "photo": "hires",
-   "at": "2026-10-17T09:02:08.937720+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122112877395491654",
-   "topics": [
-    "gold_oil",
-    "inflation"
-   ],
-   "mode": "viral",
-   "photo": "hires",
-   "at": "2026-10-17T09:33:43.665992+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122112890703491654",
-   "topics": [
-    "crypto"
-   ],
-   "mode": "serious",
-   "photo": "hires",
-   "at": "2026-10-17T10:17:06.539390+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122112907203491654",
-   "topics": [
-    "crypto"
-   ],
-   "mode": "viral",
-   "photo": "hires",
-   "at": "2026-10-17T10:47:02.780981+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122112914409491654",
-   "topics": [
-    "ai"
-   ],
-   "mode": "serious",
-   "photo": "entity-logo",
-   "at": "2026-10-17T11:18:28.808837+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122112928191491654",
-   "topics": [
-    "gold_oil",
-    "stocks"
-   ],
-   "mode": "serious",
-   "photo": "hires",
-   "at": "2026-10-17T12:06:58.826410+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122112936729491654",
-   "topics": [
-    "ai",
-    "crypto"
-   ],
-   "mode": "viral",
-   "photo": "text-only",
-   "at": "2026-10-17T12:32:26.962706+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122112946803491654",
-   "topics": [
-    "ai"
-   ],
-   "mode": "serious",
-   "photo": "text-only",
-   "at": "2026-10-17T13:05:25.614970+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113149627491654",
-   "topics": [
-    "crypto"
-   ],
-   "mode": "viral",
-   "photo": "hires",
-   "at": "2026-10-18T00:02:05.014714+00:00"
-  },
-  {
-   "fb_id": "1453643773290865",
-   "topics": [
-    "power"
-   ],
-   "mode": "serious",
-   "at": "2026-10-18T00:31:53.356241+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113158063491654",
-   "topics": [
-    "crypto",
-    "gold"
-   ],
-   "mode": "viral",
-   "photo": "hires",
-   "at": "2026-10-18T01:02:06.645601+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113185057491654",
-   "topics": [
-    "crypto",
-    "power"
-   ],
-   "mode": "serious",
-   "photo": "face",
-   "at": "2026-10-18T01:35:00.121003+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113217721491654",
-   "topics": [
-    "ai",
-    "inflation"
-   ],
-   "mode": "viral",
-   "photo": "entity-logo",
-   "at": "2026-10-18T02:17:04.470800+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113229319491654",
-   "topics": [
-    "gold_oil"
-   ],
-   "mode": "serious",
-   "photo": "hires",
-   "at": "2026-10-18T02:47:45.605860+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113242867491654",
-   "topics": [
-    "crypto"
-   ],
-   "mode": "viral",
-   "photo": "hires",
-   "at": "2026-10-18T03:18:57.066780+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113250019491654",
-   "topics": [],
-   "mode": "serious",
-   "photo": "text-only",
-   "at": "2026-10-18T03:46:33.665257+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113262325491654",
-   "topics": [
-    "gold_oil",
-    "power"
-   ],
-   "mode": "serious",
-   "photo": "split:flag+face",
-   "at": "2026-10-18T04:22:32.140924+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113270689491654",
-   "topics": [
-    "crypto"
-   ],
-   "mode": "serious",
-   "photo": "hires",
-   "at": "2026-10-18T04:46:09.967643+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113282113491654",
-   "topics": [
-    "stocks"
-   ],
-   "mode": "viral",
-   "photo": "text-only",
-   "at": "2026-10-18T05:34:25.179039+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113287999491654",
-   "topics": [
-    "stocks"
-   ],
-   "mode": "viral",
-   "photo": "face",
-   "at": "2026-10-18T06:01:39.405837+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113309221491654",
-   "topics": [
-    "fed"
-   ],
-   "mode": "viral",
-   "photo": "text-only",
-   "at": "2026-10-18T07:04:22.551095+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113316445491654",
-   "topics": [
-    "stocks"
-   ],
-   "mode": "serious",
-   "photo": "text-only",
-   "at": "2026-10-18T07:34:30.233987+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113338051491654",
-   "topics": [
-    "power"
-   ],
-   "mode": "viral",
-   "photo": "hires",
-   "at": "2026-10-18T08:46:49.272017+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113632021491654",
-   "topics": [
-    "fed",
-    "gold",
-    "inflation",
-    "stocks"
-   ],
-   "mode": "serious",
-   "photo": "entity-logo",
-   "at": "2026-10-19T01:09:52.837592+00:00"
-  },
-  {
-   "fb_id": "1742324283500999",
-   "topics": [
-    "gold_oil",
-    "power"
-   ],
-   "mode": "viral",
-   "at": "2026-10-19T01:35:39.526650+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113645221491654",
-   "topics": [
-    "crypto"
-   ],
-   "mode": "serious",
-   "photo": "hires",
-   "at": "2026-10-19T02:19:03.888082+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113650567491654",
-   "topics": [
-    "power"
-   ],
-   "mode": "viral",
-   "photo": "face",
-   "at": "2026-10-19T02:47:22.012553+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113664289491654",
-   "topics": [
-    "crypto",
-    "inflation",
-    "stocks"
-   ],
-   "mode": "serious",
-   "photo": "hires",
-   "at": "2026-10-19T04:02:45.927677+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113695087491654",
-   "topics": [
-    "inflation",
-    "stocks"
-   ],
-   "mode": "viral",
-   "photo": "text-only",
-   "at": "2026-10-19T06:06:47.445859+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122113701363491654",
-   "topics": [
-    "crypto"
-   ],
-   "mode": "serious",
-   "photo": "hires",
-   "at": "2026-10-19T06:36:56.447707+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122114605191491654",
-   "topics": [
-    "gold_oil",
-    "inflation",
-    "power"
-   ],
-   "mode": "viral",
-   "photo": "split:face+face",
-   "at": "2026-10-21T15:48:05.053672+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122114611725491654",
-   "topics": [
-    "crypto",
-    "stocks"
-   ],
-   "mode": "serious",
-   "photo": "hires",
-   "at": "2026-10-21T16:06:27.675433+00:00"
-  },
-  {
-   "fb_id": "1419678856449311",
-   "topics": [
-    "crypto"
-   ],
-   "mode": "viral",
-   "at": "2026-10-21T16:16:45.815472+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122114622129491654",
-   "topics": [
-    "crypto",
-    "power"
-   ],
-   "mode": "serious",
-   "photo": "card",
-   "at": "2026-10-21T16:38:32.739000+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122114643051491654",
-   "topics": [
-    "stocks"
-   ],
-   "mode": "viral",
-   "photo": "card",
-   "at": "2026-10-21T18:22:33.880490+00:00"
-  },
-  {
-   "fb_id": "1129798829519599",
-   "topics": [
-    "power"
-   ],
-   "mode": "serious",
-   "at": "2026-10-21T18:33:26.668528+00:00"
-  },
-  {
-   "fb_id": "1421089964411983_122114656449491654",
-   "topics": [
-    "stocks"
-   ],
-   "mode": "viral",
-   "photo": "source",
-   "at": "2026-10-21T19:19:08.249150+00:00"
+  "history": [
+    {
+      "fb_id": "1421089964411983_122112326931491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "hires",
+      "at": "2026-10-16T05:17:47.390512+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112333903491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-16T06:05:30.874823+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112343497491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-16T06:35:48.845657+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112355539491654",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "split:flag+face",
+      "at": "2026-10-16T07:06:04.782853+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112365451491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-16T07:36:12.285175+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112383133491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-16T08:02:45.618768+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112732567491654",
+      "topics": [
+        "inflation",
+        "power",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-17T00:05:35.699545+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112745131491654",
+      "topics": [
+        "power",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "split:flag+face",
+      "at": "2026-10-17T00:47:27.236962+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112763089491654",
+      "topics": [
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-17T01:16:19.404618+00:00"
+    },
+    {
+      "fb_id": "4546432508958702",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "serious",
+      "at": "2026-10-17T02:06:08.943923+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112782133491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-17T02:50:23.914315+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112792513491654",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "split:face",
+      "at": "2026-10-17T03:33:51.751351+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112864855491654",
+      "topics": [
+        "gold_oil",
+        "inflation",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "hires",
+      "at": "2026-10-17T08:31:23.988637+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112870135491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "hires",
+      "at": "2026-10-17T09:02:08.937720+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112877395491654",
+      "topics": [
+        "gold_oil",
+        "inflation"
+      ],
+      "mode": "viral",
+      "photo": "hires",
+      "at": "2026-10-17T09:33:43.665992+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112890703491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-17T10:17:06.539390+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112907203491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "hires",
+      "at": "2026-10-17T10:47:02.780981+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112914409491654",
+      "topics": [
+        "ai"
+      ],
+      "mode": "serious",
+      "photo": "entity-logo",
+      "at": "2026-10-17T11:18:28.808837+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112928191491654",
+      "topics": [
+        "gold_oil",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-17T12:06:58.826410+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112936729491654",
+      "topics": [
+        "ai",
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-17T12:32:26.962706+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122112946803491654",
+      "topics": [
+        "ai"
+      ],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-10-17T13:05:25.614970+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113149627491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "hires",
+      "at": "2026-10-18T00:02:05.014714+00:00"
+    },
+    {
+      "fb_id": "1453643773290865",
+      "topics": [
+        "power"
+      ],
+      "mode": "serious",
+      "at": "2026-10-18T00:31:53.356241+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113158063491654",
+      "topics": [
+        "crypto",
+        "gold"
+      ],
+      "mode": "viral",
+      "photo": "hires",
+      "at": "2026-10-18T01:02:06.645601+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113185057491654",
+      "topics": [
+        "crypto",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "face",
+      "at": "2026-10-18T01:35:00.121003+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113217721491654",
+      "topics": [
+        "ai",
+        "inflation"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-10-18T02:17:04.470800+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113229319491654",
+      "topics": [
+        "gold_oil"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-18T02:47:45.605860+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113242867491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "hires",
+      "at": "2026-10-18T03:18:57.066780+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113250019491654",
+      "topics": [],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-10-18T03:46:33.665257+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113262325491654",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "split:flag+face",
+      "at": "2026-10-18T04:22:32.140924+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113270689491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-18T04:46:09.967643+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113282113491654",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-18T05:34:25.179039+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113287999491654",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "face",
+      "at": "2026-10-18T06:01:39.405837+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113309221491654",
+      "topics": [
+        "fed"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-18T07:04:22.551095+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113316445491654",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-10-18T07:34:30.233987+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113338051491654",
+      "topics": [
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "hires",
+      "at": "2026-10-18T08:46:49.272017+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113632021491654",
+      "topics": [
+        "fed",
+        "gold",
+        "inflation",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "entity-logo",
+      "at": "2026-10-19T01:09:52.837592+00:00"
+    },
+    {
+      "fb_id": "1742324283500999",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "viral",
+      "at": "2026-10-19T01:35:39.526650+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113645221491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-19T02:19:03.888082+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113650567491654",
+      "topics": [
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "face",
+      "at": "2026-10-19T02:47:22.012553+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113664289491654",
+      "topics": [
+        "crypto",
+        "inflation",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-19T04:02:45.927677+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113695087491654",
+      "topics": [
+        "inflation",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-19T06:06:47.445859+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122113701363491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-19T06:36:56.447707+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122114605191491654",
+      "topics": [
+        "gold_oil",
+        "inflation",
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "split:face+face",
+      "at": "2026-10-21T15:48:05.053672+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122114611725491654",
+      "topics": [
+        "crypto",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "hires",
+      "at": "2026-10-21T16:06:27.675433+00:00"
+    },
+    {
+      "fb_id": "1419678856449311",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "at": "2026-10-21T16:16:45.815472+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122114622129491654",
+      "topics": [
+        "crypto",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "card",
+      "at": "2026-10-21T16:38:32.739000+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122114643051491654",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "card",
+      "at": "2026-10-21T18:22:33.880490+00:00"
+    },
+    {
+      "fb_id": "1129798829519599",
+      "topics": [
+        "power"
+      ],
+      "mode": "serious",
+      "at": "2026-10-21T18:33:26.668528+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122114656449491654",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-21T19:19:08.249150+00:00"
+    }
+  ],
+  "last_video_post": "2026-10-21",
+  "recent_fps": [
+    {
+      "fp": [
+        "korea",
+        "now",
+        "south",
+        "tuesday"
+      ],
+      "at": "2026-10-18T04:46:09.967626+00:00"
+    },
+    {
+      "fp": [
+        "black",
+        "calls",
+        "ignore",
+        "monday",
+        "read"
+      ],
+      "at": "2026-10-18T05:34:25.179024+00:00"
+    },
+    {
+      "fp": [
+        "AI",
+        "billionaire",
+        "dalio",
+        "jones",
+        "paul",
+        "ray",
+        "research",
+        "tudor",
+        "yardeni"
+      ],
+      "at": "2026-10-18T06:01:39.405822+00:00"
+    },
+    {
+      "fp": [
+        "BAC",
+        "C",
+        "KBW",
+        "STT",
+        "US",
+        "america",
+        "bank",
+        "citigroup",
+        "crisis",
+        "financial",
+        "index",
+        "june",
+        "large",
+        "state",
+        "street",
+        "this"
+      ],
+      "at": "2026-10-18T07:04:22.551075+00:00"
+    },
+    {
+      "fp": [
+        "$52",
+        "chip",
+        "street",
+        "wall"
+      ],
+      "at": "2026-10-18T07:34:30.233976+00:00"
+    },
+    {
+      "fp": [
+        "american",
+        "but",
+        "douglas",
+        "european",
+        "israel",
+        "murray",
+        "some",
+        "throughout",
+        "when"
+      ],
+      "at": "2026-10-18T08:46:49.272007+00:00"
+    },
+    {
+      "fp": [
+        "$4,175",
+        "AI",
+        "AMID",
+        "AN",
+        "AND",
+        "AROUND",
+        "AS",
+        "AT",
+        "AWAIT",
+        "EASED",
+        "FED",
+        "FOR",
+        "FROM",
+        "GOLD",
+        "HELD",
+        "HIKE",
+        "META",
+        "MORE",
+        "OUNCE",
+        "OVER",
+        "RATE",
+        "ROSE",
+        "TESLA",
+        "THAN",
+        "TO",
+        "US",
+        "WHIL",
+        "WHILE",
+        "YEAR",
+        "YIELD"
+      ],
+      "at": "2026-10-19T01:09:52.837583+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "emmanuel",
+        "french",
+        "iran",
+        "macron",
+        "president",
+        "trump"
+      ],
+      "at": "2026-10-19T01:35:39.526638+00:00"
+    },
+    {
+      "fp": [
+        "asia",
+        "bank",
+        "deutsche",
+        "german"
+      ],
+      "at": "2026-10-19T02:19:03.888065+00:00"
+    },
+    {
+      "fp": [
+        "great",
+        "peace",
+        "russia",
+        "signing",
+        "trump",
+        "ukraine"
+      ],
+      "at": "2026-10-19T02:47:22.012535+00:00"
+    },
+    {
+      "fp": [
+        "GDP",
+        "bitcoin",
+        "china",
+        "korea",
+        "kospi",
+        "nasdaq"
+      ],
+      "at": "2026-10-19T04:02:45.927660+00:00"
+    },
+    {
+      "fp": [
+        "GD",
+        "GDP",
+        "about",
+        "treasury"
+      ],
+      "at": "2026-10-19T06:06:47.445843+00:00"
+    },
+    {
+      "fp": [
+        "$131",
+        "$34",
+        "BTC",
+        "bitcoin"
+      ],
+      "at": "2026-10-19T06:36:56.447693+00:00"
+    },
+    {
+      "fp": [
+        "iran",
+        "israel",
+        "netanyahu",
+        "states",
+        "this",
+        "through",
+        "trump",
+        "united"
+      ],
+      "at": "2026-10-21T15:48:05.053656+00:00"
+    },
+    {
+      "fp": [
+        "$750",
+        "IN",
+        "JUST",
+        "US",
+        "bitcoin",
+        "buy",
+        "department",
+        "treasury"
+      ],
+      "at": "2026-10-21T16:06:27.675418+00:00"
+    },
+    {
+      "fp": [
+        "$20,000",
+        "NEW",
+        "bitcoin",
+        "charles",
+        "michael",
+        "saylor",
+        "schwab"
+      ],
+      "at": "2026-10-21T16:16:45.815461+00:00"
+    },
+    {
+      "fp": [
+        "house",
+        "trump",
+        "white"
+      ],
+      "at": "2026-10-21T16:38:32.738980+00:00"
+    },
+    {
+      "fp": [
+        "$240.",
+        "$500,",
+        "SPCX",
+        "overweight"
+      ],
+      "at": "2026-10-21T18:22:33.880480+00:00"
+    },
+    {
+      "fp": [
+        "$9",
+        "US",
+        "canada",
+        "ontario"
+      ],
+      "at": "2026-10-21T18:33:26.668522+00:00"
+    },
+    {
+      "fp": [
+        "$240",
+        "$500.",
+        "IN",
+        "JUST",
+        "SPCX"
+      ],
+      "at": "2026-10-21T19:19:08.249136+00:00"
+    }
+  ],
+  "recent_hooks": [
+    "\ud83d\udcc9 \u0628\u0648\u0644 \u062a\u064a\u0648\u062f\u0648\u0631 \u062c\u0648\u0646\u0632: 2027 \u0633\u0646\u0629 \u0635\u0639\u0628\u0629 \u062c\u062f\u0627\u064b \u0639\u0644\u0649 \u0633\u0648\u0642 \u0627\u0644\u0623\u0633\u0647\u0645.",
+    "\ud83d\udcc9 \u0645\u0624\u0634\u0631 KBW \u0644\u0644\u0628\u0646\u0648\u0643 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0646\u0632\u0644 6 \u0623\u0633\u0627\u0628\u064a\u0639 \u0645\u062a\u062a\u0627\u0644\u064a\u0629 \u2014 \u0623\u0637\u0648\u0644 \u0633\u0644\u0633\u0644\u0629 \u0645\u0646\u0630 \u0623\u0632\u0645\u0629 2008",
+    "\ud83d\udcac \"\u0627\u0644\u062e\u0628\u064a\u0631\": \u0627\u0644\u0631\u0647\u0627\u0646\u0627\u062a \u0639\u0644\u0649 \u0623\u0633\u0647\u0645 \u0627\u0644\u0631\u0642\u0627\u0626\u0642 \u062e\u0633\u0631\u062a 52 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0641\u064a 10 \u062f\u0642\u0627\u0626\u0642",
+    "\u26a0\ufe0f \u0628\u064a\u0644 \u0623\u0643\u0645\u0627\u0646: \"\u0628\u0639\u0636 \u0627\u0644\u062d\u0627\u062c\u0627\u062a \u0645\u0628\u062a\u062a\u063a\u064a\u0631\u0634!\" \u0623\u0645\u0631\u064a\u0643\u0627 \u0628\u062a\u062f\u0639\u0645 \u0625\u0633\u0631\u0627\u0626\u064a\u0644 \u0628\u0623\u0633\u0644\u062d\u0629 \u0632\u064a 1973 \u0628\u0627\u0644\u0638\u0628\u0637",
+    "\ud83d\udcc8 \u0623\u0643\u062b\u0631 \u0645\u0646 70 \u0634\u0631\u0643\u0629 \u0641\u064a S&P 500 \u0628\u062a\u0639\u0644\u0646 \u0623\u0631\u0628\u0627\u062d\u0647\u0627 \u0627\u0644\u064a\u0648\u0645.. \u0628\u0645\u0627 \u0641\u064a\u0647\u0627 Tesla ($TSLA) \u0648 Meta ($META)",
+    "\ud83c\udfe6 Deutsche Bank \u062a\u0639\u0644\u0646 \u0639\u0646 \u062a\u0648\u0633\u064a\u0639 \u062e\u062f\u0645\u0627\u062a \u0627\u0644\u062d\u0641\u0638 \u0644\u0644\u0639\u0645\u0644\u0627\u062a \u0627\u0644\u0631\u0642\u0645\u064a\u0629 \u0641\u064a \u0622\u0633\u064a\u0627 \u0628\u062d\u0644\u0648\u0644 2027\u060c \u0645\u0639 \u0642\u0631\u0628 \u0625\u0637\u0644\u0627\u0642 \u0627\u0644\u062e\u062f\u0645\u0629 \u0641\u064a \u0623\u0644\u0645\u0627\u0646\u064a\u0627",
+    "\ud83c\uddfa\ud83c\uddf8 \u062a\u0631\u0627\u0645\u0628: \u0642\u0631\u0627\u0631\u064a \u0628\u0634\u0623\u0646 \u0631\u0648\u0633\u064a\u0627 \u0628\u0633\u064a\u0637 \u062c\u062f\u0627\u064b\u060c \"\u0623\u0646\u0627 \u0641\u064a \u0639\u0645\u0644\u064a\u0629 \u0627\u0644\u062a\u0641\u0627\u0648\u0636 \u0639\u0644\u0649 \u0627\u0644\u0633\u0644\u0627\u0645 \u0641\u064a \u0627\u0644\u062d\u0631\u0628 \u0628\u064a\u0646 \u0631\u0648\u0633\u064a\u0627 \u0648\u0623\u0648\u0643\u0631\u0627\u0646\u064a\u0627\".",
+    "\ud83d\udcc8 \"\u0646\u0645\u0648 \u0627\u0644\u0635\u064a\u0646 \u0641\u0627\u0642 \u0627\u0644\u062a\u0648\u0642\u0639\u0627\u062a\".. \u062f\u0647 \u0627\u0644\u0644\u064a \u0631\u0641\u0639 BTC \u0648\u0627\u0644\u0623\u0633\u0647\u0645 \u0627\u0644\u0639\u0627\u0644\u0645\u064a\u0629!",
+    "\ud83d\udcc9 \u062c\u0649 \u0628\u0649 \u0645\u0648\u0631\u062c\u0627\u0646: \u0639\u0627\u0626\u062f \u0627\u0644\u0633\u0646\u062f\u0627\u062a \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0644\u0640 30 \u0633\u0646\u0629 \u0628\u064a\u0647\u062f\u062f \u0627\u0644\u0623\u0633\u0647\u0645 \u0627\u0644\u0635\u063a\u064a\u0631\u0629 \u0648\u0627\u0644\u0645\u062a\u0648\u0633\u0637\u0629",
+    "\ud83d\udc33 \u062d\u0648\u062a \u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0646\u0642\u0644 34 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0645\u0646 BTC \u0627\u0644\u0644\u064a \u062d\u0635\u0644 \u0639\u0644\u064a\u0647\u0627 \u0633\u0646\u0629 2013 \u0644\u0645\u0627 \u0643\u0627\u0646 \u0627\u0644\u0633\u0639\u0631 131 \u062f\u0648\u0644\u0627\u0631",
+    "\ud83d\udee2\ufe0f \u062a\u0631\u0627\u0645\u0628 \u0648\u0646\u062a\u0646\u064a\u0627\u0647\u0648 \u0647\u064a\u0636\u0631\u0628\u0648\u0627 \u0625\u064a\u0631\u0627\u0646 \u062a\u0627\u0646\u064a.. \u0648\u0647\u064a\u062f\u0645\u0631\u0648\u0627 \u0627\u0644\u0628\u0646\u064a\u0629 \u0627\u0644\u062a\u062d\u062a\u064a\u0629 \u0644\u0644\u0646\u0641\u0637 \u0628\u0627\u0644\u0643\u0627\u0645\u0644",
+    "\ud83d\udcb5 \u0648\u0632\u0627\u0631\u0629 \u0627\u0644\u062e\u0632\u0627\u0646\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0647\u062a\u0634\u062a\u0631\u064a \u062f\u064a\u0648\u0646 \u0637\u0648\u064a\u0644\u0629 \u0627\u0644\u0623\u062c\u0644 \u0628\u0642\u064a\u0645\u0629 750 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0627\u0644\u0646\u0647\u0627\u0631\u062f\u0647.",
+    "\ud83d\udcac \"\u0627\u0644\u0645\u0633\u062a\u062b\u0645\u0631\u064a\u0646 \u0628\u064a\u062a\u0627\u0643\u0644 \u062d\u0642\u0647\u0645 \u0628\u0631\u0647\".. \u062a\u0631\u0627\u0645\u0628 \u0628\u064a\u0641\u062a\u062d \u0645\u0644\u0641 \u062a\u062c\u0627\u0648\u0632\u0627\u062a \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0641\u064a \u0627\u0644\u0628\u064a\u062a \u0627\u0644\u0623\u0628\u064a\u0636",
+    "\ud83d\ude80 \u0628\u0639\u062f \u0645\u0627 JPMorgan \u0631\u0641\u0639 \u0627\u0644\u0642\u064a\u0645\u0629 \u0627\u0644\u062a\u0642\u062f\u064a\u0631\u064a\u0629 \u0644\u0640 SpaceX ($SPCX) \u0644\u0644\u0636\u0639\u0641.. \u0627\u0644\u0633\u0647\u0645 \u0637\u0627\u0631 \u0644\u0645\u0633\u062a\u0647\u062f\u0641 500 \u062f\u0648\u0644\u0627\u0631 \u0628\u062f\u0644 240",
+    "\ud83d\ude80 JPMorgan \u0631\u0641\u0639 \u0627\u0644\u0633\u0639\u0631 \u0627\u0644\u0645\u0633\u062a\u0647\u062f\u0641 \u0644\u0634\u0631\u0643\u0629 SpaceX \u0644\u0640 500 \u062f\u0648\u0644\u0627\u0631 \u0628\u062f\u0644 240 \u062f\u0648\u0644\u0627\u0631 \u062f\u0641\u0639\u0629 \u0648\u0627\u062d\u062f\u0629"
+  ],
+  "shape_idx": 150,
+  "replied_comments": [
+    "122114614443491654_1148050547655010",
+    "122114614443491654_1474684037847818",
+    "122114622129491654_1510202960944460",
+    "122114643051491654_1767847681138871",
+    "122114645541491654_2349410402542487",
+    "122114656449491654_915933041457740"
+  ],
+  "product_posts_used": [
+    "ar-01-cot-index-extremes"
+  ],
+  "product_posts_day": {
+    "2026-10-21": 1
   }
- ],
- "last_video_post": "2026-10-21",
- "recent_fps": [
-  {
-   "fp": [
-    "korea",
-    "now",
-    "south",
-    "tuesday"
-   ],
-   "at": "2026-10-18T04:46:09.967626+00:00"
-  },
-  {
-   "fp": [
-    "black",
-    "calls",
-    "ignore",
-    "monday",
-    "read"
-   ],
-   "at": "2026-10-18T05:34:25.179024+00:00"
-  },
-  {
-   "fp": [
-    "AI",
-    "billionaire",
-    "dalio",
-    "jones",
-    "paul",
-    "ray",
-    "research",
-    "tudor",
-    "yardeni"
-   ],
-   "at": "2026-10-18T06:01:39.405822+00:00"
-  },
-  {
-   "fp": [
-    "BAC",
-    "C",
-    "KBW",
-    "STT",
-    "US",
-    "america",
-    "bank",
-    "citigroup",
-    "crisis",
-    "financial",
-    "index",
-    "june",
-    "large",
-    "state",
-    "street",
-    "this"
-   ],
-   "at": "2026-10-18T07:04:22.551075+00:00"
-  },
-  {
-   "fp": [
-    "$52",
-    "chip",
-    "street",
-    "wall"
-   ],
-   "at": "2026-10-18T07:34:30.233976+00:00"
-  },
-  {
-   "fp": [
-    "american",
-    "but",
-    "douglas",
-    "european",
-    "israel",
-    "murray",
-    "some",
-    "throughout",
-    "when"
-   ],
-   "at": "2026-10-18T08:46:49.272007+00:00"
-  },
-  {
-   "fp": [
-    "$4,175",
-    "AI",
-    "AMID",
-    "AN",
-    "AND",
-    "AROUND",
-    "AS",
-    "AT",
-    "AWAIT",
-    "EASED",
-    "FED",
-    "FOR",
-    "FROM",
-    "GOLD",
-    "HELD",
-    "HIKE",
-    "META",
-    "MORE",
-    "OUNCE",
-    "OVER",
-    "RATE",
-    "ROSE",
-    "TESLA",
-    "THAN",
-    "TO",
-    "US",
-    "WHIL",
-    "WHILE",
-    "YEAR",
-    "YIELD"
-   ],
-   "at": "2026-10-19T01:09:52.837583+00:00"
-  },
-  {
-   "fp": [
-    "IN",
-    "JUST",
-    "emmanuel",
-    "french",
-    "iran",
-    "macron",
-    "president",
-    "trump"
-   ],
-   "at": "2026-10-19T01:35:39.526638+00:00"
-  },
-  {
-   "fp": [
-    "asia",
-    "bank",
-    "deutsche",
-    "german"
-   ],
-   "at": "2026-10-19T02:19:03.888065+00:00"
-  },
-  {
-   "fp": [
-    "great",
-    "peace",
-    "russia",
-    "signing",
-    "trump",
-    "ukraine"
-   ],
-   "at": "2026-10-19T02:47:22.012535+00:00"
-  },
-  {
-   "fp": [
-    "GDP",
-    "bitcoin",
-    "china",
-    "korea",
-    "kospi",
-    "nasdaq"
-   ],
-   "at": "2026-10-19T04:02:45.927660+00:00"
-  },
-  {
-   "fp": [
-    "GD",
-    "GDP",
-    "about",
-    "treasury"
-   ],
-   "at": "2026-10-19T06:06:47.445843+00:00"
-  },
-  {
-   "fp": [
-    "$131",
-    "$34",
-    "BTC",
-    "bitcoin"
-   ],
-   "at": "2026-10-19T06:36:56.447693+00:00"
-  },
-  {
-   "fp": [
-    "iran",
-    "israel",
-    "netanyahu",
-    "states",
-    "this",
-    "through",
-    "trump",
-    "united"
-   ],
-   "at": "2026-10-21T15:48:05.053656+00:00"
-  },
-  {
-   "fp": [
-    "$750",
-    "IN",
-    "JUST",
-    "US",
-    "bitcoin",
-    "buy",
-    "department",
-    "treasury"
-   ],
-   "at": "2026-10-21T16:06:27.675418+00:00"
-  },
-  {
-   "fp": [
-    "$20,000",
-    "NEW",
-    "bitcoin",
-    "charles",
-    "michael",
-    "saylor",
-    "schwab"
-   ],
-   "at": "2026-10-21T16:16:45.815461+00:00"
-  },
-  {
-   "fp": [
-    "house",
-    "trump",
-    "white"
-   ],
-   "at": "2026-10-21T16:38:32.738980+00:00"
-  },
-  {
-   "fp": [
-    "$240.",
-    "$500,",
-    "SPCX",
-    "overweight"
-   ],
-   "at": "2026-10-21T18:22:33.880480+00:00"
-  },
-  {
-   "fp": [
-    "$9",
-    "US",
-    "canada",
-    "ontario"
-   ],
-   "at": "2026-10-21T18:33:26.668522+00:00"
-  },
-  {
-   "fp": [
-    "$240",
-    "$500.",
-    "IN",
-    "JUST",
-    "SPCX"
-   ],
-   "at": "2026-10-21T19:19:08.249136+00:00"
-  }
- ],
- "recent_hooks": [
-  "📉 بول تيودور جونز: 2027 سنة صعبة جداً على سوق الأسهم.",
-  "📉 مؤشر KBW للبنوك الأمريكية نزل 6 أسابيع متتالية — أطول سلسلة منذ أزمة 2008",
-  "💬 \"الخبير\": الرهانات على أسهم الرقائق خسرت 52 مليون دولار في 10 دقائق",
-  "⚠️ بيل أكمان: \"بعض الحاجات مبتتغيرش!\" أمريكا بتدعم إسرائيل بأسلحة زي 1973 بالظبط",
-  "📈 أكثر من 70 شركة في S&P 500 بتعلن أرباحها اليوم.. بما فيها Tesla ($TSLA) و Meta ($META)",
-  "🏦 Deutsche Bank تعلن عن توسيع خدمات الحفظ للعملات الرقمية في آسيا بحلول 2027، مع قرب إطلاق الخدمة في ألمانيا",
-  "🇺🇸 ترامب: قراري بشأن روسيا بسيط جداً، \"أنا في عملية التفاوض على السلام في الحرب بين روسيا وأوكرانيا\".",
-  "📈 \"نمو الصين فاق التوقعات\".. ده اللي رفع BTC والأسهم العالمية!",
-  "📉 جى بى مورجان: عائد السندات الأمريكية لـ 30 سنة بيهدد الأسهم الصغيرة والمتوسطة",
-  "🐳 حوت بيتكوين نقل 34 مليون دولار من BTC اللي حصل عليها سنة 2013 لما كان السعر 131 دولار",
-  "🛢️ ترامب ونتنياهو هيضربوا إيران تاني.. وهيدمروا البنية التحتية للنفط بالكامل",
-  "💵 وزارة الخزانة الأمريكية هتشتري ديون طويلة الأجل بقيمة 750 مليون دولار النهارده.",
-  "💬 \"المستثمرين بيتاكل حقهم بره\".. ترامب بيفتح ملف تجاوزات الكريبتو في البيت الأبيض",
-  "🚀 بعد ما JPMorgan رفع القيمة التقديرية لـ SpaceX ($SPCX) للضعف.. السهم طار لمستهدف 500 دولار بدل 240",
-  "🚀 JPMorgan رفع السعر المستهدف لشركة SpaceX لـ 500 دولار بدل 240 دولار دفعة واحدة"
- ],
- "shape_idx": 150,
- "replied_comments": [
-  "122114614443491654_1148050547655010",
-  "122114614443491654_1474684037847818",
-  "122114622129491654_1510202960944460",
-  "122114643051491654_1767847681138871",
-  "122114645541491654_2349410402542487",
-  "122114656449491654_915933041457740"
- ],
- "product_posts_used": [
-  "ar-01-cot-index-extremes"
- ],
- "product_posts_day": {
-  "2026-10-21": 1
- }
 }
