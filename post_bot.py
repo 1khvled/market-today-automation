@@ -38,6 +38,12 @@ import requests
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 try:
+    import no_llm
+except Exception:
+    no_llm = None
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
     import growth
 except Exception:  # growth engine is optional - never fail a post for it
     growth = None
@@ -1444,7 +1450,7 @@ def rewrite_with_llm(candidate: dict, extra: str = "") -> str:
     # it up. A 30-60s slower pick beats a fast soulless one.
     if _gemini_keys():
         chain.append(("gemini",
-                      os.getenv("GEMINI_MODEL", "gemini-2.5-flash")))
+                      os.getenv("GEMINI_MODEL", "gemini-3.5-flash")))
     if os.getenv("GROQ_API_KEY", "").strip():
         chain += [("groq", m) for m in
                   _model_list("GROQ_", "MODEL", GROQ_MODELS_DEFAULT)]
@@ -2085,6 +2091,7 @@ def _commons_exact(files: list, min_width=1400):
 
 PHOTO_CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                ".photo_cache")
+LANG = "ar"
 ASSETS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                           "assets")
 
@@ -3941,7 +3948,7 @@ def main() -> int:
         if growth:
             _rn = growth.reply_backlog(
                 state,
-                llm=lambda s, u: gen_gemini("gemini-2.5-flash", s, u),
+                llm=lambda s, u: gen_gemini("gemini-3.5-flash", s, u),
                 lang="ar")
             if _rn:
                 log(f"growth: replied to {_rn} comment(s)")
@@ -4084,7 +4091,12 @@ def main() -> int:
                 vprobs = quality_check(vpost, vpick["title"],
                                        vpick.get("summary", ""))
             except Exception as ex:
-                vpost, vprobs = None, [str(ex)[:100]]
+                log(f"Video rewrite failed: {ex} - using the no-LLM builder")
+                try:
+                    vpost = sanitize(no_llm.build_video_post(vpick, LANG))
+                    vprobs = []
+                except Exception as ex2:
+                    vpost, vprobs = None, [f"{ex} | {ex2}"[:160]]
             if vpost and not vprobs:
                 vpost = add_credit(vpost, credit_for(vpick["feed"], "video"))
                 vpost = add_source(vpost, outlet_for(vpick["feed"]))
@@ -4107,7 +4119,7 @@ def main() -> int:
                                 g = growth.after_publish(
                                     post_id, vpost, vpick["title"],
                                     vpick.get("keywords", []),
-                                    llm=lambda s, u: gen_gemini("gemini-2.5-flash", s, u),
+                                    llm=lambda s, u: gen_gemini("gemini-3.5-flash", s, u),
                                     lang="ar")
                                 log(f"growth: seed comment "
                                     f"{g.get('seed_comment_id')}, "
@@ -4170,14 +4182,24 @@ def main() -> int:
 
     shape = _next_shape(state)
     log(f"shape: {shape[:40]}...")
+    fallback = False
     try:
         post = rewrite_with_llm(pick, shape)
     except Exception as ex:
-        log(f"Rewrite failed: {ex}")
-        return 2
+        # Every writer is down. A page that stops posting loses its streak,
+        # so fall back to a post built from the source facts only. No model,
+        # no invention, lower polish - but the page stays alive.
+        log(f"Rewrite failed: {ex} - using the no-LLM builder")
+        try:
+            post = no_llm.build_post(pick, LANG)
+            fallback = True
+        except Exception as ex2:
+            log(f"no-LLM builder failed too: {ex2}")
+            return 2
 
     post = sanitize(post)  # FB has no markdown: **bold** -> CAPS etc.
-    problems = quality_check(post, pick["title"], pick.get("summary", ""))
+    problems = ([] if fallback else
+                quality_check(post, pick["title"], pick.get("summary", "")))
     if problems:
         log(f"Quality check FAILED: {problems}")
         print("--- DRAFT (rejected) ---\n" + post)
@@ -4221,7 +4243,7 @@ def main() -> int:
                 g = growth.after_publish(
                     post_id, post, pick["title"],
                     pick.get("keywords", []),
-                    llm=lambda s, u: gen_gemini("gemini-2.5-flash", s, u),
+                    llm=lambda s, u: gen_gemini("gemini-3.5-flash", s, u),
                     lang="ar")
                 log(f"growth: seed comment "
                     f"{g.get('seed_comment_id')}, "
