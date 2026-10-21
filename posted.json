@@ -100,6 +100,7 @@
     "6b8cf3d57844a02e",
     "6b96c1836ac774cf",
     "6cd48926a0ca24f4",
+    "6d6fe8f909c44493",
     "6d938cdfc0ac455c",
     "6dfde226099b02e8",
     "6f632453df63c6f0",
@@ -250,10 +251,9 @@
   },
   "day_counts": {
     "2026-10-19": 7,
-    "2026-10-21": 4
+    "2026-10-21": 5
   },
   "recent_titles": [
-    "Billionaire investor Paul Tudor Jones says 2027 could be a really challenging year for the stock market. Ray Dalio recently called AI a \u201cclassic bubble.\" Yardeni Research cut its year-end S&P 500 t...",
     "Large US bank stocks are under historic pressure: The KBW Bank Index has dropped for 6 consecutive weeks, its longest streak since the 2008 Financial Crisis. This also marks its 3rd-longest streak ...",
     "Chip-stock bets lost $52 million in 10 minutes with Wall Street shut",
     "By Douglas Murray: Some things never change. In 1973, when Israel was facing a war of annihilation waged upon it by all of its neighbors, the U.S. was supplying weapons to its beleaguered ally. But...",
@@ -267,26 +267,18 @@
     "Israel and the United States will almost certainly attack Iran once again. This will mark the final chapter of this war. Through this attack, Trump and Netanyahu will fully carry out the threats th...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury Department to buy back up to $750 million in longer-term debt today \ud83d\udc40 Buy Bitcoin \ud83d\ude80",
     "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started \ud83d\udc40 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi...",
-    "Trump to throw spotlight on overseas crypto abuses at White House event"
+    "Trump to throw spotlight on overseas crypto abuses at White House event",
+    "BREAKING: JPMorgan doubled its price target on SpaceX, $SPCX, to $500, from $240. It kept its Overweight rating."
   ],
   "last_post": {
-    "hash": "1098ec9725488722",
-    "fb_id": "1421089964411983_122114622129491654",
-    "title": "Trump to throw spotlight on overseas crypto abuses at White House event",
-    "link": "https://www.coindesk.com/policy/2026/10/21/trump-to-throw-spotlight-on-overseas-crypto-abuses-in-white-house-event",
-    "mode": "serious",
-    "at": "2026-10-21T16:38:32.739000+00:00"
+    "hash": "6d6fe8f909c44493",
+    "fb_id": "1421089964411983_122114643051491654",
+    "title": "BREAKING: JPMorgan doubled its price target on SpaceX, $SPCX, to $500, from $240. It kept its Overweight rating.",
+    "link": "https://x.com/unusual_whales/status/2112921096349790542",
+    "mode": "viral",
+    "at": "2026-10-21T18:22:33.880490+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122112302529491654",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "hires",
-      "at": "2026-10-16T03:32:33.995161+00:00"
-    },
     {
       "fb_id": "1421089964411983_122112312843491654",
       "topics": [
@@ -746,22 +738,19 @@
       "mode": "serious",
       "photo": "card",
       "at": "2026-10-21T16:38:32.739000+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122114643051491654",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "card",
+      "at": "2026-10-21T18:22:33.880490+00:00"
     }
   ],
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "bitcoin",
-        "bullish",
-        "fear",
-        "greed",
-        "index"
-      ],
-      "at": "2026-10-18T03:18:57.066762+00:00"
-    },
     {
       "fp": [
         "canada",
@@ -1008,10 +997,18 @@
         "white"
       ],
       "at": "2026-10-21T16:38:32.738980+00:00"
+    },
+    {
+      "fp": [
+        "$240.",
+        "$500,",
+        "SPCX",
+        "overweight"
+      ],
+      "at": "2026-10-21T18:22:33.880480+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83c\uddf0\ud83c\uddf7 \u0628\u0639\u062f \u062a\u0623\u062c\u064a\u0644 3 \u0645\u0631\u0627\u062a.. \u0643\u0648\u0631\u064a\u0627 \u0627\u0644\u062c\u0646\u0648\u0628\u064a\u0629 \u0628\u062a\u0646\u0627\u0642\u0634 \u062a\u0623\u062c\u064a\u0644 \u0631\u0627\u0628\u0639 \u0644\u0636\u0631\u064a\u0628\u0629 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0627\u0644\u0640 22%",
     "\ud83d\udcc9 \u0627\u0644\u0645\u062d\u0644\u0644\u0648\u0646: \u062f\u0639\u0648\u0627\u062a \u0644\u0640 'Black Monday' \u062a\u0646\u062a\u0634\u0631 \u0648\u0633\u0648\u0642 S&P 500 \u0647\u064a\u0648\u0635\u0644 8000 \u0642\u0631\u064a\u0628\u064b\u0627.",
     "\ud83d\udcc9 \u0628\u0648\u0644 \u062a\u064a\u0648\u062f\u0648\u0631 \u062c\u0648\u0646\u0632: 2027 \u0633\u0646\u0629 \u0635\u0639\u0628\u0629 \u062c\u062f\u0627\u064b \u0639\u0644\u0649 \u0633\u0648\u0642 \u0627\u0644\u0623\u0633\u0647\u0645.",
     "\ud83d\udcc9 \u0645\u0624\u0634\u0631 KBW \u0644\u0644\u0628\u0646\u0648\u0643 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0646\u0632\u0644 6 \u0623\u0633\u0627\u0628\u064a\u0639 \u0645\u062a\u062a\u0627\u0644\u064a\u0629 \u2014 \u0623\u0637\u0648\u0644 \u0633\u0644\u0633\u0644\u0629 \u0645\u0646\u0630 \u0623\u0632\u0645\u0629 2008",
@@ -1025,11 +1022,13 @@
     "\ud83d\udc33 \u062d\u0648\u062a \u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0646\u0642\u0644 34 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0645\u0646 BTC \u0627\u0644\u0644\u064a \u062d\u0635\u0644 \u0639\u0644\u064a\u0647\u0627 \u0633\u0646\u0629 2013 \u0644\u0645\u0627 \u0643\u0627\u0646 \u0627\u0644\u0633\u0639\u0631 131 \u062f\u0648\u0644\u0627\u0631",
     "\ud83d\udee2\ufe0f \u062a\u0631\u0627\u0645\u0628 \u0648\u0646\u062a\u0646\u064a\u0627\u0647\u0648 \u0647\u064a\u0636\u0631\u0628\u0648\u0627 \u0625\u064a\u0631\u0627\u0646 \u062a\u0627\u0646\u064a.. \u0648\u0647\u064a\u062f\u0645\u0631\u0648\u0627 \u0627\u0644\u0628\u0646\u064a\u0629 \u0627\u0644\u062a\u062d\u062a\u064a\u0629 \u0644\u0644\u0646\u0641\u0637 \u0628\u0627\u0644\u0643\u0627\u0645\u0644",
     "\ud83d\udcb5 \u0648\u0632\u0627\u0631\u0629 \u0627\u0644\u062e\u0632\u0627\u0646\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0647\u062a\u0634\u062a\u0631\u064a \u062f\u064a\u0648\u0646 \u0637\u0648\u064a\u0644\u0629 \u0627\u0644\u0623\u062c\u0644 \u0628\u0642\u064a\u0645\u0629 750 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0627\u0644\u0646\u0647\u0627\u0631\u062f\u0647.",
-    "\ud83d\udcac \"\u0627\u0644\u0645\u0633\u062a\u062b\u0645\u0631\u064a\u0646 \u0628\u064a\u062a\u0627\u0643\u0644 \u062d\u0642\u0647\u0645 \u0628\u0631\u0647\".. \u062a\u0631\u0627\u0645\u0628 \u0628\u064a\u0641\u062a\u062d \u0645\u0644\u0641 \u062a\u062c\u0627\u0648\u0632\u0627\u062a \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0641\u064a \u0627\u0644\u0628\u064a\u062a \u0627\u0644\u0623\u0628\u064a\u0636"
+    "\ud83d\udcac \"\u0627\u0644\u0645\u0633\u062a\u062b\u0645\u0631\u064a\u0646 \u0628\u064a\u062a\u0627\u0643\u0644 \u062d\u0642\u0647\u0645 \u0628\u0631\u0647\".. \u062a\u0631\u0627\u0645\u0628 \u0628\u064a\u0641\u062a\u062d \u0645\u0644\u0641 \u062a\u062c\u0627\u0648\u0632\u0627\u062a \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0641\u064a \u0627\u0644\u0628\u064a\u062a \u0627\u0644\u0623\u0628\u064a\u0636",
+    "\ud83d\ude80 \u0628\u0639\u062f \u0645\u0627 JPMorgan \u0631\u0641\u0639 \u0627\u0644\u0642\u064a\u0645\u0629 \u0627\u0644\u062a\u0642\u062f\u064a\u0631\u064a\u0629 \u0644\u0640 SpaceX ($SPCX) \u0644\u0644\u0636\u0639\u0641.. \u0627\u0644\u0633\u0647\u0645 \u0637\u0627\u0631 \u0644\u0645\u0633\u062a\u0647\u062f\u0641 500 \u062f\u0648\u0644\u0627\u0631 \u0628\u062f\u0644 240"
   ],
-  "shape_idx": 148,
+  "shape_idx": 149,
   "replied_comments": [
     "122114614443491654_1148050547655010",
-    "122114614443491654_1474684037847818"
+    "122114614443491654_1474684037847818",
+    "122114622129491654_1510202960944460"
   ]
 }
