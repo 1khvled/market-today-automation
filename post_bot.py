@@ -4396,6 +4396,8 @@ def main() -> int:
         # fallback now. And the generated card is gone from this path: if
         # there is no real photo, the post goes out text-only. A text post
         # beats a fake one.
+    # every candidate needs its dedup hash, product posts included
+    h = item_hash(pick["link"], pick["title"])
     if pick.get("is_product"):
         img = ext = src = None
         _lp = pick.get("local_photo") or ""
