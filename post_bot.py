@@ -57,6 +57,10 @@ except Exception as _cerr:
     card_design = None
     print(f"WARNING: card_design not loaded: {_cerr}", flush=True)
 try:
+    import product_source
+except Exception:
+    product_source = None
+try:
     import growth
 except Exception as _gerr:  # optional, but never fail silently
     growth = None
@@ -4096,7 +4100,8 @@ def main() -> int:
         return any(difflib.SequenceMatcher(None, tl, r.lower()).ratio() > 0.75
                    for r in recent)
 
-    fresh = [c for c in fresh if not _too_similar(c["title"])]
+    fresh = [c for c in fresh
+             if c.get("is_product") or not _too_similar(c["title"])]
     # EVENT guard: same news, different wording ("SEC approves 3x ETFs" vs
     # "SEC greenlights leveraged funds") sailed past the 0.75 title guard 4x
     # in one afternoon (15:37/16:16/16:32/16:46). Fingerprints compare WHAT
@@ -4130,6 +4135,32 @@ def main() -> int:
         log(f"Dropping {dropped} unverified candidates.")
         fresh = [c for c in fresh if c.get("verified")]
     log(f"{len(fresh)} fresh (not yet posted)")
+    # PRODUCT ROTATION. The pages are the top of the funnel for a paid
+    # membership, so the product goes out on a schedule - at most
+    # PRODUCT_PER_DAY a day, inside PRODUCT_WINDOW_UTC, and never more than
+    # one in a row, so the page stays a page and not an ad feed.
+    try:
+        import product_source as _ps
+        _per_day = int(os.getenv("PRODUCT_PER_DAY", "1"))
+        _win = os.getenv("PRODUCT_WINDOW_UTC", "9-21")
+        _lo, _hi = (int(x) for x in _win.split("-"))
+        _now_h = datetime.now(timezone.utc).hour
+        _count = _ps.daily_count(state)
+        _last_was_product = bool(state.get("history") and
+                                 state["history"][-1].get("is_product"))
+        if (_lo <= _now_h < _hi and _count < _per_day and not _last_was_product
+                and _ps.load_posts()):
+            _pcands = _ps.candidates(state)
+            if _pcands:
+                fresh.insert(0, _pcands[0])
+                log(f"PRODUCT ROTATION: injecting '{_pcands[0].get('product_id')}' "
+                    f"({_count}/{_per_day} today, hour {_now_h} in {_win} UTC)")
+        else:
+            log(f"product rotation skipped: {_count}/{_per_day} today, "
+                f"hour {_now_h} not in {_win} UTC, "
+                f"last was product={_last_was_product}")
+    except Exception as _pe:
+        log(f"product rotation unavailable: {_pe}")
     # Prefer a story that CARRIES A REAL PHOTO. 18 of 44 candidates have
     # one - the chart or screenshot the source published with - and a post
     # with the story's own picture is the post that works. The boost is
@@ -4300,127 +4331,37 @@ def main() -> int:
     shape = _next_shape(state)
     log(f"shape: {shape[:40]}...")
     fallback = False
-    try:
-        post = rewrite_with_llm(pick, shape)
-    except Exception as ex:
-        # Every writer is down. A page that stops posting loses its streak,
-        # so fall back to a post built from the source facts only. No model,
-        # no invention, lower polish - but the page stays alive.
-        log(f"Rewrite failed: {ex} - using the no-LLM builder")
+    if pick.get("is_product"):
+        # A hand-written product post: already in the house voice, already
+        # fact-checked, already has its image. The LLM must not touch it and
+        # the QC (which compares against a source headline) must not run on it.
+        post = (pick.get("summary") or "").rstrip()
+        _tags = " ".join(pick.get("keywords") or [])
+        if _tags and _tags not in post:
+            post = f"{post}\n\n{_tags}"
+        fallback = True
+        log(f"PRODUCT POST: {pick.get('product_id')}")
+    else:
         try:
-            post = no_llm.build_post(pick, LANG)
-            if not post.strip():
-                # The no-LLM builder cannot write Arabic without a model.
-                # Publishing the English source on the Arabic page is worse
-                # than publishing nothing, so skip the run instead.
-                log("no-LLM builder cannot write in the target language - "
-                    "skipping this run rather than post the wrong language")
+            post = rewrite_with_llm(pick, shape)
+        except Exception as ex:
+
+            # Every writer is down. A page that stops posting loses its streak,
+            # so fall back to a post built from the source facts only. No model,
+            # no invention, lower polish - but the page stays alive.
+            log(f"Rewrite failed: {ex} - using the no-LLM builder")
+            try:
+                post = no_llm.build_post(pick, LANG)
+                if not post.strip():
+                    # The no-LLM builder cannot write Arabic without a model.
+                    # Publishing the English source on the Arabic page is worse
+                    # than publishing nothing, so skip the run instead.
+                    log("no-LLM builder cannot write in the target language - "
+                        "skipping this run rather than post the wrong language")
+                    return 2
+                fallback = True
+            except Exception as ex2:
+                log(f"no-LLM builder failed too: {ex2}")
                 return 2
-            fallback = True
-        except Exception as ex2:
-            log(f"no-LLM builder failed too: {ex2}")
-            return 2
 
     post = sanitize(post)  # FB has no markdown: **bold** -> CAPS etc.
-    problems = ([] if fallback else
-                quality_check(post, pick["title"], pick.get("summary", "")))
-    if problems:
-        log(f"Quality check FAILED: {problems}")
-        print("--- DRAFT (rejected) ---\n" + post)
-        return 3
-    print("--- POST (pre-credit) ---\n" + post + "\n------------")
-
-    # HOOK guard: the rewrite paraphrases, so two runs can produce near-twin
-    # Arabic hooks from different English sources ("SEC تفتح الباب لأول" x3
-    # in one afternoon). Compare the draft hook against recent Arabic hooks.
-    hook = (post.strip().split("\n") or [""])[0].strip()
-    hooks = state.get("recent_hooks", [])
-    if hook and any(difflib.SequenceMatcher(None, hook, h).ratio() > 0.65
-                    for h in hooks):
-        log("Hook already posted today with near-identical wording. "
-            "Skipping (event covered).")
-        return 0
-
-    h = item_hash(pick["link"], pick["title"])
-    # THE REAL PHOTO. The source account's own image - the chart, the
-    # screenshot, the photo it was published with - or the article's
-    # editorial image. The curated composites and the generic image
-    # searches are what made this feed look like clip art; they are the
-    # fallback now. And the generated card is gone from this path: if
-    # there is no real photo, the post goes out text-only. A text post
-    # beats a fake one.
-    post = add_source(post, outlet_for(pick["feed"]))
-    img, ext, src = find_photo(pick)
-    if img:
-        log(f"Photo: {src}")
-    else:
-        log("No real photo for this story - posting text-only")
-        img, ext, src = None, None, "text-only"
-    post = add_credit(post, credit_for(pick["feed"], src))
-    log(f"Visual: {src} | credit added")
-    if dry_run:
-        log("DRY_RUN=1, not publishing.")
-        return 0
-    try:
-        if img:
-            post_id = publish_photo_to_facebook(img, ext, post)
-            log(f"Published WITH PHOTO ({src})! FB id={post_id}")
-        else:
-            log("Text-only post (no worthy photo).")
-            post_id = publish_to_facebook(post)
-            log(f"Published (text-only)! FB post id={post_id}")
-        notify_post_live(post_id, post)
-        try:
-            if growth:
-                g = growth.after_publish(
-                    post_id, post, pick["title"],
-                    pick.get("keywords", []),
-                    llm=lambda s, u: gen_gemini("gemini-3.5-flash", s, u),
-                    lang="ar")
-                log(f"growth: seed comment "
-                    f"{g.get('seed_comment_id')}, "
-                    f"share kit sent={g.get('share_sent')}")
-        except Exception as _gx:
-            log(f"growth hook skipped: {_gx}")
-        if os.getenv("POST_STORIES", "1") == "1":
-            try:
-                story_id = publish_story_from_photo(img, ext, post)
-                log(f"Story published! id={story_id}")
-            except Exception as ex:
-                log(f"Story skipped (feed post is live): {ex}")
-    except Exception as ex:
-        log(f"Publish failed: {ex}")
-        return 4
-
-    posted.add(h)
-    state["posted_hashes"] = sorted(posted)[-500:]
-    day_counts[today] = day_counts.get(today, 0) + 1
-    keep_from = (now.date() - timedelta(days=2)).isoformat()
-    state["day_counts"] = {k: v for k, v in day_counts.items()
-                           if k >= keep_from}
-    _store_post_state(state, pick["title"], pick.get("summary", ""))
-    hooks = state.get("recent_hooks", [])
-    hooks.append((post.strip().split("\n") or [""])[0].strip())
-    state["recent_hooks"] = hooks[-15:]
-    state["last_post"] = {
-        "hash": h, "fb_id": post_id,
-        "title": pick["title"], "link": pick["link"],
-        "mode": pick.get("mode", "serious"),
-        "at": datetime.now(timezone.utc).isoformat(),
-    }
-    hist = state.get("history", [])
-    hist.append({
-        "fb_id": post_id,
-        "topics": sorted({KW_TO_TOPIC[k] for k in pick["keywords"]
-                          if k in KW_TO_TOPIC}),
-        "mode": pick.get("mode", "serious"),
-        "photo": src,
-        "at": state["last_post"]["at"],
-    })
-    state["history"] = hist[-50:]
-    save_state(state_file, state)
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())
