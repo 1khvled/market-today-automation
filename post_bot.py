@@ -1438,11 +1438,13 @@ SYSTEM_PROMPT_VIRAL = SYSTEM_PROMPT + """
 # chain tries LISTS, not single slugs. Env pinnable via GROQ_MODELS /
 # OPENROUTER_MODELS (comma-separated); defaults track what is live now.
 GROQ_MODELS_DEFAULT = "openai/gpt-oss-20b,openai/gpt-oss-120b"
+# nvidia/nemotron-3-super-120b-a12b is GONE: the endpoint returns HTTP 404
+# ("Function not found") and every run wasted a retry on it.
 NVIDIA_MODELS_DEFAULT = ("openai/gpt-oss-20b,"
-                         "nvidia/nemotron-3-super-120b-a12b")
+                         "openai/gpt-oss-120b")
 OPENROUTER_MODELS_DEFAULT = ("google/gemma-4-31b-it:free,"
                              "google/gemma-4-26b-a4b-it:free,"
-                             "nvidia/nemotron-3-super-120b-a12b:free")
+                             "openai/gpt-oss-120b:free")
 
 
 def _model_list(prefix: str, single: str, default: str) -> list:
@@ -1690,8 +1692,25 @@ def _latin_allow() -> set:
     return allow
 
 
+def _feed_words(feed: str) -> set:
+    """Words the source's own feed label is allowed to use.
+
+    An X handle like "@BillAckman" is one token, but a post names the
+    person as two words. Split on camelCase so both are allowed - the
+    draft is quoting the source, not inventing a name.
+    """
+    out = set()
+    for tok in re.findall(r"[A-Za-z]{2,}", feed or ""):
+        out.add(tok.lower())
+        for part in re.findall(r"[A-Z]+(?![a-z])|[A-Z][a-z]+|[a-z]+", tok):
+            if len(part) >= 2:
+                out.add(part.lower())
+    return out
+
+
 def quality_check(post: str, source_title: str,
-                  source_extra: str = "") -> list[str]:
+                  source_extra: str = "",
+                  source_feed: str = "") -> list[str]:
     problems = []
     if len(post) > 600:
         problems.append("too long (>600 chars, feed posts get cut)")
@@ -1748,6 +1767,9 @@ def quality_check(post: str, source_title: str,
     _allow = _latin_allow()
     _allow |= {t.lower() for t in
                re.findall(r"[A-Za-z]{2,}", source_title + " " + source_extra)}
+    # The source's own author name lives in the feed label, not the
+    # text. Naming them is faithful, not slop.
+    _allow |= _feed_words(source_feed)
     _badlatin = sorted({t for t in re.findall(r"\$?([A-Za-z]{2,})", post)
                         if t.lower() not in _allow})
     if _badlatin:
@@ -4212,7 +4234,8 @@ def main() -> int:
             try:
                 vpost = sanitize(rewrite_with_llm(vpick))
                 vprobs = quality_check(vpost, vpick["title"],
-                                       vpick.get("summary", ""))
+                                       vpick.get("summary", ""),
+                                       vpick.get("feed", ""))
             except Exception as ex:
                 log(f"Video rewrite failed: {ex} - using the no-LLM builder")
                 try:
@@ -4370,7 +4393,8 @@ def main() -> int:
 
         post = sanitize(post)  # FB has no markdown: **bold** -> CAPS etc.
         problems = ([] if fallback else
-                    quality_check(post, pick["title"], pick.get("summary", "")))
+                    quality_check(post, pick["title"], pick.get("summary", ""),
+                             pick.get("feed", "")))
         if problems:
             log(f"Quality check FAILED: {problems}")
             print("--- DRAFT (rejected) ---\n" + post)
