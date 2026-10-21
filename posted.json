@@ -105,6 +105,7 @@
     "6dfde226099b02e8",
     "6f632453df63c6f0",
     "709f9d6c30e22552",
+    "7142200a90c09435",
     "720cc98216e4fbd4",
     "7287ed7fa4d9ebb6",
     "736434c78c60fd62",
@@ -251,10 +252,9 @@
   },
   "day_counts": {
     "2026-10-19": 7,
-    "2026-10-21": 5
+    "2026-10-21": 6
   },
   "recent_titles": [
-    "Large US bank stocks are under historic pressure: The KBW Bank Index has dropped for 6 consecutive weeks, its longest streak since the 2008 Financial Crisis. This also marks its 3rd-longest streak ...",
     "Chip-stock bets lost $52 million in 10 minutes with Wall Street shut",
     "By Douglas Murray: Some things never change. In 1973, when Israel was facing a war of annihilation waged upon it by all of its neighbors, the U.S. was supplying weapons to its beleaguered ally. But...",
     "MARKETS AWAIT EARNINGS FROM MORE THAN 70 S&P 500 COMPANIES, INCLUDING TESLA AND META, AMID CONCERNS OVER AI SPENDING RETURNS AND PERSISTENT INFLATION. US 10-YEAR TREASURY YIELDS HELD AT 5.06%, WHIL...",
@@ -268,26 +268,19 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury Department to buy back up to $750 million in longer-term debt today \ud83d\udc40 Buy Bitcoin \ud83d\ude80",
     "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started \ud83d\udc40 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi...",
     "Trump to throw spotlight on overseas crypto abuses at White House event",
-    "BREAKING: JPMorgan doubled its price target on SpaceX, $SPCX, to $500, from $240. It kept its Overweight rating."
+    "BREAKING: JPMorgan doubled its price target on SpaceX, $SPCX, to $500, from $240. It kept its Overweight rating.",
+    "Canada and Ontario unveil joint c$9 bln support package to help steel and auto sectors deal with US tariffs, and also boost critical minerals supply chain."
   ],
   "last_post": {
-    "hash": "6d6fe8f909c44493",
-    "fb_id": "1421089964411983_122114643051491654",
-    "title": "BREAKING: JPMorgan doubled its price target on SpaceX, $SPCX, to $500, from $240. It kept its Overweight rating.",
-    "link": "https://x.com/unusual_whales/status/2112921096349790542",
-    "mode": "viral",
-    "at": "2026-10-21T18:22:33.880490+00:00"
+    "hash": "7142200a90c09435",
+    "fb_id": "1129798829519599",
+    "title": "Canada and Ontario unveil joint c$9 bln support package to help steel and auto sectors deal with US tariffs, and also boost critical minerals supply chain.",
+    "link": "https://www.financialjuice.com/News/9815511/Canada-and-Ontario-unveil-joint-c9-bln-support-package-to-help-steel-and-auto-sectors-deal-with-US-tariffs-and-also-boost-critical-minerals-supply-chain.aspx?xy=rss",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-10-21T18:33:26.668528+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122112312843491654",
-      "topics": [
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-16T04:02:27.180834+00:00"
-    },
     {
       "fb_id": "1421089964411983_122112318525491654",
       "topics": [
@@ -747,20 +740,18 @@
       "mode": "viral",
       "photo": "card",
       "at": "2026-10-21T18:22:33.880490+00:00"
+    },
+    {
+      "fb_id": "1129798829519599",
+      "topics": [
+        "power"
+      ],
+      "mode": "serious",
+      "at": "2026-10-21T18:33:26.668528+00:00"
     }
   ],
-  "last_video_post": null,
+  "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "canada",
-        "david",
-        "deadly",
-        "defence",
-        "minister"
-      ],
-      "at": "2026-10-18T03:46:33.665241+00:00"
-    },
     {
       "fp": [
         "ambani",
@@ -1006,6 +997,15 @@
         "overweight"
       ],
       "at": "2026-10-21T18:22:33.880480+00:00"
+    },
+    {
+      "fp": [
+        "$9",
+        "US",
+        "canada",
+        "ontario"
+      ],
+      "at": "2026-10-21T18:33:26.668522+00:00"
     }
   ],
   "recent_hooks": [
@@ -1029,6 +1029,7 @@
   "replied_comments": [
     "122114614443491654_1148050547655010",
     "122114614443491654_1474684037847818",
-    "122114622129491654_1510202960944460"
+    "122114622129491654_1510202960944460",
+    "122114643051491654_1767847681138871"
   ]
 }
