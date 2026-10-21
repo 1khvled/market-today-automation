@@ -952,6 +952,8 @@ SYSTEM_PROMPT = """إنت بتكتب بوستات لصفحة "سوق اليوم"
 - ممنوع لزق كلمات عامية على جمل فصحى ("البنك بيشوف إن العوائد" مرفوضة): الجملة كلها عامية من أولها لآخرها، أو فصحى مبسطة كاملة. الخلط بينهما هو اللي بيخلي الكلام شكله مترجم ومفروض."""
 
 USER_TEMPLATE = """Source: {feed}
+Source account: {handle}
+If you name the author, use exactly that name (transliterated into the page language). Never guess it.
 Headline: {title}
 Summary: {summary}
 Article URL (for your context only, do NOT include in post): {link}
@@ -1476,8 +1478,21 @@ def _next_shape(state: dict) -> str:
     return SHAPES[idx % len(SHAPES)]
 
 
+def _feed_handle(feed: str) -> str:
+    """The source account's handle, e.g. "X @BillAckman" -> "@BillAckman".
+
+    A post that names the author must name them correctly. The writer was
+    transliterating "Ackman" and guessing the first name (it wrote Michael
+    for Bill) because the handle was buried in the source line.
+    """
+    m = re.search(r"@([A-Za-z0-9_]{2,})", feed or "")
+    return f"@{m.group(1)}" if m else ""
+
+
 def rewrite_with_llm(candidate: dict, extra: str = "") -> str:
-    user_msg = USER_TEMPLATE.format(**candidate)
+    _cand = dict(candidate)
+    _cand["handle"] = _feed_handle(candidate.get("feed", ""))
+    user_msg = USER_TEMPLATE.format(**_cand)
     system = (SYSTEM_PROMPT_VIRAL if candidate.get("mode") == "viral"
               else SYSTEM_PROMPT) + ("\n" + extra if extra else "")
     chain: list[tuple[str, str]] = []
