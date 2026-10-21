@@ -44,9 +44,10 @@ jobs:
       DRY_RUN: ${{ inputs.dry_run || '0' }}
       FORCE_POST: ${{ inputs.force || '0' }}
       POST_STORIES: "1"
-      # the product rotation: how many product posts a day, and the
-      # UTC window they may go out in (the page stays a news page)
-      PRODUCT_PER_DAY: "1"
+      # SALES ARE OFF on this page for now. The Arabic page is a news page:
+      # no product posts, no pricing, no CTA. Set PRODUCT_PER_DAY to 1 and
+      # restore content/product_posts.json to turn it back on.
+      PRODUCT_PER_DAY: "0"
       PRODUCT_WINDOW_UTC: "9-21"
       CARD_BRAND: "market"
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
