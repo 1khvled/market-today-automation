@@ -29,10 +29,10 @@ REPO = os.path.dirname(HERE)
 CONTENT = os.path.join(REPO, "content")
 IMG_DIR = os.path.join(CONTENT, "img")
 
-# Where the real product assets live. Override with --assets if the
-# machine layout differs.
-DEFAULT_ASSETS = os.path.join(
-    os.environ.get("TEMP", "/tmp"), "opencode", "etdocs")
+# Where the real product assets live. The canonical copy ships in
+# content/src/ next to this script; override with --assets if the machine
+# layout differs.
+DEFAULT_ASSETS = os.path.join(HERE, "src")
 
 # ---------------------------------------------------------------- brand
 # Terminal dark system (app/static/css/theme.css + the dashboard's own
@@ -175,7 +175,7 @@ def main():
     ap.add_argument("--out", default=None)
     args = ap.parse_args()
 
-    spec_path = args.spec or os.path.join(args.assets, f"posts_{args.lang}.json")
+    spec_path = args.spec or os.path.join(CONTENT, "image_spec.json")
     out_dir = args.out or IMG_DIR
     os.makedirs(out_dir, exist_ok=True)
 
@@ -244,6 +244,7 @@ def main():
             "body": p["body"],
             "hashtags": p["hashtags"],
             "image": os.path.abspath(out_path),
+            "image_rel": "img/" + p["id"] + ".jpg",
             "questions": p["questions"],
             "cta": p["cta"],
             "source": p["source"],

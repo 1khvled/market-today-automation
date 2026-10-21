@@ -16,7 +16,7 @@
       "image_headline": "مؤشر COT: من 0% لـ 100% — وين الحدّ",
       "questions": ["في إيه قراءة مؤشر COT اللي بتخلّيك توقف وتعدّل؟"],
       "cta": "مقاعد المؤسسين في EdgeTrading Pro مفتوحة — ابعتلي رسالة وأبعتلك التفاصيل.",
-      "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Indicator #2 COT Index: an oscillator bounded between 0% and 100%. High Values above 80% indicate potential market tops when reading Large Specs or bottoms when reading Commercials. Low Values below 20% suggest potential market bottoms when reading Large Specs or tops when reading Commercials. Divergence Marker, an Orange Triangle, marks when Commercials and Large Specs are maximally opposed. Info Label shows the exact percentages for all three groups on the last bar. EdgeTrading Pro membership."
+      "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Indicator #2 COT Index: an oscillator bounded between 0% and 100%. High Values above 80% indicate potential market tops when reading Large Specs or bottoms when reading Commercials. Low Values below 20% suggest potential market bottoms when reading Large Specs or tops when reading Commercials. Divergence Marker, an Orange Triangle, marks when Commercials and Large Specs are maximally opposed. Info Label shows the exact percentages for all 3 groups on the last bar. EdgeTrading Pro membership."
     },
     {
       "id": "ar-02-smart-money-vs-retail",
@@ -28,7 +28,7 @@
       "image_headline": "المتاجر ضد العاديين — مين شايل الشراء؟",
       "questions": ["أنت تبع المتاجر ولا تبع العاديين أول حاجة؟"],
       "cta": "مقاعد المؤسسين في EdgeTrading Pro مفتوحة — ابعتلي رسالة وأبعتلك التفاصيل.",
-      "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Indicator #1 COT Report: reveals what the smart money (Commercials) and dumb money (Retail) are doing. Net Normalization shows net positions as a percentage of Open Interest to compare across different markets. Dynamic Fills highlight net positions above and below the zero line. Alerts notify when a group (Commercials or Large Specs) flips from net long to net short or vice versa. Three groups are plotted: Commercials, Large Specs and Retail. EdgeTrading Pro membership."
+      "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Indicator #1 COT Report: reveals what the smart money (Commercials) and dumb money (Retail) are doing. Net Normalization shows net positions as a percentage of Open Interest to compare across markets. Dynamic Fills highlight net positions above and below the zero line. Alerts notify when a group (Commercials or Large Specs) flips from net long to net short or vice versa. 3 groups are plotted on 1 chart: Commercials, Large Specs and Retail. EdgeTrading Pro membership."
     },
     {
       "id": "ar-03-seasonality-year-average",
@@ -40,7 +40,7 @@
       "image_headline": "الموسمية — التوقع بالخط المتقطع",
       "questions": ["الموسمية بدّلت عندك جهة الصفقة ولا لا؟"],
       "cta": "مقاعد المؤسسين في EdgeTrading Pro مفتوحة — ابعتلي رسالة وأبعتلك التفاصيل.",
-      "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Indicator #3 Seasonality_OTC: reveals recurring market patterns that occur at specific times of the year. Future Projection visually distinguishes the projected future seasonality using a dashed line. Year Count Label shows how many years of history are averaged for the current projection. The manual says to use Seasonality as a macro-filter before looking at Valuation or COT data. EdgeTrading Pro membership."
+      "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Indicator #3 Seasonality_OTC: the suite ships 4 indicators and Seasonality_OTC is 1 of them. It reveals recurring market patterns that occur at specific times of the year. Future Projection visually distinguishes the projected future seasonality using a dashed line. Year Count Label shows how many years of history are averaged for the current projection. The manual says to use Seasonality as a macro-filter before looking at Valuation or COT data. EdgeTrading Pro membership."
     },
     {
       "id": "ar-04-valuation-composite-score",
@@ -64,31 +64,31 @@
       "image_headline": "4 تأكيدات قبل أي صفقة",
       "questions": ["كم تأكيد من هذي الأربعة بتبقى تشترطها قبل أي دخول؟"],
       "cta": "مقاعد المؤسسين في EdgeTrading Pro مفتوحة — ابعتلي رسالة وأبعتلك التفاصيل.",
-      "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Example Trade Setup, the 4-Confirmation Long Setup: Seasonality pointing upwards, Commercials in the Upper Extreme above 80% and Large Specs in the Lower Extreme below 20% ideally triggering a Divergence marker, Commercials net long on the COT Report, and the Valuation Composite Score dipping into the Undervalued zone below minus 75 and curling upwards. EdgeTrading Pro membership."
+      "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Example Trade Setup, the 4-Confirmation Long Setup: 1. Seasonality, the seasonal projection pointing upwards. 2. COT Index, Commercials in the Upper Extreme above 80% and Large Specs in the Lower Extreme below 20%, ideally triggering a Divergence marker. 3. COT Report, Commercials net long. 4. Valuation, the Composite Score dipping into the Undervalued zone below minus 75 and curling upwards. EdgeTrading Pro membership."
     },
     {
       "id": "ar-06-local-bloomberg-terminal",
       "lang": "ar",
-      "title": "🖥️ 69 مسار في ترمinals محلي.. DCF وWACC وتحليل Z على جهازك أنت",
+      "title": "🖥️ 69 مسار في الترمنال المحلي.. DCF وWACC وتحليل Z على جهازك أنت",
       "body": "📌 StockerAI بيشتغل بالكامل على جهازك، من غير تسجيل دخول ولا اشتراك ولا بوابة مدفوعة\n📊 فيه Monte Carlo وAltman Z وPiotroski وBeneish وDuPont ومختبر سيناريوهات ولجنة استثمار\n⏱️ الأسعار الحية بتتحدّث كل 30 ثانية",
       "hashtags": ["#ethancole", "#سوق_اليوم", "#اقتصاد", "#أسهم", "#استثمار"],
       "image_src": "term_overview",
-      "image_headline": "ترمinals محلي — كله على جهازك",
-      "questions": ["شحال تدفع اليوم على ترمinals تحليل؟"],
+      "image_headline": "ترمنال محلي — كله على جهازك",
+      "questions": ["شحال تدفع اليوم على ترمنال تحليل؟"],
       "cta": "مقاعد المؤسسين في EdgeTrading Pro مفتوحة — ابعتلي رسالة وأبعتلك التفاصيل.",
-      "source": "StockerAI README: a personal Bloomberg-grade terminal, single-user, local-only, no auth, no billing, no premium gates. Flask server with 69 routes, a 21-filter screener, live quotes polling every 30 seconds and a ticker tape cached every 5 minutes. Analysis pipeline: DCF and WACC registry, Monte Carlo, CCA and DDM, Altman Z, Piotroski F, Beneish M, DuPont. Pages include watchlist, reports, market-feed, news-impact, filings, scenario-lab, committee, red-flags and portfolio. EdgeTrading Pro membership."
+      "source": "StockerAI README: a personal Bloomberg-grade terminal, single-user, local-only, running as 1 local process with 69 routes, no auth, no billing, no premium gates. The screener carries 21 TradingView filters, live quotes poll every 30 seconds and the ticker tape is cached every 5 minutes. Analysis pipeline: DCF and WACC registry, Monte Carlo, CCA and DDM, Altman Z, Piotroski F, Beneish M, DuPont. Pages include watchlist, reports, market-feed, news-impact, filings, scenario-lab, committee, red-flags and portfolio. EdgeTrading Pro membership."
     },
     {
       "id": "ar-07-nvda-model-fair-value",
       "lang": "ar",
       "title": "📉 Nvidia ($NVDA) عند 224.41$ — القيمة العادلة 266.71$",
-      "body": "📌 نموذج DCF بيحسب القيمة الجوهرية 258.07$ مع WACC 15% ونمو نهائي 2.5%\n🎲 1000 جولة Monte Carlo وP50 في 258.07$، و57 محلل على هدف 325.98$\n🗓️ الأرقام من تحديث 2026-09-03، مش من اليوم",
+      "body": "📌 نموذج DCF بيحسب القيمة الجوهرية 258.07$ مع WACC 15% ونمو نهائي 2.5%\n🎲 1000 جولة Monte Carlo، والنتيجة الوسطى 258.07$، و57 محلل على هدف 325.98$\n🗓️ الأرقام من تحديث 2026-09-03، مش من اليوم",
       "hashtags": ["#ethancole", "#سوق_اليوم", "#أسهم", "#استثمار", "#اقتصاد"],
       "image_src": "term_stats",
-      "image_headline": "Nvidia ($NVDA) — القيمة العادلة 266.71$",
+      "image_headline": "Nvidia ($NVDA) — القيمة العادلة 266.71 دولار",
       "questions": ["في إيه متغيّر بغيّره أولاً في نموذج WACC 15%؟"],
       "cta": "مقاعد المؤسسين في EdgeTrading Pro مفتوحة — ابعتلي رسالة وأبعتلك التفاصيل.",
-      "source": "StockerAI terminal run for NVDA, data refreshed 2026-09-03, price date 2026-09-02: live price $224.41, consensus target $325.98 from 57 analysts, BUY with 85% confidence, economic moat WIDE, quality 9/10, valuation assessment UNDERVALUED. DCF intrinsic value $258.07 on WACC 15.0% and terminal growth 2.5%, fair value midpoint $266.71 with a range of $226.71 to $306.72, Monte Carlo 1,000 trials with P50 $258.07, Bear $180.0, Fair $266.71, Bull $515.0, gross margin 74.67%, operating margin 66.24%, net margin 63.66%, ROE 117.21% with equity multiplier 16.97x, forward P/E 14.57x, PEG 0.56, total revenue $302.97B, operating cash flow $134.36B, beta 2.215, institutions 71.5%, short float 1.23%, next earnings 2026-11-17 with consensus EPS $2.47. EdgeTrading Pro membership."
+      "source": "StockerAI terminal run for NVDA, data refreshed 2026-09-03, price date 2026-09-02: live price $224.41, consensus target $325.98 from 57 analysts, BUY with 85% confidence, economic moat WIDE, quality 9/10, valuation assessment UNDERVALUED. DCF intrinsic value $258.07 on WACC 15.0% and terminal growth 2.5%; precalculated fair value midpoint $266.71 with a range of $226.71 to $306.72; Monte Carlo 1,000 trials with P50 $258.07; Bear $180.0, Fair $266.71, Bull $515.0; gross margin 74.67%, operating margin 66.24%, net margin 63.66%; ROE 117.21% with equity multiplier 16.97x, forward P/E 14.57x, PEG 0.56, total revenue $302.97B, operating cash flow $134.36B, beta 2.215, institutions 71.5%, short float 1.23%, next earnings 2026-11-17 with consensus EPS $2.47. EdgeTrading Pro membership."
     },
     {
       "id": "ar-08-screener-21-filters",
@@ -106,13 +106,13 @@
       "id": "ar-09-quant-reference-guide",
       "lang": "ar",
       "title": "📚 7 فصول بالمعادلات.. من CAPM لحد Altman Z وBeneish M",
-      "body": "📖 الدليل الداخلي بيشرح كل معادلة ومتغيراتها وعتباتها خطوة بخطوة\n🧮 فصول DCF وDuPont وZ-Score وF-Score وM-Score، مع جدول سريع في آخر الدليل\n💡 المعادلات مكتوبة بالتفصيل، مش مجرد أسماء",
+      "body": "📖 الدليل الداخلي بيشرح كل معادلة ومتغيراتها وعتباتها خطوة بخطوة\n🧮 7 فصول: DCF وDuPont وZ-Score وF-Score وM-Score، مع جدول سريع في آخر الدليل\n💡 المعادلات مكتوبة بالتفصيل، مش مجرد أسماء",
       "hashtags": ["#ethancole", "#سوق_اليوم", "#اقتصاد", "#أسهم", "#استثمار"],
       "image_src": "guide",
       "image_headline": "7 فصول بالمعادلات — من CAPM لـ Altman Z",
       "questions": ["أنهي معادلة تبغى تشرحلك خطوة بخطوة؟"],
       "cta": "مقاعد المؤسسين في EdgeTrading Pro مفتوحة — ابعتلي رسالة وأبعتلك التفاصيل.",
-      "source": "StockerAI Institutional Quantitative Reference Guide table of contents: CAPM and WACC Solver, Multi-Stage Discounted Cash Flow (DCF) Model, 3-Stage DuPont ROE Decomposition, Altman Z-Score, Piotroski F-Score, Beneish M-Score, 5-Year Log-Linear Historical Regression Trend, and an Appendix quick reference of all thresholds. Every section follows the same architecture: Theory, Formula, Variables, Thresholds, Case Diagnostic. EdgeTrading Pro membership."
+      "source": "StockerAI Institutional Quantitative Reference Guide: 7 numbered formula chapters — CAPM and WACC Solver, Multi-Stage Discounted Cash Flow (DCF) Model, 3-Stage DuPont ROE Decomposition, Altman Z-Score, Piotroski F-Score, Beneish M-Score, 5-Year Log-Linear Historical Regression Trend — plus an Appendix with a quick reference of all thresholds. Each section follows the same architecture: Theory, Formula, Variables, Thresholds, Case Diagnostic. EdgeTrading Pro membership."
     },
     {
       "id": "ar-10-premium-toolkit-free",
@@ -124,7 +124,7 @@
       "image_headline": "6 أدوات تحليلية — بدون بوابة مدفوعة",
       "questions": ["أنهي وحدة بتفتحها أولاً على اسم جديد؟"],
       "cta": "مقاعد المؤسسين في EdgeTrading Pro مفتوحة — ابعتلي رسالة وأبعتلك التفاصيل.",
-      "source": "StockerAI hub: Every premium terminal feature. $0 forever. DCF valuation, Monte Carlo, analyst-grade AI research, red-team risk, screeners, portfolio lab. The Premium toolkit is free and lists Screener with AI natural language, Scenario lab with bear base and bull models, Red flags running Beneish Altman and DuPont, Investment committee as a multi-agent debate, Earnings calendar across coverage, and Compare for head-to-head tickers. EdgeTrading Pro membership."
+      "source": "StockerAI hub: Every premium terminal feature, $0 forever, with 6 free modules. DCF valuation, Monte Carlo, analyst-grade AI research, red-team risk, screeners, portfolio lab. The Premium toolkit is free and lists Screener with AI natural language, Scenario lab with bear base and bull models, Red flags running Beneish Altman and DuPont, Investment committee as a multi-agent debate, Earnings calendar across coverage, and Compare for head-to-head tickers. EdgeTrading Pro membership."
     },
     {
       "id": "ar-11-valuation-settings",
@@ -141,26 +141,26 @@
     {
       "id": "ar-12-cot-report-open-interest",
       "lang": "ar",
-      "title": "📊 صافي المراكز كنسبة من الفاتحة الإجمالية — تقرير COT يوحّد المقارنة",
+      "title": "📊 تقرير COT: صافي المراكز % من الفاتحة الإجمالية — 3 جماعات على 1 محور",
       "body": "📐 نفس المحور للمتاجر والكبار والعاديين، مش لكل واحد وحده\n🔔 التنبيه يشتغل لمّا جماعة تقلب من شراء صافي لبيع صافي\n📊 فسوق صغير وسوق ضخم يبانوا بنفس المقياس، وهنا القيمة",
       "hashtags": ["#ethancole", "#سوق_اليوم", "#أسهم", "#استثمار", "#اقتصاد"],
       "image_src": "cot_report",
       "image_headline": "تقرير COT — صافي المراكز % من الفاتحة",
       "questions": ["واش تطبّع المراكز بنسبة الفاتحة قبل ما تثق فيهم؟"],
       "cta": "مقاعد المؤسسين في EdgeTrading Pro مفتوحة — ابعتلي رسالة وأبعتلك التفاصيل.",
-      "source": "EdgeTrading 4-in-1 Pro Indicator Suite, Indicator #1 COT Report: net positions normalized as a percentage of Open Interest to easily compare across different markets, with dynamic fills highlighting net positions above and below the zero line. The live chart in the suite brochure plots the three groups Commercials, Large Specs and Retail. EdgeTrading Pro membership."
+      "source": "EdgeTrading 4-in-1 Pro Indicator Suite, Indicator #1 COT Report: net positions normalized as a percentage of Open Interest to easily compare across different markets, with dynamic fills above and below the zero line. 3 groups share 1 axis: Commercials, Large Specs and Retail. The live chart in the suite brochure plots those groups against the U.S. Dollar Index futures. EdgeTrading Pro membership."
     },
     {
       "id": "ar-13-founding-member",
       "lang": "ar",
-      "title": "🎟️ مقاعد المؤسسين: 4 مؤشرات Pine مع ترمinals محلي",
-      "body": "📦 حزمة Pine Script فيها 4 مؤشرات مع دليل PDF وملفات txt مفتوحة، والتحديثات مدى الحياة\n⏱️ التفعيل أقل من 5 دقايق باش تشوف أول نتيجة، حتى على الحساب المجاني\n🎁 عضوية EdgeTrading Pro تجمع الحزمة مع الترمinals المحلي",
+      "title": "🎟️ مقاعد المؤسسين: 4 مؤشرات Pine مع الترمنال المحلي",
+      "body": "📦 حزمة Pine Script فيها 4 مؤشرات مع دليل PDF وملفات txt مفتوحة، والتحديثات مدى الحياة\n⏱️ التفعيل أقل من 5 دقايق باش تشوف أول نتيجة، حتى على الحساب المجاني\n🎁 عضوية EdgeTrading Pro تجمع الحزمة مع الترمنال المحلي، مش محتاج اشتراك",
       "hashtags": ["#ethancole", "#سوق_اليوم", "#اقتصاد", "#أسهم", "#استثمار"],
       "image_src": "hero",
       "image_headline": "مقاعد المؤسسين — EdgeTrading Pro",
-      "questions": ["أول حاجة تبغى تأتمتها في الترمinals: السكرينر ولا التقييم؟"],
+      "questions": ["أول حاجة تبغى تأتمتها في الترمنال: السكرينر ولا التقييم؟"],
       "cta": "مقاعد المؤسسين في EdgeTrading Pro مفتوحة — ابعتلي رسالة وأبعتلك التفاصيل.",
-      "source": "EdgeTrading 4-in-1 Pro Indicator Suite: a premium set of tools for TradingView, inspired by the strategies of a funded swing trader, combining four indicators. Delivery is a ZIP of raw Pine Script txt files (COTIndex, COTReport, Seasonality, Valuation and the Edge Trading Oscillator) plus a PDF installation manual. The free TradingView plan works because the code is pasted in by the user, installation takes under 5 minutes, and lifetime updates are included. Disclaimer: educational purposes only, not financial advice. EdgeTrading Pro membership."
+      "source": "EdgeTrading 4-in-1 Pro Indicator Suite: a premium set of 4 tools for TradingView, inspired by the strategies of a funded swing trader. Delivery is a ZIP of raw Pine Script .txt files (COTIndex, COTReport, Seasonality, Valuation and the Edge Trading Oscillator) plus a PDF installation manual. The free TradingView plan works because the code is pasted in by the user, installation takes under 5 minutes, and lifetime updates are included. Disclaimer: educational purposes only, not financial advice. EdgeTrading Pro membership."
     }
   ]
 }
