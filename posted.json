@@ -31,6 +31,7 @@
     "1962708cba969b70",
     "1db3d85a5eefcd9c",
     "1ee80daa10c57716",
+    "21c7dbcb4d52ef5f",
     "21ef9201893a99f1",
     "22d5c45b7327d829",
     "240cca53e4daffc5",
@@ -248,10 +249,9 @@
   },
   "day_counts": {
     "2026-10-19": 7,
-    "2026-10-21": 2
+    "2026-10-21": 3
   },
   "recent_titles": [
-    "\ud83d\udea8\ud83c\uddf0\ud83c\uddf7 REGULATION: South Korea's 22% crypto tax has already been delayed three times. Now the country's five biggest exchanges are meeting the government on Tuesday to push for a fourth, with a ruling...",
     "Calls for a \"Black Monday\" are spreading rapidly across social media right now. If history is any guide, this means the S&P 500 should hit 8,000 soon. Ignore the noise. Read our analysis below.",
     "Billionaire investor Paul Tudor Jones says 2027 could be a really challenging year for the stock market. Ray Dalio recently called AI a \u201cclassic bubble.\" Yardeni Research cut its year-end S&P 500 t...",
     "Large US bank stocks are under historic pressure: The KBW Bank Index has dropped for 6 consecutive weeks, its longest streak since the 2008 Financial Crisis. This also marks its 3rd-longest streak ...",
@@ -265,27 +265,19 @@
     "JPMorgan warns that rising 30-year Treasury yields are becoming a growing threat to small- and mid-cap stocks. The driver: deteriorating government finances around the world. About 60% of global GD...",
     "Bitcoin whale moves $34 million in BTC it got in 2013 when coins traded at $131",
     "Israel and the United States will almost certainly attack Iran once again. This will mark the final chapter of this war. Through this attack, Trump and Netanyahu will fully carry out the threats th...",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury Department to buy back up to $750 million in longer-term debt today \ud83d\udc40 Buy Bitcoin \ud83d\ude80"
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury Department to buy back up to $750 million in longer-term debt today \ud83d\udc40 Buy Bitcoin \ud83d\ude80",
+    "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started \ud83d\udc40 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi..."
   ],
   "last_post": {
-    "hash": "052dbc27902715d9",
-    "fb_id": "1421089964411983_122114611725491654",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury Department to buy back up to $750 million in longer-term debt today \ud83d\udc40 Buy Bitcoin \ud83d\ude80",
-    "link": "https://x.com/BitcoinMagazine/status/2112930543319085173",
-    "mode": "serious",
-    "at": "2026-10-21T16:06:27.675433+00:00"
+    "hash": "21c7dbcb4d52ef5f",
+    "fb_id": "1419678856449311",
+    "title": "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started \ud83d\udc40 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi...",
+    "link": "https://x.com/BitcoinMagazine/status/2112652180159127683",
+    "mode": "viral",
+    "kind": "video",
+    "at": "2026-10-21T16:16:45.815472+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122112282291491654",
-      "topics": [
-        "ai",
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "hires",
-      "at": "2026-10-16T02:36:25.100098+00:00"
-    },
     {
       "fb_id": "1421089964411983_122112292209491654",
       "topics": [
@@ -745,26 +737,18 @@
       "mode": "serious",
       "photo": "hires",
       "at": "2026-10-21T16:06:27.675433+00:00"
+    },
+    {
+      "fb_id": "1419678856449311",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "at": "2026-10-21T16:16:45.815472+00:00"
     }
   ],
-  "last_video_post": "2026-10-19",
+  "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "$30",
-        "$44",
-        "AI",
-        "BY",
-        "COULD",
-        "GDP",
-        "PUSH",
-        "TO",
-        "anthropic",
-        "clark",
-        "jack"
-      ],
-      "at": "2026-10-18T02:17:04.470784+00:00"
-    },
     {
       "fp": [
         "IRGC",
@@ -1012,6 +996,18 @@
         "treasury"
       ],
       "at": "2026-10-21T16:06:27.675418+00:00"
+    },
+    {
+      "fp": [
+        "$20,000",
+        "NEW",
+        "bitcoin",
+        "charles",
+        "michael",
+        "saylor",
+        "schwab"
+      ],
+      "at": "2026-10-21T16:16:45.815461+00:00"
     }
   ],
   "recent_hooks": [
