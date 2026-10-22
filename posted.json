@@ -203,6 +203,7 @@
     "e488ece656bff226",
     "e4a2f6ec34634ed5",
     "e50973c2a4ff38c6",
+    "e56a10738c3298e8",
     "e6b870c80c40e563",
     "e72a683e3c7b9b38",
     "e8adf47b4abfd467",
@@ -238,13 +239,49 @@
     "fedd312ac1d31a6d"
   ],
   "tuner": {
-    "topics": {},
-    "mult": {},
-    "updated": "2026-10-21"
+    "topics": {
+      "fed": {
+        "n": 2,
+        "e": 0
+      },
+      "stocks": {
+        "n": 8,
+        "e": 9
+      },
+      "power": {
+        "n": 9,
+        "e": 15
+      },
+      "gold": {
+        "n": 1,
+        "e": 0
+      },
+      "inflation": {
+        "n": 4,
+        "e": 0
+      },
+      "gold_oil": {
+        "n": 3,
+        "e": 3
+      },
+      "crypto": {
+        "n": 7,
+        "e": 12
+      }
+    },
+    "mult": {
+      "fed": 0.85,
+      "stocks": 0.99,
+      "power": 1.14,
+      "inflation": 0.85,
+      "gold_oil": 0.96,
+      "crypto": 1.15
+    },
+    "updated": "2026-10-22"
   },
   "comment_review": {
     "posts": 8,
-    "comments": 0,
+    "comments": 9,
     "likes": 0,
     "questions": 0,
     "praise": 0,
@@ -252,14 +289,13 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-21"
+    "updated": "2026-10-22"
   },
   "day_counts": {
-    "2026-10-19": 7,
-    "2026-10-21": 10
+    "2026-10-21": 10,
+    "2026-10-22": 1
   },
   "recent_titles": [
-    "Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears",
     "Trump on Ukraine: My decision on Russia is a very simple one. I am in the process of negotiating Peace in the war between Russia and Ukraine, and don\u2019t want to do anything that will drive, foolishl...",
     "Bitcoin, Korea\u2019s Kospi and Nasdaq futures rally as China GDP beats estimates",
     "JPMorgan warns that rising 30-year Treasury yields are becoming a growing threat to small- and mid-cap stocks. The driver: deteriorating government finances around the world. About 60% of global GD...",
@@ -273,27 +309,18 @@
     "JUST IN: JPMorgan more than doubles its SpaceX $SPCX price target from $240 to $500.",
     "\ud83d\udea8 DAVID M. SABATINI \u2014 FROM A POTENTIAL NOBEL LAUREATE TO NEARLY SIX YEARS OF PROFESSIONAL DESTRUCTION AND PERSONAL SUFFERING $6 MILLION IN DAMAGES \u2014 BUT WHO CAN RESTORE NEARLY SIX LOST YEARS OF AN ...",
     "\ud83c\uddfa\ud83c\uddf8 JUST IN: Polymarket traders put Democrats\u2019 chances of winning the Senate in 2026 at 67%, versus 34% for Republicans.",
-    "NEW: The U.S. and Israel are preparing for possible renewed strikes on Iran after the November midterm elections, targeting nuclear facilities, missile systems, and potentially energy infrastructur..."
+    "NEW: The U.S. and Israel are preparing for possible renewed strikes on Iran after the November midterm elections, targeting nuclear facilities, missile systems, and potentially energy infrastructur...",
+    "BREAKING: The 15 largest S&P 500 stocks now account for a record 46.7% of the index\u2019s market value. By comparison, during the 2000 Dot-Com Bubble, the 15 largest stocks accounted for 27.2% of the S..."
   ],
   "last_post": {
-    "hash": "cbafc1476ecb3a4b",
-    "fb_id": "1421089964411983_122114707287491654",
-    "title": "NEW: The U.S. and Israel are preparing for possible renewed strikes on Iran after the November midterm elections, targeting nuclear facilities, missile systems, and potentially energy infrastructur...",
-    "link": "https://x.com/clashreport/status/2113045619702997134",
-    "mode": "serious",
-    "at": "2026-10-21T23:42:31.142772+00:00"
+    "hash": "e56a10738c3298e8",
+    "fb_id": "1421089964411983_122114723259491654",
+    "title": "BREAKING: The 15 largest S&P 500 stocks now account for a record 46.7% of the index\u2019s market value. By comparison, during the 2000 Dot-Com Bubble, the 15 largest stocks accounted for 27.2% of the S...",
+    "link": "https://x.com/KobeissiLetter/status/2112729083876405561",
+    "mode": "viral",
+    "at": "2026-10-22T01:07:06.311368+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122112355539491654",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "split:flag+face",
-      "at": "2026-10-16T07:06:04.782853+00:00"
-    },
     {
       "fb_id": "1421089964411983_122112365451491654",
       "topics": [
@@ -754,31 +781,20 @@
       "mode": "serious",
       "photo": "source",
       "at": "2026-10-21T23:42:31.142772+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122114723259491654",
+      "topics": [
+        "ai",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-22T01:07:06.311368+00:00"
     }
   ],
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "BAC",
-        "C",
-        "KBW",
-        "STT",
-        "US",
-        "america",
-        "bank",
-        "citigroup",
-        "crisis",
-        "financial",
-        "index",
-        "june",
-        "large",
-        "state",
-        "street",
-        "this"
-      ],
-      "at": "2026-10-18T07:04:22.551075+00:00"
-    },
     {
       "fp": [
         "$52",
@@ -1018,10 +1034,26 @@
         "trump"
       ],
       "at": "2026-10-21T23:42:31.142761+00:00"
+    },
+    {
+      "fp": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "NVDA",
+        "alphabet",
+        "apple",
+        "bubble",
+        "com",
+        "dot",
+        "microsoft",
+        "nvidia",
+        "this"
+      ],
+      "at": "2026-10-22T01:07:06.311350+00:00"
     }
   ],
   "recent_hooks": [
-    "\u26a0\ufe0f \u0628\u064a\u0644 \u0623\u0643\u0645\u0627\u0646: \"\u0628\u0639\u0636 \u0627\u0644\u062d\u0627\u062c\u0627\u062a \u0645\u0628\u062a\u062a\u063a\u064a\u0631\u0634!\" \u0623\u0645\u0631\u064a\u0643\u0627 \u0628\u062a\u062f\u0639\u0645 \u0625\u0633\u0631\u0627\u0626\u064a\u0644 \u0628\u0623\u0633\u0644\u062d\u0629 \u0632\u064a 1973 \u0628\u0627\u0644\u0638\u0628\u0637",
     "\ud83d\udcc8 \u0623\u0643\u062b\u0631 \u0645\u0646 70 \u0634\u0631\u0643\u0629 \u0641\u064a S&P 500 \u0628\u062a\u0639\u0644\u0646 \u0623\u0631\u0628\u0627\u062d\u0647\u0627 \u0627\u0644\u064a\u0648\u0645.. \u0628\u0645\u0627 \u0641\u064a\u0647\u0627 Tesla ($TSLA) \u0648 Meta ($META)",
     "\ud83c\udfe6 Deutsche Bank \u062a\u0639\u0644\u0646 \u0639\u0646 \u062a\u0648\u0633\u064a\u0639 \u062e\u062f\u0645\u0627\u062a \u0627\u0644\u062d\u0641\u0638 \u0644\u0644\u0639\u0645\u0644\u0627\u062a \u0627\u0644\u0631\u0642\u0645\u064a\u0629 \u0641\u064a \u0622\u0633\u064a\u0627 \u0628\u062d\u0644\u0648\u0644 2027\u060c \u0645\u0639 \u0642\u0631\u0628 \u0625\u0637\u0644\u0627\u0642 \u0627\u0644\u062e\u062f\u0645\u0629 \u0641\u064a \u0623\u0644\u0645\u0627\u0646\u064a\u0627",
     "\ud83c\uddfa\ud83c\uddf8 \u062a\u0631\u0627\u0645\u0628: \u0642\u0631\u0627\u0631\u064a \u0628\u0634\u0623\u0646 \u0631\u0648\u0633\u064a\u0627 \u0628\u0633\u064a\u0637 \u062c\u062f\u0627\u064b\u060c \"\u0623\u0646\u0627 \u0641\u064a \u0639\u0645\u0644\u064a\u0629 \u0627\u0644\u062a\u0641\u0627\u0648\u0636 \u0639\u0644\u0649 \u0627\u0644\u0633\u0644\u0627\u0645 \u0641\u064a \u0627\u0644\u062d\u0631\u0628 \u0628\u064a\u0646 \u0631\u0648\u0633\u064a\u0627 \u0648\u0623\u0648\u0643\u0631\u0627\u0646\u064a\u0627\".",
@@ -1035,9 +1067,10 @@
     "\ud83d\ude80 JPMorgan \u0631\u0641\u0639 \u0627\u0644\u0633\u0639\u0631 \u0627\u0644\u0645\u0633\u062a\u0647\u062f\u0641 \u0644\u0634\u0631\u0643\u0629 SpaceX \u0644\u0640 500 \u062f\u0648\u0644\u0627\u0631 \u0628\u062f\u0644 240 \u062f\u0648\u0644\u0627\u0631 \u062f\u0641\u0639\u0629 \u0648\u0627\u062d\u062f\u0629",
     "\ud83d\udea8 \u0627\u0644\u0645\u0644\u064a\u0627\u0631\u062f\u064a\u0631 \u0645\u0627\u064a\u0643\u0644 \u0623\u0643\u0631\u0645\u0627\u0646 \u064a\u0643\u0634\u0641 \u0643\u0648\u0627\u0644\u064a\u0633 \u062a\u062f\u0645\u064a\u0631 \u062d\u064a\u0627\u0629 \u0627\u0644\u0639\u0627\u0644\u0645 \u062f\u064a\u0641\u064a\u062f \u0633\u0627\u0628\u0627\u062a\u064a\u0646\u064a \u0628\u0639\u062f 6 \u0633\u0646\u064a\u0646 \u0645\u0639\u0627\u0646\u0627\u0629 \u0648\u062a\u0639\u0648\u064a\u0636 6 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631",
     "\ud83c\uddfa\ud83c\uddf8 \u0628\u0639\u062f \u0631\u0647\u0627\u0646\u0627\u062a \u0628\u0645\u0644\u064a\u0627\u0631\u0627\u062a.. \u0645\u062a\u062f\u0627\u0648\u0644\u0648 \u0645\u0646\u0635\u0629 \u0627\u0644\u062a\u0648\u0642\u0639\u0627\u062a Polymarket \u0628\u064a\u0645\u064a\u0644\u0648\u0627 \u0644\u0644\u062d\u0632\u0628 \u0627\u0644\u062f\u064a\u0645\u0642\u0631\u0627\u0637\u064a \u0628\u0646\u0633\u0628\u0629 67% \u0644\u0644\u0633\u064a\u0637\u0631\u0629 \u0639\u0644\u0649 \u0645\u062c\u0644\u0633 \u0627\u0644\u0634\u064a\u0648\u062e \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a \u0641\u064a 2026",
-    "\ud83d\udca5 \"\u0636\u0631\u0628\u0629 \u0645\u062d\u062a\u0645\u0644\u0629 \u0644\u0640 \u0627\u0644\u0645\u0646\u0634\u0622\u062a \u0627\u0644\u0625\u064a\u0631\u0627\u0646\u064a\u0629 \u0628\u0639\u062f \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \u0623\u0645\u0631\u064a\u0643\u0627\".. \u0623\u0645\u0631\u064a\u0643\u0627 \u0648\u0625\u0633\u0631\u0627\u0626\u064a\u0644 \u0628\u064a\u062d\u0636\u0631\u0648\u0627 \u0644\u062e\u0637\u0629 \u062c\u062f\u064a\u062f\u0629 \u062a\u0633\u062a\u0647\u062f\u0641 \u0627\u0644\u0637\u0627\u0642\u0629 \u0648\u0627\u0644\u0646\u0648\u0648\u064a"
+    "\ud83d\udca5 \"\u0636\u0631\u0628\u0629 \u0645\u062d\u062a\u0645\u0644\u0629 \u0644\u0640 \u0627\u0644\u0645\u0646\u0634\u0622\u062a \u0627\u0644\u0625\u064a\u0631\u0627\u0646\u064a\u0629 \u0628\u0639\u062f \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \u0623\u0645\u0631\u064a\u0643\u0627\".. \u0623\u0645\u0631\u064a\u0643\u0627 \u0648\u0625\u0633\u0631\u0627\u0626\u064a\u0644 \u0628\u064a\u062d\u0636\u0631\u0648\u0627 \u0644\u062e\u0637\u0629 \u062c\u062f\u064a\u062f\u0629 \u062a\u0633\u062a\u0647\u062f\u0641 \u0627\u0644\u0637\u0627\u0642\u0629 \u0648\u0627\u0644\u0646\u0648\u0648\u064a",
+    "\ud83d\udcc9 \u0628\u0639\u062f \u0645\u0627 \u0623\u0643\u0628\u0631 15 \u0634\u0631\u0643\u0629 \u0641\u064a \u0645\u0624\u0634\u0631 S&P 500 \u0628\u0644\u0639\u062a 46.7% \u0645\u0646 \u0642\u064a\u0645\u062a\u0647.. \u0627\u0644\u0633\u0648\u0642 \u0623\u0645\u0631\u064a\u0643\u0627 \u0623\u0643\u0644\u062a\u0647 \u0627\u0644\u062d\u064a\u062a\u0627\u0646"
   ],
-  "shape_idx": 153,
+  "shape_idx": 154,
   "replied_comments": [
     "122114614443491654_1148050547655010",
     "122114614443491654_1474684037847818",
@@ -1046,7 +1079,8 @@
     "122114645541491654_2349410402542487",
     "122114656449491654_915933041457740",
     "122114684781491654_1377240554485603",
-    "122114698101491654_1136490695382282"
+    "122114698101491654_1136490695382282",
+    "122114707287491654_1163033439729006"
   ],
   "product_posts_used": [
     "ar-01-cot-index-extremes"
