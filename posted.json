@@ -243,48 +243,44 @@
   ],
   "tuner": {
     "topics": {
-      "fed": {
-        "n": 2,
-        "e": 0
-      },
-      "stocks": {
-        "n": 8,
-        "e": 9
-      },
-      "power": {
-        "n": 9,
-        "e": 15
-      },
-      "gold": {
-        "n": 1,
-        "e": 0
-      },
-      "inflation": {
-        "n": 4,
-        "e": 0
-      },
       "gold_oil": {
         "n": 3,
         "e": 3
       },
+      "power": {
+        "n": 9,
+        "e": 18
+      },
       "crypto": {
-        "n": 7,
-        "e": 12
+        "n": 10,
+        "e": 21
+      },
+      "inflation": {
+        "n": 3,
+        "e": 0
+      },
+      "stocks": {
+        "n": 8,
+        "e": 15
+      },
+      "ai": {
+        "n": 1,
+        "e": 3
       }
     },
     "mult": {
       "fed": 0.85,
-      "stocks": 0.99,
+      "stocks": 1.01,
       "power": 1.14,
-      "inflation": 0.85,
-      "gold_oil": 0.96,
-      "crypto": 1.15
+      "inflation": 0.74,
+      "gold_oil": 0.84,
+      "crypto": 1.16
     },
-    "updated": "2026-10-22"
+    "updated": "2026-10-23"
   },
   "comment_review": {
     "posts": 8,
-    "comments": 9,
+    "comments": 8,
     "likes": 0,
     "questions": 0,
     "praise": 0,
@@ -292,7 +288,7 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-22"
+    "updated": "2026-10-23"
   },
   "day_counts": {
     "2026-10-21": 10,
