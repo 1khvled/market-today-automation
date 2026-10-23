@@ -155,6 +155,7 @@
     "9e7a35d8c4d94bb6",
     "9f162789c72b6097",
     "9fa77ac736134657",
+    "a10ba89d087a6b53",
     "a23d3c794e093681",
     "a26723d092184d6c",
     "a2c6cf467d5f8672",
@@ -292,10 +293,10 @@
   },
   "day_counts": {
     "2026-10-21": 10,
-    "2026-10-22": 4
+    "2026-10-22": 4,
+    "2026-10-23": 1
   },
   "recent_titles": [
-    "Bitcoin whale moves $34 million in BTC it got in 2013 when coins traded at $131",
     "Israel and the United States will almost certainly attack Iran once again. This will mark the final chapter of this war. Through this attack, Trump and Netanyahu will fully carry out the threats th...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury Department to buy back up to $750 million in longer-term debt today \ud83d\udc40 Buy Bitcoin \ud83d\ude80",
     "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started \ud83d\udc40 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi...",
@@ -309,27 +310,18 @@
     "BREAKING: The 15 largest S&P 500 stocks now account for a record 46.7% of the index\u2019s market value. By comparison, during the 2000 Dot-Com Bubble, the 15 largest stocks accounted for 27.2% of the S...",
     "\ud83d\udea8 LATEST: bitcoin:native treasury companies are back in profit with Bitcoin trading above their roughly $80K cost basis since Sept. 18, yet they\u2019ve barely resumed buying, per @glassnode .",
     "Canadian Prime Minister Mark Carney to arrive in Ankara today, the first bilateral visit to T\u00fcrkiye by a Canadian leader, as he seeks to reduce Canada\u2019s reliance on the United States. He is set to ...",
-    "JUST IN: \ud83c\udde6\ud83c\uddea Robinhood $HOOD officially receives approval from Dubai to launch crypto trading in the Middle East."
+    "JUST IN: \ud83c\udde6\ud83c\uddea Robinhood $HOOD officially receives approval from Dubai to launch crypto trading in the Middle East.",
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf1\ud83c\uddf8\ud83c\udde6 A bombshell Vanity Fair excerpt from Princes and Thieves alleges that Jared Kushner\u2019s hacked iPhone exposed secret discussions in which he promised to advance the agendas of Saudi ..."
   ],
   "last_post": {
-    "hash": "d570ddbf2c7fbd4e",
-    "fb_id": "1421089964411983_122114955207491654",
-    "title": "JUST IN: \ud83c\udde6\ud83c\uddea Robinhood $HOOD officially receives approval from Dubai to launch crypto trading in the Middle East.",
-    "link": "https://x.com/WatcherGuru/status/2113273803837190179",
+    "hash": "a10ba89d087a6b53",
+    "fb_id": "1421089964411983_122115143139491654",
+    "title": "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf1\ud83c\uddf8\ud83c\udde6 A bombshell Vanity Fair excerpt from Princes and Thieves alleges that Jared Kushner\u2019s hacked iPhone exposed secret discussions in which he promised to advance the agendas of Saudi ...",
+    "link": "https://x.com/Megatron_ron/status/2113386023522902417",
     "mode": "viral",
-    "at": "2026-10-22T16:32:02.795193+00:00"
+    "at": "2026-10-23T06:47:48.461633+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122112745131491654",
-      "topics": [
-        "power",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "split:flag+face",
-      "at": "2026-10-17T00:47:27.236962+00:00"
-    },
     {
       "fb_id": "1421089964411983_122112763089491654",
       "topics": [
@@ -790,23 +782,19 @@
       "mode": "viral",
       "photo": "split:scene",
       "at": "2026-10-22T16:32:02.795193+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122115143139491654",
+      "topics": [
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-23T06:47:48.461633+00:00"
     }
   ],
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "emmanuel",
-        "french",
-        "iran",
-        "macron",
-        "president",
-        "trump"
-      ],
-      "at": "2026-10-19T01:35:39.526638+00:00"
-    },
     {
       "fp": [
         "asia",
@@ -1030,10 +1018,32 @@
         "robinhood"
       ],
       "at": "2026-10-22T16:32:02.795172+00:00"
+    },
+    {
+      "fp": [
+        "$10",
+        "BILLIO",
+        "UAE",
+        "bin",
+        "crown",
+        "fair",
+        "jared",
+        "kushner",
+        "mohamed",
+        "president",
+        "prince",
+        "princes",
+        "salman",
+        "saudi",
+        "thieves",
+        "trump",
+        "vanity",
+        "zayed"
+      ],
+      "at": "2026-10-23T06:47:48.461616+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udcc8 \"\u0646\u0645\u0648 \u0627\u0644\u0635\u064a\u0646 \u0641\u0627\u0642 \u0627\u0644\u062a\u0648\u0642\u0639\u0627\u062a\".. \u062f\u0647 \u0627\u0644\u0644\u064a \u0631\u0641\u0639 BTC \u0648\u0627\u0644\u0623\u0633\u0647\u0645 \u0627\u0644\u0639\u0627\u0644\u0645\u064a\u0629!",
     "\ud83d\udcc9 \u062c\u0649 \u0628\u0649 \u0645\u0648\u0631\u062c\u0627\u0646: \u0639\u0627\u0626\u062f \u0627\u0644\u0633\u0646\u062f\u0627\u062a \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0644\u0640 30 \u0633\u0646\u0629 \u0628\u064a\u0647\u062f\u062f \u0627\u0644\u0623\u0633\u0647\u0645 \u0627\u0644\u0635\u063a\u064a\u0631\u0629 \u0648\u0627\u0644\u0645\u062a\u0648\u0633\u0637\u0629",
     "\ud83d\udc33 \u062d\u0648\u062a \u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0646\u0642\u0644 34 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0645\u0646 BTC \u0627\u0644\u0644\u064a \u062d\u0635\u0644 \u0639\u0644\u064a\u0647\u0627 \u0633\u0646\u0629 2013 \u0644\u0645\u0627 \u0643\u0627\u0646 \u0627\u0644\u0633\u0639\u0631 131 \u062f\u0648\u0644\u0627\u0631",
     "\ud83d\udee2\ufe0f \u062a\u0631\u0627\u0645\u0628 \u0648\u0646\u062a\u0646\u064a\u0627\u0647\u0648 \u0647\u064a\u0636\u0631\u0628\u0648\u0627 \u0625\u064a\u0631\u0627\u0646 \u062a\u0627\u0646\u064a.. \u0648\u0647\u064a\u062f\u0645\u0631\u0648\u0627 \u0627\u0644\u0628\u0646\u064a\u0629 \u0627\u0644\u062a\u062d\u062a\u064a\u0629 \u0644\u0644\u0646\u0641\u0637 \u0628\u0627\u0644\u0643\u0627\u0645\u0644",
@@ -1047,9 +1057,10 @@
     "\ud83d\udcc9 \u0628\u0639\u062f \u0645\u0627 \u0623\u0643\u0628\u0631 15 \u0634\u0631\u0643\u0629 \u0641\u064a \u0645\u0624\u0634\u0631 S&P 500 \u0628\u0644\u0639\u062a 46.7% \u0645\u0646 \u0642\u064a\u0645\u062a\u0647.. \u0627\u0644\u0633\u0648\u0642 \u0623\u0645\u0631\u064a\u0643\u0627 \u0623\u0643\u0644\u062a\u0647 \u0627\u0644\u062d\u064a\u062a\u0627\u0646",
     "\ud83d\udcc9 \u0634\u0631\u0643\u0627\u062a \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0631\u062c\u0639\u062a \u062a\u0643\u0633\u0628 \u0628\u0639\u062f \u0645\u0627 BTC \u0639\u062f\u0649 \u0627\u0644\u0640 80,000 \u062f\u0648\u0644\u0627\u0631",
     "\ud83d\udeec \u0632\u064a\u0627\u0631\u0629 1 \u0644\u0643\u0627\u0631\u0646\u064a (Mark Carney) \u0644\u0644\u0623\u0646\u0642\u0631\u0629 \u0627\u0644\u064a\u0648\u0645\u060c \u0623\u0648\u0644 \u0632\u064a\u0627\u0631\u0629 \u0643\u0646\u062f\u064a\u0629 \u0644\u0631\u0626\u064a\u0633 \u062a\u0631\u0643\u064a\u0627\u060c \u0648\u0628\u064a\u0633\u0639\u0649 \u064a\u0642\u0644\u0644 \u0627\u0639\u062a\u0645\u0627\u062f \u0643\u0646\u062f\u0627 \u0639\u0644\u0649 \u0623\u0645\u0631\u064a\u0643\u0627.",
-    "\ud83c\udde6\ud83c\uddea \u0645\u0646\u0635\u0629 \u0627\u0644\u062a\u062f\u0627\u0648\u0644 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 Robinhood ($HOOD) \u062e\u062f\u062a \u0627\u0644\u0645\u0648\u0627\u0641\u0642\u0627\u062a \u0627\u0644\u0631\u0633\u0645\u064a\u0629 \u0641\u064a \u062f\u0628\u064a.. \u062e\u0644\u0627\u0635 \u062f\u0627\u062e\u0644\u064a\u0646 \u0633\u0648\u0642 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0641\u064a \u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637"
+    "\ud83c\udde6\ud83c\uddea \u0645\u0646\u0635\u0629 \u0627\u0644\u062a\u062f\u0627\u0648\u0644 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 Robinhood ($HOOD) \u062e\u062f\u062a \u0627\u0644\u0645\u0648\u0627\u0641\u0642\u0627\u062a \u0627\u0644\u0631\u0633\u0645\u064a\u0629 \u0641\u064a \u062f\u0628\u064a.. \u062e\u0644\u0627\u0635 \u062f\u0627\u062e\u0644\u064a\u0646 \u0633\u0648\u0642 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0641\u064a \u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637",
+    "\ud83d\udccc \u062c\u0627\u0631\u064a\u062f \u0643\u0648\u0634\u0646\u0631 \u0627\u062a\u0648\u0631\u0637 \u0641\u064a \u062a\u0633\u0631\u064a\u0628\u0627\u062a \u062a\u0642\u064a\u0644\u0629 \u0628\u0639\u062f \u0627\u062e\u062a\u0631\u0627\u0642 \u062a\u0644\u064a\u0641\u0648\u0646\u0647 \u0628\u062a\u0647\u0645\u0629 \u0628\u064a\u0639 \u0627\u0644\u0646\u0641\u0648\u0630 \u0644\u0635\u0627\u0644\u062d\u0647"
   ],
-  "shape_idx": 157,
+  "shape_idx": 158,
   "replied_comments": [
     "122114614443491654_1148050547655010",
     "122114614443491654_1474684037847818",
