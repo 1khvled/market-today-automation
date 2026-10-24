@@ -225,6 +225,7 @@
     "ef5cd9fc53be1c66",
     "efb052f68304f89a",
     "f041ccdd0f70088f",
+    "f36a9072ea0136d2",
     "f423d63bf056a5f2",
     "f5828dfd0f21b9c4",
     "f62ac207f6cb98a6",
@@ -295,10 +296,9 @@
   "day_counts": {
     "2026-10-22": 4,
     "2026-10-23": 1,
-    "2026-10-24": 1
+    "2026-10-24": 2
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury Department to buy back up to $750 million in longer-term debt today \ud83d\udc40 Buy Bitcoin \ud83d\ude80",
     "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started \ud83d\udc40 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi...",
     "Trump to throw spotlight on overseas crypto abuses at White House event",
     "BREAKING: JPMorgan doubled its price target on SpaceX, $SPCX, to $500, from $240. It kept its Overweight rating.",
@@ -312,25 +312,18 @@
     "Canadian Prime Minister Mark Carney to arrive in Ankara today, the first bilateral visit to T\u00fcrkiye by a Canadian leader, as he seeks to reduce Canada\u2019s reliance on the United States. He is set to ...",
     "JUST IN: \ud83c\udde6\ud83c\uddea Robinhood $HOOD officially receives approval from Dubai to launch crypto trading in the Middle East.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf1\ud83c\uddf8\ud83c\udde6 A bombshell Vanity Fair excerpt from Princes and Thieves alleges that Jared Kushner\u2019s hacked iPhone exposed secret discussions in which he promised to advance the agendas of Saudi ...",
-    "Argentinian judge drops fraud investigation into Milei over crypto scandal"
+    "Argentinian judge drops fraud investigation into Milei over crypto scandal",
+    "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions."
   ],
   "last_post": {
-    "hash": "d71a08a7ec03ae8d",
-    "fb_id": "1421089964411983_122115478923491654",
-    "title": "Argentinian judge drops fraud investigation into Milei over crypto scandal",
-    "link": "https://www.aljazeera.com/news/2026/10/24/argentinian-judge-drops-fraud-investigation-into-milei-over-crypto-scandal?traffic_source=rss",
-    "mode": "serious",
-    "at": "2026-10-24T02:00:16.809124+00:00"
+    "hash": "f36a9072ea0136d2",
+    "fb_id": "1421089964411983_122115554625491654",
+    "title": "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions.",
+    "link": "https://x.com/WatcherGuru/status/2113671451903414292",
+    "mode": "viral",
+    "at": "2026-10-24T06:46:38.071701+00:00"
   },
   "history": [
-    {
-      "fb_id": "4546432508958702",
-      "topics": [
-        "stocks"
-      ],
-      "mode": "serious",
-      "at": "2026-10-17T02:06:08.943923+00:00"
-    },
     {
       "fb_id": "1421089964411983_122112782133491654",
       "topics": [
@@ -792,21 +785,20 @@
       "mode": "serious",
       "photo": "og:image",
       "at": "2026-10-24T02:00:16.809124+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122115554625491654",
+      "topics": [
+        "crypto",
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "face",
+      "at": "2026-10-24T06:46:38.071701+00:00"
     }
   ],
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "great",
-        "peace",
-        "russia",
-        "signing",
-        "trump",
-        "ukraine"
-      ],
-      "at": "2026-10-19T02:47:22.012535+00:00"
-    },
     {
       "fp": [
         "GDP",
@@ -1042,10 +1034,20 @@
         "president"
       ],
       "at": "2026-10-24T02:00:16.809112+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "israeli",
+        "minister",
+        "netanyahu",
+        "prime"
+      ],
+      "at": "2026-10-24T06:46:38.071676+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udc33 \u062d\u0648\u062a \u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u0646\u0642\u0644 34 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0645\u0646 BTC \u0627\u0644\u0644\u064a \u062d\u0635\u0644 \u0639\u0644\u064a\u0647\u0627 \u0633\u0646\u0629 2013 \u0644\u0645\u0627 \u0643\u0627\u0646 \u0627\u0644\u0633\u0639\u0631 131 \u062f\u0648\u0644\u0627\u0631",
     "\ud83d\udee2\ufe0f \u062a\u0631\u0627\u0645\u0628 \u0648\u0646\u062a\u0646\u064a\u0627\u0647\u0648 \u0647\u064a\u0636\u0631\u0628\u0648\u0627 \u0625\u064a\u0631\u0627\u0646 \u062a\u0627\u0646\u064a.. \u0648\u0647\u064a\u062f\u0645\u0631\u0648\u0627 \u0627\u0644\u0628\u0646\u064a\u0629 \u0627\u0644\u062a\u062d\u062a\u064a\u0629 \u0644\u0644\u0646\u0641\u0637 \u0628\u0627\u0644\u0643\u0627\u0645\u0644",
     "\ud83d\udcb5 \u0648\u0632\u0627\u0631\u0629 \u0627\u0644\u062e\u0632\u0627\u0646\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0647\u062a\u0634\u062a\u0631\u064a \u062f\u064a\u0648\u0646 \u0637\u0648\u064a\u0644\u0629 \u0627\u0644\u0623\u062c\u0644 \u0628\u0642\u064a\u0645\u0629 750 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0627\u0644\u0646\u0647\u0627\u0631\u062f\u0647.",
     "\ud83d\udcac \"\u0627\u0644\u0645\u0633\u062a\u062b\u0645\u0631\u064a\u0646 \u0628\u064a\u062a\u0627\u0643\u0644 \u062d\u0642\u0647\u0645 \u0628\u0631\u0647\".. \u062a\u0631\u0627\u0645\u0628 \u0628\u064a\u0641\u062a\u062d \u0645\u0644\u0641 \u062a\u062c\u0627\u0648\u0632\u0627\u062a \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0641\u064a \u0627\u0644\u0628\u064a\u062a \u0627\u0644\u0623\u0628\u064a\u0636",
@@ -1059,9 +1061,10 @@
     "\ud83d\udeec \u0632\u064a\u0627\u0631\u0629 1 \u0644\u0643\u0627\u0631\u0646\u064a (Mark Carney) \u0644\u0644\u0623\u0646\u0642\u0631\u0629 \u0627\u0644\u064a\u0648\u0645\u060c \u0623\u0648\u0644 \u0632\u064a\u0627\u0631\u0629 \u0643\u0646\u062f\u064a\u0629 \u0644\u0631\u0626\u064a\u0633 \u062a\u0631\u0643\u064a\u0627\u060c \u0648\u0628\u064a\u0633\u0639\u0649 \u064a\u0642\u0644\u0644 \u0627\u0639\u062a\u0645\u0627\u062f \u0643\u0646\u062f\u0627 \u0639\u0644\u0649 \u0623\u0645\u0631\u064a\u0643\u0627.",
     "\ud83c\udde6\ud83c\uddea \u0645\u0646\u0635\u0629 \u0627\u0644\u062a\u062f\u0627\u0648\u0644 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 Robinhood ($HOOD) \u062e\u062f\u062a \u0627\u0644\u0645\u0648\u0627\u0641\u0642\u0627\u062a \u0627\u0644\u0631\u0633\u0645\u064a\u0629 \u0641\u064a \u062f\u0628\u064a.. \u062e\u0644\u0627\u0635 \u062f\u0627\u062e\u0644\u064a\u0646 \u0633\u0648\u0642 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0641\u064a \u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637",
     "\ud83d\udccc \u062c\u0627\u0631\u064a\u062f \u0643\u0648\u0634\u0646\u0631 \u0627\u062a\u0648\u0631\u0637 \u0641\u064a \u062a\u0633\u0631\u064a\u0628\u0627\u062a \u062a\u0642\u064a\u0644\u0629 \u0628\u0639\u062f \u0627\u062e\u062a\u0631\u0627\u0642 \u062a\u0644\u064a\u0641\u0648\u0646\u0647 \u0628\u062a\u0647\u0645\u0629 \u0628\u064a\u0639 \u0627\u0644\u0646\u0641\u0648\u0630 \u0644\u0635\u0627\u0644\u062d\u0647",
-    "\u2696\ufe0f \u0628\u0639\u062f \u0645\u0627 \u0627\u0644\u0642\u0636\u0627\u0621 \u0627\u0644\u0623\u0631\u062c\u0646\u062a\u064a\u0646\u064a \u0642\u0641\u0644 \u0642\u0636\u064a\u0629 \u0627\u0644\u0646\u0635\u0628.. \u062e\u0627\u0641\u064a\u064a\u0631 \u0645\u064a\u0644\u064a \u0628\u0631\u0627\u0621\u0629 \u0631\u0633\u0645\u064a \u0641\u064a \u0633\u0628\u0648\u0628\u0629 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648"
+    "\u2696\ufe0f \u0628\u0639\u062f \u0645\u0627 \u0627\u0644\u0642\u0636\u0627\u0621 \u0627\u0644\u0623\u0631\u062c\u0646\u062a\u064a\u0646\u064a \u0642\u0641\u0644 \u0642\u0636\u064a\u0629 \u0627\u0644\u0646\u0635\u0628.. \u062e\u0627\u0641\u064a\u064a\u0631 \u0645\u064a\u0644\u064a \u0628\u0631\u0627\u0621\u0629 \u0631\u0633\u0645\u064a \u0641\u064a \u0633\u0628\u0648\u0628\u0629 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648",
+    "\ud83c\uddee\ud83c\uddf1 \u0646\u062a\u0646\u064a\u0627\u0647\u0648 \u0628\u064a\u0643\u0644\u0641 \u0641\u0631\u064a\u0642\u0647 \u0628\u0648\u0636\u0639 \u062e\u0637\u0629 \u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0640 Crypto \u0648\u062a\u0643\u0646\u0648\u0644\u0648\u062c\u064a\u0627 \u0627\u0644\u0628\u0644\u0648\u0643\u0634\u064a\u0646 \u0644\u0644\u0647\u0631\u0648\u0628 \u0645\u0646 \u0623\u064a \u0639\u0642\u0648\u0628\u0627\u062a \u0645\u0627\u0644\u064a\u0629 \u0645\u062a\u0648\u0642\u0639\u0629"
   ],
-  "shape_idx": 159,
+  "shape_idx": 160,
   "replied_comments": [
     "122114614443491654_1148050547655010",
     "122114614443491654_1474684037847818",
@@ -1076,7 +1079,8 @@
     "122114790159491654_28973497512317005",
     "122114884575491654_4599941480289001",
     "122114955207491654_2179287532993086",
-    "122115143139491654_29030886126579621"
+    "122115143139491654_29030886126579621",
+    "122115478923491654_1456970579713266"
   ],
   "product_posts_used": [
     "ar-01-cot-index-extremes"
