@@ -235,6 +235,7 @@
     "f6ab0f1cbf1e0293",
     "f6fec4d1afc3d367",
     "f7bf2d0c5bf249ea",
+    "f7ffd76d635a268c",
     "f8ca9752326577ba",
     "f99897bde7abfc3a",
     "f9d7a58cfd4f31e8",
@@ -300,12 +301,11 @@
     "updated": "2026-10-25"
   },
   "day_counts": {
-    "2026-10-22": 4,
     "2026-10-23": 1,
-    "2026-10-24": 4
+    "2026-10-24": 4,
+    "2026-10-25": 1
   },
   "recent_titles": [
-    "BREAKING: JPMorgan doubled its price target on SpaceX, $SPCX, to $500, from $240. It kept its Overweight rating.",
     "Canada and Ontario unveil joint c$9 bln support package to help steel and auto sectors deal with US tariffs, and also boost critical minerals supply chain.",
     "JUST IN: JPMorgan more than doubles its SpaceX $SPCX price target from $240 to $500.",
     "\ud83d\udea8 DAVID M. SABATINI \u2014 FROM A POTENTIAL NOBEL LAUREATE TO NEARLY SIX YEARS OF PROFESSIONAL DESTRUCTION AND PERSONAL SUFFERING $6 MILLION IN DAMAGES \u2014 BUT WHO CAN RESTORE NEARLY SIX LOST YEARS OF AN ...",
@@ -319,28 +319,18 @@
     "Argentinian judge drops fraud investigation into Milei over crypto scandal",
     "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions.",
     "BREAKING: Spot gold falls below $4,000/oz for the first time since July 29th as US-Iran tensions escalate. This puts gold prices down -15% from their August 25th high.",
-    "CardoneCapital acquires another 16 BTC at $80,000"
+    "CardoneCapital acquires another 16 BTC at $80,000",
+    "JUST IN: Peter Schiff says Bitcoin is going to crash to $75,000. \"It's going to be a very long weekend for Bitcoiners.\""
   ],
   "last_post": {
-    "hash": "e45e812e9c9ebd7b",
-    "fb_id": "1421089964411983_122115737487491654",
-    "title": "CardoneCapital acquires another 16 BTC at $80,000",
-    "link": "https://x.com/GrantCardone/status/2114004003348726161",
+    "hash": "f7ffd76d635a268c",
+    "fb_id": "1421089964411983_122115863655491654",
+    "title": "JUST IN: Peter Schiff says Bitcoin is going to crash to $75,000. \"It's going to be a very long weekend for Bitcoiners.\"",
+    "link": "https://x.com/WatcherGuru/status/2114076494570127537",
     "mode": "viral",
-    "at": "2026-10-24T18:13:33.165796+00:00"
+    "at": "2026-10-25T05:34:59.931486+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122112864855491654",
-      "topics": [
-        "gold_oil",
-        "inflation",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "hires",
-      "at": "2026-10-17T08:31:23.988637+00:00"
-    },
     {
       "fb_id": "1421089964411983_122112870135491654",
       "topics": [
@@ -800,19 +790,19 @@
       "mode": "viral",
       "photo": "hires",
       "at": "2026-10-24T18:13:33.165796+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122115863655491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "hires",
+      "at": "2026-10-25T05:34:59.931486+00:00"
     }
   ],
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "$131",
-        "$34",
-        "BTC",
-        "bitcoin"
-      ],
-      "at": "2026-10-19T06:36:56.447693+00:00"
-    },
     {
       "fp": [
         "iran",
@@ -1049,10 +1039,21 @@
         "BTC"
       ],
       "at": "2026-10-24T18:13:33.165783+00:00"
+    },
+    {
+      "fp": [
+        "$75,000.",
+        "IN",
+        "JUST",
+        "bitcoin",
+        "bitcoiners",
+        "peter",
+        "schiff"
+      ],
+      "at": "2026-10-25T05:34:59.931467+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udcac \"\u0627\u0644\u0645\u0633\u062a\u062b\u0645\u0631\u064a\u0646 \u0628\u064a\u062a\u0627\u0643\u0644 \u062d\u0642\u0647\u0645 \u0628\u0631\u0647\".. \u062a\u0631\u0627\u0645\u0628 \u0628\u064a\u0641\u062a\u062d \u0645\u0644\u0641 \u062a\u062c\u0627\u0648\u0632\u0627\u062a \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0641\u064a \u0627\u0644\u0628\u064a\u062a \u0627\u0644\u0623\u0628\u064a\u0636",
     "\ud83d\ude80 \u0628\u0639\u062f \u0645\u0627 JPMorgan \u0631\u0641\u0639 \u0627\u0644\u0642\u064a\u0645\u0629 \u0627\u0644\u062a\u0642\u062f\u064a\u0631\u064a\u0629 \u0644\u0640 SpaceX ($SPCX) \u0644\u0644\u0636\u0639\u0641.. \u0627\u0644\u0633\u0647\u0645 \u0637\u0627\u0631 \u0644\u0645\u0633\u062a\u0647\u062f\u0641 500 \u062f\u0648\u0644\u0627\u0631 \u0628\u062f\u0644 240",
     "\ud83d\ude80 JPMorgan \u0631\u0641\u0639 \u0627\u0644\u0633\u0639\u0631 \u0627\u0644\u0645\u0633\u062a\u0647\u062f\u0641 \u0644\u0634\u0631\u0643\u0629 SpaceX \u0644\u0640 500 \u062f\u0648\u0644\u0627\u0631 \u0628\u062f\u0644 240 \u062f\u0648\u0644\u0627\u0631 \u062f\u0641\u0639\u0629 \u0648\u0627\u062d\u062f\u0629",
     "\ud83d\udea8 \u0627\u0644\u0645\u0644\u064a\u0627\u0631\u062f\u064a\u0631 \u0645\u0627\u064a\u0643\u0644 \u0623\u0643\u0631\u0645\u0627\u0646 \u064a\u0643\u0634\u0641 \u0643\u0648\u0627\u0644\u064a\u0633 \u062a\u062f\u0645\u064a\u0631 \u062d\u064a\u0627\u0629 \u0627\u0644\u0639\u0627\u0644\u0645 \u062f\u064a\u0641\u064a\u062f \u0633\u0627\u0628\u0627\u062a\u064a\u0646\u064a \u0628\u0639\u062f 6 \u0633\u0646\u064a\u0646 \u0645\u0639\u0627\u0646\u0627\u0629 \u0648\u062a\u0639\u0648\u064a\u0636 6 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631",
@@ -1066,9 +1067,10 @@
     "\u2696\ufe0f \u0628\u0639\u062f \u0645\u0627 \u0627\u0644\u0642\u0636\u0627\u0621 \u0627\u0644\u0623\u0631\u062c\u0646\u062a\u064a\u0646\u064a \u0642\u0641\u0644 \u0642\u0636\u064a\u0629 \u0627\u0644\u0646\u0635\u0628.. \u062e\u0627\u0641\u064a\u064a\u0631 \u0645\u064a\u0644\u064a \u0628\u0631\u0627\u0621\u0629 \u0631\u0633\u0645\u064a \u0641\u064a \u0633\u0628\u0648\u0628\u0629 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648",
     "\ud83c\uddee\ud83c\uddf1 \u0646\u062a\u0646\u064a\u0627\u0647\u0648 \u0628\u064a\u0643\u0644\u0641 \u0641\u0631\u064a\u0642\u0647 \u0628\u0648\u0636\u0639 \u062e\u0637\u0629 \u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0640 Crypto \u0648\u062a\u0643\u0646\u0648\u0644\u0648\u062c\u064a\u0627 \u0627\u0644\u0628\u0644\u0648\u0643\u0634\u064a\u0646 \u0644\u0644\u0647\u0631\u0648\u0628 \u0645\u0646 \u0623\u064a \u0639\u0642\u0648\u0628\u0627\u062a \u0645\u0627\u0644\u064a\u0629 \u0645\u062a\u0648\u0642\u0639\u0629",
     "\ud83e\udd47 \u0627\u0644\u062f\u0647\u0628 \u0646\u0632\u0644 \u062a\u062d\u062a \u0627\u0644\u0640 4,000 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0623\u0648\u0646\u0635\u0629 \u0644\u0623\u0648\u0644 \u0645\u0631\u0629 \u0645\u0646 \u064a\u0648\u0644\u064a\u0648 \u0628\u0633\u0628\u0628 \u062a\u0635\u0639\u064a\u062f \u0627\u0644\u062a\u0648\u062a\u0631\u0627\u062a \u0628\u064a\u0646 \u0623\u0645\u0631\u064a\u0643\u0627 \u0648\u0625\u064a\u0631\u0627\u0646",
-    "\ud83d\ude80 \u0634\u0631\u0643\u0629 CardoneCapital \u0628\u062a\u0634\u062a\u0631\u064a 16 \u0639\u0645\u0644\u0629 BTC \u062c\u062f\u064a\u062f\u0629 \u0628\u0633\u0639\u0631 80,000 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0642\u0637\u0639\u0629"
+    "\ud83d\ude80 \u0634\u0631\u0643\u0629 CardoneCapital \u0628\u062a\u0634\u062a\u0631\u064a 16 \u0639\u0645\u0644\u0629 BTC \u062c\u062f\u064a\u062f\u0629 \u0628\u0633\u0639\u0631 80,000 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0642\u0637\u0639\u0629",
+    "\ud83d\udca5 \"\u0647\u062a\u0643\u0648\u0646 \u0646\u0647\u0627\u064a\u0629 \u0623\u0633\u0628\u0648\u0639 \u0637\u0648\u064a\u0644\u0629 \u062c\u062f\u0627\u064b \u0639\u0644\u0649 \u062c\u0645\u0627\u0639\u0629 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646\".. \u0628\u064a\u062a\u0631 \u0634\u064a\u0641 \u0628\u064a\u062a\u0648\u0642\u0639 \u0647\u0628\u0648\u0637 BTC \u0644\u0640 75,000 \u062f\u0648\u0644\u0627\u0631"
   ],
-  "shape_idx": 162,
+  "shape_idx": 163,
   "replied_comments": [
     "122114614443491654_1148050547655010",
     "122114614443491654_1474684037847818",
