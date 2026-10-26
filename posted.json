@@ -251,24 +251,20 @@
   "tuner": {
     "topics": {
       "crypto": {
-        "n": 11,
-        "e": 30
-      },
-      "gold_oil": {
-        "n": 2,
-        "e": 3
-      },
-      "inflation": {
-        "n": 1,
-        "e": 0
-      },
-      "power": {
-        "n": 9,
-        "e": 24
+        "n": 12,
+        "e": 36
       },
       "stocks": {
         "n": 6,
         "e": 15
+      },
+      "power": {
+        "n": 8,
+        "e": 24
+      },
+      "gold_oil": {
+        "n": 1,
+        "e": 3
       },
       "ai": {
         "n": 1,
@@ -281,13 +277,13 @@
     },
     "mult": {
       "fed": 0.85,
-      "stocks": 1.0,
-      "power": 1.13,
+      "stocks": 0.96,
+      "power": 1.1,
       "inflation": 0.67,
       "gold_oil": 0.75,
-      "crypto": 1.12
+      "crypto": 1.09
     },
-    "updated": "2026-10-25"
+    "updated": "2026-10-26"
   },
   "comment_review": {
     "posts": 8,
@@ -299,7 +295,7 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-25"
+    "updated": "2026-10-26"
   },
   "day_counts": {
     "2026-10-23": 1,
