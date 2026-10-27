@@ -277,13 +277,13 @@
     },
     "mult": {
       "fed": 0.85,
-      "stocks": 0.96,
-      "power": 1.1,
+      "stocks": 0.93,
+      "power": 1.08,
       "inflation": 0.67,
       "gold_oil": 0.75,
-      "crypto": 1.09
+      "crypto": 1.07
     },
-    "updated": "2026-10-26"
+    "updated": "2026-10-27"
   },
   "comment_review": {
     "posts": 8,
@@ -295,7 +295,7 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-26"
+    "updated": "2026-10-27"
   },
   "day_counts": {
     "2026-10-23": 1,
