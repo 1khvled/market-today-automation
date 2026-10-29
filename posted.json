@@ -160,6 +160,7 @@
     "9fa77ac736134657",
     "a10ba89d087a6b53",
     "a23d3c794e093681",
+    "a2661914bed93107",
     "a26723d092184d6c",
     "a2c6cf467d5f8672",
     "a7782c3d8ef265c3",
@@ -300,11 +301,10 @@
     "updated": "2026-10-29"
   },
   "day_counts": {
-    "2026-10-25": 2,
-    "2026-10-27": 2
+    "2026-10-27": 2,
+    "2026-10-29": 1
   },
   "recent_titles": [
-    "\ud83c\uddfa\ud83c\uddf8 JUST IN: Polymarket traders put Democrats\u2019 chances of winning the Senate in 2026 at 67%, versus 34% for Republicans.",
     "NEW: The U.S. and Israel are preparing for possible renewed strikes on Iran after the November midterm elections, targeting nuclear facilities, missile systems, and potentially energy infrastructur...",
     "BREAKING: The 15 largest S&P 500 stocks now account for a record 46.7% of the index\u2019s market value. By comparison, during the 2000 Dot-Com Bubble, the 15 largest stocks accounted for 27.2% of the S...",
     "\ud83d\udea8 LATEST: bitcoin:native treasury companies are back in profit with Bitcoin trading above their roughly $80K cost basis since Sept. 18, yet they\u2019ve barely resumed buying, per @glassnode .",
@@ -318,26 +318,18 @@
     "JUST IN: Peter Schiff says Bitcoin is going to crash to $75,000. \"It's going to be a very long weekend for Bitcoiners.\"",
     "\ud83d\udcca MARKET: CryptoQuant's Axel Adler says $BTC closed at $80,500 yesterday, a new 30-day low, after bouncing off its 365-day moving average. He says tight ranges like this usually end with a sharp move.",
     "Speaker Mike Johnson calls election-transfer concerns \u2018absurd\u2019",
-    "Top Democrats are preparing to investigate Trump's agreement to import Russian diesel if they regain control of Congress. Lawmakers urged six major U.S. banks and several ports to preserve Russian ..."
+    "Top Democrats are preparing to investigate Trump's agreement to import Russian diesel if they regain control of Congress. Lawmakers urged six major U.S. banks and several ports to preserve Russian ...",
+    "BREAKING: Bitcoin and ETH fall sharply as crypto liquidations hit $335 million over the last 24 hours and tech stocks drop. Bitcoin is officially back below $80,000."
   ],
   "last_post": {
-    "hash": "dbad6ab8e872cc02",
-    "fb_id": "1421089964411983_122116835613491654",
-    "title": "Top Democrats are preparing to investigate Trump's agreement to import Russian diesel if they regain control of Congress. Lawmakers urged six major U.S. banks and several ports to preserve Russian ...",
-    "link": "https://x.com/clashreport/status/2115183427074797944",
-    "mode": "serious",
-    "at": "2026-10-27T22:20:46.006866+00:00"
+    "hash": "a2661914bed93107",
+    "fb_id": "1421089964411983_122117391393491654",
+    "title": "BREAKING: Bitcoin and ETH fall sharply as crypto liquidations hit $335 million over the last 24 hours and tech stocks drop. Bitcoin is officially back below $80,000.",
+    "link": "https://x.com/KobeissiLetter/status/2115626744560734580",
+    "mode": "viral",
+    "at": "2026-10-29T09:11:40.726500+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122112907203491654",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "hires",
-      "at": "2026-10-17T10:47:02.780981+00:00"
-    },
     {
       "fb_id": "1421089964411983_122112914409491654",
       "topics": [
@@ -797,18 +789,19 @@
       "mode": "serious",
       "photo": "source",
       "at": "2026-10-27T22:20:46.006866+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122117391393491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-29T09:11:40.726500+00:00"
     }
   ],
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "house",
-        "trump",
-        "white"
-      ],
-      "at": "2026-10-21T16:38:32.738980+00:00"
-    },
     {
       "fp": [
         "$240.",
@@ -1050,10 +1043,18 @@
         "ukraine"
       ],
       "at": "2026-10-27T22:20:46.006850+00:00"
+    },
+    {
+      "fp": [
+        "$335",
+        "$80,000.",
+        "ETH",
+        "bitcoin"
+      ],
+      "at": "2026-10-29T09:11:40.726482+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83c\uddfa\ud83c\uddf8 \u0628\u0639\u062f \u0631\u0647\u0627\u0646\u0627\u062a \u0628\u0645\u0644\u064a\u0627\u0631\u0627\u062a.. \u0645\u062a\u062f\u0627\u0648\u0644\u0648 \u0645\u0646\u0635\u0629 \u0627\u0644\u062a\u0648\u0642\u0639\u0627\u062a Polymarket \u0628\u064a\u0645\u064a\u0644\u0648\u0627 \u0644\u0644\u062d\u0632\u0628 \u0627\u0644\u062f\u064a\u0645\u0642\u0631\u0627\u0637\u064a \u0628\u0646\u0633\u0628\u0629 67% \u0644\u0644\u0633\u064a\u0637\u0631\u0629 \u0639\u0644\u0649 \u0645\u062c\u0644\u0633 \u0627\u0644\u0634\u064a\u0648\u062e \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a \u0641\u064a 2026",
     "\ud83d\udca5 \"\u0636\u0631\u0628\u0629 \u0645\u062d\u062a\u0645\u0644\u0629 \u0644\u0640 \u0627\u0644\u0645\u0646\u0634\u0622\u062a \u0627\u0644\u0625\u064a\u0631\u0627\u0646\u064a\u0629 \u0628\u0639\u062f \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \u0623\u0645\u0631\u064a\u0643\u0627\".. \u0623\u0645\u0631\u064a\u0643\u0627 \u0648\u0625\u0633\u0631\u0627\u0626\u064a\u0644 \u0628\u064a\u062d\u0636\u0631\u0648\u0627 \u0644\u062e\u0637\u0629 \u062c\u062f\u064a\u062f\u0629 \u062a\u0633\u062a\u0647\u062f\u0641 \u0627\u0644\u0637\u0627\u0642\u0629 \u0648\u0627\u0644\u0646\u0648\u0648\u064a",
     "\ud83d\udcc9 \u0628\u0639\u062f \u0645\u0627 \u0623\u0643\u0628\u0631 15 \u0634\u0631\u0643\u0629 \u0641\u064a \u0645\u0624\u0634\u0631 S&P 500 \u0628\u0644\u0639\u062a 46.7% \u0645\u0646 \u0642\u064a\u0645\u062a\u0647.. \u0627\u0644\u0633\u0648\u0642 \u0623\u0645\u0631\u064a\u0643\u0627 \u0623\u0643\u0644\u062a\u0647 \u0627\u0644\u062d\u064a\u062a\u0627\u0646",
     "\ud83d\udcc9 \u0634\u0631\u0643\u0627\u062a \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0631\u062c\u0639\u062a \u062a\u0643\u0633\u0628 \u0628\u0639\u062f \u0645\u0627 BTC \u0639\u062f\u0649 \u0627\u0644\u0640 80,000 \u062f\u0648\u0644\u0627\u0631",
@@ -1067,9 +1068,10 @@
     "\ud83d\udca5 \"\u0647\u062a\u0643\u0648\u0646 \u0646\u0647\u0627\u064a\u0629 \u0623\u0633\u0628\u0648\u0639 \u0637\u0648\u064a\u0644\u0629 \u062c\u062f\u0627\u064b \u0639\u0644\u0649 \u062c\u0645\u0627\u0639\u0629 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646\".. \u0628\u064a\u062a\u0631 \u0634\u064a\u0641 \u0628\u064a\u062a\u0648\u0642\u0639 \u0647\u0628\u0648\u0637 BTC \u0644\u0640 75,000 \u062f\u0648\u0644\u0627\u0631",
     "\ud83d\udcc9 \u0628\u0639\u062f \u0645\u0627 \u0642\u0641\u0644 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 BTC \u0639\u0646\u062f 80,500 \u062f\u0648\u0644\u0627\u0631.. \u0623\u0643\u0633\u064a\u0644 \u0623\u062f\u0644\u0631 \u0634\u0627\u064a\u0641 \u0625\u0646 \u0642\u0627\u0639 30 \u064a\u0648\u0645 \u0627\u062a\u0644\u0645\u0633",
     "\ud83d\udde3\ufe0f 2026: Mike Johnson \u0642\u0627\u0644 \u0625\u0646 \u0645\u062e\u0627\u0648\u0641 \u062a\u062d\u0648\u064a\u0644 \u0627\u0644\u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \"absurd\".",
-    "\ud83d\udea8 \u0628\u0639\u062f \u0627\u062a\u062a\u0647\u0627\u0645 \u062a\u0631\u0627\u0645\u0628 \u0628\u0627\u0633\u062a\u064a\u0631\u0627\u062f \u0627\u0644\u062f\u064a\u0632\u0644 \u0627\u0644\u0631\u0648\u0633\u064a.. \u0627\u0644\u062f\u064a\u0645\u0642\u0631\u0627\u0637\u064a\u064a\u0646 \u0628\u064a\u0641\u062a\u062d\u0648\u0627 \u0627\u0644\u062a\u062d\u0642\u064a\u0642 \u0648\u0628\u064a\u0647\u062f\u062f\u0648\u0627 6 \u0628\u0646\u0648\u0643 \u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0648\u0645\u0648\u0627\u0646\u0626 \u0628\u0627\u0646\u062a\u0647\u0627\u0643 \u062d\u0638\u0631 2022 \u0644\u0648 \u0627\u0644\u0643\u0648\u0646\u062c\u0631\u0633 \u0631\u062c\u0639 \u0641\u064a \u0625\u064a\u062f\u064a\u0647\u0645"
+    "\ud83d\udea8 \u0628\u0639\u062f \u0627\u062a\u062a\u0647\u0627\u0645 \u062a\u0631\u0627\u0645\u0628 \u0628\u0627\u0633\u062a\u064a\u0631\u0627\u062f \u0627\u0644\u062f\u064a\u0632\u0644 \u0627\u0644\u0631\u0648\u0633\u064a.. \u0627\u0644\u062f\u064a\u0645\u0642\u0631\u0627\u0637\u064a\u064a\u0646 \u0628\u064a\u0641\u062a\u062d\u0648\u0627 \u0627\u0644\u062a\u062d\u0642\u064a\u0642 \u0648\u0628\u064a\u0647\u062f\u062f\u0648\u0627 6 \u0628\u0646\u0648\u0643 \u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0648\u0645\u0648\u0627\u0646\u0626 \u0628\u0627\u0646\u062a\u0647\u0627\u0643 \u062d\u0638\u0631 2022 \u0644\u0648 \u0627\u0644\u0643\u0648\u0646\u062c\u0631\u0633 \u0631\u062c\u0639 \u0641\u064a \u0625\u064a\u062f\u064a\u0647\u0645",
+    "\ud83d\udcc9 \u0628\u0639\u062f \u0647\u0628\u0648\u0637 \u0623\u0633\u0647\u0645 \u0627\u0644\u062a\u0643\u0646\u0648\u0644\u0648\u062c\u064a\u0627.. \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0628\u062a\u0627\u0643\u0644 \u0636\u0631\u0628\u0629 \u0648\u062a\u0635\u0641\u064a\u0629 \u0639\u0642\u0648\u062f \u0628\u0640 335 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0641\u064a 24 \u0633\u0627\u0639\u0629"
   ],
-  "shape_idx": 166,
+  "shape_idx": 167,
   "replied_comments": [
     "122114614443491654_1148050547655010",
     "122114614443491654_1474684037847818",
