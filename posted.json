@@ -242,6 +242,7 @@
     "f7ffd76d635a268c",
     "f8ca9752326577ba",
     "f99897bde7abfc3a",
+    "f9cc12b3e20a2d7b",
     "f9d7a58cfd4f31e8",
     "faa585879730d067",
     "fbe4b3be838aadc5",
@@ -253,17 +254,17 @@
   ],
   "tuner": {
     "topics": {
-      "crypto": {
-        "n": 10,
-        "e": 30
-      },
-      "power": {
-        "n": 10,
-        "e": 30
-      },
       "stocks": {
         "n": 6,
         "e": 18
+      },
+      "power": {
+        "n": 9,
+        "e": 27
+      },
+      "crypto": {
+        "n": 10,
+        "e": 30
       },
       "gold_oil": {
         "n": 1,
@@ -280,13 +281,13 @@
     },
     "mult": {
       "fed": 0.85,
-      "stocks": 0.96,
-      "power": 1.04,
+      "stocks": 0.97,
+      "power": 1.03,
       "inflation": 0.67,
       "gold_oil": 0.75,
-      "crypto": 1.03
+      "crypto": 1.02
     },
-    "updated": "2026-10-29"
+    "updated": "2026-10-30"
   },
   "comment_review": {
     "posts": 8,
@@ -298,14 +299,13 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-29"
+    "updated": "2026-10-30"
   },
   "day_counts": {
-    "2026-10-27": 2,
-    "2026-10-29": 1
+    "2026-10-29": 1,
+    "2026-10-30": 1
   },
   "recent_titles": [
-    "NEW: The U.S. and Israel are preparing for possible renewed strikes on Iran after the November midterm elections, targeting nuclear facilities, missile systems, and potentially energy infrastructur...",
     "BREAKING: The 15 largest S&P 500 stocks now account for a record 46.7% of the index\u2019s market value. By comparison, during the 2000 Dot-Com Bubble, the 15 largest stocks accounted for 27.2% of the S...",
     "\ud83d\udea8 LATEST: bitcoin:native treasury companies are back in profit with Bitcoin trading above their roughly $80K cost basis since Sept. 18, yet they\u2019ve barely resumed buying, per @glassnode .",
     "Canadian Prime Minister Mark Carney to arrive in Ankara today, the first bilateral visit to T\u00fcrkiye by a Canadian leader, as he seeks to reduce Canada\u2019s reliance on the United States. He is set to ...",
@@ -319,26 +319,18 @@
     "\ud83d\udcca MARKET: CryptoQuant's Axel Adler says $BTC closed at $80,500 yesterday, a new 30-day low, after bouncing off its 365-day moving average. He says tight ranges like this usually end with a sharp move.",
     "Speaker Mike Johnson calls election-transfer concerns \u2018absurd\u2019",
     "Top Democrats are preparing to investigate Trump's agreement to import Russian diesel if they regain control of Congress. Lawmakers urged six major U.S. banks and several ports to preserve Russian ...",
-    "BREAKING: Bitcoin and ETH fall sharply as crypto liquidations hit $335 million over the last 24 hours and tech stocks drop. Bitcoin is officially back below $80,000."
+    "BREAKING: Bitcoin and ETH fall sharply as crypto liquidations hit $335 million over the last 24 hours and tech stocks drop. Bitcoin is officially back below $80,000.",
+    "BREAKING: Tether has frozen $971 million worth of USDT which has been linked to a suspected Binance hack. This comes just minutes after Binance wallets saw a $2.8 billion outflow across five blockc..."
   ],
   "last_post": {
-    "hash": "a2661914bed93107",
-    "fb_id": "1421089964411983_122117391393491654",
-    "title": "BREAKING: Bitcoin and ETH fall sharply as crypto liquidations hit $335 million over the last 24 hours and tech stocks drop. Bitcoin is officially back below $80,000.",
-    "link": "https://x.com/KobeissiLetter/status/2115626744560734580",
+    "hash": "f9cc12b3e20a2d7b",
+    "fb_id": "1421089964411983_122117583987491654",
+    "title": "BREAKING: Tether has frozen $971 million worth of USDT which has been linked to a suspected Binance hack. This comes just minutes after Binance wallets saw a $2.8 billion outflow across five blockc...",
+    "link": "https://x.com/KobeissiLetter/status/2115915162259460108",
     "mode": "viral",
-    "at": "2026-10-29T09:11:40.726500+00:00"
+    "at": "2026-10-30T01:05:26.660863+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122112914409491654",
-      "topics": [
-        "ai"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-17T11:18:28.808837+00:00"
-    },
     {
       "fb_id": "1421089964411983_122112928191491654",
       "topics": [
@@ -798,19 +790,19 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-10-29T09:11:40.726500+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122117583987491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "hires",
+      "at": "2026-10-30T01:05:26.660863+00:00"
     }
   ],
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "$240.",
-        "$500,",
-        "SPCX",
-        "overweight"
-      ],
-      "at": "2026-10-21T18:22:33.880480+00:00"
-    },
     {
       "fp": [
         "$9",
@@ -1052,10 +1044,20 @@
         "bitcoin"
       ],
       "at": "2026-10-29T09:11:40.726482+00:00"
+    },
+    {
+      "fp": [
+        "$2.8",
+        "$971",
+        "USDT",
+        "binance",
+        "tether",
+        "this"
+      ],
+      "at": "2026-10-30T01:05:26.660850+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udca5 \"\u0636\u0631\u0628\u0629 \u0645\u062d\u062a\u0645\u0644\u0629 \u0644\u0640 \u0627\u0644\u0645\u0646\u0634\u0622\u062a \u0627\u0644\u0625\u064a\u0631\u0627\u0646\u064a\u0629 \u0628\u0639\u062f \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \u0623\u0645\u0631\u064a\u0643\u0627\".. \u0623\u0645\u0631\u064a\u0643\u0627 \u0648\u0625\u0633\u0631\u0627\u0626\u064a\u0644 \u0628\u064a\u062d\u0636\u0631\u0648\u0627 \u0644\u062e\u0637\u0629 \u062c\u062f\u064a\u062f\u0629 \u062a\u0633\u062a\u0647\u062f\u0641 \u0627\u0644\u0637\u0627\u0642\u0629 \u0648\u0627\u0644\u0646\u0648\u0648\u064a",
     "\ud83d\udcc9 \u0628\u0639\u062f \u0645\u0627 \u0623\u0643\u0628\u0631 15 \u0634\u0631\u0643\u0629 \u0641\u064a \u0645\u0624\u0634\u0631 S&P 500 \u0628\u0644\u0639\u062a 46.7% \u0645\u0646 \u0642\u064a\u0645\u062a\u0647.. \u0627\u0644\u0633\u0648\u0642 \u0623\u0645\u0631\u064a\u0643\u0627 \u0623\u0643\u0644\u062a\u0647 \u0627\u0644\u062d\u064a\u062a\u0627\u0646",
     "\ud83d\udcc9 \u0634\u0631\u0643\u0627\u062a \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0631\u062c\u0639\u062a \u062a\u0643\u0633\u0628 \u0628\u0639\u062f \u0645\u0627 BTC \u0639\u062f\u0649 \u0627\u0644\u0640 80,000 \u062f\u0648\u0644\u0627\u0631",
     "\ud83d\udeec \u0632\u064a\u0627\u0631\u0629 1 \u0644\u0643\u0627\u0631\u0646\u064a (Mark Carney) \u0644\u0644\u0623\u0646\u0642\u0631\u0629 \u0627\u0644\u064a\u0648\u0645\u060c \u0623\u0648\u0644 \u0632\u064a\u0627\u0631\u0629 \u0643\u0646\u062f\u064a\u0629 \u0644\u0631\u0626\u064a\u0633 \u062a\u0631\u0643\u064a\u0627\u060c \u0648\u0628\u064a\u0633\u0639\u0649 \u064a\u0642\u0644\u0644 \u0627\u0639\u062a\u0645\u0627\u062f \u0643\u0646\u062f\u0627 \u0639\u0644\u0649 \u0623\u0645\u0631\u064a\u0643\u0627.",
@@ -1069,9 +1071,10 @@
     "\ud83d\udcc9 \u0628\u0639\u062f \u0645\u0627 \u0642\u0641\u0644 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 BTC \u0639\u0646\u062f 80,500 \u062f\u0648\u0644\u0627\u0631.. \u0623\u0643\u0633\u064a\u0644 \u0623\u062f\u0644\u0631 \u0634\u0627\u064a\u0641 \u0625\u0646 \u0642\u0627\u0639 30 \u064a\u0648\u0645 \u0627\u062a\u0644\u0645\u0633",
     "\ud83d\udde3\ufe0f 2026: Mike Johnson \u0642\u0627\u0644 \u0625\u0646 \u0645\u062e\u0627\u0648\u0641 \u062a\u062d\u0648\u064a\u0644 \u0627\u0644\u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \"absurd\".",
     "\ud83d\udea8 \u0628\u0639\u062f \u0627\u062a\u062a\u0647\u0627\u0645 \u062a\u0631\u0627\u0645\u0628 \u0628\u0627\u0633\u062a\u064a\u0631\u0627\u062f \u0627\u0644\u062f\u064a\u0632\u0644 \u0627\u0644\u0631\u0648\u0633\u064a.. \u0627\u0644\u062f\u064a\u0645\u0642\u0631\u0627\u0637\u064a\u064a\u0646 \u0628\u064a\u0641\u062a\u062d\u0648\u0627 \u0627\u0644\u062a\u062d\u0642\u064a\u0642 \u0648\u0628\u064a\u0647\u062f\u062f\u0648\u0627 6 \u0628\u0646\u0648\u0643 \u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0648\u0645\u0648\u0627\u0646\u0626 \u0628\u0627\u0646\u062a\u0647\u0627\u0643 \u062d\u0638\u0631 2022 \u0644\u0648 \u0627\u0644\u0643\u0648\u0646\u062c\u0631\u0633 \u0631\u062c\u0639 \u0641\u064a \u0625\u064a\u062f\u064a\u0647\u0645",
-    "\ud83d\udcc9 \u0628\u0639\u062f \u0647\u0628\u0648\u0637 \u0623\u0633\u0647\u0645 \u0627\u0644\u062a\u0643\u0646\u0648\u0644\u0648\u062c\u064a\u0627.. \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0628\u062a\u0627\u0643\u0644 \u0636\u0631\u0628\u0629 \u0648\u062a\u0635\u0641\u064a\u0629 \u0639\u0642\u0648\u062f \u0628\u0640 335 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0641\u064a 24 \u0633\u0627\u0639\u0629"
+    "\ud83d\udcc9 \u0628\u0639\u062f \u0647\u0628\u0648\u0637 \u0623\u0633\u0647\u0645 \u0627\u0644\u062a\u0643\u0646\u0648\u0644\u0648\u062c\u064a\u0627.. \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0628\u062a\u0627\u0643\u0644 \u0636\u0631\u0628\u0629 \u0648\u062a\u0635\u0641\u064a\u0629 \u0639\u0642\u0648\u062f \u0628\u0640 335 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0641\u064a 24 \u0633\u0627\u0639\u0629",
+    "\ud83d\udea8 \"Tether \u062c\u0645\u062f\u062a USDT \u0628\u0642\u064a\u0645\u0629 971 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0628\u0639\u062f \u0627\u0644\u0634\u0643 \u0641\u064a \u0627\u062e\u062a\u0631\u0627\u0642 \u0645\u0646\u0635\u0629 Binance\""
   ],
-  "shape_idx": 167,
+  "shape_idx": 168,
   "replied_comments": [
     "122114614443491654_1148050547655010",
     "122114614443491654_1474684037847818",
