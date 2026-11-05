@@ -67,6 +67,7 @@
     "3dd4f0dd14d205b0",
     "3e032252a431cdb8",
     "3eadb0eb0f4f6560",
+    "3f98e4f4bf56b7ea",
     "4049ffb5054e5890",
     "406cdd1698d4cb23",
     "408c86a17881cce1",
@@ -285,7 +286,7 @@
       "gold_oil": 0.75,
       "crypto": 1.01
     },
-    "updated": "2026-11-04"
+    "updated": "2026-11-05"
   },
   "comment_review": {
     "posts": 8,
@@ -297,15 +298,13 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-11-04"
+    "updated": "2026-11-05"
   },
   "day_counts": {
-    "2026-11-01": 1,
-    "2026-11-02": 1,
-    "2026-11-03": 1
+    "2026-11-03": 1,
+    "2026-11-05": 1
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions.",
     "BREAKING: Spot gold falls below $4,000/oz for the first time since July 29th as US-Iran tensions escalate. This puts gold prices down -15% from their August 25th high.",
     "CardoneCapital acquires another 16 BTC at $80,000",
     "JUST IN: Peter Schiff says Bitcoin is going to crash to $75,000. \"It's going to be a very long weekend for Bitcoiners.\"",
@@ -319,27 +318,18 @@
     "\ud83c\uddfa\ud83c\uddf8 BIG: Washington is already fighting over the $6.3B Binance hack days before the Nov. 3 election, with Republicans pushing the Clarity Act and Democrats calling for tougher crypto oversight.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddf5 FBI confirms North Korea is responsible for the $6,300,000,000 Binance crypto hack.",
     "\ud83c\uddfa\ud83c\uddf8 BIG: Crypto has poured $176 million into the 2026 US midterms, per Reuters. Fairshake and its affiliates alone have spent ~$154M, including ~56M to stop Sherrod Brown's Senate comeback in Ohio. ...",
-    "Tomorrow could trigger the stock market's biggest rally President Trump could become the 8th president in history to lose both the House and Senate to Democrats What happened to the S&P after, on a..."
+    "Tomorrow could trigger the stock market's biggest rally President Trump could become the 8th president in history to lose both the House and Senate to Democrats What happened to the S&P after, on a...",
+    "BREAKING: US markets post massive gains across the board in their initial reaction to the US Midterm Election results: 1. S&P 500: +1.7% 2. Dow Jones: +2.4% 3. Nasdaq 100: +2.0% 4. Silver: +5.0% 5...."
   ],
   "last_post": {
-    "hash": "5cedfdef381f158d",
-    "fb_id": "1421089964411983_122118578643491654",
-    "title": "Tomorrow could trigger the stock market's biggest rally President Trump could become the 8th president in history to lose both the House and Senate to Democrats What happened to the S&P after, on a...",
-    "link": "https://x.com/burrytracker/status/2117391305395568687",
-    "mode": "serious",
-    "at": "2026-11-03T01:32:25.776267+00:00"
+    "hash": "3f98e4f4bf56b7ea",
+    "fb_id": "1421089964411983_122119132569491654",
+    "title": "BREAKING: US markets post massive gains across the board in their initial reaction to the US Midterm Election results: 1. S&P 500: +1.7% 2. Dow Jones: +2.4% 3. Nasdaq 100: +2.0% 4. Silver: +5.0% 5....",
+    "link": "https://x.com/KobeissiLetter/status/2117993673174532144",
+    "mode": "viral",
+    "at": "2026-11-05T02:35:10.993109+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122113185057491654",
-      "topics": [
-        "crypto",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "face",
-      "at": "2026-10-18T01:35:00.121003+00:00"
-    },
     {
       "fb_id": "1421089964411983_122113217721491654",
       "topics": [
@@ -802,19 +792,21 @@
       "mode": "serious",
       "photo": "source",
       "at": "2026-11-03T01:32:25.776267+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122119132569491654",
+      "topics": [
+        "crypto",
+        "gold",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "hires",
+      "at": "2026-11-05T02:35:10.993109+00:00"
     }
   ],
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "$80",
-        "LATEST",
-        "bitcoin",
-        "sept"
-      ],
-      "at": "2026-10-22T06:09:33.337581+00:00"
-    },
     {
       "fp": [
         "ankara",
@@ -1065,10 +1057,26 @@
         "what"
       ],
       "at": "2026-11-03T01:32:25.776253+00:00"
+    },
+    {
+      "fp": [
+        "$1.3",
+        "US",
+        "WTI",
+        "bitcoin",
+        "crude",
+        "dow",
+        "election",
+        "gold",
+        "jones",
+        "midterm",
+        "nasdaq",
+        "silver"
+      ],
+      "at": "2026-11-05T02:35:10.993091+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83c\uddee\ud83c\uddf1 \u0646\u062a\u0646\u064a\u0627\u0647\u0648 \u0628\u064a\u0643\u0644\u0641 \u0641\u0631\u064a\u0642\u0647 \u0628\u0648\u0636\u0639 \u062e\u0637\u0629 \u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0640 Crypto \u0648\u062a\u0643\u0646\u0648\u0644\u0648\u062c\u064a\u0627 \u0627\u0644\u0628\u0644\u0648\u0643\u0634\u064a\u0646 \u0644\u0644\u0647\u0631\u0648\u0628 \u0645\u0646 \u0623\u064a \u0639\u0642\u0648\u0628\u0627\u062a \u0645\u0627\u0644\u064a\u0629 \u0645\u062a\u0648\u0642\u0639\u0629",
     "\ud83e\udd47 \u0627\u0644\u062f\u0647\u0628 \u0646\u0632\u0644 \u062a\u062d\u062a \u0627\u0644\u0640 4,000 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0623\u0648\u0646\u0635\u0629 \u0644\u0623\u0648\u0644 \u0645\u0631\u0629 \u0645\u0646 \u064a\u0648\u0644\u064a\u0648 \u0628\u0633\u0628\u0628 \u062a\u0635\u0639\u064a\u062f \u0627\u0644\u062a\u0648\u062a\u0631\u0627\u062a \u0628\u064a\u0646 \u0623\u0645\u0631\u064a\u0643\u0627 \u0648\u0625\u064a\u0631\u0627\u0646",
     "\ud83d\ude80 \u0634\u0631\u0643\u0629 CardoneCapital \u0628\u062a\u0634\u062a\u0631\u064a 16 \u0639\u0645\u0644\u0629 BTC \u062c\u062f\u064a\u062f\u0629 \u0628\u0633\u0639\u0631 80,000 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0642\u0637\u0639\u0629",
     "\ud83d\udca5 \"\u0647\u062a\u0643\u0648\u0646 \u0646\u0647\u0627\u064a\u0629 \u0623\u0633\u0628\u0648\u0639 \u0637\u0648\u064a\u0644\u0629 \u062c\u062f\u0627\u064b \u0639\u0644\u0649 \u062c\u0645\u0627\u0639\u0629 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646\".. \u0628\u064a\u062a\u0631 \u0634\u064a\u0641 \u0628\u064a\u062a\u0648\u0642\u0639 \u0647\u0628\u0648\u0637 BTC \u0644\u0640 75,000 \u062f\u0648\u0644\u0627\u0631",
@@ -1082,9 +1090,10 @@
     "\ud83c\uddfa\ud83c\uddf8 \u0648\u0627\u0634\u0646\u0637\u0646 \u0648\u0644\u0639\u062a \u062e\u0646\u0627\u0642\u0629 \u0639\u0644\u0649 $6.3 \u0645\u0644\u064a\u0627\u0631 \u0627\u062a\u0633\u0631\u0642\u0648\u0627 \u0641\u064a \u0627\u062e\u062a\u0631\u0627\u0642 Binance \u0642\u0628\u0644 \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a 3 \u0646\u0648\u0641\u0645\u0628\u0631.. \u0627\u0644\u062c\u0645\u0647\u0648\u0631\u064a\u064a\u0646 \u0646\u0627\u0632\u0644\u064a\u0646 \u062a\u0644\u0645\u064a\u0639 \u0641\u064a \u0642\u0627\u0646\u0648\u0646 Clarity Act \u0648\u0627\u0644\u062f\u064a\u0645\u0642\u0631\u0627\u0637\u064a\u064a\u0646 \u0628\u064a\u0637\u0627\u0644\u0628\u0648\u0627 \u0628\u062a\u0636\u064a\u064a\u0642 \u0627\u0644\u062e\u0646\u0627\u0642 \u0639\u0644\u0649 \u0633\u0648\u0642 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648",
     "\ud83d\udea8 \u0627\u0644\u0640 FBI \u0628\u064a\u0623\u0643\u062f \u0631\u0633\u0645\u064a\u0627\u064b: \u0643\u0648\u0631\u064a\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064a\u0629 \u0647\u064a \u0627\u0644\u0644\u064a \u0633\u0631\u0642\u062a 6.3 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631 \u0645\u0646 \u0645\u0646\u0635\u0629 Binance",
     "\ud83d\uddf3\ufe0f \"176 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u062f\u062e\u0644\u062a \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \u0623\u0645\u0631\u064a\u0643\u0627\".. \u0634\u0631\u0643\u0627\u062a \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0628\u062a\u0634\u062a\u0631\u064a \u0646\u0641\u0648\u0630 \u0641\u064a \u0627\u0644\u0643\u0648\u0646\u062c\u0631\u0633 \u0639\u064a\u0646\u0627\u0646\u064a",
-    "\ud83c\udfdb\ufe0f \u0628\u0639\u062f \u062e\u0633\u0627\u0631\u0629 \u062a\u0631\u0627\u0645\u0628 \u0644\u0644\u0643\u0648\u0646\u062c\u0631\u0633.. \u0645\u0624\u0634\u0631 S&P 500 \u0628\u064a\u0633\u062a\u0639\u062f \u0644\u0623\u0643\u0628\u0631 \u0645\u0648\u062c\u0629 \u0635\u0639\u0648\u062f \u0641\u064a \u062a\u0627\u0631\u064a\u062e\u0647"
+    "\ud83c\udfdb\ufe0f \u0628\u0639\u062f \u062e\u0633\u0627\u0631\u0629 \u062a\u0631\u0627\u0645\u0628 \u0644\u0644\u0643\u0648\u0646\u062c\u0631\u0633.. \u0645\u0624\u0634\u0631 S&P 500 \u0628\u064a\u0633\u062a\u0639\u062f \u0644\u0623\u0643\u0628\u0631 \u0645\u0648\u062c\u0629 \u0635\u0639\u0648\u062f \u0641\u064a \u062a\u0627\u0631\u064a\u062e\u0647",
+    "\ud83d\udcc8 \u0628\u0639\u062f \u0646\u062a\u0627\u0626\u062c \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \u0627\u0644\u062a\u062c\u062f\u064a\u062f \u0627\u0644\u0646\u0635\u0641\u064a \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629.. \u0627\u0644\u0623\u0633\u0647\u0645 \u0648\u0644\u0639\u062a \u0648\u0623\u0636\u0627\u0641\u062a 1.3 \u062a\u0631\u064a\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0644\u0645\u062d\u0641\u0638\u0629 \u0627\u0644\u0633\u0648\u0642 \u0641\u064a \u064a\u0648\u0645 \u0648\u0627\u062d\u062f"
   ],
-  "shape_idx": 174,
+  "shape_idx": 175,
   "replied_comments": [
     "122114614443491654_1148050547655010",
     "122114614443491654_1474684037847818",
