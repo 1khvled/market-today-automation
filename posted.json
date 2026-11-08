@@ -118,6 +118,7 @@
     "6dfde226099b02e8",
     "6f632453df63c6f0",
     "709f9d6c30e22552",
+    "70e1d56d2e5b49a2",
     "7142200a90c09435",
     "720cc98216e4fbd4",
     "7287ed7fa4d9ebb6",
@@ -265,20 +266,20 @@
   "tuner": {
     "topics": {
       "crypto": {
-        "n": 13,
-        "e": 39
+        "n": 12,
+        "e": 36
       },
       "power": {
         "n": 9,
         "e": 27
       },
-      "gold": {
-        "n": 2,
-        "e": 6
-      },
       "stocks": {
         "n": 5,
         "e": 15
+      },
+      "gold": {
+        "n": 1,
+        "e": 3
       },
       "gold_oil": {
         "n": 1,
@@ -298,7 +299,7 @@
       "crypto": 1.01,
       "gold": 1.0
     },
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "comment_review": {
     "posts": 8,
@@ -310,15 +311,14 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-11-07"
+    "updated": "2026-11-08"
   },
   "day_counts": {
-    "2026-11-05": 2,
     "2026-11-06": 1,
-    "2026-11-07": 1
+    "2026-11-07": 1,
+    "2026-11-08": 1
   },
   "recent_titles": [
-    "\ud83d\udcca MARKET: CryptoQuant's Axel Adler says $BTC closed at $80,500 yesterday, a new 30-day low, after bouncing off its 365-day moving average. He says tight ranges like this usually end with a sharp move.",
     "Speaker Mike Johnson calls election-transfer concerns \u2018absurd\u2019",
     "Top Democrats are preparing to investigate Trump's agreement to import Russian diesel if they regain control of Congress. Lawmakers urged six major U.S. banks and several ports to preserve Russian ...",
     "BREAKING: Bitcoin and ETH fall sharply as crypto liquidations hit $335 million over the last 24 hours and tech stocks drop. Bitcoin is officially back below $80,000.",
@@ -332,24 +332,18 @@
     "BREAKING: US markets post massive gains across the board in their initial reaction to the US Midterm Election results: 1. S&P 500: +1.7% 2. Dow Jones: +2.4% 3. Nasdaq 100: +2.0% 4. Silver: +5.0% 5....",
     "Matt Walsh calls this the most honest assessment he has read. You should all read it. And then maybe you will see what honesty requires and that both of these men refuse to do it. Start with Vance'...",
     "\ud83d\udea8 NEW: A Bitcoin Core dev wants to booby-trap coins against quantum hackers. Cory Fields floated \"quantum landmines\" on the Bitcoin dev mailing list, where hidden decoy outputs would let owners cla...",
-    "\ud83c\uddfa\ud83c\uddf8 BIG: Trillions in US retirement money could soon have a door into crypto. The DOL's final 401(k) rule on alternative assets is now sitting with the White House, the last step before it's release..."
+    "\ud83c\uddfa\ud83c\uddf8 BIG: Trillions in US retirement money could soon have a door into crypto. The DOL's final 401(k) rule on alternative assets is now sitting with the White House, the last step before it's release...",
+    "BREAKING: \ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8 Two Israelis charged in $129 million AI-powered fraud scheme in U.S. Haaretz reported on U.S. charges against two Israelis, Sharon Hazan (54) and Guy Sheetrit (42), plus Spanish-Brit..."
   ],
   "last_post": {
-    "hash": "0018ace4e231fc22",
-    "fb_id": "1421089964411983_122119756623491654",
-    "title": "\ud83c\uddfa\ud83c\uddf8 BIG: Trillions in US retirement money could soon have a door into crypto. The DOL's final 401(k) rule on alternative assets is now sitting with the White House, the last step before it's release...",
-    "link": "https://x.com/Cointelegraph/status/2118736886760198391",
+    "hash": "70e1d56d2e5b49a2",
+    "fb_id": "1421089964411983_122119928547491654",
+    "title": "BREAKING: \ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8 Two Israelis charged in $129 million AI-powered fraud scheme in U.S. Haaretz reported on U.S. charges against two Israelis, Sharon Hazan (54) and Guy Sheetrit (42), plus Spanish-Brit...",
+    "link": "https://x.com/Megatron_ron/status/2119120618524115267",
     "mode": "viral",
-    "at": "2026-11-07T10:16:04.151094+00:00"
+    "at": "2026-11-08T03:29:11.779709+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122113250019491654",
-      "topics": [],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-18T03:46:33.665257+00:00"
-    },
     {
       "fb_id": "1421089964411983_122113262325491654",
       "topics": [
@@ -819,19 +813,19 @@
       "mode": "viral",
       "photo": "hires",
       "at": "2026-11-07T10:16:04.151094+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122119928547491654",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-11-08T03:29:11.779709+00:00"
     }
   ],
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "argentinian",
-        "javier",
-        "milei",
-        "president"
-      ],
-      "at": "2026-10-24T02:00:16.809112+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -1072,10 +1066,29 @@
         "would"
       ],
       "at": "2026-11-07T10:16:04.151079+00:00"
+    },
+    {
+      "fp": [
+        "$129",
+        "AI",
+        "CEO",
+        "brit",
+        "british",
+        "guy",
+        "haaretz",
+        "hazan",
+        "israelis",
+        "jacob",
+        "sharon",
+        "sheetrit",
+        "soall",
+        "spanish",
+        "two"
+      ],
+      "at": "2026-11-08T03:29:11.779660+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udcc9 \u0628\u0639\u062f \u0645\u0627 \u0642\u0641\u0644 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 BTC \u0639\u0646\u062f 80,500 \u062f\u0648\u0644\u0627\u0631.. \u0623\u0643\u0633\u064a\u0644 \u0623\u062f\u0644\u0631 \u0634\u0627\u064a\u0641 \u0625\u0646 \u0642\u0627\u0639 30 \u064a\u0648\u0645 \u0627\u062a\u0644\u0645\u0633",
     "\ud83d\udde3\ufe0f 2026: Mike Johnson \u0642\u0627\u0644 \u0625\u0646 \u0645\u062e\u0627\u0648\u0641 \u062a\u062d\u0648\u064a\u0644 \u0627\u0644\u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \"absurd\".",
     "\ud83d\udea8 \u0628\u0639\u062f \u0627\u062a\u062a\u0647\u0627\u0645 \u062a\u0631\u0627\u0645\u0628 \u0628\u0627\u0633\u062a\u064a\u0631\u0627\u062f \u0627\u0644\u062f\u064a\u0632\u0644 \u0627\u0644\u0631\u0648\u0633\u064a.. \u0627\u0644\u062f\u064a\u0645\u0642\u0631\u0627\u0637\u064a\u064a\u0646 \u0628\u064a\u0641\u062a\u062d\u0648\u0627 \u0627\u0644\u062a\u062d\u0642\u064a\u0642 \u0648\u0628\u064a\u0647\u062f\u062f\u0648\u0627 6 \u0628\u0646\u0648\u0643 \u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0648\u0645\u0648\u0627\u0646\u0626 \u0628\u0627\u0646\u062a\u0647\u0627\u0643 \u062d\u0638\u0631 2022 \u0644\u0648 \u0627\u0644\u0643\u0648\u0646\u062c\u0631\u0633 \u0631\u062c\u0639 \u0641\u064a \u0625\u064a\u062f\u064a\u0647\u0645",
     "\ud83d\udcc9 \u0628\u0639\u062f \u0647\u0628\u0648\u0637 \u0623\u0633\u0647\u0645 \u0627\u0644\u062a\u0643\u0646\u0648\u0644\u0648\u062c\u064a\u0627.. \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 \u0628\u062a\u0627\u0643\u0644 \u0636\u0631\u0628\u0629 \u0648\u062a\u0635\u0641\u064a\u0629 \u0639\u0642\u0648\u062f \u0628\u0640 335 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0641\u064a 24 \u0633\u0627\u0639\u0629",
@@ -1089,9 +1102,10 @@
     "\ud83d\udcc8 \u0628\u0639\u062f \u0646\u062a\u0627\u0626\u062c \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \u0627\u0644\u062a\u062c\u062f\u064a\u062f \u0627\u0644\u0646\u0635\u0641\u064a \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629.. \u0627\u0644\u0623\u0633\u0647\u0645 \u0648\u0644\u0639\u062a \u0648\u0623\u0636\u0627\u0641\u062a 1.3 \u062a\u0631\u064a\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631 \u0644\u0645\u062d\u0641\u0638\u0629 \u0627\u0644\u0633\u0648\u0642 \u0641\u064a \u064a\u0648\u0645 \u0648\u0627\u062d\u062f",
     "\ud83d\udcac \u0627\u0644\u0645\u0644\u064a\u0627\u0631\u062f\u064a\u0631 \u0628\u064a\u064a\u0644 \u0623\u0643\u0645\u0627\u0646 \u0639\u0646 \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \u0623\u0645\u0631\u064a\u0643\u0627: \"\u0645\u0641\u064a\u0634 \u0635\u0631\u0627\u062d\u0629 \u0648\u0643\u0644 \u0641\u0631\u064a\u0642 \u0628\u064a\u0636\u062d\u0643 \u0639\u0644\u0649 \u0646\u0641\u0633\u0647 \u0628\u0628\u064a\u0627\u0646\u0627\u062a \u0648\u0625\u062d\u0635\u0627\u0626\u064a\u0627\u062a\"",
     "\ud83d\udca3 \u0643\u0648\u0631\u064a \u0641\u064a\u0644\u062f\u0632 \u0627\u0644\u0645\u0637\u0648\u0631 \u0641\u064a Bitcoin Core \u0628\u064a\u0642\u062a\u0631\u062d \u0641\u0643\u0631\u0629 \u0645\u062c\u0646\u0648\u0646\u0629 \u0628\u0627\u0633\u0645 \"\u0627\u0644\u0623\u0644\u063a\u0627\u0645 \u0627\u0644\u0643\u0645\u0648\u0645\u064a\u0629\" \u0644\u062d\u0645\u0627\u064a\u0629 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 (BTC)",
-    "\"\u0641\u0644\u0648\u0633 \u0627\u0644\u0645\u0639\u0627\u0634\u0627\u062a \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u062f\u0627\u062e\u0644\u0629 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u062e\u0644\u0627\u0635\""
+    "\"\u0641\u0644\u0648\u0633 \u0627\u0644\u0645\u0639\u0627\u0634\u0627\u062a \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u062f\u0627\u062e\u0644\u0629 \u0627\u0644\u0628\u064a\u062a\u0643\u0648\u064a\u0646 \u062e\u0644\u0627\u0635\"",
+    "\u0628\u0639\u062f \u0627\u062a\u0647\u0627\u0645 \u0623\u0645\u0631\u064a\u0643\u0627 \u0644\u0634\u062e\u0635\u064a\u0646 \u0625\u0633\u0631\u0627\u0626\u064a\u0644\u064a\u064a\u0646 \u0628\u0646\u0635\u0628\u0629 \u0630\u0643\u0627\u0621 \u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0628\u0640 129 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631.. \u0627\u0644\u0642\u0636\u0627\u0621 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a \u0628\u064a\u062a\u0647\u0645 \u0634\u0627\u0631\u0648\u0646 \u062d\u0632\u0627\u0646 \u0648\u062c\u0627\u064a \u0634\u064a\u062a\u0631\u064a\u062a \u0628\u0627\u0644\u0646\u0635\u0628 \u0627\u0644\u062f\u0648\u0644\u064a \ud83e\udd16"
   ],
-  "shape_idx": 178,
+  "shape_idx": 179,
   "replied_comments": [
     "122114614443491654_1148050547655010",
     "122114614443491654_1474684037847818",
