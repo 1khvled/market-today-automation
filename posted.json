@@ -133,6 +133,7 @@
     "7531dfadc0f9f7e0",
     "77e96d9a8da9dd45",
     "78225fe76c7690e2",
+    "7ac0c23c670df242",
     "7bd03f4783b9b2bb",
     "7c887ce0c4c325c6",
     "7dd4c394ede9d017",
@@ -318,12 +319,11 @@
     "updated": "2026-11-11"
   },
   "day_counts": {
-    "2026-11-08": 2,
     "2026-11-09": 1,
-    "2026-11-10": 2
+    "2026-11-10": 2,
+    "2026-11-11": 1
   },
   "recent_titles": [
-    "Our Q3 2026 $MSTR Earnings Call covered record financial results, Digital Capital, Digital Equity, Digital Credit, tokenization, and our strategy for the next bull market. Andrew Kang | Q3 Financia...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack.",
     "\ud83c\uddfa\ud83c\uddf8 BIG: Washington is already fighting over the $6.3B Binance hack days before the Nov. 3 election, with Republicans pushing the Clarity Act and Democrats calling for tougher crypto oversight.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddf5 FBI confirms North Korea is responsible for the $6,300,000,000 Binance crypto hack.",
@@ -337,26 +337,18 @@
     "BREAKING: President Trump says the US took a \u201cgiant step back in history\u201d after the Midterm election results and comments on the $3 trillion loss in the stock market on November 5th.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 $410 billion PNC Bank partners with Coinbase to offer crypto stablecoin payments.",
     "\ud83c\uddfa\ud83c\uddf8 TODAY: The DOJ filed a civil forfeiture action to recover about $456K in USDT tied to romance scams that lured victims on dating sites and Facebook into fake crypto investments.",
-    "\ud83c\udde7\ud83c\uddf7 UPDATE: Brazilian crypto exchange Mercado Bitcoin plans to resume fiat deposits and withdrawals via Pix next week following a $49 million hack, while crypto transfers remain suspended."
+    "\ud83c\udde7\ud83c\uddf7 UPDATE: Brazilian crypto exchange Mercado Bitcoin plans to resume fiat deposits and withdrawals via Pix next week following a $49 million hack, while crypto transfers remain suspended.",
+    "GOLD EDGES HIGHER AS TRADERS ASSESS US INFLATION AND FED REMARKS Gold prices edged higher by as much as 0.8% to above $4,050 an ounce in Asian trading, recovering part of the previous session\u2019s 2.6..."
   ],
   "last_post": {
-    "hash": "a8634920831743ef",
-    "fb_id": "1421089964411983_122120609673491654",
-    "title": "\ud83c\udde7\ud83c\uddf7 UPDATE: Brazilian crypto exchange Mercado Bitcoin plans to resume fiat deposits and withdrawals via Pix next week following a $49 million hack, while crypto transfers remain suspended.",
-    "link": "https://x.com/Cointelegraph/status/2120260416265699515",
+    "hash": "7ac0c23c670df242",
+    "fb_id": "1421089964411983_122120703573491654",
+    "title": "GOLD EDGES HIGHER AS TRADERS ASSESS US INFLATION AND FED REMARKS Gold prices edged higher by as much as 0.8% to above $4,050 an ounce in Asian trading, recovering part of the previous session\u2019s 2.6...",
+    "link": "https://x.com/FirstSquawk/status/2120430895228432569",
     "mode": "serious",
-    "at": "2026-11-10T21:43:00.135148+00:00"
+    "at": "2026-11-11T08:23:26.440146+00:00"
   },
   "history": [
-    {
-      "fb_id": "1421089964411983_122113309221491654",
-      "topics": [
-        "fed"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-18T07:04:22.551095+00:00"
-    },
     {
       "fb_id": "1421089964411983_122113316445491654",
       "topics": [
@@ -826,20 +818,21 @@
       "mode": "serious",
       "photo": "hires",
       "at": "2026-11-10T21:43:00.135148+00:00"
+    },
+    {
+      "fb_id": "1421089964411983_122120703573491654",
+      "topics": [
+        "fed",
+        "gold",
+        "inflation"
+      ],
+      "mode": "serious",
+      "photo": "split:scene",
+      "at": "2026-11-11T08:23:26.440146+00:00"
     }
   ],
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "$80,500",
-        "BTC",
-        "MARKET",
-        "adler",
-        "axel"
-      ],
-      "at": "2026-10-25T10:08:58.693879+00:00"
-    },
     {
       "fp": [
         "democrats",
@@ -1091,10 +1084,29 @@
         "pix"
       ],
       "at": "2026-11-10T21:43:00.135135+00:00"
+    },
+    {
+      "fp": [
+        "$4,050",
+        "AND",
+        "AS",
+        "ASSE",
+        "EDGE",
+        "FED",
+        "GOLD",
+        "HIGHER",
+        "US",
+        "asian",
+        "december",
+        "federal",
+        "gold",
+        "reserve",
+        "trade"
+      ],
+      "at": "2026-11-11T08:23:26.440123+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83e\udd11 848,517 BTC\u060c \u0633\u064a\u0644\u0648\u0631 \u0628\u064a\u0643\u0634\u0641 \u0623\u0631\u0628\u0627\u062d \u0642\u064a\u0627\u0633\u064a\u0629 \u0641\u064a \u0645\u0643\u0627\u0644\u0645\u0629 \u0623\u0631\u0628\u0627\u062d Q3 2026 \u0644\u0640 $Strategy ($MSTR)",
     "\ud83c\uddfa\ud83c\uddf8 \u062a\u0631\u0627\u0645\u0628 \u0628\u064a\u0642\u0648\u0644 \u0625\u0646 \u0625\u062f\u0627\u0631\u062a\u0647 \u0628\u062a\u062d\u0642\u0642 \u0641\u064a \u0627\u062e\u062a\u0631\u0627\u0642 \u0645\u0646\u0635\u0629 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648 Binance \u0627\u0644\u0644\u064a \u0637\u0627\u0631 \u0641\u064a\u0647 6.3 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631",
     "\ud83c\uddfa\ud83c\uddf8 \u0648\u0627\u0634\u0646\u0637\u0646 \u0648\u0644\u0639\u062a \u062e\u0646\u0627\u0642\u0629 \u0639\u0644\u0649 $6.3 \u0645\u0644\u064a\u0627\u0631 \u0627\u062a\u0633\u0631\u0642\u0648\u0627 \u0641\u064a \u0627\u062e\u062a\u0631\u0627\u0642 Binance \u0642\u0628\u0644 \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a 3 \u0646\u0648\u0641\u0645\u0628\u0631.. \u0627\u0644\u062c\u0645\u0647\u0648\u0631\u064a\u064a\u0646 \u0646\u0627\u0632\u0644\u064a\u0646 \u062a\u0644\u0645\u064a\u0639 \u0641\u064a \u0642\u0627\u0646\u0648\u0646 Clarity Act \u0648\u0627\u0644\u062f\u064a\u0645\u0642\u0631\u0627\u0637\u064a\u064a\u0646 \u0628\u064a\u0637\u0627\u0644\u0628\u0648\u0627 \u0628\u062a\u0636\u064a\u064a\u0642 \u0627\u0644\u062e\u0646\u0627\u0642 \u0639\u0644\u0649 \u0633\u0648\u0642 \u0627\u0644\u0643\u0631\u064a\u0628\u062a\u0648",
     "\ud83d\udea8 \u0627\u0644\u0640 FBI \u0628\u064a\u0623\u0643\u062f \u0631\u0633\u0645\u064a\u0627\u064b: \u0643\u0648\u0631\u064a\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064a\u0629 \u0647\u064a \u0627\u0644\u0644\u064a \u0633\u0631\u0642\u062a 6.3 \u0645\u0644\u064a\u0627\u0631 \u062f\u0648\u0644\u0627\u0631 \u0645\u0646 \u0645\u0646\u0635\u0629 Binance",
@@ -1108,9 +1120,10 @@
     "\ud83c\udfdb\ufe0f \u062a\u0631\u0627\u0645\u0628 \u064a\u0641\u062a\u062d \u0627\u0644\u0646\u0627\u0631 \u0648\u0628\u064a\u0642\u0648\u0644 \u0623\u0645\u0631\u064a\u0643\u0627 \u0631\u062c\u0639\u062a \"\u062e\u0637\u0648\u0629 \u0639\u0645\u0644\u0627\u0642\u0629 \u0644\u0648\u0631\u0627 \u0641\u064a \u0627\u0644\u062a\u0627\u0631\u064a\u062e\" \u0628\u0639\u062f \u0646\u062a\u0627\u0626\u062c \u0627\u0646\u062a\u062e\u0627\u0628\u0627\u062a \u0627\u0644\u062a\u062c\u062f\u064a\u062f \u0627\u0644\u0646\u0635\u0641\u064a",
     "\ud83d\udee2\ufe0f $410 \u0645\u0644\u064a\u0627\u0631 \u0628\u0646\u0643 PNC \u0634\u0631\u0627\u0643\u0629 \u0645\u0639 Coinbase \u0644\u062a\u0642\u062f\u064a\u0645 \u0645\u062f\u0641\u0648\u0639\u0627\u062a \u0628\u0627\u0644\u0633\u062a\u0627\u0628\u0644\u0643\u0648\u064a\u0646 - \u0648\u0627\u062a\u0634\u064a\u0631\u063a\u0648\u0631\u0648",
     "\ud83d\udea8 \u0648\u0632\u0627\u0631\u0629 \u0627\u0644\u0639\u062f\u0644 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 DOJ \u0628\u062f\u0623\u062a \u062a\u062a\u062d\u0631\u0643 \u0631\u0633\u0645\u064a\u064b\u0627 \u0639\u0634\u0627\u0646 \u062a\u0633\u062a\u0631\u062f 456 \u0623\u0644\u0641 \u062f\u0648\u0644\u0627\u0631 \u0645\u0646 \u0639\u0645\u0644\u0629 USDT \u0627\u0644\u0645\u0634\u0641\u0651\u0631\u0629",
-    "\ud83d\udccc 49 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631.. Mercado Bitcoin \u064a\u0639\u0644\u0646 \u0627\u0633\u062a\u0626\u0646\u0627\u0641 \u0625\u064a\u062f\u0627\u0639\u0627\u062a \u0648\u0633\u062d\u0628 \u0627\u0644\u0641\u064a\u0627\u062a \u0639\u0628\u0631 Pix \u0627\u0644\u0623\u0633\u0628\u0648\u0639 \u0627\u0644\u062c\u0627\u064a \u0628\u0639\u062f \u0627\u062e\u062a\u0631\u0627\u0642 \u0628\u0640 49 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631"
+    "\ud83d\udccc 49 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631.. Mercado Bitcoin \u064a\u0639\u0644\u0646 \u0627\u0633\u062a\u0626\u0646\u0627\u0641 \u0625\u064a\u062f\u0627\u0639\u0627\u062a \u0648\u0633\u062d\u0628 \u0627\u0644\u0641\u064a\u0627\u062a \u0639\u0628\u0631 Pix \u0627\u0644\u0623\u0633\u0628\u0648\u0639 \u0627\u0644\u062c\u0627\u064a \u0628\u0639\u062f \u0627\u062e\u062a\u0631\u0627\u0642 \u0628\u0640 49 \u0645\u0644\u064a\u0648\u0646 \u062f\u0648\u0644\u0627\u0631",
+    "\ud83e\udd47 \u0628\u0639\u062f \u0645\u0627 \u0647\u0628\u0637 2.6% \u0623\u0645\u0628\u0627\u0631\u062d.. \u0627\u0644\u062f\u0647\u0628 \u0628\u064a\u0631\u062f \u0641\u0648\u0642 \u0627\u0644\u0640 4,050 \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0623\u0648\u0646\u0635\u0629 \u0628\u0632\u064a\u0627\u062f\u0629 0.8% \u0641\u064a \u062a\u062f\u0627\u0648\u0644\u0627\u062a \u0622\u0633\u064a\u0627"
   ],
-  "shape_idx": 183,
+  "shape_idx": 184,
   "replied_comments": [
     "122114614443491654_1148050547655010",
     "122114614443491654_1474684037847818",
