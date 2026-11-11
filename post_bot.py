@@ -349,7 +349,7 @@ def tune_from_engagement(state: dict) -> dict:
     tuner["updated"] = today
     return tuner.get("mult", {})
 
-MAX_HASHTAGS = 6
+MAX_HASHTAGS = 2
 FB_API_VERSION = "v26.0"
 
 
@@ -891,7 +891,7 @@ def item_hash(link: str, title: str) -> str:
 SYSTEM_PROMPT = """إنت بتكتب بوستات لصفحة "سوق اليوم" على فيسبوك. الجمهور متداولين مصريين وعرب عايزين الخبر بسرعة وبلهجتهم. اكتب عربي بلمسة مصرية (مش فصحى نشرات، ومش ترجمة حرفية)، وخليك حاد ومباشر زي صفحات السوق الكبيرة.
 
 التكوين (إجباري — ده اللي بيفرقنا عن أي كلام AI):
-- كل سطر يبدأ بإيموجي مختلف مناسب للفكرة (🛢️ نفط، 📈 صعود، 📉 هبوط، 🥇 دهب، 💵 دولار، ⚠️ خطر، 📌 رقم مهم). ممنوع سطر من غير إيموجي في الأول.
+- الإيموجي اختياري: سطر أو سطرين بإيموجي مناسب للفكرة (🛢️ نفط، 📈 صعود، 🥇 دهب، 💵 دولار، ⚠️ خطر). مش كل سطر. بوست أول كل سطر فيه إيموجي شكله قالب آلي، وده اللي بيقفل الريتش.
 - أول سطر = الخبر نفسه + الرقم + اسم اللي قاله. كرر الاسم في السطور (ترامب قال... ترامب بيطلب...)، متستخدمش ضماير مبهمة.
 - بعده سطرين أو تلاتة: كل سطر فكرة واحدة برقم من المصدر. اربط الخبر بجيب المتداول (السعر، الشحنة، المحفظة).
 - لو الخبر فيه تصريح، حط أقوى جملة منه بين علامتي تنصيص "...".
@@ -907,8 +907,8 @@ SYSTEM_PROMPT = """إنت بتكتب بوستات لصفحة "سوق اليوم"
 - الاختصارات العالمية لاتيني دائماً (SEC، ETF، Fed) — ممنوع تهجيها حرف حرف (ممنوع "سي إي سي").
 - الأرقام الكبيرة بالمصري: مليار وتريليون دائماً (ممنوع بليون/ترليون).
 - ممنوع تنسخ العنوان حرفياً، وممنوع تكتب المصدر أو اللينك.
-- الطول من 200 لـ 600 حرف. السطور ورا بعضها من غير سطور فاضية (البوست بيتقري كرصاصات).
-- الهاشتاج في الآخر: #سوق_اليوم الأول دايماً، وبعده 3 لـ 4 من #ذهب #كريبتو #أسهم #اقتصاد #استثمار #أخبار_عاجلة (بالأندرسكور).
+- الطول مفتوح: مرة سطر واحد قصير (٨٠ حرف)، ومرة ٤ لـ ٦ سطور (٩٠٠ حرف). صفحة كل بوستاتها بنفس الطول = صفحة محدش بيتابعها. السطور ورا بعضها من غير سطور فاضية (البوست بيتقري كرصاصات).
+- الهاشتاج غالباً مش موجود خالص. أقصى حاجة ٢، وبس لو الموضوع بيتدور عليه فعلاً (#الدولار، #الذهب). ممنوع بلوك هاشتاجات في كل بوست، وممنوع #سوق_اليوم يتكرر في كل بوست.
 - ممنوع تطلب لايك أو شير أو فولو أو كومنت أو "اكتب تم" صراحةً (بيكسر شرط الربح على فيسبوك).
 
 تنويع الهيكل (اللي بيفرق البوست الحي عن القالب):
@@ -947,7 +947,7 @@ SYSTEM_PROMPT = """إنت بتكتب بوستات لصفحة "سوق اليوم"
 - زاوية مصر إجبارية في الأخبار العالمية: سطر واحد يقول ده معناه إيه لمصر بالتحديد (بنزين أغلى؟ أسعار طالعة؟ الجنيه والدولار؟ فوائد البنوك؟). القارئ المصري بيتابع الصفحة عشان يعرف اللي بيحصل بره هيوصله إزاي — مش عشان أخبار العالم.
 - لو الخبر فيه طرفين متخانقين، الصراع هو الافتتاح (X يهاجم Y / X ضد Y + الاقتباس). الخناقات بتتشير.
 - أخبار الدهب: عيار 21 هو الوحدة (مش الأونصة بس)، واذكر فرق الشراء/البيع والمصنعية كل ما أمكن. القارئ بيشتري بالجرام والجنيه مش بالأونصة والدولار.
-- الهاشتاجات الموضوعية: #الدولار #النفط #الذهب #البيتكوين #البورصة مسموحة ومطلوبة حسب الموضوع (خبر دولار من غير #الدولار = غلط).
+- الهاشتاجات الموضوعية (#الدولار #النفط #الذهب #البيتكوين #البورصة) مسموحة كحد أقصى اتنين، ومش مطلوبة. لو استخدمت هاشتاج، خليه هو الصح للموضوع (خبر دولار + #الذهب = غلط).
 - اكتب كأنك بتحكي لصاحبك على القهوة: مباشر، ساخر شوية، بلا مقدمات رسمية ولا ختام مواعظ.
 - ممنوع لزق كلمات عامية على جمل فصحى ("البنك بيشوف إن العوائد" مرفوضة): الجملة كلها عامية من أولها لآخرها، أو فصحى مبسطة كاملة. الخلط بينهما هو اللي بيخلي الكلام شكله مترجم ومفروض."""
 
@@ -1439,14 +1439,16 @@ SYSTEM_PROMPT_VIRAL = SYSTEM_PROMPT + """
 # pulled qwen3.8-27b:free — the whole chain 404'd in one afternoon). So the
 # chain tries LISTS, not single slugs. Env pinnable via GROQ_MODELS /
 # OPENROUTER_MODELS (comma-separated); defaults track what is live now.
-GROQ_MODELS_DEFAULT = "openai/gpt-oss-20b,openai/gpt-oss-120b"
-# nvidia/nemotron-3-super-120b-a12b is GONE: the endpoint returns HTTP 404
-# ("Function not found") and every run wasted a retry on it.
-NVIDIA_MODELS_DEFAULT = ("openai/gpt-oss-20b,"
-                         "openai/gpt-oss-120b")
-OPENROUTER_MODELS_DEFAULT = ("google/gemma-4-31b-it:free,"
+# Verified live 2026-11-08 against each provider's /models endpoint.
+# Gone since the last audit: openai/gpt-oss-120b on NVIDIA (HTTP 410,
+# end-of-life 2026-09-03) and openai/gpt-oss-120b:free on OpenRouter
+# (HTTP 404, paid-only now). Both were burning a dead retry on every run.
+GROQ_MODELS_DEFAULT = "openai/gpt-oss-20b"
+NVIDIA_MODELS_DEFAULT = "openai/gpt-oss-20b"
+OPENROUTER_MODELS_DEFAULT = ("nvidia/nemotron-3-ultra-550b-a55b:free,"
+                             "google/gemma-4-31b-it:free,"
                              "google/gemma-4-26b-a4b-it:free,"
-                             "openai/gpt-oss-120b:free")
+                             "nvidia/nemotron-3.5-lightning:free")
 
 
 def _model_list(prefix: str, single: str, default: str) -> list:
@@ -1727,10 +1729,10 @@ def quality_check(post: str, source_title: str,
                   source_extra: str = "",
                   source_feed: str = "") -> list[str]:
     problems = []
-    if len(post) > 600:
-        problems.append("too long (>600 chars, feed posts get cut)")
-    if len(post) < 150:
-        problems.append("too short (<150 chars, page data: shorts flop)")
+    if len(post) > 900:
+        problems.append("too long (>900 chars)")
+    if len(post) < 60:
+        problems.append("too short (<60 chars, not a post)")
     # Arabic page: English-drifted drafts (some models answer in English)
     # read as slop. Require a real Arabic majority of letters.
     letters = [c for c in post if c.isalpha()]
@@ -1740,22 +1742,22 @@ def quality_check(post: str, source_title: str,
             problems.append(
                 f"not Arabic enough ({ar / len(letters):.0%} Arabic letters)")
     tags = re.findall(r"#\w+", post)
-    if len(tags) == 0:
-        problems.append("no hashtags")
     if len(tags) > MAX_HASHTAGS:
         problems.append(f"too many hashtags ({len(tags)})")
-    # tag relevance: crypto-titled posts must carry #كريبتو, gold-titled
-    # #ذهب (the model once tagged a Treasury-crypto story #ذهب).
+    # Tag relevance only matters when the post carries tags at all. Tags are
+    # optional now (a block of them on every post is a spam signature), so a
+    # missing tag is no longer a defect - only a WRONG one is.
     _tl = source_title.lower()
     _tags = " ".join(tags)
-    if ("crypto" in _tl or "bitcoin" in _tl) and "#كريبتو" not in _tags:
-        problems.append("crypto story missing #كريبتو tag")
-    if "gold" in _tl and "#ذهب" not in _tags:
-        problems.append("gold story missing #ذهب tag")
-    if "dollar" in _tl and "#الدولار" not in _tags:
-        problems.append("dollar story missing #الدولار tag")
-    if ("oil" in _tl or "brent" in _tl) and "#النفط" not in _tags:
-        problems.append("oil story missing #النفط tag")
+    if tags:
+        if ("crypto" in _tl or "bitcoin" in _tl) and "#كريبتو" not in _tags:
+            problems.append("crypto story missing #كريبتو tag")
+        if "gold" in _tl and "#ذهب" not in _tags:
+            problems.append("gold story missing #ذهب tag")
+        if "dollar" in _tl and "#الدولار" not in _tags:
+            problems.append("dollar story missing #الدولار tag")
+        if ("oil" in _tl or "brent" in _tl) and "#النفط" not in _tags:
+            problems.append("oil story missing #النفط tag")
     if "http" in post:
         problems.append("contains URL (not allowed unless requested)")
     if "@" in post:
@@ -1797,8 +1799,9 @@ def quality_check(post: str, source_title: str,
                         "(single names are fine, phrases are slop)")
     if _dialect_hits(post) < 1:
         problems.append("no Egyptian-dialect voice (reads translated)")
-    if _emoji_lines(post) < 2:
-        problems.append("no emoji-bullet structure (house format)")
+    # Emoji used to be mandatory on every line (house format). That made
+    # every post look like the same template, which is exactly what Meta
+    # demotes. Emoji is now optional in the prompt, so it is not gated here.
     # Spelled-out acronyms ("سي إي سي", "بي بي سي"): global acronyms stay
     # Latin. Three-plus consecutive short tokens only ever means spelling.
     if re.search(r"(?:^|(?<=\s))(?:[\u0600-\u06FF]{1,2} ){2,}[\u0600-\u06FF]{1,2}(?=\s|$|[.،؟!…])", post):
@@ -1861,34 +1864,55 @@ def _cached_download(key: str, url: str, min_bytes: int = 5000):
 
 
 def _wikimedia_photo(query: str, cache_key: str = None):
+    """Wikimedia Commons search - keyless, no quota, no API key.
+
+    This function existed for months and was called by nobody: the page was
+    falling through to a bundled stock photo while a free, licensed,
+    correctly-captioned image source sat unused in the same file. Now it is
+    a real fallback between Google and the neutral stock image. Results are
+    ranked by the dimensions Commons reports, so the 400px thumbnail of a
+    document does not beat the 4000px photograph of the actual subject.
+    Returns (bytes, ext) or (None, None).
+    """
+    if not query or not query.strip():
+        return None, None
     try:
         r = requests.get(
             "https://commons.wikimedia.org/w/api.php",
             params={"action": "query", "format": "json",
                     "generator": "search",
-                    "gsrsearch": f"filetype:bitmap {query}",
-                    "gsrnamespace": "6", "gsrlimit": "5",
+                    "gsrsearch": f"filetype:bitmap {query}"[:250],
+                    "gsrnamespace": "6", "gsrlimit": "8",
                     "prop": "imageinfo", "iiprop": "url|size",
-                    "iiurlwidth": "1200"},
-            timeout=20, headers={"User-Agent": "ethan-cole-fb-bot/1.0"})
+                    "iiurlwidth": "1400"},
+            timeout=12, headers={"User-Agent": "soq-alyoum-fb-bot/1.0"})
         pages = (r.json().get("query") or {}).get("pages") or {}
-        for pg in pages.values():
+
+        def _area(pg):
+            info = (pg.get("imageinfo") or [{}])[0]
+            try:
+                return int(info.get("width") or 0) * int(info.get("height") or 0)
+            except Exception:
+                return 0
+
+        for pg in sorted(pages.values(), key=_area, reverse=True):
             info = (pg.get("imageinfo") or [{}])[0]
             u = info.get("thumburl") or info.get("url")
-            if u and not u.lower().endswith(".svg"):
-                if cache_key:
-                    ckey = cache_key
-                    data = _photo_cache_get(ckey)
-                    if data is None:
-                        data, ext = _download_image(u)
-                        if data:
-                            _photo_cache_put(ckey, data)
-                else:
-                    data, ext = _download_image(u)
+            if not u or u.lower().endswith(".svg"):
+                continue
+            ckey = cache_key or ("wm-" + hashlib.sha256(
+                u.encode()).hexdigest()[:16])
+            data = _photo_cache_get(ckey)
+            if data is None:
+                data, ext = _download_image(u, timeout=12, min_bytes=25000)
                 if data:
-                    return data, ext
-    except Exception:
-        pass
+                    _photo_cache_put(ckey, data)
+            else:
+                ext = "jpeg"
+            if data and _big_enough(data) and _looks_like_photo(data):
+                return data, ext
+    except Exception as ex:
+        log(f"Wikimedia search failed: {ex}")
     return None, None
 
 
@@ -2398,7 +2422,11 @@ def _split_image(face: bytes, logo: bytes):
     return _split_pair(logo, face, left_logo=True, right_face=True)
 
 
-NEUTRAL_TOPICS = ["stocks-nyse.jpg", "market-hall.jpg", "wallstreet.jpg"]
+# Neutral fallback: 10 files, not 3. With only three stock shots, every unmatched story got one of the same three pictures, and the page read as automated after two weeks.
+NEUTRAL_TOPICS = ["stocks-nyse.jpg", "market-hall.jpg", "wallstreet.jpg",
+                  "nyse-building.jpg", "fed-eccles.jpg", "gold-bars.jpg",
+                  "oil-pumpjack.jpg", "data-center.jpg", "shipping-port.jpg",
+                  "treasury-building.jpg"]
 
 
 def _topic_raw_files(title: str, text: str, link: str,
@@ -2426,12 +2454,21 @@ def _topic_raw_files(title: str, text: str, link: str,
 
 
 def _live_scene(query: str):
-    """Fresh web photo for split scenes: Google first, Openverse next.
+    """Fresh web photo for split scenes: Google, then Wikimedia, then
+    Openverse. Google is tried first because editorial taste is best, but
+    its API is disabled on our project (403) so Wikimedia does the real
+    work here - keyless, ~2s, and it actually finds the subject.
     Returns bytes or None. Never raises."""
     try:
         gdata, _ = _google_photo(query)
         if gdata and _big_enough(gdata):
             return gdata
+    except Exception:
+        pass
+    try:
+        wdata, _ = _wikimedia_photo(query)
+        if wdata and _big_enough(wdata):
+            return wdata
     except Exception:
         pass
     try:
@@ -2979,33 +3016,59 @@ def add_source(post: str, outlet: str) -> str:
 TOPIC_PHOTOS = [
     (["s&p", "nasdaq", "dow", "stock market", "nyse"],
      ["chart-screen.jpg", "stocks-nyse.jpg", "market-hall.jpg",
-      "wallstreet.jpg"]),
+      "wallstreet.jpg", "nyse-building.jpg"]),
     (["wall street", "treasury", "bond yield", "ecb"],
-     ["wallstreet.jpg", "stocks-nyse.jpg"]),
-    (["mortgage", "rates", "yield", "bonds", "dollar"],
-     ["cash-dollars.jpg", "wallstreet.jpg", "stocks-nyse.jpg"]),
+     ["wallstreet.jpg", "stocks-nyse.jpg", "treasury-building.jpg",
+      "ecb-frankfurt.jpg"]),
+    (["mortgage", "rates", "yield", "bonds", "dollar", "الدولار", "الفائدة"],
+     ["cash-dollars.jpg", "wallstreet.jpg", "stocks-nyse.jpg",
+      "dollar-bills.jpg", "euro-bills.jpg"]),
     (["white house", "trump", "biden", "vance", "congress", "senate",
-      "election", "supreme court", "tariff", "trade", "modi", "maga"],
-     ["whitehouse.jpg"]),
+      "election", "supreme court", "tariff", "trade", "modi", "maga",
+      "ترامب", "البيت الأبيض"],
+     ["whitehouse.jpg", "whitehouse-north.jpg", "capitol.jpg"]),
     (["fed", "powell", "warsh", "fomc", "interest rate", "rate cut",
       "rate hike"],
-     ["fed.jpg"]),
-    (["bitcoin", "btc"], ["bitcoin-trade.jpg", "bitcoin.jpg"]),
+     ["fed.jpg", "fed-eccles.jpg", "ecb-frankfurt.jpg"]),
+    (["bitcoin", "btc"], ["bitcoin-trade.jpg", "bitcoin.jpg",
+                          "bitcoin-atm.jpg", "crypto-mining.jpg"]),
     (["crypto", "ethereum", "defi", "hack", "exchange", "wallet"],
-     ["bitcoin-trade.jpg", "bitcoin.jpg"]),
-    (["gold"], ["gold-vault.jpg", "gold.jpg"]),
-    (["silver", "xag", "الفضة"], ["silver.jpg", "silver-bar.jpg"]),
+     ["bitcoin-trade.jpg", "bitcoin.jpg", "crypto-mining.jpg",
+      "data-center.jpg"]),
+    (["gold", "الدهب", "الذهب"], ["gold-vault.jpg", "gold.jpg", "gold-bars.jpg"]),
+    (["silver", "xag", "الفضة"], ["silver.jpg", "silver-bar.jpg",
+                                    "silver-coins.jpg"]),
     (["cairo", "egx", "bourse", "البورصة", "مصر", "egp", "جنيه",
       "pyramids"],
      ["pyramids.jpg", "cairo-skyline.jpg"]),
-    (["oil", "opec", "brent", "hormuz"], ["oil.jpg"]),
+    (["oil", "opec", "brent", "hormuz", "النفط"],
+     ["oil.jpg", "oil-pumpjack.jpg", "oil-refinery.jpg", "oil-tanker.jpg"]),
     # NOTE: no bare "gas" here — it matches "gas fees" in DeFi text and used
     # to route crypto stories to the oil photo.
     (["gpu", "semiconductor", "ai chip", "artificial intelligence",
       "generative ai"],
-     ["chips.jpg"]),
+     ["chips.jpg", "semiconductor-fab.jpg", "data-center.jpg"]),
     (["inflation", "cpi", "jobs report", "gdp", "recession"],
-     ["wallstreet.jpg", "market-hall.jpg"]),
+     ["wallstreet.jpg", "market-hall.jpg", "treasury-building.jpg"]),
+    # Commodities and physical economy: tariffs, food prices and shipping
+    # used to fall through to a Wall Street photo.
+    (["data center", "server", "cloud computing", "compute"],
+     ["data-center.jpg", "semiconductor-fab.jpg"]),
+    (["copper", "lithium", "cobalt", "nickel", "rare earth"],
+     ["copper.jpg"]),
+    (["wheat", "grain", "corn", "harvest", "crop", "food price", "القمح"],
+     ["wheat-field.jpg"]),
+    (["coffee", "cocoa", "sugar"],
+     ["coffee-beans.jpg"]),
+    (["shipping", "container", "freight", "red sea", "suez",
+      "supply chain", "port"],
+     ["shipping-port.jpg", "oil-tanker.jpg"]),
+    (["automaker", "car sales", "electric vehicle", "tesla", "auto plant"],
+     ["car-assembly.jpg"]),
+    (["solar", "renewable", "wind power", "clean energy"],
+     ["solar-farm.jpg"]),
+    (["housing", "home price", "real estate", "rents"],
+     ["apartment-blocks.jpg"]),
 ]
 
 
@@ -3094,47 +3157,90 @@ def _portrait_is_real(data: bytes) -> bool:
 def _google_photo(query: str):
     """Google Custom Search image lookup (needs GOOGLE_CSE_KEY + CX).
     Real editorial photos instead of stock randomness. Silent skip if
-    unconfigured. Returns (bytes, ext) or (None, None)."""
+    unconfigured. Returns (bytes, ext) or (None, None).
+
+    Nov 2026 rework. It used to ask for 4 results and take the first whose
+    URL ended in .jpg/.jpeg/.png/.webp - which threw away every CDN link
+    carrying a ?w=1200&q=80 suffix, i.e. most of them, and shipped
+    whatever 300px logo happened to rank first. Now: 10 results, ranked by
+    the pixel dimensions Google itself reports, a hard 1000px-wide floor,
+    and a retry on a tighter 3-word query when the first pass comes back
+    empty. No extension check - _download_image validates Content-Type,
+    which is the only test that actually means anything.
+    """
     key = os.getenv("GOOGLE_CSE_KEY", "").strip()
     cx = os.getenv("GOOGLE_CSE_CX", "").strip()
     if not (key and cx):
         return None, None
-    try:
-        r = requests.get("https://www.googleapis.com/customsearch/v1",
-                         params={"key": key, "cx": cx, "q": query,
-                                 "searchType": "image", "num": 4,
-                                 "imgSize": "large", "safe": "active"},
-                         timeout=20)
-        for it in r.json().get("items", []):
+
+    query = (query or "").strip()
+    words = [w for w in re.split(r"\s+", query) if w]
+    tries = []
+    if query:
+        tries.append(query[:120])
+    if len(words) > 3:
+        tries.append(" ".join(words[:3]))
+
+    min_w = int(os.getenv("GOOGLE_MIN_WIDTH", "1000"))
+
+    def _px(it):
+        im = it.get("image") or {}
+        try:
+            return int(im.get("width") or 0) * int(im.get("height") or 0)
+        except Exception:
+            return 0
+
+    for q in tries:
+        try:
+            r = requests.get("https://www.googleapis.com/customsearch/v1",
+                             params={"key": key, "cx": cx, "q": q,
+                                     "searchType": "image", "num": 10,
+                                     "imgSize": "large", "safe": "active"},
+                             timeout=15)
+            items = (r.json() or {}).get("items") or []
+        except Exception as ex:
+            log(f"Google image search failed: {ex}")
+            return None, None
+        for it in sorted(items, key=_px, reverse=True):
             u = it.get("link") or ""
-            if not u.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
+            if not u.startswith("http"):
                 continue
-            data, ext = _download_image(u, min_bytes=20000)
-            if data and _big_enough(data):
+            try:
+                if int((it.get("image") or {}).get("width") or 0) < min_w:
+                    continue
+            except Exception:
+                pass
+            data, ext = _download_image(u, timeout=12, min_bytes=30000)
+            if data and _big_enough(data) and _looks_like_photo(data):
+                log(f"Google photo {it.get('displayLink') or ''} "
+                    f"({_px(it)} px2)")
                 return data, ext
-    except Exception as ex:
-        log(f"Google image search failed: {ex}")
     return None, None
 
 
 def _openverse_photo(query: str):
     """Openverse (open-licensed Flickr etc.) — keyless, commercial-use
-    filter, dead-link filter. Returns (bytes, ext, creator) or Nones."""
+    filter, dead-link filter. Returns (bytes, ext, creator) or Nones.
+
+    Nov 2026: timeout 20s -> 8s. Openverse was stalling the whole run for
+    a photo nobody looked at; 8s is enough for a healthy response and the
+    caller has Wikimedia behind it. page_size 6 -> 10 so the width filter
+    still has candidates left after it rejects the small ones."""
     if not query or not query.strip():
         return None, None, None
     try:
         r = requests.get("https://api.openverse.org/v1/images/",
-                         params={"q": query[:100], "page_size": 6,
+                         params={"q": query[:100], "page_size": 10,
                                  "filter_dead": "true",
                                  "license_type": "commercial"},
-                         headers={"User-Agent": "ethan-cole-fb-bot/1.0"},
-                         timeout=20)
+                         headers={"User-Agent": "soq-alyoum-fb-bot/1.0"},
+                         timeout=8)
         for it in r.json().get("results", []):
             u = it.get("url") or ""
             if (it.get("width") or 0) < 900:
                 continue
             data, ext = _download_image(u, min_bytes=30000)
-            if data and _big_enough(data):
+            if data and _big_enough(data) and _looks_like_photo(data):
                 return data, ext, (it.get("creator") or "").strip()
     except Exception as ex:
         log(f"Openverse search failed: {ex}")
@@ -3540,20 +3646,24 @@ def find_photo(candidate: dict):
     if timg:
         return timg, text_, tsrc
     if not raw:
-        gdata, _gext = _google_photo(
-            " ".join((candidate.get("keywords") or [])[:3])
-            or candidate.get("title", "")[:80])
+        _q = (" ".join((candidate.get("keywords") or [])[:3])
+              or candidate.get("title", "")[:80])
+        gdata, _gext = _google_photo(_q)
         if gdata:
             raw = (gdata, "google")
-    if not raw and os.getenv("OPENVERSE", "0") == "1":
-        # Openverse is the last-resort image source and it is currently
-        # timing out at 20s a call - three of them cost a minute of every
-        # run for an image nobody wants. Opt-in.
-        odata, _oext, _ocreator = _openverse_photo(
-            " ".join((candidate.get("keywords") or [])[:3])
-            or candidate.get("title", "")[:80])
-        if odata:
-            raw = (odata, f"openverse:{_ocreator or 'Openverse'}")
+        # Wikimedia Commons: keyless, fast, no quota - and until now it was
+        # defined in this file and called by nobody. A real photo of the
+        # actual subject beats the neutral stock image at the bottom.
+        if not raw:
+            wdata, _wext = _wikimedia_photo(_q)
+            if wdata:
+                raw = (wdata, "wikimedia")
+        # Openverse last: keyless too, better editorial taste than Commons,
+        # but it stalls, so it runs with an 8s cap and only after Commons.
+        if not raw and os.getenv("OPENVERSE", "1") != "0":
+            odata, _oext, _ocreator = _openverse_photo(_q)
+            if odata:
+                raw = (odata, f"openverse:{_ocreator or 'Openverse'}")
     if not raw:
         # No blind web search: a relevant curated photo always beats a
         # random one. Neutral finance fallback rotates per story link.
@@ -3953,13 +4063,13 @@ def review_comments(state: dict) -> dict:
 
 
 def floor_plan(posts_today: int, hour: int):
-    """Daily post floor (MIN_POSTS_PER_DAY, default 12).
+    """Daily post floor (MIN_POSTS_PER_DAY, default 2).
 
     Returns (score_discount, catchup). Behind pace -> discount lowers the
     publish bar toward FLOOR_MIN_SCORE (default 2); after
     FLOOR_DEADLINE_HOUR UTC (default 21) with the floor unmet, catchup
     mode shrinks the cooldown so the day still hits its minimum."""
-    floor = int(os.getenv("MIN_POSTS_PER_DAY", "4"))
+    floor = int(os.getenv("MIN_POSTS_PER_DAY", "2"))
     if posts_today >= floor:
         return 0, False
     expected = (hour * floor) // 24
@@ -3970,7 +4080,7 @@ def floor_plan(posts_today: int, hour: int):
     if catchup:
         discount = max(
             discount,
-            int(os.getenv("MIN_PUBLISH_SCORE", "6"))
+            int(os.getenv("MIN_PUBLISH_SCORE", "7"))
             - int(os.getenv("FLOOR_MIN_SCORE", "2")))
     return discount, catchup
 
@@ -4095,16 +4205,16 @@ def main() -> int:
     review_comments(state)
     save_state(state_file, state)
 
-    # DAILY FLOOR: at least MIN_POSTS_PER_DAY (default 12) every day, always.
+    # DAILY FLOOR: at least MIN_POSTS_PER_DAY (default 2) every day, always.
     # Behind pace -> publish bar drops; late-day + unmet -> catchup burst.
     today = now.date().isoformat()
     day_counts = state.get("day_counts", {})
     posts_today = day_counts.get(today, 0)
-    floor = int(os.getenv("MIN_POSTS_PER_DAY", "4"))
+    floor = int(os.getenv("MIN_POSTS_PER_DAY", "2"))
     discount, catchup = floor_plan(posts_today, now.hour)
-    eff_gap = 20 if catchup else int(os.getenv("MIN_POST_GAP_MINUTES", "30"))
+    eff_gap = 20 if catchup else int(os.getenv("MIN_POST_GAP_MINUTES", "240"))
     eff_bar = max(int(os.getenv("FLOOR_MIN_SCORE", "2")),
-                  int(os.getenv("MIN_PUBLISH_SCORE", "6")) - discount)
+                  int(os.getenv("MIN_PUBLISH_SCORE", "7")) - discount)
     log(f"floor: {posts_today}/{floor} posts today, bar={eff_bar}, "
         f"gap={eff_gap}{' CATCHUP' if catchup else ''}")
 
@@ -4124,7 +4234,7 @@ def main() -> int:
             pass
 
     # Daily cap (live wire: up to ~15/day).
-    if posts_today >= int(os.getenv("MAX_POSTS_PER_DAY", "15")):
+    if posts_today >= int(os.getenv("MAX_POSTS_PER_DAY", "3")):
         log("Daily cap reached. Skipping.")
         return 0
 
